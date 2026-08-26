@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時系列</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/timeline.css">
+</head>
+<body>
+  <div class="top-heading">
+    <a href="index.html" class="home-icon"><img src="./img/レヴィ.png" alt="home" class="home-img"></a>
+    <span class="heading-title">時系列表示</span>
+  </div>
+
+  <main>
+    <div id="sliderArea">
+
+        <input
+                    type="range"
+                    id="slider"
+                    min="0"
+                    value="0"
+        >
+        <div id="sliderTicks"></div>
+
+    </div>
+
+    <span id="dateLabel"></span>
+
+
+    <div id="contentArea">
+
+        <div id="filterMenu">
+
+            <div id="trpMenu">
+
+                <button class="trpBtn flower" data-trp="flower">
+                    花組
+                </button>
+
+                <button class="trpBtn moon" data-trp="moon">
+                    月組
+                </button>
+
+                <button class="trpBtn snow" data-trp="snow">
+                    雪組
+                </button>
+
+                <button class="trpBtn star" data-trp="star">
+                    星組
+                </button>
+
+                <button class="trpBtn cosmos" data-trp="cosmos">
+                    宙組
+                </button>
+
+                <button class="trpBtn all active" data-trp="all">
+                    全組
+                </button>
+
+            </div>
+
+
+            <div id="typeMenu">
+
+                <button class="typeBtn otokoBtn" data-type="otoko">
+                    男役
+                </button>
+
+                <button class="typeBtn musumeBtn" data-type="musume">
+                    娘役
+                </button>
+                
+                <button class="typeBtn allTypeBtn active" data-type="all">
+                    全員
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="matrixWrapper">
+            <div id="memberList"></div>
+        </div>
+
+    </div>
+
+    <script>
+      var troup = 1;
+    </script>
+<script src="./js/members.js"></script>
+<script src="./js/revues.js"></script>
+<script src="./js/timeline.js"></script>
+
+  </main>
+</body>
+</html>

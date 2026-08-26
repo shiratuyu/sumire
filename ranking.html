@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ランキング</title>
+
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/ranking.css">
+</head>
+
+
+<body>
+
+  <header class="top-heading all">
+
+    <a href="index.html" class="home-icon">
+      <img class="home-img" alt="ホーム">
+    </a>
+
+    <div class="heading-title">
+      ランキング
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- ランキング切替 -->
+    <div id="rankingMenu">
+
+    <!-- 男役ランキング -->
+    <div class="rankingMenuRow">
+
+        <div class="rankingButtons">
+
+        <button
+            class="rankingBtn"
+            data-ranking="newHero"
+        >
+            新公主演
+        </button>
+
+        <button
+            class="rankingBtn"
+            data-ranking="bowHero"
+        >
+            バウ主演
+        </button>
+
+        <button
+            class="rankingBtn"
+            data-ranking="toujouHero"
+        >
+            東上主演
+        </button>
+
+        <button
+            class="rankingBtn"
+            data-ranking="topHero"
+        >
+            トップ就任
+        </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- 娘役ランキング -->
+    <div class="rankingMenuRow">
+
+        <div class="rankingButtons">
+
+        <button
+            class="rankingBtn"
+            data-ranking="newHeroine"
+        >
+            新公ヒロイン
+        </button>
+
+        <button
+            class="rankingBtn"
+            data-ranking="bowHeroine"
+        >
+            バウヒロイン
+        </button>
+
+        <button
+            class="rankingBtn"
+            data-ranking="toujouHeroine"
+        >
+            東上ヒロイン
+        </button>
+
+        <button
+            class="rankingBtn"
+            data-ranking="topHeroine"
+        >
+            トップ娘役就任
+        </button>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div id="backToOverview">
+        <button id="overviewBtn">
+            ランキング一覧
+        </button>
+    </div>
+
+    <!-- ランキング本体 -->
+    <div id="rankingList"></div>
+
+  </main>
+
+
+  <script src="./js/members.js"></script>
+  <script src="./js/revues.js"></script>
+  <script src="./js/ranking.js"></script>
+
+</body>
+
+</html>
