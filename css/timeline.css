@@ -176,6 +176,9 @@ main {
   background: #555;
 }
 
+#sliderTicks .tick:first-child {
+    transform: translateX(0);
+}
 
 /* =========================================
    レイアウト
