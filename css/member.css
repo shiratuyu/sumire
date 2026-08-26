@@ -150,7 +150,7 @@ main {
 
 .historyItem {
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 140px 1fr;
   gap: 12px;
 
   padding: 8px 0;
@@ -161,6 +161,7 @@ main {
 .historyDate {
   font-size: 12px;
   color: #777;
+  white-space: nowrap;
 }
 
 .historyText {
@@ -209,6 +210,7 @@ main {
 
 .careerDateInfo {
     color: #777;
+    white-space: nowrap;
 }
 
 .careerKind {
@@ -272,4 +274,13 @@ main {
 
 .left.noImage .profileTable {
   margin-top: 10px;
+}
+
+.historyItem {
+  grid-template-columns: 125px 1fr;
+  gap: 8px;
+}
+
+.historyDate {
+  white-space: nowrap;
 }
