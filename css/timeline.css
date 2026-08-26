@@ -339,3 +339,82 @@ main {
 .musume {
   outline: 1px solid var(--musume-color);
 }
+
+
+@media (max-width: 600px) {
+
+    main {
+        padding: 75px 8px 30px;
+    }
+
+    #contentArea {
+        gap: 8px;
+    }
+
+    #filterMenu {
+        width: 65px;
+    }
+
+    #trpMenu,
+    #typeMenu {
+        gap: 5px;
+    }
+
+    .trpBtn,
+    .typeBtn {
+        padding: 6px 3px;
+        font-size: 12px;
+    }
+
+    .member {
+        width: 105px;
+    }
+
+    .memberName {
+        font-size: 13px;
+    }
+
+    .career {
+        font-size: 9px;
+    }
+
+    .matrixRow {
+        grid-template-columns:
+            45px repeat(5, 105px);
+
+        gap: 5px;
+
+        min-width: 595px;
+    }
+
+    .genLabel {
+        font-size: 12px;
+    }
+
+    #contentArea {
+        flex-direction: column;
+    }
+
+    #filterMenu {
+        width: 100%;
+        gap: 7px;
+    }
+
+    #trpMenu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    #typeMenu {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .trpBtn,
+    .typeBtn {
+        flex: 1;
+        min-width: 45px;
+    }
+
+}
