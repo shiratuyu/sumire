@@ -1,0 +1,275 @@
+/* =========================================
+   memberページ全体
+========================================= */
+
+main {
+  width: 100%;
+  max-width: 1000px;
+
+  padding: 90px 30px 50px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   プロフィール全体
+========================================= */
+
+#profile {
+  display: grid;
+
+  grid-template-columns: 260px 1fr;
+
+  gap: 40px;
+
+  align-items: start;
+}
+
+
+/* =========================================
+   左側：写真・基本情報
+========================================= */
+
+.left {
+  text-align: center;
+}
+
+
+#memberImage {
+  width: 200px;
+  height: 260px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  border: 2px solid var(--trp-border);
+}
+
+
+/* 名前 */
+
+#memberName {
+  margin: 15px 0 3px;
+
+  font-size: 26px;
+  font-weight: 500;
+}
+
+
+/* ふりがな */
+
+#memberKana {
+  margin-bottom: 15px;
+
+  font-size: 13px;
+
+  color: #666;
+}
+
+
+/* =========================================
+   基本情報表
+========================================= */
+
+.profileTable {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin-top: 15px;
+
+  font-size: 14px;
+}
+
+
+.profileTable th {
+  width: 35%;
+
+  padding: 7px;
+
+  text-align: left;
+
+  font-weight: 500;
+
+  background-color: var(--trp-light);
+}
+
+
+.profileTable td {
+  padding: 7px;
+
+  text-align: left;
+
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* =========================================
+   右側
+========================================= */
+
+.right {
+  min-width: 0;
+}
+
+
+/* 各セクション */
+
+.right section {
+  margin-bottom: 35px;
+}
+
+
+/* セクション見出し */
+
+.right section h2 {
+  margin: 0 0 15px;
+
+  padding: 6px 0;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  border-left: 5px solid var(--trp-border);
+
+  background-color: var(--trp-light);
+}
+
+
+/* =========================================
+   在籍履歴
+========================================= */
+
+#history {
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+.historyItem {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 12px;
+
+  padding: 8px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.historyDate {
+  font-size: 12px;
+  color: #777;
+}
+
+.historyText {
+  font-size: 14px;
+}
+
+
+/* =========================================
+   主演歴
+========================================= */
+
+#career {
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+.careerItem {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.careerDate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 12px;
+}
+
+.ken {
+  padding: 1px 5px;
+
+  font-size: 11px;
+
+  background-color: var(--trp-light);
+  border-radius: 4px;
+
+  color: #555;
+}
+
+.careerTitle {
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+.careerDateInfo {
+    color: #777;
+}
+
+.careerKind {
+    color: #000;
+    font-weight: 400;
+}
+
+
+/* =========================================
+   スマホ対応
+========================================= */
+
+@media (max-width: 700px) {
+
+  main {
+    padding: 80px 20px 40px;
+  }
+
+
+  #profile {
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+  }
+
+
+  #memberImage {
+    width: 180px;
+    height: 235px;
+  }
+
+
+  .left {
+    width: 100%;
+  }
+
+
+  .right {
+    width: 100%;
+  }
+
+}
+
+/* =========================================
+   画像がない人物
+========================================= */
+
+.left.noImage {
+  padding-top: 10px;
+}
+
+
+/* 画像がない場合は名前の上の余白を減らす */
+
+.left.noImage #memberName {
+  margin-top: 0;
+}
+
+
+/* 基本情報表を少し上に詰める */
+
+.left.noImage .profileTable {
+  margin-top: 10px;
+}
