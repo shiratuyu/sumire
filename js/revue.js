@@ -80,8 +80,34 @@ function renderRevues(){
                 ${formatDate(revue.date)}
             </div>
 
-            <div class="revueTitle">
-                ${revue.name}
+            <div class="revueInfo">
+
+                <div class="revueTitle">
+                    ${revue.name}
+                </div>
+
+                <div class="revueCast">
+
+                    ${
+                        revue.hero
+                        ? `<span class="revueHero">
+                            <span class="castLabel">主演</span>
+                            ${revue.hero}
+                        </span>`
+                        : ""
+                    }
+
+                    ${
+                        revue.heroine
+                        ? `<span class="revueHeroine">
+                            <span class="castLabel">ヒロイン</span>
+                            ${revue.heroine}
+                        </span>`
+                        : ""
+                    }
+
+                </div>
+
             </div>
 
         `;
