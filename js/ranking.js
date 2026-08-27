@@ -201,6 +201,42 @@ function isToujouRevue(revue){
 
 
 // =========================================
+// 指定日時点の所属組を取得
+// =========================================
+
+function getTrpAtDate(member, targetDate){
+
+    if(!member.history){
+        return null;
+    }
+
+    const target =
+        new Date(targetDate);
+
+    for(const h of member.history){
+
+        const from =
+            new Date(h.from);
+
+        const to =
+            h.to
+            ? new Date(h.to)
+            : new Date("9999-12-31");
+
+        if(
+            from <= target &&
+            target <= to
+        ){
+            return h.trp;
+        }
+
+    }
+
+    return null;
+}
+
+
+// =========================================
 // 初期画面：8ランキングを上位5名ずつ表示
 // =========================================
 
@@ -351,7 +387,10 @@ function renderAllRankings(){
 
                                 <div class="previewMember">
 
-                                    <a href="member.html?id=${member.id}">
+                                    <a 
+                                        href="member.html?id=${member.id}"
+                                        class="previewMemberName ${item.trp || ""}"
+                                    >
                                         ${member.name}
                                     </a>
 
@@ -844,6 +883,12 @@ function createFirstRevueRanking(
                 getKen(
                     member,
                     revue.date
+                ),
+
+            trp:
+                getTrpAtDate(
+                    member,
+                    revue.date
                 )
 
         });
@@ -889,7 +934,7 @@ function renderRanking(ranking){
 
 
             div.className =
-                "rankingItem";
+                `rankingItem ${item.trp || ""}`;
 
 
             div.innerHTML = `
@@ -1056,6 +1101,12 @@ function createTopHeroRanking(){
                 getKen(
                     member,
                     position.from
+                ),
+
+            trp:
+                getTrpAtDate(
+                    member,
+                    position.from
                 )
 
         });
@@ -1113,6 +1164,12 @@ function createTopHeroineRanking(){
 
             ken:
                 getKen(
+                    member,
+                    position.from
+                ),
+
+            trp:
+                getTrpAtDate(
                     member,
                     position.from
                 )
