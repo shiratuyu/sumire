@@ -7867,7 +7867,7 @@ const revues = [
   },
   {
     "id": "moon_20161030_01",
-    "name": "Bow Singing Workshop-月-, Bow Singing Workshop",
+    "name": "Bow Singing Workshop-月-",
     "trp": "moon",
     "date": "2016-10-30",
     "theater": "宝塚バウホール",
@@ -8065,7 +8065,7 @@ const revues = [
   },
   {
     "id": "flower_20160811_01",
-    "name": "Bow Singing Workshop-花-, Bow Singing Workshop",
+    "name": "Bow Singing Workshop-花-",
     "trp": "flower",
     "date": "2016-08-11",
     "theater": "宝塚バウホール",
@@ -11608,19 +11608,19 @@ const revues = [
       {
         "order": 5,
         "members": [
-          {"name": "愛希れいか", "wing": "top"}
+          {"name": "愛希れいか"}
         ]
       },
       {
         "order": 6,
         "members": [
-          {"name": "明日海りお（準Ｔ）"}
+          {"name": "明日海りお"}
         ]
       },
       {
         "order": 7,
         "members": [
-          {"name": "龍真咲", "wing": "top"}
+          {"name": "龍真咲"}
         ]
       }
     ]
@@ -12089,8 +12089,8 @@ const revues = [
       {
         "order": 6,
         "members": [
-          {"name": "明日海りお（準Ｔ"},
-          {"name": "大羽根）"}
+          {"name": "明日海りお", "wing": "large"  
+          }
         ]
       },
       {
@@ -13764,7 +13764,7 @@ const revues = [
     "trp": "snow",
     "date": "2009-11-19",
     "theater": "宝塚バウホール, 日本青年館大ホール",
-    "hero": "早霧 せいな, 沙央 くらま？",
+    "hero": "早霧 せいな, 沙央 くらま",
     "heroine": "舞羽 美海"
   },
   {
@@ -14210,7 +14210,7 @@ const revues = [
     "date": "2008-02-07",
     "theater": "宝塚バウホール",
     "hero": "真野 すがた, 朝夏 まなと",
-    "heroine": "華耀きらり, 月野姫花"
+    "heroine": "華耀 きらり, 月野 姫花"
   },
   {
     "id": "flower_20080202_01",
