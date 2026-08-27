@@ -379,24 +379,27 @@ function renderAllRankings(){
 
                         return `
 
-                            <div class="previewItem">
+                            <div class="previewItem ${item.trp || ""}">
 
                                 <div class="previewRank">
                                     ${index + 1}位
                                 </div>
 
+
                                 <div class="previewMember">
 
-                                    <a 
-                                        href="member.html?id=${member.id}"
-                                        class="previewMemberName ${item.trp || ""}"
-                                    >
-                                        ${member.name}
-                                    </a>
+                                    <div class="previewMemberName">
 
-                                    <span class="rankGen">
-                                        ${member.gen}期
-                                    </span>
+                                        <a href="member.html?id=${member.id}">
+                                            ${member.name}
+                                        </a>
+
+                                        <span class="rankGen">
+                                            ${member.gen}期
+                                        </span>
+
+                                    </div>
+
 
                                     ${
                                         revueName
@@ -407,6 +410,7 @@ function renderAllRankings(){
                                     }
 
                                 </div>
+
 
                                 <div class="previewInfo">
 
