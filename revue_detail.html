@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>公演詳細</title>
+
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/revue_detail.css">
+</head>
+
+<body>
+
+  <header class="top-heading all">
+
+    <a href="index.html" class="home-icon">
+      <img class="home-img" alt="ホーム">
+    </a>
+
+  </header>
+
+
+  <main>
+
+    <section id="revueProfile">
+
+      <h1 id="revueTitle"></h1>
+
+      <dl class="revueInfoTable">
+
+        <dt>公演日</dt>
+        <dd id="revueDate"></dd>
+
+        <dt>劇場</dt>
+        <dd id="revueTheater"></dd>
+
+        <dt id="heroLabel">主演</dt>
+        <dd id="revueHero"></dd>
+
+        <dt id="heroineLabel">ヒロイン</dt>
+        <dd id="revueHeroine"></dd>
+
+        <dt id="newHeroLabel">新公主演</dt>
+        <dd id="revueNewHero"></dd>
+
+        <dt id="newHeroineLabel">新公ヒロイン</dt>
+        <dd id="revueNewHeroine"></dd>
+
+      </dl>
+
+    </section>
+
+
+    <section id="kaidanSection">
+
+      <h2>階段降り</h2>
+
+      <div id="kaidanList"></div>
+
+    </section>
+
+  </main>
+
+
+  <script src="./js/revues.js"></script>
+  <script src="./js/revue_detail.js"></script>
+
+</body>
+
+</html>

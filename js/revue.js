@@ -69,9 +69,13 @@ function renderRevues(){
 
     currentRevues.forEach(revue=>{
 
-        const item = document.createElement("div");
+        const item = document.createElement("a");
 
-        item.className = `revueItem ${revue.trp}`;
+        item.href =
+            `revue_detail.html?id=${revue.id}`;
+
+        item.className =
+            `revueItem ${revue.trp}`;
 
 
         item.innerHTML = `

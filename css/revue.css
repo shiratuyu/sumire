@@ -107,6 +107,9 @@ main {
     background-color: white;
 
     transition: .15s;
+
+    color: inherit;
+    text-decoration: none;
 }
 
 
