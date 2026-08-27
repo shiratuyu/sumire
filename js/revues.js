@@ -90,7 +90,53 @@ const revues = [
     "date": "2026-07-22",
     "theater": "全国ツアー",
     "hero": "永久輝 せあ",
-    "heroine": "星空 美咲"
+    "heroine": "星空 美咲",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "詩希すみれ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鏡星珠"},
+          {"name": "美羽愛"},
+          {"name": "天城れいん"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "一之瀬航季"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "希波らいと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "聖乃あすか", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星空美咲", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "永久輝せあ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ポーの一族",
@@ -100,7 +146,54 @@ const revues = [
     "hero": "朝美 絢",
     "heroine": "音彩 唯",
     "new_hero": "華世 京",
-    "new_heroine": "澄花 まい"
+    "new_heroine": "澄花 まい",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "美穂圭子", "special": true, "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "華純沙那"},
+          {"name": "諏訪さき"},
+          {"name": "星沢ありさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "華世京"},
+          {"name": "小桜ほのか", "special": true}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬央ゆりあ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "音彩唯", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "朝美絢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "銀二貫",
@@ -126,7 +219,61 @@ const revues = [
     "hero": "桜木 みなと",
     "heroine": "春乃 さくら",
     "new_hero": "鳳城 のあん",
-    "new_heroine": "梨恋 あやめ"
+    "new_heroine": "梨恋 あやめ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "朝絵咲名", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "泉堂成"},
+          {"name": "大路りせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "きよら羽龍"},
+          {"name": "亜音有星"},
+          {"name": "山吹ひばり"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "風色日向"},
+          {"name": "天彩峰里"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鷹翔千空"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "水美舞斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "春乃さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "桜木みなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "DayDream Dali",
@@ -151,7 +298,60 @@ const revues = [
     "hero": "鳳月 杏",
     "heroine": "天紫 珠李",
     "new_hero": "美颯 りひと",
-    "new_heroine": "薫乃 咲月"
+    "new_heroine": "薫乃 咲月",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "咲彩いちご", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "白河りり"},
+          {"name": "瑠皇りあ"},
+          {"name": "花妃舞音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "夢奈瑠音"},
+          {"name": "英かおと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩海せら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "風間柚乃", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "天紫珠李", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "鳳月杏", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Beautiful SKY !!",
@@ -166,7 +366,55 @@ const revues = [
     "date": "2026-03-04",
     "theater": "博多座",
     "hero": "桜木 みなと",
-    "heroine": "春乃 さくら"
+    "heroine": "春乃 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "きよら羽龍", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "奈央麗斗"},
+          {"name": "愛すみれ"},
+          {"name": "大路りせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "亜音有星"},
+          {"name": "天彩峰里"},
+          {"name": "風色日向"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "鷹翔千空"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "水美舞斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "春乃さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "桜木みなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "蒼月抄, EL DESEO",
@@ -176,7 +424,54 @@ const revues = [
     "hero": "永久輝 せあ",
     "heroine": "星空 美咲",
     "new_hero": "鏡 星珠",
-    "new_heroine": "翠笙 芹南"
+    "new_heroine": "翠笙 芹南",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "湖春ひめ花", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "一之瀬航季"},
+          {"name": "七彩はづき"},
+          {"name": "侑輝大弥"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "美羽愛"},
+          {"name": "希波らいと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "極美慎", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "聖乃あすか", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星空美咲", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "永久輝せあ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "雨にじむ渤海",
@@ -202,7 +497,46 @@ const revues = [
     "hero": "暁 千星",
     "heroine": "詩 ちづる",
     "new_hero": "大希 颯",
-    "new_heroine": "碧羽 陽"
+    "new_heroine": "碧羽 陽",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天愛るりあ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "碧海さりお"},
+          {"name": "瑠璃花夏"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天飛華音"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "詩ちづる", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "暁千星", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "DEAN",
@@ -228,7 +562,54 @@ const revues = [
     "hero": "朝美 絢",
     "heroine": "夢白 あや",
     "new_hero": "律希 奏",
-    "new_heroine": "華純 沙那"
+    "new_heroine": "華純 沙那",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華純沙那", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "白綺華"},
+          {"name": "諏訪さき"},
+          {"name": "星沢ありさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "音彩唯"},
+          {"name": "華世京"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬央ゆりあ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "夢白あや", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "朝美絢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アレクサンダー",
@@ -244,7 +625,48 @@ const revues = [
     "date": "2025-09-27",
     "theater": "全国ツアー",
     "hero": "暁 千星",
-    "heroine": "詩 ちづる"
+    "heroine": "詩 ちづる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "詩花すず", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "乙華菜乃"},
+          {"name": "大希颯"},
+          {"name": "綾音美蘭"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "小坂ほのか", "special": true},
+          {"name": "碧海さりお"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "詩ちづる", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "暁千星", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "PRINCE OF LEGEND, BAYSIDE STAR",
@@ -254,7 +676,61 @@ const revues = [
     "hero": "桜木 みなと",
     "heroine": "春乃 さくら",
     "new_hero": "大路 りせ",
-    "new_heroine": "風羽 咲季"
+    "new_heroine": "風羽 咲季",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛城美紗", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "泉堂成"},
+          {"name": "きよら羽龍【 美星帆那 】"},
+          {"name": "大路りせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "山吹ひばり【きよら羽龍】"},
+          {"name": "亜音有星【大路りせ】"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "風色日向【亜音有星】", "wing": "small"},
+          {"name": "天彩峰里【山吹ひばり】"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鷹翔千空【風色日向】", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "水美舞斗【鷹翔千空】", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "春乃さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "桜木みなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ステップ・バイ・ミー",
@@ -280,7 +756,58 @@ const revues = [
     "hero": "鳳月 杏",
     "heroine": "天紫 珠李",
     "new_hero": "雅 耀",
-    "new_heroine": "帆華 なつ海"
+    "new_heroine": "帆華 なつ海",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "桃歌雪", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "英かおと"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩海せら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "風間柚乃"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "天紫珠李", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "鳳月杏", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "RED STONE",
@@ -306,7 +833,47 @@ const revues = [
     "hero": "永久輝 せあ",
     "heroine": "星空 美咲",
     "new_hero": "夏希 真斗",
-    "new_heroine": "彩葉 ゆめ"
+    "new_heroine": "彩葉 ゆめ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "咲乃深音", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "希波らいと"},
+          {"name": "侑輝大弥"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "美羽愛"},
+          {"name": "一之瀬航季"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "聖乃あすか", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星空美咲", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "永久輝せあ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Twinkle Moon",
@@ -321,7 +888,53 @@ const revues = [
     "date": "2025-04-28",
     "theater": "全国ツアー",
     "hero": "鳳月 杏",
-    "heroine": "天紫 珠李"
+    "heroine": "天紫 珠李",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "美渦せいか 【天愛るりあ】", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "英かおと"},
+          {"name": "彩みちる"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩海せら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "風間柚乃", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "天紫珠李", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "鳳月杏", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "阿修羅城の瞳, エスペラント!",
@@ -330,7 +943,48 @@ const revues = [
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "礼 真琴",
     "new_hero": "稀惺 かずと",
-    "new_heroine": "詩 ちづる"
+    "new_heroine": "詩 ちづる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "小桜ほのか", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "碧海さりお"},
+          {"name": "瑠璃花夏"},
+          {"name": "稀惺かずと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "詩ちづる"},
+          {"name": "天飛華音", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "極美慎", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "暁千星", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "儚き星の照らす海の果てに",
@@ -348,7 +1002,46 @@ const revues = [
     "hero": "朝美 絢",
     "heroine": "夢白 あや",
     "new_hero": "苑利 香輝",
-    "new_heroine": "愛空 みなみ"
+    "new_heroine": "愛空 みなみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音彩唯", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "華世京"},
+          {"name": "諏訪さき"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢白あや", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝美絢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "マジシャンの憂鬱, Jubilee",
@@ -356,7 +1049,41 @@ const revues = [
     "date": "2025-03-08",
     "theater": "博多座",
     "hero": "永久輝 せあ",
-    "heroine": "星空 美咲"
+    "heroine": "星空 美咲",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "湖華詩", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "侑輝大弥"},
+          {"name": "美羽愛"},
+          {"name": "一之瀬航季"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星空美咲", "wing": "top"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "永久輝せあ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "にぎたつの海に月出づ",
@@ -381,7 +1108,54 @@ const revues = [
     "hero": "芹香 斗亜",
     "heroine": "春乃 さくら",
     "new_hero": "泉堂 成",
-    "new_heroine": "花恋 こまち"
+    "new_heroine": "花恋 こまち",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "小春乃さよ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "亜音有星"},
+          {"name": "山吹ひばり"},
+          {"name": "風色日向"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鷹翔千空"},
+          {"name": "天彩峰里"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "春乃さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "芹香斗亜", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "FORMOSA!!",
@@ -407,7 +1181,53 @@ const revues = [
     "hero": "鳳月 杏",
     "heroine": "天紫 珠李",
     "new_hero": "七城 雅",
-    "new_heroine": "美渦 せいか"
+    "new_heroine": "美渦 せいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白河りり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "英かおと"},
+          {"name": "彩みちる"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩海せら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "風間柚乃", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "天紫珠李", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "鳳月杏", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "大海賊, Heat on Beat! －Evolution－",
@@ -415,7 +1235,45 @@ const revues = [
     "date": "2024-10-22",
     "theater": "全国ツアー",
     "hero": "芹香 斗亜",
-    "heroine": "春乃 さくら"
+    "heroine": "春乃 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "春乃さくら", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天彩峰里"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鷹翔千空"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "MY BLUE HEAVEN －わたしのあおぞら－",
@@ -433,7 +1291,54 @@ const revues = [
     "hero": "永久輝 せあ",
     "heroine": "星空 美咲",
     "new_hero": "美空 真瑠",
-    "new_heroine": "初音 夢"
+    "new_heroine": "初音 夢",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "湖華詩", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "侑輝大弥"},
+          {"name": "美羽愛"},
+          {"name": "一之瀬航季"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "凪七瑠海 （専科"},
+          {"name": "大羽根）"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星空美咲", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "永久輝せあ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "BLUFF",
@@ -449,7 +1354,59 @@ const revues = [
     "date": "2024-08-22",
     "theater": "全国ツアー",
     "hero": "鳳月 杏",
-    "heroine": "天紫 珠李"
+    "heroine": "天紫 珠李",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "一乃凜", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "きよら羽龍"},
+          {"name": "白河りり"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "英かおと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "水美舞斗（専科"},
+          {"name": "大羽根）"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "天紫珠李", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "鳳月杏", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "記憶にございません！, Tiara Azul －Destino－",
@@ -459,7 +1416,53 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "御剣 海",
-    "new_heroine": "綾音 美蘭"
+    "new_heroine": "綾音 美蘭",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "詩花すず", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "詩ちづる"},
+          {"name": "碧海さりお"},
+          {"name": "小桜ほのか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天飛華音"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "暁千星", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Liefie－愛しい人－",
@@ -485,7 +1488,47 @@ const revues = [
     "hero": "彩風 咲奈",
     "heroine": "夢白 あや",
     "new_hero": "蒼波 黎也",
-    "new_heroine": "白綺 華"
+    "new_heroine": "白綺 華",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "夢白あや", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "音彩唯"},
+          {"name": "諏訪さき【咲城けい】"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "華世京"},
+          {"name": "野々花ひまり"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Le Grand Escalier ―ル・グラン・エスカリエ―",
@@ -493,7 +1536,61 @@ const revues = [
     "date": "2024-06-20",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "芹香 斗亜",
-    "heroine": "春乃 さくら"
+    "heroine": "春乃 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛未サラ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "泉堂成"},
+          {"name": "亜音有星"},
+          {"name": "大路りせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "風色日向【亜音有星】"},
+          {"name": "山吹ひばり"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "鷹翔千空【風色日向】"},
+          {"name": "天彩峰里"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瑠風輝【鷹翔千空】", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "桜木みなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "春乃さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "芹香斗亜", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "夜明けの光芒",
@@ -532,7 +1629,40 @@ const revues = [
     "date": "2024-04-12",
     "theater": "全国ツアー",
     "hero": "朝美 絢",
-    "heroine": "夢白 あや"
+    "heroine": "夢白 あや",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "希良々うみ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "華純沙那"},
+          {"name": "咲城けい"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "縣千", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "夢白あや", "wing": "top"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢", "wing": "large"}
+        ]
+      }
+    ]
   },
   {
     "name": "Eternal Voice 消え残る想い, Grande TAKARAZUKA 110!",
@@ -542,7 +1672,58 @@ const revues = [
     "hero": "月城 かなと",
     "heroine": "海乃 美月",
     "new_hero": "雅 耀",
-    "new_heroine": "乃々 れいあ"
+    "new_heroine": "乃々 れいあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "一乃凜", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天紫珠李"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩海せら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "風間柚乃"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "鳳月杏", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "海乃美月", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アルカンシェル",
@@ -552,7 +1733,54 @@ const revues = [
     "hero": "柚香 光",
     "heroine": "星風 まどか",
     "new_hero": "天城 れいん",
-    "new_heroine": "七彩 はづき"
+    "new_heroine": "七彩 はづき",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "星空美咲", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "希波らいと"},
+          {"name": "帆純まひろ"},
+          {"name": "一之瀬航季"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "美羽愛"},
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "永久輝せあ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Golden Dead Schiele",
@@ -578,7 +1806,46 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "大希 颯",
-    "new_heroine": "乙華 菜乃"
+    "new_heroine": "乙華 菜乃",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天華えま", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天飛華音"},
+          {"name": "小桜ほのか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "BE SHINING!!",
@@ -593,7 +1860,47 @@ const revues = [
     "date": "2023-11-17",
     "theater": "全国ツアー",
     "hero": "永久輝 せあ",
-    "heroine": "星空 美咲"
+    "heroine": "星空 美咲",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "咲乃深音", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "一之瀬航季"},
+          {"name": "帆純まひろ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "凪七瑠海（専科"},
+          {"name": "小羽根）"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星空美咲"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "永久輝せあ", "wing": "large"}
+        ]
+      }
+    ]
   },
   {
     "name": "ボイルド・ドイル・オンザ・トイル・トレイル, FROZEN HOLIDAY",
@@ -603,7 +1910,56 @@ const revues = [
     "hero": "彩風 咲奈",
     "heroine": "夢白 あや",
     "new_hero": "華世 京",
-    "new_heroine": "星沢 ありさ"
+    "new_heroine": "星沢 ありさ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華世京", "etoile": true},
+          {"name": "音彩唯", "etoile": true},
+          {"name": "紀城ゆりや", "etoile": true},
+          {"name": "華純沙那", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "咲城けい"},
+          {"name": "野々花ひまり"},
+          {"name": "諏訪さき"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "和希そら", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "夢白あや", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "My Last Joke―虚構に生きる―",
@@ -619,7 +1975,57 @@ const revues = [
     "date": "2023-10-09",
     "theater": "博多座",
     "hero": "水美 舞斗, 暁 千星",
-    "heroine": "舞空 瞳"
+    "heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白妙なつ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "ひろ香祐"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "小桜ほのか"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "暁千星／水美舞斗", "special": true}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "水美舞斗／暁千星", "special": true}
+        ]
+      }
+    ]
   },
   {
     "name": "PAGAD, Sky Fantasy!",
@@ -627,7 +2033,53 @@ const revues = [
     "date": "2023-09-29",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "芹香 斗亜",
-    "heroine": "春乃 さくら"
+    "heroine": "春乃 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛未サラ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "山吹ひばり"},
+          {"name": "風色日向"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鷹翔千空"},
+          {"name": "天彩峰里"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "春乃さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "芹香斗亜", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "双曲線上のカルテ",
@@ -643,7 +2095,45 @@ const revues = [
     "date": "2023-08-25",
     "theater": "全国ツアー",
     "hero": "彩風 咲奈",
-    "heroine": "夢白 あや"
+    "heroine": "夢白 あや",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音彩唯", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "華世京"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "諏訪さき"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢白あや", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "フリューゲル -君がくれた翼-, 万華鏡百景色",
@@ -653,7 +2143,53 @@ const revues = [
     "hero": "月城 かなと",
     "heroine": "海乃 美月",
     "new_hero": "瑠皇 りあ",
-    "new_heroine": "花妃 舞音"
+    "new_heroine": "花妃 舞音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "麗泉里", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天紫珠李"},
+          {"name": "彩海せら【 瑠皇りあ 】"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "風間柚乃"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鳳月杏", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "海乃美月【天紫珠李】", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Xcalibur エクスカリバー",
@@ -679,7 +2215,47 @@ const revues = [
     "hero": "柚香 光",
     "heroine": "星風 まどか",
     "new_hero": "天城 れいん",
-    "new_heroine": "朝葉 ことの"
+    "new_heroine": "朝葉 ことの",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "朝葉ことの", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "一之瀬航季"},
+          {"name": "綺城ひか理"},
+          {"name": "帆純まひろ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "月の燈影",
@@ -705,7 +2281,60 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "稀惺 かずと",
-    "new_heroine": "詩 ちづる"
+    "new_heroine": "詩 ちづる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "詩ちづる", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天飛華音"},
+          {"name": "小桜ほのか"},
+          {"name": "碧海さりお 【 鳳真斗愛 】"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "天華えま【碧海さりお】"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "暁千星【天華えま】"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "礼真琴【暁千星】", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "舞姫",
@@ -731,7 +2360,45 @@ const revues = [
     "hero": "彩風 咲奈",
     "heroine": "夢白 あや",
     "new_hero": "紀城 ゆりや",
-    "new_heroine": "音彩 唯"
+    "new_heroine": "音彩 唯",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音彩唯", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢白あや", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Stella Voice",
@@ -746,7 +2413,40 @@ const revues = [
     "date": "2023-03-26",
     "theater": "全国ツアー",
     "hero": "凪七 瑠海",
-    "heroine": "舞空 瞳"
+    "heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "舞空瞳", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天飛華音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "凪七瑠海（専科"},
+          {"name": "大羽根）"}
+        ]
+      }
+    ]
   },
   {
     "name": "赤と黒",
@@ -764,7 +2464,62 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "潤 花",
     "new_hero": "大路 りせ",
-    "new_heroine": "美星 帆那"
+    "new_heroine": "美星 帆那",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "葉咲うらら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "亜音有星"},
+          {"name": "山吹ひばり"},
+          {"name": "風色日向"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鷹翔千空"},
+          {"name": "天彩峰里"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"},
+          {"name": "春乃さくら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "潤花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "BONNIE & CLYDE",
@@ -782,7 +2537,53 @@ const revues = [
     "hero": "月城 かなと",
     "heroine": "海乃 美月",
     "new_hero": "七城 雅",
-    "new_heroine": "羽音 みか"
+    "new_heroine": "羽音 みか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "桃歌雪 ／ 天愛るりあ ／白河りり／きよら羽龍／ 咲彩いちご", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩海せら"},
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天紫珠李"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "風間柚乃"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鳳月杏", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "海乃美月", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "海辺のストルーエンセ",
@@ -816,7 +2617,54 @@ const revues = [
     "hero": "柚香 光",
     "heroine": "星風 まどか",
     "new_hero": "希波 らいと",
-    "new_heroine": "七彩 はづき"
+    "new_heroine": "七彩 はづき",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "星空美咲", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "希波らいと"},
+          {"name": "一之瀬航季"},
+          {"name": "帆純まひろ"},
+          {"name": "侑輝大弥"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "水美舞斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ELPIDIO",
@@ -832,7 +2680,48 @@ const revues = [
     "date": "2022-11-18",
     "theater": "全国ツアー",
     "hero": "月城 かなと",
-    "heroine": "海乃 美月"
+    "heroine": "海乃 美月",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "咲彩いちご", "etoile": true},
+          {"name": "風間柚乃", "etoile": true},
+          {"name": "白河りり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "結愛かれん"},
+          {"name": "天紫珠李"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "礼華はる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "海乃美月", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ディミトリ～曙光に散る、紫の花～, JAGUAR BEAT－ジャガービート－",
@@ -842,7 +2731,60 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "天飛 華音",
-    "new_heroine": "藍羽 ひより"
+    "new_heroine": "藍羽 ひより",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "都優奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "小桜ほのか"},
+          {"name": "天飛華音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺城ひか理"},
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "有沙瞳"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "殉情",
@@ -858,7 +2800,52 @@ const revues = [
     "date": "2022-10-14",
     "theater": "全国ツアー",
     "hero": "柚香 光",
-    "heroine": "星風 まどか"
+    "heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "咲乃深音", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "星空美咲"},
+          {"name": "侑輝大弥"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "水美舞斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "蒼穹の昴",
@@ -868,7 +2855,59 @@ const revues = [
     "hero": "彩風 咲奈",
     "heroine": "朝月 希和",
     "new_hero": "華世 京",
-    "new_heroine": "音彩 唯"
+    "new_heroine": "音彩 唯",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "千風カレン", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "咲城けい"},
+          {"name": "夢白あや"},
+          {"name": "諏訪さき"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "凪七瑠海", "special": true}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "朝月希和", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ベアタ・ベアトリクス",
@@ -884,7 +2923,47 @@ const revues = [
     "date": "2022-09-01",
     "theater": "全国ツアー",
     "hero": "礼 真琴",
-    "heroine": "舞空 瞳"
+    "heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "暁千星", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "詩ちづる"},
+          {"name": "天華えま【瀬央ゆりあ】"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺城ひか理【瀬央ゆりあ】"},
+          {"name": "有沙瞳"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "HiGH&LOW　－THE PREQUEL－, Capricciosa!!",
@@ -894,7 +2973,60 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "潤 花",
     "new_hero": "亜音 有星",
-    "new_heroine": "山吹 ひばり"
+    "new_heroine": "山吹 ひばり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "留依蒔世", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "亜音有星"},
+          {"name": "鷹翔千空"},
+          {"name": "風色日向"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天彩峰里"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "潤花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ODYSSEY－The Age of Discovery－",
@@ -920,7 +3052,55 @@ const revues = [
     "hero": "月城 かなと",
     "heroine": "海乃 美月",
     "new_hero": "彩海 せら",
-    "new_heroine": "きよら 羽龍"
+    "new_heroine": "きよら 羽龍",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "一乃凜", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩海せら"},
+          {"name": "夢奈瑠音"},
+          {"name": "蓮つかさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天紫珠李"},
+          {"name": "礼華はる"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "風間柚乃"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鳳月杏", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "海乃美月", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "カルト・ワイン",
@@ -945,7 +3125,59 @@ const revues = [
     "hero": "柚香 光",
     "heroine": "星風 まどか",
     "new_hero": "侑輝 大弥",
-    "new_heroine": "星空 美咲"
+    "new_heroine": "星空 美咲",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "若草萌香", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "一之瀬航季"},
+          {"name": "飛龍つかさ"},
+          {"name": "帆純まひろ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "音くり寿"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "永久輝せあ", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "水美舞斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Rain on Neptune",
@@ -971,7 +3203,54 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "咲城 けい",
-    "new_heroine": "詩 ちづる"
+    "new_heroine": "詩 ちづる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天寿光希", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "小桜ほのか"},
+          {"name": "天飛華音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "有沙瞳"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "天華えま"},
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "冬霞の巴里",
@@ -997,7 +3276,54 @@ const revues = [
     "hero": "彩風 咲奈",
     "heroine": "朝月 希和",
     "new_hero": "縣 千",
-    "new_heroine": "華純 沙那"
+    "new_heroine": "華純 沙那",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有栖妃華", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "野々花ひまり"},
+          {"name": "諏訪さき"},
+          {"name": "夢白あや"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "縣千"},
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝月希和", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "王家に捧ぐ歌",
@@ -1005,7 +3331,47 @@ const revues = [
     "date": "2022-02-08",
     "theater": "御園座",
     "hero": "礼 真琴",
-    "heroine": "舞空 瞳"
+    "heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "都優奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天飛華音"},
+          {"name": "有沙瞳"},
+          {"name": "碧海さりお"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "NEVER SAY GOODBYE",
@@ -1015,7 +3381,60 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "潤 花",
     "new_hero": "風色 日向",
-    "new_heroine": "春乃 さくら"
+    "new_heroine": "春乃 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天彩峰里", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "亜音有星"},
+          {"name": "鷹翔千空"},
+          {"name": "風色日向"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫藤りゅう"},
+          {"name": "留依蒔世"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "潤花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ザ・ジェントル・ライアー ～英国的、紳士と淑女のゲーム～",
@@ -1040,7 +3459,48 @@ const revues = [
     "hero": "月城 かなと",
     "heroine": "海乃 美月",
     "new_hero": "礼華 はる",
-    "new_heroine": "花妃 舞音"
+    "new_heroine": "花妃 舞音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "きよら羽龍 【 咲彩いちご 】", "etoile": true},
+          {"name": "風間柚乃", "etoile": true},
+          {"name": "白河りり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天紫珠李"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "鳳月杏", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "海乃美月", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "バロンの末裔, アクアヴィーテ!!",
@@ -1048,7 +3508,53 @@ const revues = [
     "date": "2021-11-21",
     "theater": "全国ツアー",
     "hero": "真風 涼帆",
-    "heroine": "潤 花"
+    "heroine": "潤 花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "小春乃さよ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "山吹ひばり"},
+          {"name": "亜音有星"},
+          {"name": "水音志保"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鷹翔千空"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "潤花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "プロミセス、プロミセス",
@@ -1066,7 +3572,60 @@ const revues = [
     "hero": "柚香 光",
     "heroine": "星風 まどか",
     "new_hero": "希波 らいと",
-    "new_heroine": "美羽 愛"
+    "new_heroine": "美羽 愛",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "咲乃深音", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "一之瀬航季"},
+          {"name": "音くり寿"},
+          {"name": "帆純まひろ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "飛龍つかさ"},
+          {"name": "優波彗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "永久輝せあ", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "水美舞斗", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "川霧の橋, Dream Chaser　－新たな夢へ－",
@@ -1074,7 +3633,53 @@ const revues = [
     "date": "2021-10-11",
     "theater": "博多座",
     "hero": "月城 かなと",
-    "heroine": "海乃 美月"
+    "heroine": "海乃 美月",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "晴音アキ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "蓮つかさ"},
+          {"name": "英かおと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "夢奈瑠音"},
+          {"name": "天紫珠李"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鳳月杏", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "海乃美月", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "月城かなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "LOVE AND ALL THAT JAZZ",
@@ -1092,7 +3697,53 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "天飛 華音",
-    "new_heroine": "瑠璃 花夏"
+    "new_heroine": "瑠璃 花夏",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有沙瞳", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "小桜ほのか"},
+          {"name": "極美慎"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天華えま"},
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛月ひかる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "哀しみのコルドバ, Cool Beast!!",
@@ -1100,7 +3751,53 @@ const revues = [
     "date": "2021-08-25",
     "theater": "全国ツアー",
     "hero": "柚香 光",
-    "heroine": "星風 まどか"
+    "heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "羽立光来", "etoile": true},
+          {"name": "鞠花ゆめ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "一之瀬航季"},
+          {"name": "音くり寿"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "聖乃あすか"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "優波彗"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "永久輝せあ", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "銀ちゃんの恋",
@@ -1118,7 +3815,56 @@ const revues = [
     "hero": "彩風 咲奈",
     "heroine": "朝月 希和",
     "new_hero": "縣 千",
-    "new_heroine": "音彩 唯"
+    "new_heroine": "音彩 唯",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛すみれ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "野々花ひまり"},
+          {"name": "彩海せら"},
+          {"name": "星南のぞみ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩みちる"},
+          {"name": "諏訪さき"},
+          {"name": "夢白あや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "縣千"},
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝月希和", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "婆娑羅の玄孫",
@@ -1151,7 +3897,61 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "潤 花",
     "new_hero": "亜音 有星",
-    "new_heroine": "山吹 ひばり"
+    "new_heroine": "山吹 ひばり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "春乃さくら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鷹翔千空"},
+          {"name": "紫藤りゅう"},
+          {"name": "留依蒔世"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天彩峰里"},
+          {"name": "瑠風輝"},
+          {"name": "遥羽らら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "潤花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ヴェネチアの紋章, ル・ポァゾン 愛の媚薬 －Again－",
@@ -1159,7 +3959,47 @@ const revues = [
     "date": "2021-06-02",
     "theater": "全国ツアー",
     "hero": "彩風 咲奈",
-    "heroine": "朝月 希和"
+    "heroine": "朝月 希和",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有栖妃華", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "星南のぞみ"},
+          {"name": "真那春人"},
+          {"name": "夢白あや"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "諏訪さき"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝月希和", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ほんものの魔法使",
@@ -1177,7 +4017,53 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "美園 さくら",
     "new_hero": "礼華 はる",
-    "new_heroine": "きよら 羽龍"
+    "new_heroine": "きよら 羽龍",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "美園さくら", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "蓮つかさ"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "風間柚乃"},
+          {"name": "海乃美月"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鳳月杏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "月城かなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "夢千鳥",
@@ -1201,7 +4087,52 @@ const revues = [
     "date": "2021-04-02",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚香 光",
-    "heroine": "華 優希"
+    "heroine": "華 優希",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "永久輝せあ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "聖乃あすか"},
+          {"name": "音くり寿"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "水美舞斗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "凪七瑠海", "special": true}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬戸かずや", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "華優希", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "幽霊刑事～サヨナラする、その前に～",
@@ -1225,7 +4156,54 @@ const revues = [
     "date": "2021-02-14",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "礼 真琴",
-    "heroine": "舞空 瞳"
+    "heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "小桜ほのか", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "天寿光希"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "綺城ひか理"},
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "PRINCE OF ROSES－王冠に導かれし男－",
@@ -1256,7 +4234,60 @@ const revues = [
     "date": "2021-01-01",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "望海 風斗",
-    "heroine": "真彩 希帆"
+    "heroine": "真彩 希帆",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有栖妃華", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "諏訪さき"},
+          {"name": "朝月希和"},
+          {"name": "彩海せら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綾凰華"},
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "シラノ・ド・ベルジュラック",
@@ -1272,7 +4303,46 @@ const revues = [
     "date": "2020-11-20",
     "theater": "梅田芸術劇場メインホール",
     "hero": "礼 真琴",
-    "heroine": "舞空 瞳"
+    "heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "桜庭舞", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "愛月ひかる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アナスタシア",
@@ -1280,7 +4350,45 @@ const revues = [
     "date": "2020-11-07",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真風 涼帆",
-    "heroine": "星風 まどか"
+    "heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花音舞", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ピガール狂騒曲, WELCOME TO TAKARAZUKA　－雪と月と花と－",
@@ -1288,7 +4396,61 @@ const revues = [
     "date": "2020-09-25",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "珠城 りょう",
-    "heroine": "美園 さくら"
+    "heroine": "美園 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白雪さち花", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "蓮つかさ"},
+          {"name": "紫門ゆりや"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天紫珠李"},
+          {"name": "風間柚乃"},
+          {"name": "海乃美月"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "鳳月杏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "月城かなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "美園さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "NOW! ZOOM ME!!",
@@ -1304,7 +4466,53 @@ const revues = [
     "date": "2020-08-29",
     "theater": "梅田芸術劇場メインホール",
     "hero": "彩風 咲奈",
-    "heroine": "潤 花"
+    "heroine": "潤 花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有栖妃華", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "久城あす"},
+          {"name": "星南のぞみ"},
+          {"name": "真那春人"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "縣千"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "潤花"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝美絢", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "彩風咲奈", "wing": "large"}
+        ]
+      }
+    ]
   },
   {
     "name": "壮麗帝",
@@ -1328,7 +4536,60 @@ const revues = [
     "date": "2020-07-17",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚香 光",
-    "heroine": "華 優希"
+    "heroine": "華 優希",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音くり寿", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "帆純まひろ"},
+          {"name": "優波彗"},
+          {"name": "飛龍つかさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "聖乃あすか"},
+          {"name": "朝月希和"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "水美舞斗"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "華優希", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚香光", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "赤と黒",
@@ -1354,7 +4615,59 @@ const revues = [
     "hero": "礼 真琴",
     "heroine": "舞空 瞳",
     "new_hero": "碧海 さりお",
-    "new_heroine": "桜庭 舞"
+    "new_heroine": "桜庭 舞",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "桜庭舞", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "華形ひかる", "special": true}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛月ひかる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞空瞳", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "礼真琴", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "DANCE OLYMPIA",
@@ -1380,7 +4693,61 @@ const revues = [
     "hero": "望海 風斗",
     "heroine": "真彩 希帆",
     "new_hero": "諏訪 さき",
-    "new_heroine": "潤 花"
+    "new_heroine": "潤 花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "舞咲りん", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩海せら"},
+          {"name": "縣千"},
+          {"name": "諏訪さき"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "潤花"},
+          {"name": "綾凰華"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "龍の宮物語",
@@ -1406,7 +4773,61 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "星風 まどか",
     "new_hero": "風色 日向",
-    "new_heroine": "花宮 沙羅"
+    "new_heroine": "花宮 沙羅",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "小春乃さよ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鷹翔千空"},
+          {"name": "夢白あや"},
+          {"name": "留依蒔世"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天彩峰里"},
+          {"name": "瑠風輝"},
+          {"name": "遥羽らら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "はばたけ黄金の翼よ, Music Revolution!",
@@ -1414,7 +4835,53 @@ const revues = [
     "date": "2019-10-12",
     "theater": "全国ツアー",
     "hero": "望海 風斗",
-    "heroine": "真彩 希帆"
+    "heroine": "真彩 希帆",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有栖妃華", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩みちる"},
+          {"name": "朝月希和"},
+          {"name": "星南のぞみ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ハリウッド・ゴシップ",
@@ -1432,7 +4899,67 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "美園 さくら",
     "new_hero": "英 かおと",
-    "new_heroine": "白河 りり"
+    "new_heroine": "白河 りり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "晴音アキ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "結愛かれん"},
+          {"name": "風間柚乃"},
+          {"name": "天紫珠李"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮つかさ"},
+          {"name": "紫門ゆりや"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "海乃美月"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "鳳月杏"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "月城かなと", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "美園さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "リッツ・ホテルくらいに大きなダイヤモンド",
@@ -1448,7 +4975,60 @@ const revues = [
     "date": "2019-08-31",
     "theater": "全国ツアー",
     "hero": "真風 涼帆",
-    "heroine": "星風 まどか"
+    "heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華妃まいあ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天彩峰里"},
+          {"name": "留依蒔世"},
+          {"name": "遥羽らら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "星吹彩翔"},
+          {"name": "凛城きら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "A Fairy Tale －青い薔薇の精－, シャルム！",
@@ -1458,7 +5038,66 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "華 優希",
     "new_hero": "聖乃 あすか",
-    "new_heroine": "都姫 ここ"
+    "new_heroine": "都姫 ここ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "芽吹幸奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "聖乃あすか"},
+          {"name": "飛龍つかさ"},
+          {"name": "帆純まひろ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺城ひか理"},
+          {"name": "優波彗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "城妃美伶"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "水美舞斗"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚香光", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "華優希", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "チェ・ゲバラ",
@@ -1484,7 +5123,60 @@ const revues = [
     "hero": "紅 ゆずる",
     "heroine": "綺咲 愛里",
     "new_hero": "天飛 華音",
-    "new_heroine": "舞空 瞳"
+    "new_heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "舞空瞳", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "紫藤りゅう"},
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "麻央侑希"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "華形ひかる", "special": true}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "恋スルARENA",
@@ -1510,7 +5202,64 @@ const revues = [
     "hero": "望海 風斗",
     "heroine": "真彩 希帆",
     "new_hero": "彩海 せら",
-    "new_heroine": "彩 みちる"
+    "new_heroine": "彩 みちる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "羽織夕夏", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "縣千"},
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凪七瑠海", "special": true}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "彩風咲奈", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Dream On!",
@@ -1533,7 +5282,49 @@ const revues = [
     "date": "2019-05-04",
     "theater": "全国ツアー",
     "hero": "礼 真琴",
-    "heroine": "音波 みのり"
+    "heroine": "音波 みのり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白妙なつ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "桜庭舞"},
+          {"name": "極美慎"},
+          {"name": "小桜ほのか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "夢妃杏瑠"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "愛月ひかる（専科"},
+          {"name": "小羽根）"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "音波みのり"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "large"}
+        ]
+      }
+    ]
   },
   {
     "name": "オーシャンズ11",
@@ -1543,7 +5334,63 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "星風 まどか",
     "new_hero": "鷹翔 千空",
-    "new_heroine": "夢白 あや"
+    "new_heroine": "夢白 あや",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花宮沙羅", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鷹翔千空"},
+          {"name": "瑠風輝"},
+          {"name": "優希しおん"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天彩峰里"},
+          {"name": "和希そら"},
+          {"name": "遥羽らら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "蒼羽りく"},
+          {"name": "純矢ちとせ"},
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "PR×PRince",
@@ -1569,7 +5416,62 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "美園 さくら",
     "new_hero": "風間 柚乃",
-    "new_heroine": "天紫 珠李"
+    "new_heroine": "天紫 珠李",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "夏月都", "etoile": true},
+          {"name": "光月るう", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "結愛かれん"},
+          {"name": "風間柚乃【 蘭尚樹 】"},
+          {"name": "天紫珠李"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮つかさ"},
+          {"name": "紫門ゆりや"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星【風間柚乃】"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "月城かなと【暁千星】"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "美弥るりか", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "美園さくら", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "群盗-Die Räuber-",
@@ -1587,7 +5489,61 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "仙名 彩世",
     "new_hero": "帆純 まひろ",
-    "new_heroine": "華 優希"
+    "new_heroine": "華 優希",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音くり寿", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "飛龍つかさ"},
+          {"name": "華優希"},
+          {"name": "綺城ひか理"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "桜咲彩花"},
+          {"name": "水美舞斗"},
+          {"name": "城妃美伶"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "鳳月杏"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚香光"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "仙名彩世", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "黒い瞳, VIVA！ FESTA！ in HAKATA",
@@ -1595,7 +5551,53 @@ const revues = [
     "date": "2019-02-02",
     "theater": "博多座",
     "hero": "真風 涼帆",
-    "heroine": "星風 まどか"
+    "heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "瀬戸花まり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "和希そら"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蒼羽りく"},
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛月ひかる", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Anna Karenina",
@@ -1621,7 +5623,59 @@ const revues = [
     "hero": "紅 ゆずる",
     "heroine": "綺咲 愛里",
     "new_hero": "極美 慎",
-    "new_heroine": "水乃 ゆり"
+    "new_heroine": "水乃 ゆり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華鳥礼良", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天華えま"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "麻央侑希"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "七海ひろき", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Delight Holiday",
@@ -1637,7 +5691,49 @@ const revues = [
     "date": "2018-11-22",
     "theater": "全国ツアー",
     "hero": "柚香 光",
-    "heroine": "華 優希, 舞空 瞳"
+    "heroine": "華 優希, 舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "乙羽映見", "etoile": true},
+          {"name": "和海しょう", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "春妃うらら"},
+          {"name": "一之瀬航季"},
+          {"name": "華雅りりか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "飛龍つかさ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "舞空瞳"},
+          {"name": "華優希"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "水美舞斗", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚香光", "wing": "large"}
+        ]
+      }
+    ]
   },
   {
     "name": "蘭陵王—美しすぎる武将—",
@@ -1655,7 +5751,58 @@ const revues = [
     "hero": "望海 風斗",
     "heroine": "真彩 希帆",
     "new_hero": "綾 凰華",
-    "new_heroine": "野々花 ひまり"
+    "new_heroine": "野々花 ひまり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛すみれ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "縣千"},
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "デビュタント",
@@ -1672,7 +5819,45 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "星風 まどか",
     "new_hero": "瑠風 輝",
-    "new_heroine": "夢白 あや"
+    "new_heroine": "夢白 あや",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天彩峰里", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "芹香斗亜"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星風まどか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Thunderbolt Fantasy東離劍遊紀, Killer Rouge／星秀☆煌紅",
@@ -1680,7 +5865,63 @@ const revues = [
     "date": "2018-08-31",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館ホール",
     "hero": "紅 ゆずる",
-    "heroine": "綺咲 愛里"
+    "heroine": "綺咲 愛里",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音咲いつき", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "麻央侑希"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "有沙瞳"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "天寿光希"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "エリザベート－愛と死の輪舞－",
@@ -1690,7 +5931,69 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "愛希 れいか",
     "new_hero": "暁 千星",
-    "new_heroine": "美園 さくら"
+    "new_heroine": "美園 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "美園さくら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "輝生かなで"},
+          {"name": "海乃美月"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "春海ゆう"},
+          {"name": "蓮つかさ"},
+          {"name": "風間柚乃 【 彩音星凪 】"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "／ 春海ゆう"},
+          {"name": "暁千星"},
+          {"name": "蓮つかさ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "暁千星／ 風間柚乃"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "月城かなと【風間柚乃】"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "美弥るりか【月城かなと】"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "New Wave! －星－",
@@ -1723,7 +6026,63 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "仙名 彩世",
     "new_hero": "聖乃 あすか",
-    "new_heroine": "舞空 瞳"
+    "new_heroine": "舞空 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "若草萌香", "etoile": true},
+          {"name": "天真みちる", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "聖乃あすか"},
+          {"name": "綺城ひか理"},
+          {"name": "優波彗"},
+          {"name": "飛龍つかさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "城妃美伶"},
+          {"name": "水美舞斗"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "鳳月杏"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚香光", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "仙名彩世", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "愛聖女－Sainte♡d'Amour－",
@@ -1756,7 +6115,58 @@ const revues = [
     "hero": "轟 悠",
     "heroine": "真彩 希帆",
     "new_hero": "縣 千",
-    "new_heroine": "潤 花"
+    "new_heroine": "潤 花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛すみれ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "縣千"},
+          {"name": "綾凰華"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Senhor CRUZEIRO!",
@@ -1771,7 +6181,64 @@ const revues = [
     "date": "2018-05-04",
     "theater": "博多座",
     "hero": "明日海 りお",
-    "heroine": "仙名 彩世"
+    "heroine": "仙名 彩世",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "春妃うらら", "etoile": true},
+          {"name": "乙羽映見", "etoile": true},
+          {"name": "更紗那知", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鞠花ゆめ"},
+          {"name": "天真みちる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "亜蓮冬馬"},
+          {"name": "桜咲彩花"},
+          {"name": "優波彗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華優希"},
+          {"name": "鳳月杏", "wing": "small"},
+          {"name": "音くり寿"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "瀬戸かずや", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚香光", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "仙名彩世", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ANOTHER WORLD, Killer Rouge",
@@ -1781,7 +6248,68 @@ const revues = [
     "hero": "紅 ゆずる",
     "heroine": "綺咲 愛里",
     "new_hero": "天華 えま",
-    "new_heroine": "星蘭 ひとみ"
+    "new_heroine": "星蘭 ひとみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音咲いつき", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "紫藤りゅう"},
+          {"name": "天華えま"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "麻央侑希"},
+          {"name": "音波みのり"},
+          {"name": "十碧れいや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "華形ひかる", "special": true}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "義経妖狐夢幻桜",
@@ -1797,7 +6325,53 @@ const revues = [
     "date": "2018-03-23",
     "theater": "全国ツアー",
     "hero": "望海 風斗",
-    "heroine": "真彩 希帆"
+    "heroine": "真彩 希帆",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "妃華ゆきの", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩みちる"},
+          {"name": "綾凰華"},
+          {"name": "朝月希和"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "煌羽レオ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩風咲奈", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "天は赤い河のほとり, シトラスの風－Sunrise－",
@@ -1807,7 +6381,55 @@ const revues = [
     "hero": "真風 涼帆",
     "heroine": "星風 まどか",
     "new_hero": "鷹翔 千空",
-    "new_heroine": "天彩 峰里"
+    "new_heroine": "天彩 峰里",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "星風まどか", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天彩峰里"},
+          {"name": "星条海斗", "special": true},
+          {"name": "遥羽らら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "瑠風輝"},
+          {"name": "和希そら"},
+          {"name": "留依蒔世"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "真風涼帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "カンパニー -努力、情熱、そして仲間たち-, BADDY－悪党は月からやって来る－",
@@ -1817,7 +6439,54 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "愛希 れいか",
     "new_hero": "風間 柚乃",
-    "new_heroine": "美園 さくら"
+    "new_heroine": "美園 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天紫珠李", "etoile": true},
+          {"name": "夏月都", "etoile": true},
+          {"name": "白雪さち花", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "美園さくら"},
+          {"name": "海乃美月"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "月城かなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ドクトル・ジバゴ",
@@ -1833,7 +6502,52 @@ const revues = [
     "date": "2018-02-02",
     "theater": "中日劇場",
     "hero": "紅 ゆずる",
-    "heroine": "綺咲 愛里"
+    "heroine": "綺咲 愛里",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華鳥礼良", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "極美慎"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "十碧れいや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "凪七瑠海", "special": true}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "WEST SIDE STORY",
@@ -1859,7 +6573,55 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "仙名 彩世",
     "new_hero": "聖乃 あすか",
-    "new_heroine": "城妃 美伶"
+    "new_heroine": "城妃 美伶",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "城妃美伶", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "綺城ひか理"},
+          {"name": "水美舞斗"},
+          {"name": "優波彗"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鳳月杏"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華優希"},
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "柚香光"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "仙名彩世", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Arkadia －アルカディア－",
@@ -1875,7 +6637,46 @@ const revues = [
     "date": "2017-11-17",
     "theater": "全国ツアー",
     "hero": "珠城 りょう",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "海乃美月", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "叶羽時"},
+          {"name": "蓮つかさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "月城かなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ひかりふる路 〜革命家、マクシミリアン・ロベスピエール〜, SUPER VOYAGER!",
@@ -1885,7 +6686,51 @@ const revues = [
     "hero": "望海 風斗",
     "heroine": "真彩 希帆",
     "new_hero": "綾 凰華",
-    "new_heroine": "潤 花"
+    "new_heroine": "潤 花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "沙央くらま", "special": true, "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩風咲奈", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ハンナのお花屋さん —Hanna's Florist—",
@@ -1911,7 +6756,68 @@ const revues = [
     "hero": "紅 ゆずる",
     "heroine": "綺咲 愛里",
     "new_hero": "極美 慎",
-    "new_heroine": "星蘭 ひとみ"
+    "new_heroine": "星蘭 ひとみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天彩峰里", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "天華えま"},
+          {"name": "麻央侑希"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天寿光希"},
+          {"name": "壱城あずさ"},
+          {"name": "十碧れいや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "凪七瑠海", "special": true}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "礼真琴", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "CAPTAIN NEMO",
@@ -1927,7 +6833,45 @@ const revues = [
     "date": "2017-08-25",
     "theater": "全国ツアー",
     "hero": "望海 風斗",
-    "heroine": "真彩 希帆"
+    "heroine": "真彩 希帆",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "羽織夕夏", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "煌羽レオ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "真那春人"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩凪翔", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真彩希帆", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "望海風斗", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "神々の土地, クラシカル ビジュー",
@@ -1935,7 +6879,45 @@ const revues = [
     "date": "2017-08-18",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "朝夏 まなと",
-    "new_hero": "瑠風 輝"
+    "new_hero": "瑠風 輝",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "星風まどか", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "伶美うらら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "オーム・シャンティ・オーム －恋する輪廻－",
@@ -1961,7 +6943,55 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "愛希 れいか",
     "new_hero": "蓮 つかさ",
-    "new_heroine": "結愛 かれん"
+    "new_heroine": "結愛 かれん",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白雪さち花", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "蓮つかさ"},
+          {"name": "宇月颯"},
+          {"name": "夢奈瑠音"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "早乙女わかば"},
+          {"name": "暁千星"},
+          {"name": "海乃美月"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "月城かなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "パーシャルタイムトラベル 時空の果てに",
@@ -1986,7 +7016,63 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "仙名 彩世",
     "new_hero": "飛龍 つかさ",
-    "new_heroine": "華 優希"
+    "new_heroine": "華 優希",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "朝月希和", "etoile": true},
+          {"name": "乙羽映見", "etoile": true},
+          {"name": "更紗那知", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "星条海斗", "special": true},
+          {"name": "美穂圭子", "special": true}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "水美舞斗"},
+          {"name": "鳳月杏"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "城妃美伶"},
+          {"name": "瀬戸かずや"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "柚香光", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "仙名彩世", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "長崎しぐれ坂, カルーセル輪舞曲",
@@ -1994,7 +7080,51 @@ const revues = [
     "date": "2017-05-04",
     "theater": "博多座",
     "hero": "轟 悠",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "麗泉里", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "轟悠（専科Ｔ）"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "瑠璃色の刻",
@@ -2012,7 +7142,58 @@ const revues = [
     "hero": "早霧 せいな",
     "heroine": "咲妃 みゆ",
     "new_hero": "永久輝 せあ",
-    "new_heroine": "野々花 ひまり"
+    "new_heroine": "野々花 ひまり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "真彩希帆", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "香綾しずる"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩風咲奈【彩凪翔】", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "望海風斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "仮面のロマネスク, EXCITER!!2017",
@@ -2020,7 +7201,53 @@ const revues = [
     "date": "2017-03-18",
     "theater": "全国ツアー",
     "hero": "明日海 りお",
-    "heroine": "仙名 彩世"
+    "heroine": "仙名 彩世",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "菜那くらら", "etoile": true},
+          {"name": "夕霧らい", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "城妃美伶"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "水美舞斗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "柚香光", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "仙名彩世", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "MY HERO",
@@ -2038,7 +7265,54 @@ const revues = [
     "hero": "紅 ゆずる",
     "heroine": "綺咲 愛里",
     "new_hero": "天華 えま",
-    "new_heroine": "有沙 瞳"
+    "new_heroine": "有沙 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "小桜ほのか", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "麻央侑希"},
+          {"name": "十碧れいや"},
+          {"name": "紫藤りゅう"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "有沙瞳"},
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "礼真琴"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "綺咲愛里", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "紅ゆずる", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "New Wave! －雪－",
@@ -2053,7 +7327,51 @@ const revues = [
     "date": "2017-02-04",
     "theater": "中日劇場",
     "hero": "早霧 せいな",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "香綾しずる", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "望海風斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "王妃の館 －Château de la Reine－, VIVA！ FESTA！",
@@ -2063,7 +7381,63 @@ const revues = [
     "hero": "朝夏 まなと",
     "heroine": "実咲 凜音",
     "new_hero": "留依 蒔世",
-    "new_heroine": "遥羽 らら"
+    "new_heroine": "遥羽 らら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "彩花まり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "留依蒔世"},
+          {"name": "和希そら"},
+          {"name": "瑠風輝"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "澄輝さやと"},
+          {"name": "純矢ちとせ"},
+          {"name": "蒼羽りく"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星風まどか"},
+          {"name": "桜木みなと"},
+          {"name": "伶美うらら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "燃ゆる風 －軍師・竹中半兵衛－",
@@ -2089,7 +7463,57 @@ const revues = [
     "hero": "珠城 りょう",
     "heroine": "愛希 れいか",
     "new_hero": "夢奈 瑠音",
-    "new_heroine": "海乃美月"
+    "new_heroine": "海乃美月",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "麗泉里", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "紫門ゆりや"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "美弥るりか", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "珠城りょう", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "双頭の鷲",
@@ -2105,7 +7529,55 @@ const revues = [
     "date": "2016-11-18",
     "theater": "全国ツアー",
     "hero": "朝夏 まなと",
-    "heroine": "伶美 うらら"
+    "heroine": "伶美 うらら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "瑠風輝", "etoile": true},
+          {"name": "留依蒔世", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "星吹彩翔"},
+          {"name": "凛城きら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蒼羽りく"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星風まどか"},
+          {"name": "伶美うらら"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "金色の砂漠, 雪華抄",
@@ -2115,7 +7587,33 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "花乃 まりあ",
     "new_hero": "綺城 ひか理",
-    "new_heroine": "城妃 美伶"
+    "new_heroine": "城妃 美伶",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花乃まりあ", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "柚香光"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Bow Singing Workshop-月-, Bow Singing Workshop",
@@ -2148,7 +7646,51 @@ const revues = [
     "hero": "早霧 せいな",
     "heroine": "咲妃 みゆ",
     "new_hero": "永久輝 せあ",
-    "new_heroine": "星南 のぞみ"
+    "new_heroine": "星南 のぞみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "月城かなと", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "望海風斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アイラブアインシュタイン",
@@ -2164,7 +7706,46 @@ const revues = [
     "date": "2016-09-02",
     "theater": "全国ツアー",
     "hero": "明日海 りお",
-    "heroine": "花乃 まりあ"
+    "heroine": "花乃 まりあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "仙名彩世", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "優波彗"},
+          {"name": "華雅りりか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鳳月杏", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "花乃まりあ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "桜華に舞え, ロマンス！！",
@@ -2174,7 +7755,56 @@ const revues = [
     "hero": "北翔 海莉",
     "heroine": "妃海 風",
     "new_hero": "天華 えま",
-    "new_heroine": "小桜 ほのか"
+    "new_heroine": "小桜 ほのか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華鳥礼良", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "紫藤りゅう"},
+          {"name": "麻央侑希"},
+          {"name": "十碧れいや"},
+          {"name": "瀬央ゆりあ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺咲愛里"},
+          {"name": "七海ひろき"},
+          {"name": "音波みのり"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "礼真琴", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "妃海風", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "北翔海莉", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Bow Singing Workshop-花-, Bow Singing Workshop",
@@ -2198,7 +7828,61 @@ const revues = [
     "hero": "朝夏 まなと",
     "heroine": "実咲 凜音",
     "new_hero": "瑠風 輝",
-    "new_heroine": "星風 まどか"
+    "new_heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "瀬音リサ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瑠風輝"},
+          {"name": "伶美うらら"},
+          {"name": "和希そら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "春瀬央季"},
+          {"name": "澄輝さやと"},
+          {"name": "蒼羽りく（桜木みなと）"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "桜木みなと／澄輝さやと／蒼羽りく"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "真風涼帆"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "One Voice",
@@ -2238,7 +7922,63 @@ const revues = [
     "hero": "龍 真咲",
     "heroine": "愛希 れいか",
     "new_hero": "暁 千星",
-    "new_heroine": "紫乃 小雪"
+    "new_heroine": "紫乃 小雪",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "晴音アキ", "etoile": true},
+          {"name": "沙央くらま", "special": true, "etoile": true},
+          {"name": "真愛涼歌", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "暁千星"},
+          {"name": "海乃美月"},
+          {"name": "朝美絢"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"},
+          {"name": "早乙女わかば"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "珠城りょう", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Bow Singing Workshop-宙-",
@@ -2253,7 +7993,47 @@ const revues = [
     "date": "2016-05-05",
     "theater": "博多座",
     "hero": "朝夏 まなと",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "純矢ちとせ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瑠風輝"},
+          {"name": "彩花まり"},
+          {"name": "蒼羽りく"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ヴァンパイア・サクセション",
@@ -2271,7 +8051,57 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "花乃 まりあ",
     "new_hero": "優波 慧, 綺城 ひか理",
-    "new_heroine": "城妃 美伶, 音 くり寿"
+    "new_heroine": "城妃 美伶, 音 くり寿",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "芽吹幸奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳真由 ／柚香光"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "桜咲彩花／仙名彩世"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "水美舞斗／瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "柚香光／鳳月杏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "花乃まりあ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Voice",
@@ -2286,7 +8116,46 @@ const revues = [
     "date": "2016-03-19",
     "theater": "全国ツアー",
     "hero": "珠城 りょう",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "宇月颯", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "輝月ゆうま"},
+          {"name": "早乙女わかば"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "暁千星"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "凪七瑠海", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "珠城りょう", "wing": "large"}
+        ]
+      }
+    ]
   },
   {
     "name": "こうもり, THE ENTERTAINER！",
@@ -2296,7 +8165,67 @@ const revues = [
     "hero": "北翔 海莉",
     "heroine": "妃海 風",
     "new_hero": "紫藤 りゅう",
-    "new_heroine": "真彩 希帆"
+    "new_heroine": "真彩 希帆",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白妙なつ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瀬央ゆりあ"},
+          {"name": "十碧れいや"},
+          {"name": "麻央侑希"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "綺咲愛里"},
+          {"name": "七海ひろき"},
+          {"name": "音波みのり"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星条海斗", "special": true}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "十輝いりす"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "礼真琴", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "妃海風", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "北翔海莉", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "For the people —リンカーン 自由を求めた男—",
@@ -2314,7 +8243,59 @@ const revues = [
     "hero": "早霧 せいな",
     "heroine": "咲妃 みゆ",
     "new_hero": "永久輝 せあ",
-    "new_heroine": "彩 みちる"
+    "new_heroine": "彩 みちる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "有沙瞳 【 彩月つくし 】", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "大湖せしる"},
+          {"name": "鳳翔大"},
+          {"name": "彩みちる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "月城かなと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩凪翔【 真那春人 】"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "望海風斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Ernest in Love",
@@ -2348,7 +8329,57 @@ const revues = [
     "hero": "朝夏 まなと",
     "heroine": "実咲 凜音",
     "new_hero": "瑠風 輝",
-    "new_heroine": "遥羽 らら"
+    "new_heroine": "遥羽 らら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "瑠風輝", "etoile": true},
+          {"name": "桜木みなと", "etoile": true},
+          {"name": "和希そら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "蒼羽りく"},
+          {"name": "純矢ちとせ"},
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "沙央くらま", "special": true},
+          {"name": "美穂圭子", "special": true}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "伶美うらら"},
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "哀しみのコルドバ, La Esmeralda",
@@ -2356,7 +8387,65 @@ const revues = [
     "date": "2015-11-21",
     "theater": "全国ツアー",
     "hero": "早霧 せいな",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "千風カレン", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "大湖せしる"},
+          {"name": "真那春人"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮城まこと"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "望海風斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "銀二貫",
@@ -2374,7 +8463,45 @@ const revues = [
     "hero": "龍 真咲",
     "heroine": "愛希 れいか",
     "new_hero": "朝美 絢",
-    "new_heroine": "叶羽 時"
+    "new_heroine": "叶羽 時",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "星条海斗", "special": true, "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "珠城りょう", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "相続人の肖像",
@@ -2390,7 +8517,46 @@ const revues = [
     "date": "2015-10-10",
     "theater": "全国ツアー",
     "hero": "朝夏 まなと",
-    "heroine": "実咲 凜音"
+    "heroine": "実咲 凜音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花音舞", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瀬音リサ"},
+          {"name": "伶美うらら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "新源氏物語, Melodia　－熱く美しき旋律－",
@@ -2400,7 +8566,62 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "花乃 まりあ",
     "new_hero": "柚香 光",
-    "new_heroine": "朝月 希和"
+    "new_heroine": "朝月 希和",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "乙羽映見 【仙名彩世】", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "城妃美伶"},
+          {"name": "水美舞斗"},
+          {"name": "鳳真由"},
+          {"name": "華雅りりか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "仙名彩世"},
+          {"name": "鳳月杏"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "柚香光", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "花乃まりあ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "DRAGON NIGHT!!",
@@ -2425,7 +8646,46 @@ const revues = [
     "hero": "北翔 海莉",
     "heroine": "妃海 風",
     "new_hero": "瀬央 ゆりあ",
-    "new_heroine": "綺咲 愛里"
+    "new_heroine": "綺咲 愛里",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "毬乃ゆい", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "十輝いりす"},
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "礼真琴"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "妃海風", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "北翔海莉", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "スターダム",
@@ -2442,7 +8702,66 @@ const revues = [
     "hero": "早霧 せいな",
     "heroine": "咲妃 みゆ",
     "new_hero": "月城 かなと",
-    "new_heroine": "彩 みちる"
+    "new_heroine": "彩 みちる",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "透水さらさ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "大湖せしる"},
+          {"name": "香綾しずる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮城まこと"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "永久輝せあ"},
+          {"name": "月城かなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "彩風咲奈", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "望海風斗", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ベルサイユのばら—フェルゼンとマリー・アントワネット編—, 宝塚幻想曲",
@@ -2450,7 +8769,51 @@ const revues = [
     "date": "2015-07-10",
     "theater": "梅田芸術劇場メインホール, 台湾国家戯劇院",
     "hero": "明日海 りお",
-    "heroine": "花乃 まりあ"
+    "heroine": "花乃 まりあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "芽吹幸奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳真由"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "柚香光"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "花乃まりあ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "キャッチ・ミー・イフ・ユー・キャン",
@@ -2466,7 +8829,40 @@ const revues = [
     "date": "2015-06-12",
     "theater": "全国ツアー",
     "hero": "北翔 海莉",
-    "heroine": "妃海 風"
+    "heroine": "妃海 風",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "妃海風", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "十碧れいや"},
+          {"name": "麻央侑希"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "礼真琴", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "十輝いりす", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "北翔海莉", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "王家に捧ぐ歌",
@@ -2476,7 +8872,47 @@ const revues = [
     "hero": "朝夏 まなと",
     "heroine": "実咲 凜音",
     "new_hero": "桜木 みなと",
-    "new_heroine": "星風 まどか"
+    "new_heroine": "星風 まどか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "純矢ちとせ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "桜木みなと"},
+          {"name": "伶美うらら"},
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アル・カポネ　—スカーフェイスに秘められた真実—",
@@ -2492,7 +8928,47 @@ const revues = [
     "date": "2015-05-02",
     "theater": "博多座",
     "hero": "早霧 せいな",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華形ひかる", "special": true, "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "蓮城まこと"},
+          {"name": "星乃あんり"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "1789　－バスティーユの恋人たち－",
@@ -2502,7 +8978,61 @@ const revues = [
     "hero": "龍 真咲",
     "heroine": "愛希 れいか",
     "new_hero": "暁 千星",
-    "new_heroine": "美園 さくら"
+    "new_heroine": "美園 さくら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "憧花ゆりの", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "海乃美月"},
+          {"name": "暁千星"},
+          {"name": "早乙女わかば"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "晴音アキ"},
+          {"name": "沙央くらま", "special": true},
+          {"name": "花陽みら"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "珠城りょう"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "New Wave! －宙－",
@@ -2527,7 +9057,45 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "花乃 まりあ",
     "new_hero": "水美 舞斗",
-    "new_heroine": "城妃 美伶"
+    "new_heroine": "城妃 美伶",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "芽吹幸奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "柚香光"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "芹香斗亜", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "花乃まりあ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "黒豹の如く, Dear DIAMOND!!",
@@ -2537,7 +9105,60 @@ const revues = [
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "礼 真琴",
-    "new_heroine": "綺咲 愛里"
+    "new_heroine": "綺咲 愛里",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音花ゆり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "綺咲愛里"},
+          {"name": "礼真琴"},
+          {"name": "妃海風"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "麻央侑希"},
+          {"name": "十碧れいや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "十輝いりす"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "風と共に去りぬ",
@@ -2579,7 +9200,61 @@ const revues = [
     "hero": "早霧 せいな",
     "heroine": "咲妃 みゆ",
     "new_hero": "永久輝 せあ",
-    "new_heroine": "星南 のぞみ"
+    "new_heroine": "星南 のぞみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "夢乃聖夏", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "永久輝せあ"},
+          {"name": "星乃あんり"},
+          {"name": "月城かなと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮城まこと"},
+          {"name": "大湖せしる"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "望海風斗"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "咲妃みゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "早霧せいな", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アルカサル ～王城～",
@@ -2602,7 +9277,46 @@ const revues = [
     "date": "2014-11-14",
     "theater": "全国ツアー",
     "hero": "紅 ゆずる",
-    "heroine": "礼 真琴"
+    "heroine": "礼 真琴",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "毬乃ゆい", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "如月蓮"},
+          {"name": "妃白ゆあ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天寿光希"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華形ひかる", "special": true}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "礼真琴"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる"}
+        ]
+      }
+    ]
   },
   {
     "name": "白夜の誓い —グスタフIII世、誇り高き王の戦い—, PHOENIX 宝塚!! —蘇る愛—",
@@ -2612,7 +9326,51 @@ const revues = [
     "hero": "凰稀 かなめ",
     "heroine": "実咲 凜音",
     "new_hero": "桜木 みなと",
-    "new_heroine": "伶美 うらら"
+    "new_heroine": "伶美 うらら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "朝夏まなと", "wing": "large", "etoile": true},
+          {"name": "実咲凜音", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "和希そら"},
+          {"name": "伶美うらら"},
+          {"name": "桜木みなと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "澄輝さやと"},
+          {"name": "純矢ちとせ"},
+          {"name": "蒼羽りく"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "七海ひろき"},
+          {"name": "愛月ひかる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "緒月遠麻"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "パルムの僧院 —美しき愛の囚人—",
@@ -2638,7 +9396,51 @@ const revues = [
     "hero": "龍 真咲",
     "heroine": "愛希 れいか",
     "new_hero": "朝美 絢",
-    "new_heroine": "海乃 美月"
+    "new_heroine": "海乃 美月",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "海乃美月", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳月杏"},
+          {"name": "紫門ゆりや"},
+          {"name": "宇月颯"},
+          {"name": "煌月爽矢"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "沙央くらま"},
+          {"name": "珠城りょう"},
+          {"name": "星条海斗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "美弥るりか"},
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "SANCTUARY",
@@ -2654,7 +9456,49 @@ const revues = [
     "date": "2014-08-29",
     "theater": "全国ツアー",
     "hero": "朝夏 まなと",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "実咲凜音", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瀬戸花まり"},
+          {"name": "和希そら"},
+          {"name": "真みや涼子"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "瀬音リサ"},
+          {"name": "星吹彩翔"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "蒼羽りく"},
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      }
+    ]
   },
   {
     "name": "エリザベート－愛と死の輪舞－",
@@ -2664,7 +9508,61 @@ const revues = [
     "hero": "明日海 りお",
     "heroine": "蘭乃 はな",
     "new_hero": "柚香 光",
-    "new_heroine": "花乃 まりあ"
+    "new_heroine": "花乃 まりあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花乃まりあ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "華雅りりか"},
+          {"name": "大河凜"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鳳真由"},
+          {"name": "瀬戸かずや"},
+          {"name": "柚香光／芹香斗亜"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "芹香斗亜／柚香光"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "望海風斗"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "北翔海莉", "special": true}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "THE KINGDOM",
@@ -2682,7 +9580,58 @@ const revues = [
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "麻央 侑希",
-    "new_heroine": "綺咲 愛里"
+    "new_heroine": "綺咲 愛里",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "妃海風", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "礼真琴"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天寿光希"},
+          {"name": "壱城あずさ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "十輝いりす"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "宝塚をどり, 明日への指針 －センチュリー号の航海日誌－, TAKARAZUKA 花詩集100!!",
@@ -2690,7 +9639,52 @@ const revues = [
     "date": "2014-07-12",
     "theater": "博多座",
     "hero": "龍 真咲",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "晴音アキ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "煌月爽矢", "wing": "small"},
+          {"name": "宇月颯", "wing": "small"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "珠城りょう", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "沙央くらま", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "星条海斗", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ノクターン －遠い夏の日の記憶－",
@@ -2706,7 +9700,47 @@ const revues = [
     "date": "2014-06-12",
     "theater": "中日劇場",
     "hero": "明日海 りお",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "仙名彩世", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "花乃まりあ"},
+          {"name": "芹香斗亜"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "華形ひかる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "望海風斗"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "一夢庵風流記 前田慶次, My Dream TAKARAZUKA",
@@ -2716,7 +9750,62 @@ const revues = [
     "hero": "壮 一帆",
     "heroine": "愛加 あゆ",
     "new_hero": "月城 かなと",
-    "new_heroine": "有沙 瞳"
+    "new_heroine": "有沙 瞳",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "未涼亜希", "wing": "small", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "香綾しずる"},
+          {"name": "咲妃みゆ"},
+          {"name": "蓮城まこと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "星乃あんり"},
+          {"name": "鳳翔大"},
+          {"name": "大湖せしる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩風咲奈"},
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "早霧せいな", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛加あゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "壮一帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "かもめ",
@@ -2741,7 +9830,49 @@ const revues = [
     "hero": "凰稀 かなめ",
     "heroine": "実咲 凜音",
     "new_hero": "和希 そら",
-    "new_heroine": "伶美 うらら"
+    "new_heroine": "伶美 うらら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "実咲凜音", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "すみれ乃麗"},
+          {"name": "伶美うらら"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "愛月ひかる"},
+          {"name": "七海ひろき"},
+          {"name": "蓮水ゆうや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "緒月遠麻"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "明日への指針 －センチュリー号の航海日誌－, TAKARAZUKA 花詩集100!!, 宝塚をどり",
@@ -2751,7 +9882,68 @@ const revues = [
     "hero": "龍 真咲",
     "heroine": "愛希 れいか",
     "new_hero": "珠城 りょう, 暁 千星",
-    "new_heroine": "海乃 美月"
+    "new_heroine": "海乃 美月",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "凪七瑠海", "wing": "small", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "／特別出演トップコンビ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鳳月杏"},
+          {"name": "紫門ゆりや"},
+          {"name": "宇月颯"},
+          {"name": "煌月爽矢"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "珠城りょう", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "沙央くらま", "wing": "small"},
+          {"name": "星条海斗", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "美弥るりか", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "／美弥るりか", "wing": "small"},
+          {"name": "凪七瑠海", "wing": "small"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "心中・恋の大和路",
@@ -2767,7 +9959,45 @@ const revues = [
     "date": "2014-03-07",
     "theater": "全国ツアー",
     "hero": "早霧 せいな",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "此花いの莉", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "咲妃みゆ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "早霧せいな"}
+        ]
+      }
+    ]
   },
   {
     "name": "翼ある人びと—ブラームスとクララ・シューマン—",
@@ -2785,7 +10015,61 @@ const revues = [
     "hero": "蘭寿 とむ",
     "heroine": "蘭乃 はな",
     "new_hero": "柚香 光",
-    "new_heroine": "華雅 りりか"
+    "new_heroine": "華雅 りりか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "仙名彩世", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "柚香光"},
+          {"name": "瀬戸かずや"},
+          {"name": "鳳真由"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "桜一花"},
+          {"name": "芹香斗亜"},
+          {"name": "桜咲彩花"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華形ひかる", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "望海風斗", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ロバート・キャパ 魂の記録, シトラスの風II",
@@ -2793,7 +10077,48 @@ const revues = [
     "date": "2014-02-04",
     "theater": "中日劇場",
     "hero": "凰稀 かなめ",
-    "heroine": "実咲 凜音"
+    "heroine": "実咲 凜音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "瀬音リサ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "花乃まりあ"},
+          {"name": "大海亜呼"},
+          {"name": "美風舞良"},
+          {"name": "愛花ちさき"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "七海ひろき", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "蓮水ゆうや", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "New Wave! －月－",
@@ -2818,7 +10143,54 @@ const revues = [
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "礼 真琴",
-    "new_heroine": "妃海 風"
+    "new_heroine": "妃海 風",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "北翔海莉", "special": true, "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "綺咲愛里"},
+          {"name": "礼真琴"},
+          {"name": "妃海風"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天寿光希"},
+          {"name": "壱城あずさ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "真風涼帆"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "紅ゆずる"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "月雲の皇子",
@@ -2848,17 +10220,116 @@ const revues = [
     "date": "2013-11-15",
     "theater": "全国ツアー",
     "hero": "龍 真咲",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花陽みら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳月杏"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "珠城りょう"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "沙央くらま"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Shall we ダンス?, CONGRATULATIONS 宝塚!!",
     "trp": "snow",
     "date": "2013-11-08",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "壮 一帆",
     "heroine": "愛加 あゆ",
     "new_hero": "月城 かなと",
-    "new_heroine": "夢華 あみ"
+    "new_heroine": "夢華 あみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛加あゆ", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "夢華あみ"},
+          {"name": "大湖せしる"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "香綾しずる"},
+          {"name": "鳳翔大"},
+          {"name": "蓮城まこと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "彩風咲奈"},
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "未涼亜希【早霧せいな】"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "早霧せいな", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "壮一帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "日のあたる方へ　―私という名の他者―",
@@ -2880,11 +10351,58 @@ const revues = [
     "name": "風と共に去りぬ",
     "trp": "cosmos",
     "date": "2013-09-27",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "凰稀 かなめ",
     "heroine": "実咲 凛音",
     "new_hero": "蒼羽 りく",
-    "new_heroine": "花乃 まりあ"
+    "new_heroine": "花乃 まりあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "実咲凜音", "wing": "top", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "愛月ひかる"},
+          {"name": "すみれ乃麗"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "伶美うらら"},
+          {"name": "七海ひろき（Ａ）"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "／純矢ちとせ"},
+          {"name": "悠未ひろ （Ｂ）"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "悠未ひろ （Ａ）／朝夏まなと（Ｂ）"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと（Ａ）／七海ひろき（Ｂ）"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "REON!!II",
@@ -2907,17 +10425,107 @@ const revues = [
     "date": "2013-08-23",
     "theater": "全国ツアー",
     "hero": "壮 一帆",
-    "heroine": "愛加 あゆ"
+    "heroine": "愛加 あゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "透水さらさ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "香綾しずる"},
+          {"name": "彩風咲奈"},
+          {"name": "蓮城まこと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "夢乃聖夏", "wing": "small"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "未涼亜希", "wing": "small"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛加あゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "壮一帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "愛と革命の詩 −アンドレア・シェニエ−, Mr. Swing!",
     "trp": "flower",
     "date": "2013-08-16",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "蘭寿 とむ",
     "heroine": "蘭乃 はな",
     "new_hero": "芹香 斗亜",
-    "new_heroine": "朝月 希和"
+    "new_heroine": "朝月 希和",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "菜那くらら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "芹香斗亜"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "春風弥里"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華形ひかる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "望海風斗"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "the WILD Meets the WILD",
@@ -2933,17 +10541,134 @@ const revues = [
     "date": "2013-07-19",
     "theater": "全国ツアー",
     "hero": "凰稀 かなめ",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花里まな", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "伶美うらら"},
+          {"name": "風馬翔"},
+          {"name": "すみれ乃麗"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "愛月ひかる"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "鈴奈沙也"},
+          {"name": "寿つかさ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "緒月遠麻", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "悠未ひろ", "wing": "small"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ルパン −ARSÈNE LUPIN−, Fantastic Energy!",
     "trp": "moon",
     "date": "2013-07-12",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "龍 真咲",
     "heroine": "愛希 れいか",
     "new_hero": "珠城 りょう",
-    "new_heroine": "咲妃 みゆ"
+    "new_heroine": "咲妃 みゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "琴音和葉", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳月杏"},
+          {"name": "花陽みら【 咲妃みゆ 】"},
+          {"name": "煌月爽矢"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"},
+          {"name": "珠城りょう"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "沙央くらま"},
+          {"name": "星条海斗"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか"},
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "北翔海莉（専科"},
+          {"name": "大羽根）"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "戦国BASARA −真田幸村編−",
@@ -2965,11 +10690,66 @@ const revues = [
     "name": "ロミオとジュリエット",
     "trp": "star",
     "date": "2013-05-31",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "礼 真琴",
-    "new_heroine": "城妃 美伶"
+    "new_heroine": "城妃 美伶",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "毬乃ゆい", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "早乙女わかば"},
+          {"name": "礼真琴"},
+          {"name": "音波みのり"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天寿光希"},
+          {"name": "壱城あずさ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "花愛瑞穂"},
+          {"name": "十輝いりす"},
+          {"name": "音花ゆり"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真風涼帆"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ME AND MY GIRL",
@@ -2977,7 +10757,57 @@ const revues = [
     "date": "2013-05-04",
     "theater": "梅田芸術劇場メインホール",
     "hero": "龍 真咲",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花陽みら", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "星条海斗／沙央くらま（パーチェスター役）"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "美弥るりか／凪七瑠海（ジャッキー役）"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "凪七瑠海／美弥るりか（ジェラルド役）"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "憧花ゆりの"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "越乃リュウ"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "月雲の皇子",
@@ -2991,11 +10821,56 @@ const revues = [
     "name": "ベルサイユのばら −フェルゼン編−",
     "trp": "snow",
     "date": "2013-04-19",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "壮 一帆",
     "heroine": "愛加 あゆ",
     "new_hero": "彩風 咲奈",
-    "new_heroine": "夢華 あみ"
+    "new_heroine": "夢華 あみ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "夢華あみ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩風咲奈"},
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "未涼亜希"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "早霧せいな"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛加あゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "壮一帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "南太平洋",
@@ -3009,11 +10884,73 @@ const revues = [
     "name": "モンテ・クリスト伯, Amour de 99!! －99年の愛－",
     "trp": "cosmos",
     "date": "2013-03-15",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "凰稀 かなめ",
     "heroine": "実咲 凛音",
     "new_hero": "愛月 ひかる",
-    "new_heroine": "花乃 まりあ"
+    "new_heroine": "花乃 まりあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "美風舞良", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "愛月ひかる"},
+          {"name": "澄輝さやと"},
+          {"name": "蒼羽りく"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "伶美うらら"},
+          {"name": "七海ひろき"},
+          {"name": "すみれ乃麗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "愛花ちさき"},
+          {"name": "蓮水ゆうや"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "緒月遠麻", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "朝夏まなと", "wing": "small"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "悠未ひろ", "wing": "small"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "怪盗楚留香外伝－花盗人－, 宝塚ジャポニズム〜序破急〜, Étoile de TAKARAZUKA",
@@ -3021,7 +10958,60 @@ const revues = [
     "date": "2013-03-08",
     "theater": "中日劇場, 台北国家戯劇院",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "優香りこ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "礼真琴"},
+          {"name": "十碧れいや"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "壱城あずさ"},
+          {"name": "早乙女わかば"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "音波みのり"},
+          {"name": "鶴美舞夕"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "十輝いりす", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ブラック・ジャック　許されざる者への挽歌",
@@ -3034,11 +11024,65 @@ const revues = [
     "name": "オーシャンズ11",
     "trp": "flower",
     "date": "2013-02-08",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "蘭寿 とむ",
     "heroine": "蘭乃 はな",
     "new_hero": "芹香 斗亜",
-    "new_heroine": "桜咲 彩花"
+    "new_heroine": "桜咲 彩花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "華形ひかる", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "水美舞斗"},
+          {"name": "芹香斗亜"},
+          {"name": "柚香光"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鳳真由"},
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "桜一花"},
+          {"name": "春風弥里"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "望海風斗"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "北翔海莉", "special": true}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "若き日の唄は忘れじ, Shining Rhythm! －新たなる誕生－",
@@ -3046,7 +11090,60 @@ const revues = [
     "date": "2013-02-05",
     "theater": "中日劇場",
     "hero": "壮 一帆",
-    "heroine": "愛加 あゆ"
+    "heroine": "愛加 あゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "透水さらさ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "夢華あみ"},
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "星乃あんり"},
+          {"name": "香綾しずる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "蓮城まこと"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "沙央くらま", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "早霧せいな", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛加あゆ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "壮一帆", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "逆転裁判3　検事マイルズ･エッジワース",
@@ -3062,16 +11159,108 @@ const revues = [
     "date": "2013-01-05",
     "theater": "博多座",
     "hero": "凰稀 かなめ",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "緒月遠麻", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "凛城きら"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蒼羽りく"},
+          {"name": "澄輝さやと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "七海ひろき"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ベルサイユのばら −オスカルとアンドレ編−",
     "trp": "moon",
     "date": "2013-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "龍 真咲, 明日海 りお",
     "heroine": "愛希 れいか",
-    "new_hero": "煌月 爽矢"
+    "new_hero": "煌月 爽矢",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花瀬みずか", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "紫門ゆりや"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "珠城りょう"},
+          {"name": "星条海斗"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお（準Ｔ）"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "おかしな二人 −THE ODD COUPLE by Neil Simon−",
@@ -3092,11 +11281,66 @@ const revues = [
     "name": "めぐり会いは再び2nd, 宝塚ジャポニズム〜序破急〜, Étoile de TAKARAZUKA",
     "trp": "star",
     "date": "2012-11-16",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "十碧 れいや",
-    "new_heroine": "妃海 風"
+    "new_heroine": "妃海 風",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "優香りこ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "麻央侑希"},
+          {"name": "十碧れいや"},
+          {"name": "礼真琴"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "天寿光希"},
+          {"name": "早乙女わかば"},
+          {"name": "壱城あずさ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "音波みのり"},
+          {"name": "十輝いりす"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "真風涼帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Victorian Jazz",
@@ -3112,17 +11356,120 @@ const revues = [
     "date": "2012-10-20",
     "theater": "全国ツアー",
     "hero": "龍 真咲",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛風ゆめ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "煌月爽矢"},
+          {"name": "紫門ゆりや"},
+          {"name": "光月るう"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星条海斗"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "JIN−仁−, GOLD SPARK！－この一瞬を永遠に―",
     "trp": "snow",
     "date": "2012-10-12",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "音月 桂",
     "heroine": "舞羽 美海",
     "new_hero": "彩風 咲奈",
-    "new_heroine": "透水 さらさ"
+    "new_heroine": "透水 さらさ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "舞咲りん", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩風咲奈"},
+          {"name": "香綾しずる"},
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "鳳翔大"},
+          {"name": "大湖せしる"},
+          {"name": "蓮城まこと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "夢乃聖夏"},
+          {"name": "沙央くらま"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "未涼亜希", "wing": "small"},
+          {"name": "愛加あゆ"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "北翔海莉（専科"},
+          {"name": "小羽根）"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "早霧せいな", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "舞羽美海", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "音月桂", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "春の雪",
@@ -3138,7 +11485,47 @@ const revues = [
     "date": "2012-09-08",
     "theater": "全国ツアー",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "花愛瑞穂", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "音波みのり"},
+          {"name": "天寿光希"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "壱城あずさ"},
+          {"name": "鶴美舞夕"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "十輝いりす"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ジャン・ルイ・ファージョン −王妃の調香師−",
@@ -3152,21 +11539,116 @@ const revues = [
     "name": "銀河英雄伝説＠TAKARAZUKA",
     "trp": "cosmos",
     "date": "2012-08-31",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "凰稀 かなめ",
     "heroine": "実咲 凛音",
     "new_hero": "蒼羽 りく",
-    "new_heroine": "花乃 まりあ"
+    "new_heroine": "花乃 まりあ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "緒月遠麻", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "凪七瑠海"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "七海ひろき"},
+          {"name": "蓮水ゆうや"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "悠未ひろ"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "実咲凜音", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "サン＝テグジュペリ −星の王子さまになった操縦士−, CONGA!!",
     "trp": "flower",
     "date": "2012-07-27",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "蘭寿 とむ",
     "heroine": "蘭乃 はな",
     "new_hero": "芹香 斗亜",
-    "new_heroine": "春妃 うらら"
+    "new_heroine": "春妃 うらら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "愛音羽麗", "wing": "small", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "大河凜"},
+          {"name": "鳳真由"},
+          {"name": "芹香斗亜"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "瀬戸かずや"},
+          {"name": "望海風斗"},
+          {"name": "春風弥里"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華形ひかる"},
+          {"name": "桜一花"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "壮一帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "双曲線上のカルテ",
@@ -3188,21 +11670,113 @@ const revues = [
     "name": "ロミオとジュリエット",
     "trp": "moon",
     "date": "2012-06-22",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "龍 真咲, 明日海 りお",
     "heroine": "愛希 れいか",
     "new_hero": "珠城 りょう",
-    "new_heroine": "咲妃 みゆ"
+    "new_heroine": "咲妃 みゆ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白雪さち花", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "珠城りょう"},
+          {"name": "煌月爽矢"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"},
+          {"name": "花陽みら"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星条海斗"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお（準Ｔ"},
+          {"name": "大羽根）"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "愛希れいか", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "龍真咲", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ダンサ　セレナータ, Celebrity －セレブリティー",
     "trp": "star",
     "date": "2012-05-18",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "真風 涼帆",
-    "new_heroine": "早乙女 わかば"
+    "new_heroine": "早乙女 わかば",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白華れみ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "真風涼帆"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紅ゆずる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "涼紫央"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "近松・恋の道行",
@@ -3218,27 +11792,200 @@ const revues = [
     "date": "2012-04-28",
     "theater": "全国ツアー",
     "hero": "蘭寿 とむ",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "望海風斗", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "大河凜"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "芹香斗亜"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "壮一帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "人事"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "星組 より芹香斗亜"}
+        ]
+      },
+      {
+        "order": 10,
+        "members": [
+          {"name": "朝夏まなと、 宙組 へ"}
+        ]
+      }
+    ]
   },
   {
     "name": "華やかなりし日々, クライマックス －Cry - Max－",
     "trp": "cosmos",
     "date": "2012-04-13",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "愛月 ひかる",
-    "new_heroine": "伶美 うらら"
+    "new_heroine": "伶美 うらら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "百千糸", "etoile": true},
+          {"name": "風莉じん", "etoile": true},
+          {"name": "花露すみか", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "藤咲えり"},
+          {"name": "純矢ちとせ"},
+          {"name": "すみれ乃麗"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮水ゆうや"},
+          {"name": "鳳翔大"},
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "悠未ひろ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "北翔海莉", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "野々すみ花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "大空祐飛", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ドン・カルロス, Shining Rhythm!",
     "trp": "snow",
     "date": "2012-03-09",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "音月 桂",
     "heroine": "舞羽 美海",
     "new_hero": "彩凪 翔",
-    "new_heroine": "星乃 あんり"
+    "new_heroine": "星乃 あんり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "透水さらさ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩風咲奈"},
+          {"name": "香綾しずる"},
+          {"name": "彩凪翔"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "大湖せしる"},
+          {"name": "沙央くらま"},
+          {"name": "蓮城まこと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "愛加あゆ"},
+          {"name": "緒月遠麻"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "未涼亜希", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "早霧せいな", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞羽美海", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "音月桂", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "REON!!",
@@ -3259,11 +12006,71 @@ const revues = [
     "name": "エドワード8世−王冠を賭けた恋−, Misty Station －霧の終着駅－",
     "trp": "moon",
     "date": "2012-02-03",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "珠城 りょう",
-    "new_heroine": "愛希 れいか"
+    "new_heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "彩星りおん", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "愛希れいか"},
+          {"name": "珠城りょう"},
+          {"name": "愛風ゆめ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星条海斗"},
+          {"name": "花陽みら"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "青樹泉"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "明日海りお", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "龍真咲", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "蒼乃夕妃", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "霧矢大夢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "仮面のロマネスク, Apasionado!!Ⅱ",
@@ -3271,7 +12078,47 @@ const revues = [
     "date": "2012-02-01",
     "theater": "中日劇場",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "純矢ちとせ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳翔大"},
+          {"name": "凪七瑠海"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "悠未ひろ"},
+          {"name": "十輝いりす"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "北翔海莉", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "野々すみ花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "大空祐飛", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ロバート・キャパ　魂の記録",
@@ -3292,11 +12139,55 @@ const revues = [
     "name": "復活 −恋が終わり、愛が残った−, カノン －Our Melody－",
     "trp": "flower",
     "date": "2012-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "蘭寿 とむ",
     "heroine": "蘭乃 はな",
     "new_hero": "鳳 真由",
-    "new_heroine": "実咲 凛音"
+    "new_heroine": "実咲 凛音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "望海風斗", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "華形ひかる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "愛音羽麗"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "壮一帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "Samourai",
@@ -3312,7 +12203,52 @@ const revues = [
     "date": "2011-11-19",
     "theater": "全国ツアー",
     "hero": "霧矢 大夢",
-    "heroine": "蒼乃 夕妃"
+    "heroine": "蒼乃 夕妃",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "彩星りおん", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "煌月爽矢"},
+          {"name": "花陽みら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "青樹泉"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "龍真咲", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "蒼乃夕妃", "wing": "top"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "霧矢大夢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アリスの恋人",
@@ -3326,11 +12262,64 @@ const revues = [
     "name": "オーシャンズ11",
     "trp": "star",
     "date": "2011-11-11",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "真風 涼帆",
-    "new_heroine": "音波 みのり"
+    "new_heroine": "音波 みのり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "涼紫央", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "如月蓮"},
+          {"name": "壱城あずさ"},
+          {"name": "天寿光希"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "美弥るりか"},
+          {"name": "白華れみ"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "真風涼帆"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "紅ゆずる"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "カナリア",
@@ -3346,17 +12335,104 @@ const revues = [
     "date": "2011-10-15",
     "theater": "全国ツアー",
     "hero": "蘭寿 とむ",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "芽吹幸奈", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "望海風斗"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "華形ひかる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "クラシコ・イタリアーノ, NICE GUY!!",
     "trp": "cosmos",
     "date": "2011-10-07",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "澄輝 さやと",
-    "new_heroine": "伶美 うらら"
+    "new_heroine": "伶美 うらら",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "百千糸", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "すみれ乃麗"},
+          {"name": "凪七瑠海"},
+          {"name": "純矢ちとせ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "蓮水ゆうや"},
+          {"name": "春風弥里"},
+          {"name": "鳳翔大"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "十輝いりす"},
+          {"name": "悠未ひろ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "北翔海莉", "wing": "small"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "野々すみ花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "大空祐飛", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "おかしな二人",
@@ -3369,11 +12445,67 @@ const revues = [
     "name": "仮面の男, ROYAL STRAIGHT FLUSH!!",
     "trp": "snow",
     "date": "2011-09-02",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "音月 桂",
     "heroine": "舞羽 美海",
     "new_hero": "彩凪 翔",
-    "new_heroine": "星乃 あんり"
+    "new_heroine": "星乃 あんり",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "晴華みどり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩凪翔"},
+          {"name": "香綾しずる"},
+          {"name": "彩風咲奈"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "大湖せしる"},
+          {"name": "彩那音"},
+          {"name": "蓮城まこと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "沙央くらま"},
+          {"name": "未涼亜希"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛加あゆ"},
+          {"name": "緒月遠麻"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "早霧せいな", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞羽美海", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "音月桂", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ランスロット",
@@ -3397,17 +12529,112 @@ const revues = [
     "date": "2011-08-01",
     "theater": "博多座, 中日劇場",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音花ゆり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "美弥るりか"},
+          {"name": "白華れみ"},
+          {"name": "壱城あずさ"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紅ゆずる"},
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "涼紫央"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "アルジェの男, Dance Romanesque",
     "trp": "moon",
     "date": "2011-07-29",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "紫門 ゆりや",
-    "new_heroine": "愛希 れいか"
+    "new_heroine": "愛希 れいか",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "羽咲まな", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳月杏"},
+          {"name": "珠城りょう"},
+          {"name": "煌月爽矢"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紫門ゆりや"},
+          {"name": "宇月颯"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "星条海斗"},
+          {"name": "青樹泉"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "明日海りお", "wing": "large"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "龍真咲", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蒼乃夕妃", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "霧矢大夢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "灼熱の彼方",
@@ -3429,21 +12656,105 @@ const revues = [
     "name": "ファントム",
     "trp": "flower",
     "date": "2011-06-24",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "蘭寿 とむ",
     "heroine": "蘭乃 はな",
     "new_hero": "鳳 真由",
-    "new_heroine": "実咲 凛音"
+    "new_heroine": "実咲 凛音",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "初姫さあや", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "鳳真由"},
+          {"name": "望海風斗"},
+          {"name": "瀬戸かずや"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "朝夏まなと"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華形ひかる"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "愛音羽麗"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "壮一帆"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "蘭寿とむ", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "美しき生涯, ルナロッサ",
     "trp": "cosmos",
     "date": "2011-05-20",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "愛月 ひかる",
-    "new_heroine": "瀬音 リサ"
+    "new_heroine": "瀬音 リサ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "七瀬りりこ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "北翔海莉", "wing": "small"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "野々すみ花", "wing": "top"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "大空祐飛", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ニジンスキー",
@@ -3459,27 +12770,160 @@ const revues = [
     "date": "2011-04-23",
     "theater": "全国ツアー",
     "hero": "音月 桂",
-    "heroine": "舞羽 美海"
+    "heroine": "舞羽 美海",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "晴華みどり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "彩風咲奈"},
+          {"name": "凛城きら"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "香綾しずる"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "沙央くらま"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "彩那音"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "未涼亜希", "wing": "large"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "舞羽美海", "wing": "top"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "音月桂", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ノバ･ボサ･ノバ, めぐり会いは再び",
     "trp": "star",
     "date": "2011-04-15",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "麻央 侑希",
-    "new_heroine": "早乙女 わかば"
+    "new_heroine": "早乙女 わかば",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "音花ゆり", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "真風涼帆"},
+          {"name": "白華れみ"},
+          {"name": "美弥るりか"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "紅ゆずる"},
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "涼紫央"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "バラの国の王子, ONE",
     "trp": "moon",
     "date": "2011-03-11",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "煌月 爽矢",
-    "new_heroine": "愛風 ゆめ"
+    "new_heroine": "愛風 ゆめ",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "琴音和葉", "etoile": true},
+          {"name": "桐生園加", "etoile": true},
+          {"name": "彩星りおん", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "星条海斗"},
+          {"name": "青樹泉"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "明日海りお", "wing": "large"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "龍真咲", "wing": "large"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "蒼乃夕妃", "wing": "top"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "霧矢大夢", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "ヴァレンチノ",
@@ -3501,11 +12945,74 @@ const revues = [
     "name": "愛のプレリュード, La Paradis!!",
     "trp": "flower",
     "date": "2011-02-04",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真飛 聖",
     "heroine": "蘭乃 はな",
     "new_hero": "大河 凛",
-    "new_heroine": "桜咲 彩花"
+    "new_heroine": "桜咲 彩花",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "天咲千華", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "瀬戸かずや"},
+          {"name": "望海風斗"},
+          {"name": "鳳真由"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "華月由舞"},
+          {"name": "朝夏まなと"},
+          {"name": "天宮菜生"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "華耀きらり"},
+          {"name": "真野すがた"},
+          {"name": "花野じゅりあ"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "華形ひかる"},
+          {"name": "桜一花"}
+        ]
+      },
+      {
+        "order": 6,
+        "members": [
+          {"name": "愛音羽麗"}
+        ]
+      },
+      {
+        "order": 7,
+        "members": [
+          {"name": "壮一帆", "wing": "large"}
+        ]
+      },
+      {
+        "order": 8,
+        "members": [
+          {"name": "蘭乃はな", "wing": "top"}
+        ]
+      },
+      {
+        "order": 9,
+        "members": [
+          {"name": "真飛聖", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "愛するには短すぎる, ル・ポァゾン 愛の媚薬Ⅱ",
@@ -3513,7 +13020,39 @@ const revues = [
     "date": "2011-02-01",
     "theater": "中日劇場",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "kaidan": [
+      {
+        "order": 1,
+        "members": [
+          {"name": "白妙なつ", "etoile": true}
+        ]
+      },
+      {
+        "order": 2,
+        "members": [
+          {"name": "夢乃聖夏"}
+        ]
+      },
+      {
+        "order": 3,
+        "members": [
+          {"name": "凰稀かなめ", "wing": "large"}
+        ]
+      },
+      {
+        "order": 4,
+        "members": [
+          {"name": "夢咲ねね", "wing": "top"}
+        ]
+      },
+      {
+        "order": 5,
+        "members": [
+          {"name": "柚希礼音", "wing": "top"}
+        ]
+      }
+    ]
   },
   {
     "name": "メイちゃんの執事−私の命に代えてお守りします−",
@@ -3534,7 +13073,7 @@ const revues = [
     "name": "ロミオとジュリエット",
     "trp": "snow",
     "date": "2011-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "音月 桂",
     "heroine": "舞羽 美海, 夢華 あみ",
     "new_hero": "彩風 咲奈",
@@ -3568,7 +13107,7 @@ const revues = [
     "name": "誰がために鐘は鳴る",
     "trp": "cosmos",
     "date": "2010-11-12",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "愛月 ひかる",
@@ -3594,7 +13133,7 @@ const revues = [
     "name": "愛と青春の旅立ち, 宝塚花の踊り絵巻 −秋の踊り−",
     "trp": "star",
     "date": "2010-10-08",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "芹香 斗亜",
@@ -3612,7 +13151,7 @@ const revues = [
     "name": "ジプシー男爵 −Der Zigeuner Baron−, Rhapsodic Moon",
     "trp": "moon",
     "date": "2010-09-03",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "宇月 颯",
@@ -3637,7 +13176,7 @@ const revues = [
     "name": "麗しのサブリナ, EXCITER!!",
     "trp": "flower",
     "date": "2010-07-30",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真飛 聖",
     "heroine": "蘭乃 はな",
     "new_hero": "瀬戸 かずや",
@@ -3655,7 +13194,7 @@ const revues = [
     "name": "ロジェ, ロック・オン！",
     "trp": "snow",
     "date": "2010-06-25",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "愛原 実花",
     "new_hero": "彩風 咲奈",
@@ -3665,7 +13204,7 @@ const revues = [
     "name": "TRAFALGAR −ネルソン、その愛と奇跡−, ファンキー・サンシャイン",
     "trp": "cosmos",
     "date": "2010-05-21",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "蒼羽 りく",
@@ -3691,7 +13230,7 @@ const revues = [
     "name": "THE SCARLET PIMPERNEL",
     "trp": "moon",
     "date": "2010-04-16",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "珠城 りょう",
@@ -3709,7 +13248,7 @@ const revues = [
     "name": "虞美人−新たなる伝説−",
     "trp": "flower",
     "date": "2010-03-12",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "鳳 真由",
@@ -3727,7 +13266,7 @@ const revues = [
     "name": "ソルフェリーノの夜明け −アンリー・デュナンの生涯−, Carnevale 睡夢 －水面に浮かぶ風景－",
     "trp": "snow",
     "date": "2010-02-05",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "愛原 実花",
     "new_hero": "彩風 咲奈",
@@ -3761,7 +13300,7 @@ const revues = [
     "name": "ハプスブルクの宝剣 −魂に宿る光−, BOLERO －ある愛－",
     "trp": "star",
     "date": "2010-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "美弥 るりか",
@@ -3795,7 +13334,7 @@ const revues = [
     "name": "カサブランカ",
     "trp": "cosmos",
     "date": "2009-11-13",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "凪七 瑠海",
@@ -3813,7 +13352,7 @@ const revues = [
     "name": "ラスト プレイ −祈りのように−, Heat on Beat!",
     "trp": "moon",
     "date": "2009-10-09",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
     "new_hero": "明日海 りお"
   },
@@ -3829,7 +13368,7 @@ const revues = [
     "name": "外伝ベルサイユのばら −アンドレ編−, EXCITER!!",
     "trp": "flower",
     "date": "2009-09-04",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "望海 風斗",
@@ -3855,7 +13394,7 @@ const revues = [
     "name": "ロシアン・ブルー −魔女への鉄槌−, RIO DE BRAVO!!",
     "trp": "snow",
     "date": "2009-07-31",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "愛原 実花",
     "new_hero": "蓮城 まこと",
@@ -3881,7 +13420,7 @@ const revues = [
     "name": "太王四神記 Ver.II −新たなる王の旅立ち−",
     "trp": "star",
     "date": "2009-06-26",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "真風 涼帆",
@@ -3891,7 +13430,7 @@ const revues = [
     "name": "エリザベート −愛と死の輪舞−",
     "trp": "moon",
     "date": "2009-05-22",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
     "heroine": "凪七 瑠海",
     "new_hero": "明日海 りお",
@@ -3917,7 +13456,7 @@ const revues = [
     "name": "薔薇に降る雨, Amour それは…",
     "trp": "cosmos",
     "date": "2009-04-17",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大和 悠河",
     "heroine": "陽月 華",
     "new_hero": "七海 ひろき",
@@ -3927,7 +13466,7 @@ const revues = [
     "name": "ZORRO 仮面のメサイア, 風の錦絵",
     "trp": "snow",
     "date": "2009-03-13",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "香綾 しずる",
@@ -3952,7 +13491,7 @@ const revues = [
     "name": "My dear New Orleans, ア ビヤント",
     "trp": "star",
     "date": "2009-02-06",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "真風 涼帆",
@@ -3986,7 +13525,7 @@ const revues = [
     "name": "太王四神記−チュシンの星のもとに−",
     "trp": "flower",
     "date": "2009-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "望海 風斗",
@@ -4012,7 +13551,7 @@ const revues = [
     "name": "夢の浮橋, Apasionado!!",
     "trp": "moon",
     "date": "2008-11-07",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
     "heroine": "羽桜 しずく",
     "new_hero": "明日海 りお",
@@ -4038,7 +13577,7 @@ const revues = [
     "name": "Paradise Prince, ダンシング・フォー・ユー",
     "trp": "cosmos",
     "date": "2008-09-26",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大和 悠河",
     "heroine": "陽月 華",
     "new_hero": "鳳翔 大",
@@ -4064,7 +13603,7 @@ const revues = [
     "name": "マリポーサの花, ソロモンの指輪",
     "trp": "snow",
     "date": "2008-08-08",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "大湖 せしる",
@@ -4098,7 +13637,7 @@ const revues = [
     "name": "THE SCARLET PIMPERNEL",
     "trp": "star",
     "date": "2008-06-20",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "紅 ゆずる",
@@ -4124,7 +13663,7 @@ const revues = [
     "name": "愛と死のアラビア－高潔なアラブの戦士となったイギリス人－, Red Hot Sea",
     "trp": "flower",
     "date": "2008-05-09",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "朝夏 まなと",
@@ -4142,7 +13681,7 @@ const revues = [
     "name": "ME AND MY GIRL",
     "trp": "moon",
     "date": "2008-03-21",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "明日海 りお",
@@ -4168,7 +13707,7 @@ const revues = [
     "name": "黎明の風－侍ジェントルマン　白洲次郎の挑戦－, Passion 愛の旅",
     "trp": "cosmos",
     "date": "2008-02-08",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "轟 悠, 大和 悠河",
     "heroine": "和音 美桜",
     "new_hero": "鳳翔 大, 蓮水 ゆうや",
@@ -4201,7 +13740,7 @@ const revues = [
     "name": "君を愛してる－Je t'aime－, ミロワール －鏡のエンドレス・ドリームズー",
     "trp": "snow",
     "date": "2008-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "蓮城 まこと",
@@ -4235,7 +13774,7 @@ const revues = [
     "name": "エル・アルコンー鷹ー, レビュー・オルキスー蘭の星ー",
     "trp": "star",
     "date": "2007-11-02",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "夢乃 聖夏",
@@ -4261,7 +13800,7 @@ const revues = [
     "name": "アデュー・マルセイユ−マルセイユへ愛を込めて−, ラブ・シンフォニー",
     "trp": "flower",
     "date": "2007-09-21",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "春野 寿美礼",
     "heroine": "桜乃 彩音",
     "new_hero": "朝夏 まなと",
@@ -4287,7 +13826,7 @@ const revues = [
     "name": "MAHOROBA−遥か彼方YAMATO−, マジシャンの憂鬱",
     "trp": "moon",
     "date": "2007-08-03",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "龍 真咲",
@@ -4319,7 +13858,7 @@ const revues = [
     "name": "バレンシアの熱い花, 宙 FANTASISTA!",
     "trp": "cosmos",
     "date": "2007-06-22",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "大和 悠河",
     "heroine": "陽月 華",
     "new_hero": "春風 弥里",
@@ -4359,7 +13898,7 @@ const revues = [
     "name": "エリザベート−愛と死の輪舞−",
     "trp": "snow",
     "date": "2007-05-04",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "沙央 くらま",
@@ -4377,7 +13916,7 @@ const revues = [
     "name": "シークレット・ハンター −この世で、俺に盗めぬものはない−, さくら −妖しいまでに美しいおまえ−",
     "trp": "star",
     "date": "2007-03-23",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "麻尋 しゅん",
@@ -4409,7 +13948,7 @@ const revues = [
     "name": "明智小五郎の事件簿―黒蜥蜴, TUXEDO JAZZ",
     "trp": "flower",
     "date": "2007-02-09",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "春野 寿美礼",
     "heroine": "桜乃 彩音",
     "new_hero": "朝夏 まなと",
@@ -4447,7 +13986,7 @@ const revues = [
     "name": "パリの空よりも高く, ファンシー・ダンス",
     "trp": "moon",
     "date": "2007-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "龍 真咲",
@@ -4481,7 +14020,7 @@ const revues = [
     "name": "維新回天・竜馬伝！−硬派・坂本竜馬III−, ザ・クラシック ーI LOVE CHOPINー",
     "trp": "cosmos",
     "date": "2006-11-03",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "貴城 けい",
     "heroine": "紫城 るい",
     "new_hero": "早霧 せいな",
@@ -4507,7 +14046,7 @@ const revues = [
     "name": "堕天使の涙, タランテラ！",
     "trp": "snow",
     "date": "2006-09-22",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "朝海 ひかる",
     "heroine": "舞風 りら",
     "new_hero": "凰稀 かなめ",
@@ -4532,7 +14071,7 @@ const revues = [
     "name": "愛するには短すぎる, ネオ・ダンディズム！-男の美学-",
     "trp": "star",
     "date": "2006-08-11",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "湖月 わたる",
     "heroine": "白羽 ゆり",
     "new_hero": "和 涼華",
@@ -4566,7 +14105,7 @@ const revues = [
     "name": "ファントム",
     "trp": "flower",
     "date": "2006-06-23",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "春野 寿美礼",
     "heroine": "桜乃 彩音",
     "new_hero": "望月 理世",
@@ -4607,7 +14146,7 @@ const revues = [
     "name": "暁のローマ−ジュリアス・シーザーより−, レ・ビジュー・ブリアン －きらめく宝石の詩－",
     "trp": "moon",
     "date": "2006-05-12",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "轟 悠, 瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "星条 海斗, 龍 真咲",
@@ -4625,7 +14164,7 @@ const revues = [
     "name": "NEVER SAY GOODBYE -ある愛の軌跡-",
     "trp": "cosmos",
     "date": "2006-03-24",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "和央 ようか",
     "heroine": "花總 まり",
     "new_hero": "早霧 せいな",
@@ -4667,7 +14206,7 @@ const revues = [
     "name": "ベルサイユのばら -オスカル編-",
     "trp": "snow",
     "date": "2006-02-10",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "朝海 ひかる",
     "heroine": "舞風 りら",
     "new_hero": "沙央 くらま",
@@ -4709,7 +14248,7 @@ const revues = [
     "name": "ベルサイユのばら −フェルゼンとマリー・アントワネット編−",
     "trp": "star",
     "date": "2006-01-01",
-    "theater":  "宝塚大劇場, 東京宝塚劇場",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "湖月 わたる",
     "heroine": "白羽 ゆり",
     "new_hero": "柚希 礼音",

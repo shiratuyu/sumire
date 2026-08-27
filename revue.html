@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>公演一覧</title>
+
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/revue.css">
+</head>
+
+<body>
+
+  <header class="top-heading all">
+
+    <a href="index.html" class="home-icon">
+      <img class="home-img" alt="ホーム">
+    </a>
+
+    <div class="heading-title">
+      公演一覧
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <div id="contentArea">
+
+      <!-- =========================
+           組フィルター
+      ========================== -->
+
+      <div id="trpMenu">
+
+        <button class="trpBtn flower" data-trp="flower">
+          花組
+        </button>
+
+        <button class="trpBtn moon" data-trp="moon">
+          月組
+        </button>
+
+        <button class="trpBtn snow" data-trp="snow">
+          雪組
+        </button>
+
+        <button class="trpBtn star" data-trp="star">
+          星組
+        </button>
+
+        <button class="trpBtn cosmos" data-trp="cosmos">
+          宙組
+        </button>
+
+        <button class="trpBtn all active" data-trp="all">
+          全組
+        </button>
+
+      </div>
+
+
+      <!-- =========================
+           公演一覧
+      ========================== -->
+
+      <div id="revueList"></div>
+
+    </div>
+
+  </main>
+
+
+  <script src="./js/revues.js"></script>
+  <script src="./js/revue.js"></script>
+
+</body>
+
+</html>

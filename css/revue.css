@@ -1,0 +1,190 @@
+/* =========================================
+   ページ全体
+========================================= */
+
+main {
+    width: 100%;
+    max-width: 1000px;
+
+    padding: 90px 30px 50px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   レイアウト
+========================================= */
+
+#contentArea {
+    display: flex;
+
+    gap: 25px;
+
+    align-items: flex-start;
+}
+
+
+/* =========================================
+   組メニュー
+========================================= */
+
+#trpMenu {
+    width: 90px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+
+    flex-shrink: 0;
+}
+
+
+.trpBtn {
+    padding: 8px;
+
+    cursor: pointer;
+
+    background-color: white;
+
+    border: 1px solid var(--trp-strong);
+    border-radius: 6px;
+
+    transition: .15s;
+}
+
+
+.trpBtn:not(.active):hover {
+    background-color: var(--trp-light);
+}
+
+
+.trpBtn.active {
+    background-color: var(--trp-strong);
+
+    font-weight: 600;
+}
+
+
+.trpBtn.all.active {
+    color: white;
+}
+
+
+/* =========================================
+   公演一覧
+========================================= */
+
+#revueList {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+/* =========================================
+   公演
+========================================= */
+
+.revueItem {
+    display: grid;
+
+    grid-template-columns: 120px 1fr;
+
+    gap: 15px;
+
+    align-items: center;
+
+    padding: 10px 14px;
+
+    border-left: 4px solid var(--trp-strong);
+    border-bottom: 1px solid #ddd;
+
+    background-color: white;
+
+    transition: .15s;
+}
+
+
+/* 日付 */
+
+.revueDate {
+    font-size: 12px;
+
+    color: #777;
+
+    white-space: nowrap;
+}
+
+
+/* タイトル */
+
+.revueTitle {
+    font-size: 15px;
+
+    color: #333;
+}
+
+
+/* =========================================
+   スマホ
+========================================= */
+
+@media (max-width: 600px) {
+
+    main {
+        padding: 80px 10px 40px;
+    }
+
+
+    #contentArea {
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+
+    #trpMenu {
+        width: 100%;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        gap: 5px;
+    }
+
+
+    .trpBtn {
+        flex: 1;
+
+        min-width: 45px;
+
+        padding: 6px 3px;
+
+        font-size: 12px;
+    }
+
+
+    .revueItem {
+        grid-template-columns: 90px 1fr;
+
+        gap: 8px;
+
+        padding: 8px;
+    }
+
+
+    .revueDate {
+        font-size: 11px;
+    }
+
+
+    .revueTitle {
+        font-size: 13px;
+    }
+
+}
