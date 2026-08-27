@@ -207,7 +207,7 @@ main {
     display: grid;
 
     grid-template-columns:
-        50px 1fr 120px;
+        45px minmax(0, 1fr) 90px;
 
     gap: 12px;
 
