@@ -2,70 +2,110 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>公演詳細</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/revue_detail.css">
+    <title>公演詳細</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/revue_detail.css">
+
 </head>
 
 <body>
 
-  <header class="top-heading all">
+
+<header class="top-heading">
 
     <a href="index.html" class="home-icon">
-      <img class="home-img" alt="ホーム">
+        <img class="home-img">
     </a>
 
-  </header>
+</header>
 
 
-  <main>
+<main>
 
-    <section id="revueProfile">
+    <!-- タイトル -->
 
-      <h1 id="revueTitle"></h1>
+    <section id="titleArea"></section>
 
-      <dl class="revueInfoTable">
 
-        <dt>公演開始日</dt>
-        <dd id="revueDate"></dd>
+    <!-- 基本情報 -->
 
-        <dt>劇場</dt>
-        <dd id="revueTheater"></dd>
+    <section class="detailSection">
 
-        <dt id="heroLabel">主演</dt>
-        <dd id="revueHero"></dd>
+        <h2>基本情報</h2>
 
-        <dt id="heroineLabel">ヒロイン</dt>
-        <dd id="revueHeroine"></dd>
+        <div class="detailGrid">
 
-        <dt id="newHeroLabel">新公主演</dt>
-        <dd id="revueNewHero"></dd>
+            <div class="detailLabel">組</div>
+            <div id="revueTrp"></div>
 
-        <dt id="newHeroineLabel">新公ヒロイン</dt>
-        <dd id="revueNewHeroine"></dd>
+            <div class="detailLabel">公演期間</div>
+            <div id="revueSchedule"></div>
 
-      </dl>
+            <div class="detailLabel">主演</div>
+            <div id="revueHero"></div>
+
+            <div class="detailLabel">ヒロイン</div>
+            <div id="revueHeroine"></div>
+
+            <div class="detailLabel">新公主演</div>
+            <div id="revueNewHero"></div>
+
+            <div class="detailLabel">新公ヒロイン</div>
+            <div id="revueNewHeroine"></div>
+
+            <div class="detailLabel">演出家</div>
+            <div id="revueDirectors"></div>
+
+            <div class="detailLabel">公式サイト</div>
+            <div id="revueOfficial"></div>
+
+        </div>
 
     </section>
 
 
-    <section id="kaidanSection">
+    <!-- 主な配役 -->
 
-      <h2>階段降り</h2>
+    <section class="detailSection">
 
-      <div id="kaidanList"></div>
+        <h2>主な配役</h2>
+
+        <div id="castTable"></div>
 
     </section>
 
-  </main>
+
+    <!-- 出演者 -->
+
+    <section class="detailSection">
+
+        <h2>出演者</h2>
+
+        <div id="castList"></div>
+
+    </section>
 
 
-  <script src="./js/revues.js"></script>
-  <script src="./js/revue_detail.js"></script>
+    <!-- 階段降り -->
+
+    <section class="detailSection">
+
+        <h2>階段降り</h2>
+
+        <div id="kaidanList"></div>
+
+    </section>
+
+</main>
+
+
+<script src="./js/revues.js"></script>
+<script src="./js/revue_detail.js"></script>
 
 </body>
 

@@ -6,81 +6,74 @@ main {
     width: 100%;
     max-width: 900px;
 
-    padding: 90px 30px 50px;
+    padding: 90px 25px 60px;
 
     margin: 0 auto;
 }
 
 
 /* =========================================
-   公演タイトル
+   タイトル
 ========================================= */
 
-#revueTitle {
-    margin: 0 0 25px;
-
-    font-size: 24px;
-    font-weight: 500;
-
-    line-height: 1.5;
-
-    text-align: center;
+#titleArea {
+    margin-bottom: 35px;
 }
 
 
-/* =========================================
-   基本情報
-========================================= */
-
-.revueInfoTable {
-    display: grid;
-
-    grid-template-columns: 120px 1fr;
-
-    margin: 0;
-
-    border-top: 1px solid #ddd;
+.titleBlock {
+    margin-bottom: 20px;
 }
 
 
-.revueInfoTable dt,
-.revueInfoTable dd {
-    margin: 0;
-
-    padding: 10px 12px;
-
-    border-bottom: 1px solid #ddd;
-}
-
-
-.revueInfoTable dt {
+.titlePre {
     font-size: 13px;
-    font-weight: 500;
 
-    background-color: var(--trp-light);
+    color: #888;
+
+    letter-spacing: .05em;
 }
 
 
-.revueInfoTable dd {
-    font-size: 14px;
+.titleLine {
+    display: flex;
+    align-items: baseline;
+
+    margin: 3px 0;
 }
 
+
+.titleMain {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.titlePost {
+    margin-left: 8px;
+
+    font-size: 15px;
+
+    letter-spacing: .05em;
+}
 
 /* =========================================
    セクション
 ========================================= */
 
-section {
+.detailSection {
     margin-bottom: 35px;
 }
 
 
-section h2 {
+/* セクション見出し */
+
+.detailSection h2 {
     margin: 0 0 15px;
 
-    padding: 6px 10px;
+    padding: 6px 0;
 
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 
     border-left: 5px solid var(--trp-border);
@@ -90,100 +83,203 @@ section h2 {
 
 
 /* =========================================
-   階段降り
+   基本情報
 ========================================= */
 
-#kaidanList {
-    padding: 10px 20px 20px;
+.detailGrid {
+    display: grid;
+
+    grid-template-columns: 130px 1fr;
+
+    row-gap: 12px;
 }
 
 
-/* 1段 */
+.detailLabel {
+    font-size: 14px;
 
-.kaidanStep {
-    display: flex;
-    justify-content: center;
-
-    text-align: center;
+    color: #777;
 }
 
 
-/* 同じ段のメンバー */
+/* =========================================
+   スケジュール
+========================================= */
 
-.kaidanMembers {
+.scheduleItem {
+    margin-bottom: 8px;
+}
+
+
+.scheduleItem:last-child {
+    margin-bottom: 0;
+}
+
+
+.scheduleTheater {
+    font-weight: 500;
+}
+
+
+.scheduleDate {
+    font-size: 14px;
+
+    color: #666;
+}
+
+
+/* =========================================
+   演出家
+========================================= */
+
+.director {
+    display: inline-block;
+}
+
+
+.director:not(:last-child)::after {
+    content: "・";
+
+    margin: 0 5px;
+}
+
+
+/* =========================================
+   公式サイト
+========================================= */
+
+#revueOfficial a {
+    color: #555;
+
+    text-decoration: none;
+}
+
+
+#revueOfficial a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   主な配役
+========================================= */
+
+.castHeader,
+.castRow {
+    display: grid;
+
+    grid-template-columns: 180px 1fr 1fr;
+}
+
+
+.castHeader {
+    background-color: #f5f5f5;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.castHeader div,
+.castRow div {
+    padding: 10px 12px;
+}
+
+
+.castRow {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.castRole {
+    font-weight: 500;
+}
+
+
+.castMembers {
+    white-space: pre-line;
+}
+
+
+.castEmpty {
+    color: #bbb;
+}
+
+
+/* =========================================
+   出演者
+========================================= */
+
+#castList {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+.castMember {
+    padding: 6px 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
 
     font-size: 14px;
 }
 
 
-/* 1人 */
+/* =========================================
+   階段降り
+========================================= */
+
+#kaidanList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 6px;
+
+    margin-top: 15px;
+}
+
+
+.kaidanRow {
+    width: 100%;
+
+    text-align: center;
+}
+
+
+.kaidanMembers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
 
 .kaidanMember {
-    display: inline-flex;
-    align-items: center;
+    padding: 7px 12px;
 
-    gap: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    font-size: 14px;
 }
 
-
-/* 名前 */
-
-.kaidanName {
-    color: #333;
-}
-
-
-/* 同じ段に複数人いる場合 */
-
-.memberSeparator {
-    margin: 0 7px;
-
-    color: #bbb;
-}
-
-
-/* =========================================
-   エトワール・羽根など
-========================================= */
-
-.kaidanTag {
-    padding: 1px 5px;
-
-    font-size: 10px;
-
-    color: #666;
-
-    background-color: var(--trp-light);
-
-    border-radius: 4px;
-
-    white-space: nowrap;
-}
-
-
-/* =========================================
-   矢印
-========================================= */
 
 .kaidanArrow {
-    height: 24px;
+    font-size: 18px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #aaa;
 
-    font-size: 13px;
-
-    color: #bbb;
+    line-height: 1;
 }
 
 
 /* =========================================
-   スマホ
+   スマホ対応
 ========================================= */
 
 @media (max-width: 600px) {
@@ -192,53 +288,32 @@ section h2 {
         padding: 80px 12px 40px;
     }
 
+    .titleLine {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-    #revueTitle {
-        font-size: 18px;
+    .titlePost {
+        margin-left: 0;
+        margin-top: 3px;
+    }
+
+    .detailGrid {
+        grid-template-columns: 110px 1fr;
     }
 
 
-    .revueInfoTable {
-        grid-template-columns: 90px 1fr;
+    .castHeader,
+    .castRow {
+        grid-template-columns: 110px 1fr 1fr;
     }
 
 
-    .revueInfoTable dt {
-        font-size: 12px;
-    }
-
-
-    .revueInfoTable dd {
-        font-size: 13px;
-    }
-
-
-    #kaidanList {
-        padding: 8px 5px 15px;
-    }
-
-    .kaidanMembers {
-        font-size: 13px;
-    }
-
-    .kaidanMember {
-        gap: 3px;
-    }
-
-    .memberSeparator {
-        margin: 0 4px;
-    }
-
-    .kaidanArrow {
-        height: 21px;
+    .castHeader div,
+    .castRow div {
+        padding: 8px 6px;
 
         font-size: 12px;
-    }
-
-    .kaidanTag {
-        padding: 1px 4px;
-
-        font-size: 9px;
     }
 
 }

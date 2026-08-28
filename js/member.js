@@ -62,6 +62,23 @@ if(!member){
 
 }
 
+function setProfileItem(id, value) {
+    const dd = document.getElementById(id);
+    const dt = dd.previousElementSibling;
+
+    if (value) {
+        dd.textContent = value;
+    } else {
+        dt.style.display = "none";
+        dd.style.display = "none";
+    }
+}
+
+function getTrpHistory(member) {
+    return member.history
+        .map(h => getTrpName(h.trp))
+        .join(" → ");
+}
 
 //----------------------------
 // 基本情報
@@ -112,10 +129,12 @@ document.getElementById("memberGen").textContent =
     member.gen+"期";
 
 document.getElementById("memberTrp").textContent =
-    getTrpName(trp);
+    getTrpHistory(member);
 
-document.getElementById("memberNickname").textContent =
-    member.nickname;
+setProfileItem("memberNickname", member.nickname);
+setProfileItem("memberBirthday", member.birthday);
+setProfileItem("memberBirthplace", member.birthplace);
+setProfileItem("memberHeight", member.height);
 
 
 //----------------------------
@@ -198,9 +217,7 @@ function renderHistory(member){
             if(index === 0){
 
                 text =
-                    h.trp === "special"
-                    ? "専科に配属"
-                    : `${getTrpName(h.trp)}に配属`;
+                    `${getTrpName(h.trp)}に配属`;
 
             }
 
@@ -208,9 +225,7 @@ function renderHistory(member){
             else{
 
                 text =
-                    h.trp === "special"
-                    ? "専科へ異動"
-                    : `${getTrpName(h.trp)}へ組替え`;
+                    `${getTrpName(h.trp)}へ異動`;
 
             }
 

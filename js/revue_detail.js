@@ -1,255 +1,584 @@
-// =========================================
-// URLからid取得
-// =========================================
+const params = new URLSearchParams(location.search);
+const id = params.get("id");
 
-const params = new URLSearchParams(window.location.search);
-const revueId = params.get("id");
+const revue = revues.find(r => r.id === id);
 
 
-// =========================================
-// 公演取得
-// =========================================
-
-const revue = revues.find(
-    r => r.id === revueId
-);
-
-
-// =========================================
 // 公演が見つからない場合
-// =========================================
 
 if(!revue){
 
-    document.querySelector("main").innerHTML =
-        "<p>公演が見つかりませんでした。</p>";
+    document.body.innerHTML = "公演が見つかりません";
 
 }else{
 
-    renderRevue(revue);
 
-}
+    // =========================================
+    // 組名
+    // =========================================
 
+    function getTrpName(trp){
 
-// =========================================
-// 日付表示
-// =========================================
+        const names = {
+            flower:"花組",
+            moon:"月組",
+            snow:"雪組",
+            star:"星組",
+            cosmos:"宙組",
+            special:"専科",
+            all:"全組"
+        };
 
-function formatDate(dateText){
-
-    if(!dateText){
-        return "";
+        return names[trp] || "";
     }
 
-    const date = new Date(dateText);
 
-    return date.toLocaleDateString(
-        "ja-JP",
-        {
-            year: "numeric",
-            month: "long",
-            day: "numeric"
-        }
-    );
+    // =========================================
+    // ヘッダー
+    // =========================================
 
-}
+    document.querySelector(".top-heading").classList.add(revue.trp);
 
 
-// =========================================
-// 公演表示
-// =========================================
-
-function renderRevue(revue){
-
-    // ---------------------------------
-    // 組カラー
-    // ---------------------------------
-
-    document
-        .querySelector(".top-heading")
-        .classList.remove("all");
-
-    document
-        .querySelector(".top-heading")
-        .classList.add(revue.trp);
-
-
-    document
-        .getElementById("revueProfile")
-        .classList.add(revue.trp);
-
-
-    // ---------------------------------
+    // =========================================
     // タイトル
-    // ---------------------------------
+    // =========================================
 
-    document.getElementById("revueTitle").textContent =
-        revue.name;
+    function renderTitle(){
+
+        const area = document.getElementById("titleArea");
+
+        area.innerHTML = "";
+
+        if(revue.title_parts && revue.title_parts.length){
+
+            revue.title_parts.forEach(part=>{
+
+                const block = document.createElement("div");
+
+                block.className = "titleBlock";
 
 
-    // ---------------------------------
+                if(part.pre){
+
+                    const pre = document.createElement("div");
+
+                    pre.className = "titlePre";
+
+                    pre.textContent = part.pre;
+
+                    block.appendChild(pre);
+                }
+
+
+                const titleLine = document.createElement("div");
+
+                titleLine.className = "titleLine";
+
+
+                const main = document.createElement("span");
+
+                main.className = "titleMain";
+
+                main.textContent = part.main;
+
+                titleLine.appendChild(main);
+
+
+                if(part.post){
+
+                    const post = document.createElement("span");
+
+                    post.className = "titlePost";
+
+                    post.textContent = part.post;
+
+                    titleLine.appendChild(post);
+
+                }
+
+
+                block.appendChild(titleLine);
+
+
+                area.appendChild(block);
+
+            });
+
+        }else{
+
+            const title = document.createElement("div");
+
+            title.className = "titleMain";
+
+            title.textContent = revue.name;
+
+            area.appendChild(title);
+
+        }
+    }
+
+
+    // =========================================
     // 基本情報
-    // ---------------------------------
+    // =========================================
 
-    document.getElementById("revueDate").textContent =
-        formatDate(revue.date);
+    function setInfo(id, value){
 
-    document.getElementById("revueTheater").textContent =
-        revue.theater || "";
+        const valueElement = document.getElementById(id);
 
+        if(!valueElement){
+            return;
+        }
 
-    // ---------------------------------
-    // 主演
-    // ---------------------------------
-
-    setInfo(
-        "heroLabel",
-        "revueHero",
-        revue.hero
-    );
+        const labelElement =
+            valueElement.previousElementSibling;
 
 
-    // ---------------------------------
-    // ヒロイン
-    // ---------------------------------
+        if(value){
 
-    setInfo(
-        "heroineLabel",
-        "revueHeroine",
-        revue.heroine
-    );
+            valueElement.textContent = value;
 
+        }else{
 
-    // ---------------------------------
-    // 新公主演
-    // ---------------------------------
+            if(labelElement){
+                labelElement.style.display = "none";
+            }
 
-    setInfo(
-        "newHeroLabel",
-        "revueNewHero",
-        revue.new_hero
-    );
+            valueElement.style.display = "none";
+
+        }
+    }
 
 
-    // ---------------------------------
-    // 新公ヒロイン
-    // ---------------------------------
-
-    setInfo(
-        "newHeroineLabel",
-        "revueNewHeroine",
-        revue.new_heroine
-    );
+    setInfo("revueTrp", getTrpName(revue.trp));
+    setInfo("revueHero", revue.hero);
+    setInfo("revueHeroine", revue.heroine);
+    setInfo("revueNewHero", revue.new_hero);
+    setInfo("revueNewHeroine", revue.new_heroine);
 
 
-    // ---------------------------------
+    // =========================================
+    // 公演期間
+    // =========================================
+
+    function renderSchedule(){
+
+        const area =
+            document.getElementById("revueSchedule");
+
+        area.innerHTML = "";
+
+
+        if(!revue.schedule || !revue.schedule.length){
+
+            area.textContent =
+                revue.date || "";
+
+            return;
+        }
+
+
+        revue.schedule.forEach(item=>{
+
+            const box =
+                document.createElement("div");
+
+            box.className =
+                "scheduleItem";
+
+
+            const theater =
+                document.createElement("div");
+
+            theater.className =
+                "scheduleTheater";
+
+            theater.textContent =
+                item.theater;
+
+
+            const date =
+                document.createElement("div");
+
+            date.className =
+                "scheduleDate";
+
+            date.textContent =
+                `${item.from} ～ ${item.to}`;
+
+
+            box.appendChild(theater);
+            box.appendChild(date);
+
+            area.appendChild(box);
+
+        });
+    }
+
+
+    // =========================================
+    // 演出家
+    // =========================================
+
+    function renderDirectors(){
+
+        const area =
+            document.getElementById("revueDirectors");
+
+        area.innerHTML = "";
+
+
+        if(!revue.directors || !revue.directors.length){
+
+            const label =
+                area.previousElementSibling;
+
+            if(label){
+                label.style.display = "none";
+            }
+
+            area.style.display = "none";
+
+            return;
+        }
+
+
+        revue.directors.forEach(name=>{
+
+            const span =
+                document.createElement("span");
+
+            span.className =
+                "director";
+
+            span.textContent = name;
+
+            area.appendChild(span);
+
+        });
+    }
+
+
+    // =========================================
+    // 公式サイト
+    // =========================================
+
+    function renderOfficial(){
+
+        const area =
+            document.getElementById("revueOfficial");
+
+        area.innerHTML = "";
+
+
+        if(!revue.official_url){
+
+            const label =
+                area.previousElementSibling;
+
+            if(label){
+                label.style.display = "none";
+            }
+
+            area.style.display = "none";
+
+            return;
+        }
+
+
+        const a =
+            document.createElement("a");
+
+        a.href =
+            revue.official_url;
+
+        a.target =
+            "_blank";
+
+        a.rel =
+            "noopener noreferrer";
+
+        a.textContent =
+            "公式サイト";
+
+        area.appendChild(a);
+    }
+
+
+    // =========================================
+    // 主な配役
+    // =========================================
+
+    function renderMainCast(){
+
+        const area =
+            document.getElementById("castTable");
+
+        area.innerHTML = "";
+
+
+        if(!revue.main_cast || !revue.main_cast.length){
+
+            area.closest(".detailSection").style.display =
+                "none";
+
+            return;
+        }
+
+
+        const hasNew =
+            revue.main_cast.some(
+                item =>
+                    item.new_members &&
+                    item.new_members.length
+            );
+
+
+        const header =
+            document.createElement("div");
+
+        header.className =
+            "castHeader";
+
+
+        if(hasNew){
+
+            header.innerHTML =
+                "<div>役名</div><div>本公演</div><div>新人公演</div>";
+
+        }else{
+
+            header.innerHTML =
+                "<div>役名</div><div>本公演</div><div></div>";
+
+        }
+
+
+        area.appendChild(header);
+
+
+        revue.main_cast.forEach(item=>{
+
+            const row =
+                document.createElement("div");
+
+            row.className =
+                "castRow";
+
+
+            const role =
+                document.createElement("div");
+
+            role.className =
+                "castRole";
+
+            role.textContent =
+                item.role;
+
+
+            const members =
+                document.createElement("div");
+
+            members.className =
+                "castMembers";
+
+            members.textContent =
+                item.members.join("\n");
+
+
+            const newMembers =
+                document.createElement("div");
+
+            newMembers.className =
+                "castMembers";
+
+
+            if(item.new_members && item.new_members.length){
+
+                newMembers.textContent =
+                    item.new_members.join("\n");
+
+            }else{
+
+                newMembers.classList.add(
+                    "castEmpty"
+                );
+
+                newMembers.textContent = "";
+
+            }
+
+
+            row.appendChild(role);
+            row.appendChild(members);
+            row.appendChild(newMembers);
+
+            area.appendChild(row);
+
+        });
+    }
+
+
+    // =========================================
+    // 出演者
+    // =========================================
+
+    function renderCast(){
+
+        const area =
+            document.getElementById("castList");
+
+        area.innerHTML = "";
+
+
+        if(!revue.cast || !revue.cast.length){
+
+            area.textContent =
+                "全出演者が主な配役に掲載されています";
+
+            return;
+        }
+
+
+        revue.cast.forEach(name=>{
+
+            const div =
+                document.createElement("div");
+
+            div.className =
+                "castMember";
+
+            div.textContent =
+                name;
+
+            area.appendChild(div);
+
+        });
+    }
+
+
+    // =========================================
     // 階段降り
-    // ---------------------------------
+    // =========================================
 
-    renderKaidan(revue);
+    function renderKaidan(){
 
-}
+        const area =
+            document.getElementById("kaidanList");
 
-
-// =========================================
-// 情報表示
-//
-// データがなければ
-// dt・ddの両方を非表示
-// =========================================
-
-function setInfo(labelId, valueId, value){
-
-    const label =
-        document.getElementById(labelId);
-
-    const field =
-        document.getElementById(valueId);
+        area.innerHTML = "";
 
 
-    if(!value){
+        if(!revue.kaidan || !revue.kaidan.length){
 
-        label.style.display = "none";
-        field.style.display = "none";
+            area.closest(".detailSection").style.display =
+                "none";
 
-        return;
+            return;
+        }
+
+
+        revue.kaidan.forEach((step, index)=>{
+
+            const row =
+                document.createElement("div");
+
+            row.className =
+                "kaidanRow";
+
+
+            const members =
+                document.createElement("div");
+
+            members.className =
+                "kaidanMembers";
+
+
+            step.members.forEach(member=>{
+
+                const item =
+                    document.createElement("span");
+
+                item.className =
+                    "kaidanMember";
+
+
+                let text =
+                    member.name;
+
+                const labels = [];
+
+
+                if(member.special){
+                    labels.push("専科");
+                }
+
+                if(member.wing === "large"){
+                    labels.push("大羽根");
+                }
+
+                if(member.wing === "small"){
+                    labels.push("小羽根");
+                }
+
+                if(member.wing === "top"){
+                    labels.push("トップ");
+                }
+
+
+                if(labels.length){
+
+                    text +=
+                        `（${labels.join("・")}）`;
+
+                }
+
+
+                item.textContent =
+                    text;
+
+                members.appendChild(item);
+
+            });
+
+
+            row.appendChild(members);
+
+            area.appendChild(row);
+
+
+            // 最後以外に矢印
+
+            if(index < revue.kaidan.length - 1){
+
+                const arrow =
+                    document.createElement("div");
+
+                arrow.className =
+                    "kaidanArrow";
+
+                arrow.textContent =
+                    "↓";
+
+                area.appendChild(arrow);
+
+            }
+
+        });
     }
 
 
-    field.textContent = value;
+    // =========================================
+    // 実行
+    // =========================================
 
-}
-
-
-// =========================================
-// 階段降り表示
-// =========================================
-
-function renderKaidan(revue){
-
-    const section = document.getElementById("kaidanSection");
-    const container = document.getElementById("kaidanList");
-
-    if(!revue.kaidan || revue.kaidan.length === 0){
-        section.style.display = "none";
-        return;
-    }
-
-    container.innerHTML = revue.kaidan.map((step, index)=>{
-
-        const members = step.members.map(member=>{
-
-            let labels = [];
-
-            if(member.etoile){
-                labels.push("エトワール");
-            }
-
-            if(member.special){
-                labels.push("専科");
-            }
-
-            if(member.wing === "large"){
-                labels.push("大羽根");
-            }
-
-            if(member.wing === "small"){
-                labels.push("小羽根");
-            }
-
-            if(member.wing === "top"){
-                labels.push("トップ");
-            }
-
-            const labelText = labels.map(label=>
-                `<span class="kaidanTag">${label}</span>`
-            ).join("");
-
-            return `
-                <span class="kaidanMember">
-                    <span class="kaidanName">${member.name}</span>
-                    ${labelText}
-                </span>
-            `;
-
-        }).join('<span class="memberSeparator">・</span>');
-
-
-        const arrow = index < revue.kaidan.length - 1
-            ? `<div class="kaidanArrow">↓</div>`
-            : "";
-
-
-        return `
-            <div class="kaidanStep">
-                <div class="kaidanMembers">
-                    ${members}
-                </div>
-            </div>
-
-            ${arrow}
-        `;
-
-    }).join("");
+    renderTitle();
+    renderSchedule();
+    renderDirectors();
+    renderOfficial();
+    renderMainCast();
+    renderCast();
+    renderKaidan();
 
 }
