@@ -151,7 +151,6 @@ if(!revue){
     }
 
 
-    setInfo("revueTrp", getTrpName(revue.trp));
     setInfo("revueHero", revue.hero);
     setInfo("revueHeroine", revue.heroine);
     setInfo("revueNewHero", revue.new_hero);
@@ -263,7 +262,7 @@ if(!revue){
     // =========================================
     // 公式サイト
     // =========================================
-
+/*
     function renderOfficial(){
 
         const area =
@@ -304,7 +303,7 @@ if(!revue){
 
         area.appendChild(a);
     }
-
+*/
 
     // =========================================
     // 主な配役
@@ -576,7 +575,7 @@ if(!revue){
     renderTitle();
     renderSchedule();
     renderDirectors();
-    renderOfficial();
+    //renderOfficial();
     renderMainCast();
     renderCast();
     renderKaidan();
