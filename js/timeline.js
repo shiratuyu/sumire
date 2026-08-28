@@ -1017,3 +1017,9 @@ function update(){
 
 
 update()
+
+window.addEventListener("pageshow", ()=>{
+
+    update();
+
+});

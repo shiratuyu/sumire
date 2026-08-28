@@ -440,9 +440,8 @@ function getCareerHistory(member){
         const revueType =
             getRevueType(revue.theater);
 
-        let kind = "";
+        let kinds = [];
         let appeared = false;
-
 
         // ---------------------------------
         // 主演
@@ -459,7 +458,7 @@ function getCareerHistory(member){
             )
         ){
 
-            kind = `${revueType}主演`;
+            kinds.push(`${revueType}主演`);
             appeared = true;
 
         }
@@ -480,7 +479,7 @@ function getCareerHistory(member){
             )
         ){
 
-            kind = `${revueType}ヒロイン`;
+            kinds.push(`${revueType}ヒロイン`);
             appeared = true;
 
         }
@@ -501,7 +500,7 @@ function getCareerHistory(member){
             )
         ){
 
-            kind = "新公主演";
+            kinds.push("新公主演");
             appeared = true;
 
         }
@@ -522,7 +521,7 @@ function getCareerHistory(member){
             )
         ){
 
-            kind = "新公ヒロイン";
+            kinds.push("新公ヒロイン");
             appeared = true;
 
         }
@@ -589,6 +588,41 @@ function getCareerHistory(member){
 
         }
 
+        // ---------------------------------
+        // 階段降り
+        // ---------------------------------
+
+        if(revue.kaidan){
+
+            revue.kaidan.forEach(step=>{
+
+                step.members.forEach(kaidanMember=>{
+
+                    if(
+                        normalizeName(kaidanMember.name)
+                        === memberName
+                    ){
+
+                        if(kaidanMember.etoile){
+                            kinds.push("エトワール");
+                        }
+
+                        if(kaidanMember.wing === "large"){
+                            kinds.push("大羽根");
+                        }
+
+                        if(kaidanMember.wing === "small"){
+                            kinds.push("小羽根");
+                        }
+
+                    }
+
+                });
+
+            });
+
+        }
+
 
         // ---------------------------------
         // 出演していたら追加
@@ -596,16 +630,12 @@ function getCareerHistory(member){
 
         if(appeared){
 
-            if(!kind){
-                kind = "出演";
-            }
-
             result.push({
                 id: revue.id,
                 name: getRevueTitle(revue),
                 date: revue.date,
                 theater: revue.theater,
-                kind: kind
+                kind: kinds.join("　")
             });
 
         }
@@ -621,7 +651,6 @@ function getCareerHistory(member){
             -
             new Date(b.date)
     );
-
 
     return result;
 }
@@ -685,7 +714,7 @@ function renderCareer(member){
     if(careerMode === "main"){
 
         career = career.filter(
-            r => r.kind !== "出演"
+            r => r.kind !== ""
         );
 
     }
@@ -716,7 +745,7 @@ function renderCareer(member){
                     </span>
 
                     <span class="careerKind">
-                        ${r.kind}
+                        ${r.kind === "出演" ? "" : r.kind}
                     </span>
 
                 </div>

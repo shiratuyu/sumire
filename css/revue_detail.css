@@ -174,13 +174,13 @@ main {
 /* 新人公演あり */
 #castTable.hasNew .castHeader,
 #castTable.hasNew .castRow {
-    grid-template-columns: 1fr 120px 120px;
+    grid-template-columns: 320px 1fr 1fr;
 }
 
 /* 新人公演なし */
 #castTable.noNew .castHeader,
 #castTable.noNew .castRow {
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 400px 1fr;
 }
 
 
