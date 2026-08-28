@@ -157,6 +157,19 @@ if(!revue){
     setInfo("revueNewHeroine", revue.new_heroine);
 
 
+    // 日付変換
+    function formatDate(dateString){
+
+        if(!dateString){
+            return "";
+        }
+
+        const [year, month, day] =
+            dateString.split("-");
+
+        return `${year}年${Number(month)}月${Number(day)}日`;
+    }
+
     // =========================================
     // 公演期間
     // =========================================
@@ -172,7 +185,7 @@ if(!revue){
         if(!revue.schedule || !revue.schedule.length){
 
             area.textContent =
-                revue.date || "";
+                formatDate(revue.date);
 
             return;
         }
@@ -204,12 +217,12 @@ if(!revue){
                 "scheduleDate";
 
             date.textContent =
-                `${item.from} ～ ${item.to}`;
+                `${formatDate(item.from)} ～ ${formatDate(item.to)}`;
 
 
-            box.appendChild(theater);
             box.appendChild(date);
-
+            box.appendChild(theater);
+            
             area.appendChild(box);
 
         });
@@ -345,11 +358,13 @@ if(!revue){
 
             header.innerHTML =
                 "<div>役名</div><div>本公演</div><div>新人公演</div>";
+            area.classList.add("hasNew");
 
         }else{
 
             header.innerHTML =
                 "<div>役名</div><div>本公演</div><div></div>";
+            area.classList.add("noNew");
 
         }
 
@@ -428,13 +443,28 @@ if(!revue){
         const area =
             document.getElementById("castList");
 
+        const title =
+            document.getElementById("castTitle");
+
         area.innerHTML = "";
+
+
+        // 主な配役がある場合は「他の出演者」
+
+        if(revue.main_cast && revue.main_cast.length){
+
+            title.textContent = "他の出演者";
+
+        }else{
+
+            title.textContent = "出演者";
+
+        }
 
 
         if(!revue.cast || !revue.cast.length){
 
-            area.textContent =
-                "全出演者が主な配役に掲載されています";
+            area.closest(".detailSection").style.display = "none";
 
             return;
         }
@@ -448,12 +478,12 @@ if(!revue){
             div.className =
                 "castMember";
 
-            div.textContent =
-                name;
+            div.textContent = name;
 
             area.appendChild(div);
 
         });
+
     }
 
 

@@ -169,10 +169,18 @@ main {
 .castHeader,
 .castRow {
     display: grid;
+}
 
-    grid-template-columns: 180px 1fr 1fr;
+/* 新人公演あり */
+#castTable.hasNew .castHeader,
+#castTable.hasNew .castRow {
+    grid-template-columns: 1fr 120px 120px;
+}
 
-    font-size: 13px;
+/* 新人公演なし */
+#castTable.noNew .castHeader,
+#castTable.noNew .castRow {
+    grid-template-columns: 1fr 200px;
 }
 
 
@@ -184,6 +192,7 @@ main {
 .castHeader div,
 .castRow div {
     padding: 10px 12px;
+    font-size: 13px;
 }
 
 
@@ -220,10 +229,7 @@ main {
 
 
 .castMember {
-    padding: 6px 10px;
-
-    border: 1px solid #ddd;
-    border-radius: 6px;
+    padding: 3px 5px;
 
     font-size: 14px;
 }
@@ -303,18 +309,11 @@ main {
         grid-template-columns: 110px 1fr;
     }
 
-
-    .castHeader,
-    .castRow {
-        grid-template-columns: 110px 1fr 1fr;
-    }
-
-
     .castHeader div,
     .castRow div {
         padding: 8px 6px;
 
-        font-size: 12px;
+        font-size: 11px;
     }
 
 }
