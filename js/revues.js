@@ -189,14 +189,14 @@ const revues = [
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/tenkyuunoartemis/index.html",
     "schedule": [
       {
-        "theater": "ルナティック・シアター 『天穹のアルテミス』 レヴュー ロマン 『Belle Époque（ベル エポック）』 月組 主演: 鳳月 杏 ヒロイン: 天紫 珠李 演出家: 大野 拓史 、 稲葉 太地 公式サイト",
+        "theater": "宝塚大劇場",
         "from": "2026-12-12",
         "to": "2027-01-24"
       },
       {
-        "theater": "宝塚大劇場",
-        "from": "2026-12-12",
-        "to": "2027-01-24"
+        "theater": "東京宝塚劇場",
+        "from": "2027-02-13",
+        "to": "2027-03-28"
       }
     ],
     "main_cast": [],
