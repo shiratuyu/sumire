@@ -312,8 +312,6 @@ main {
     .castHeader div,
     .castRow div {
         padding: 8px 6px;
-
-        font-size: 11px;
     }
 
     /* 新人公演あり */
@@ -325,7 +323,7 @@ main {
     /* 新人公演なし */
     #castTable.noNew .castHeader,
     #castTable.noNew .castRow {
-        grid-template-columns: 1fr 100px;
+        grid-template-columns: 1fr 130px;
     }
 
 }
