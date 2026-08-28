@@ -316,4 +316,16 @@ main {
         font-size: 11px;
     }
 
+    /* 新人公演あり */
+    #castTable.hasNew .castHeader,
+    #castTable.hasNew .castRow {
+        grid-template-columns: 1fr 100px 100px;
+    }
+
+    /* 新人公演なし */
+    #castTable.noNew .castHeader,
+    #castTable.noNew .castRow {
+        grid-template-columns: 1fr 100px;
+    }
+
 }

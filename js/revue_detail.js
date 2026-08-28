@@ -44,6 +44,15 @@ if(!revue){
     // タイトル
     // =========================================
 
+    function removeParentheses(text){
+
+        if(!text){
+            return "";
+        }
+
+        return text.replace(/（[^）]*）/g, "");
+    }
+
     function renderTitle(){
 
         const area = document.getElementById("titleArea");
@@ -80,7 +89,7 @@ if(!revue){
 
                 main.className = "titleMain";
 
-                main.textContent = part.main;
+                main.textContent = removeParentheses(part.main);
 
                 titleLine.appendChild(main);
 
