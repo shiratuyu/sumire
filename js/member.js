@@ -407,8 +407,26 @@ function getRevueType(theater){
 
 }
 // ---------------------------------
-// 主演・ヒロイン履歴取得
+// 履歴取得
 // ---------------------------------
+
+function getRevueTitle(revue){
+
+    if(revue.title_parts && revue.title_parts.length){
+
+        return revue.title_parts
+            .map(part => part.main)
+            .filter(title => title)
+            .map(title =>
+                title.replace(/（[^）]*）/g, "")
+            )
+            .join("　");
+
+    }
+
+    return revue.name;
+}
+
 function getCareerHistory(member){
 
     const result = [];
@@ -422,7 +440,14 @@ function getCareerHistory(member){
         const revueType =
             getRevueType(revue.theater);
 
+        let kind = "";
+        let appeared = false;
+
+
+        // ---------------------------------
         // 主演
+        // ---------------------------------
+
         const heroes =
             splitNames(revue.hero);
 
@@ -433,15 +458,17 @@ function getCareerHistory(member){
                     === memberName
             )
         ){
-            result.push({
-                name: revue.name,
-                date: revue.date,
-                theater: revue.theater,
-                kind: `${revueType}主演`
-            });
+
+            kind = `${revueType}主演`;
+            appeared = true;
+
         }
 
+
+        // ---------------------------------
         // ヒロイン
+        // ---------------------------------
+
         const heroines =
             splitNames(revue.heroine);
 
@@ -452,15 +479,17 @@ function getCareerHistory(member){
                     === memberName
             )
         ){
-            result.push({
-                name: revue.name,
-                date: revue.date,
-                theater: revue.theater,
-                kind: `${revueType}ヒロイン`
-            });
+
+            kind = `${revueType}ヒロイン`;
+            appeared = true;
+
         }
 
+
+        // ---------------------------------
         // 新公主演
+        // ---------------------------------
+
         const newHeroes =
             splitNames(revue.new_hero);
 
@@ -471,15 +500,17 @@ function getCareerHistory(member){
                     === memberName
             )
         ){
-            result.push({
-                name: revue.name,
-                date: revue.date,
-                theater: revue.theater,
-                kind: "新公主演"
-            });
+
+            kind = "新公主演";
+            appeared = true;
+
         }
 
+
+        // ---------------------------------
         // 新公ヒロイン
+        // ---------------------------------
+
         const newHeroines =
             splitNames(revue.new_heroine);
 
@@ -490,23 +521,107 @@ function getCareerHistory(member){
                     === memberName
             )
         ){
+
+            kind = "新公ヒロイン";
+            appeared = true;
+
+        }
+
+
+        // ---------------------------------
+        // 主な配役
+        // ---------------------------------
+
+        if(revue.main_cast){
+
+            revue.main_cast.forEach(cast=>{
+
+                // 本公演
+
+                if(
+                    cast.members &&
+                    cast.members.some(
+                        name =>
+                            normalizeName(name)
+                            === memberName
+                    )
+                ){
+
+                    appeared = true;
+
+                }
+
+
+                // 新人公演
+
+                if(
+                    cast.new_members &&
+                    cast.new_members.some(
+                        name =>
+                            normalizeName(name)
+                            === memberName
+                    )
+                ){
+
+                    appeared = true;
+
+                }
+
+            });
+
+        }
+
+
+        // ---------------------------------
+        // その他の出演者
+        // ---------------------------------
+
+        if(
+            revue.cast &&
+            revue.cast.some(
+                name =>
+                    normalizeName(name)
+                    === memberName
+            )
+        ){
+
+            appeared = true;
+
+        }
+
+
+        // ---------------------------------
+        // 出演していたら追加
+        // ---------------------------------
+
+        if(appeared){
+
+            if(!kind){
+                kind = "出演";
+            }
+
             result.push({
-                name: revue.name,
+                id: revue.id,
+                name: getRevueTitle(revue),
                 date: revue.date,
                 theater: revue.theater,
-                kind: "新公ヒロイン"
+                kind: kind
             });
+
         }
 
     });
 
+
     // 古い順
+
     result.sort(
         (a,b)=>
             new Date(a.date)
             -
             new Date(b.date)
     );
+
 
     return result;
 }
@@ -551,25 +666,42 @@ function getKen(member, targetDate){
 }
 
 // ---------------------------------
-// 主演歴表示
+// 公演歴表示
 // ---------------------------------
+let careerMode = "all";
+
+
 function renderCareer(member){
 
     const container =
         document.getElementById("career");
 
-    const career =
+    let career =
         getCareerHistory(member);
 
 
-    // 履歴がなければセクションごと非表示
+    // 主演・ヒロインのみ
+
+    if(careerMode === "main"){
+
+        career = career.filter(
+            r => r.kind !== "出演"
+        );
+
+    }
+
+
+    // 履歴がなければ表示なし
+
     if(career.length === 0){
 
-        container.parentElement.style.display =
-            "none";
+        container.innerHTML =
+            '<div class="careerEmpty">該当する公演はありません</div>';
 
         return;
+
     }
+
 
     container.innerHTML =
         career
@@ -590,13 +722,45 @@ function renderCareer(member){
                 </div>
 
                 <div class="careerTitle">
-                    ${r.name}
+
+                    <a href="revue_detail.html?id=${r.id}">
+                        ${r.name}
+                    </a>
+
                 </div>
 
             </div>
 
         `)
         .join("");
+
 }
+
+document
+    .querySelectorAll(".careerBtn")
+    .forEach(btn=>{
+
+        btn.addEventListener("click", ()=>{
+
+            careerMode =
+                btn.dataset.mode;
+
+
+            document
+                .querySelectorAll(".careerBtn")
+                .forEach(b=>{
+                    b.classList.remove("active");
+                });
+
+
+            btn.classList.add("active");
+
+
+            renderCareer(member);
+
+        });
+
+    });
+
 
 renderCareer(member);

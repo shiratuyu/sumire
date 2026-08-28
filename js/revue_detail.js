@@ -3,6 +3,32 @@ const id = params.get("id");
 
 const revue = revues.find(r => r.id === id);
 
+// リンク作成用
+function normalizeName(name){
+
+    return name.replace(/\s/g, "");
+
+}
+
+
+function createMemberLink(name){
+
+    const member = members.find(
+        m => normalizeName(m.name) === normalizeName(name)
+    );
+
+    if(!member){
+        return document.createTextNode(name);
+    }
+
+    const a = document.createElement("a");
+
+    a.href = `member.html?id=${member.id}`;
+    a.textContent = name;
+    a.className = "memberLink";
+
+    return a;
+}
 
 // 公演が見つからない場合
 
@@ -159,11 +185,43 @@ if(!revue){
         }
     }
 
+    function setMemberInfo(id, name){
 
-    setInfo("revueHero", revue.hero);
-    setInfo("revueHeroine", revue.heroine);
-    setInfo("revueNewHero", revue.new_hero);
-    setInfo("revueNewHeroine", revue.new_heroine);
+        const valueElement =
+            document.getElementById(id);
+
+        if(!valueElement){
+            return;
+        }
+
+        const labelElement =
+            valueElement.previousElementSibling;
+
+
+        if(name){
+
+            valueElement.innerHTML = "";
+
+            valueElement.appendChild(
+                createMemberLink(name)
+            );
+
+        }else{
+
+            if(labelElement){
+                labelElement.style.display = "none";
+            }
+
+            valueElement.style.display = "none";
+
+        }
+
+    }
+
+    setMemberInfo("revueHero", revue.hero);
+    setMemberInfo("revueHeroine", revue.heroine);
+    setMemberInfo("revueNewHero", revue.new_hero);
+    setMemberInfo("revueNewHeroine", revue.new_heroine);
 
 
     // 日付変換
@@ -333,47 +391,59 @@ if(!revue){
 
     function renderMainCast(){
 
-        const area =
-            document.getElementById("castTable");
+        const area = document.getElementById("castTable");
 
         area.innerHTML = "";
 
-
         if(!revue.main_cast || !revue.main_cast.length){
 
-            area.closest(".detailSection").style.display =
-                "none";
+            area.closest(".detailSection").style.display = "none";
 
             return;
         }
 
 
-        const hasNew =
-            revue.main_cast.some(
-                item =>
-                    item.new_members &&
-                    item.new_members.length
-            );
-
-
-        const header =
-            document.createElement("div");
-
-        header.className =
-            "castHeader";
+        const hasNew = revue.main_cast.some(
+            item => item.new_members && item.new_members.length
+        );
 
 
         if(hasNew){
 
-            header.innerHTML =
-                "<div>役名</div><div>本公演</div><div>新人公演</div>";
             area.classList.add("hasNew");
 
         }else{
 
-            header.innerHTML =
-                "<div>役名</div><div>本公演</div><div></div>";
             area.classList.add("noNew");
+
+        }
+
+
+        // 見出し
+
+        const header = document.createElement("div");
+
+        header.className = "castHeader";
+
+
+        const roleHeader = document.createElement("div");
+        roleHeader.textContent = "役名";
+
+        const memberHeader = document.createElement("div");
+        memberHeader.textContent = "本公演";
+
+
+        header.appendChild(roleHeader);
+        header.appendChild(memberHeader);
+
+
+        if(hasNew){
+
+            const newHeader = document.createElement("div");
+
+            newHeader.textContent = "新人公演";
+
+            header.appendChild(newHeader);
 
         }
 
@@ -381,65 +451,91 @@ if(!revue){
         area.appendChild(header);
 
 
+        // 配役
+
         revue.main_cast.forEach(item=>{
 
-            const row =
-                document.createElement("div");
+            const row = document.createElement("div");
 
-            row.className =
-                "castRow";
+            row.className = "castRow";
 
 
-            const role =
-                document.createElement("div");
+            // 役名
 
-            role.className =
-                "castRole";
+            const role = document.createElement("div");
 
-            role.textContent =
-                item.role;
+            role.className = "castRole";
 
-
-            const members =
-                document.createElement("div");
-
-            members.className =
-                "castMembers";
-
-            members.textContent =
-                item.members.join("\n");
+            role.textContent = item.role;
 
 
-            const newMembers =
-                document.createElement("div");
+            // 本公演
 
-            newMembers.className =
-                "castMembers";
+            const membersArea = document.createElement("div");
+
+            membersArea.className = "castMembers";
 
 
-            if(item.new_members && item.new_members.length){
+            item.members.forEach((name, index)=>{
 
-                newMembers.textContent =
-                    item.new_members.join("\n");
-
-            }else{
-
-                newMembers.classList.add(
-                    "castEmpty"
+                membersArea.appendChild(
+                    createMemberLink(name)
                 );
 
-                newMembers.textContent = "";
+                if(index < item.members.length - 1){
+
+                    membersArea.appendChild(
+                        document.createElement("br")
+                    );
+
+                }
+
+            });
+
+
+            row.appendChild(role);
+            row.appendChild(membersArea);
+
+
+            // 新人公演
+
+            if(hasNew){
+
+                const newMembersArea = document.createElement("div");
+
+                newMembersArea.className = "castMembers";
+
+
+                if(item.new_members && item.new_members.length){
+
+                    item.new_members.forEach((name, index)=>{
+
+                        newMembersArea.appendChild(
+                            createMemberLink(name)
+                        );
+
+                        if(index < item.new_members.length - 1){
+
+                            newMembersArea.appendChild(
+                                document.createElement("br")
+                            );
+
+                        }
+
+                    });
+
+                }
+
+
+                row.appendChild(newMembersArea);
 
             }
 
 
-            row.appendChild(role);
-            row.appendChild(members);
-            row.appendChild(newMembers);
-
             area.appendChild(row);
 
         });
+
     }
 
 
@@ -487,7 +583,7 @@ if(!revue){
             div.className =
                 "castMember";
 
-            div.textContent = name;
+            div.appendChild(createMemberLink(name));
 
             area.appendChild(div);
 
@@ -542,8 +638,14 @@ if(!revue){
                     "kaidanMember";
 
 
-                let text =
-                    member.name;
+                // 人名をリンクとして追加
+
+                item.appendChild(
+                    createMemberLink(member.name)
+                );
+
+
+                // ラベル
 
                 const labels = [];
 
@@ -567,14 +669,19 @@ if(!revue){
 
                 if(labels.length){
 
-                    text +=
+                    const label =
+                        document.createElement("span");
+
+                    label.className =
+                        "kaidanLabel";
+
+                    label.textContent =
                         `（${labels.join("・")}）`;
+
+                    item.appendChild(label);
 
                 }
 
-
-                item.textContent =
-                    text;
 
                 members.appendChild(item);
 
@@ -604,6 +711,7 @@ if(!revue){
             }
 
         });
+
     }
 
 

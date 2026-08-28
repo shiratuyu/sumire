@@ -27,6 +27,24 @@ function formatDate(dateText){
 // 公演取得
 // =========================================
 
+function getRevueTitle(revue){
+
+    if(revue.title_parts && revue.title_parts.length){
+
+        return revue.title_parts
+            .map(part => part.main)
+            .filter(title => title)
+            .map(title =>
+                title.replace(/（[^）]*）/g, "")
+            )
+            .join("　");
+
+    }
+
+    return revue.name;
+
+}
+
 function getCurrentRevues(){
 
     let result = [...revues];
@@ -87,7 +105,7 @@ function renderRevues(){
             <div class="revueInfo">
 
                 <div class="revueTitle">
-                    ${revue.name}
+                    ${getRevueTitle(revue)}
                 </div>
 
                 <div class="revueCast">

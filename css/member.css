@@ -170,7 +170,7 @@ main {
 
 
 /* =========================================
-   主演歴
+   経歴
 ========================================= */
 
 #career {
@@ -208,6 +208,15 @@ main {
   font-size: 15px;
 }
 
+.careerTitle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.careerTitle a:hover {
+    text-decoration: underline;
+}
+
 .careerDateInfo {
     color: #777;
     white-space: nowrap;
@@ -216,6 +225,56 @@ main {
 .careerKind {
     color: #000;
     font-weight: 400;
+}
+
+.careerHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-left: 5px solid var(--trp-border);
+    background-color: var(--trp-light);
+}
+
+.careerHeading h2 {
+    margin: 0;
+
+    padding: 6px 0;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    border-left: none !important;
+    background: none !important;
+}
+
+.careerFilter {
+    display: flex;
+
+    gap: 5px;
+
+    padding-right: 8px;
+}
+
+.careerBtn {
+    padding: 2px 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    background-color: white;
+
+    color: #555;
+
+    font-size: 11px;
+
+    cursor: pointer;
+}
+
+.careerBtn.active {
+    background-color: #999;
+    color: white;
+    border-color: #999;
 }
 
 

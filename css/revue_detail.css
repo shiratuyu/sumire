@@ -282,6 +282,15 @@ main {
 }
 
 
+.memberLink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.memberLink:hover {
+    text-decoration: underline;
+}
+
 /* =========================================
    スマホ対応
 ========================================= */
