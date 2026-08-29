@@ -47,7 +47,7 @@ main {
 
 .titleMain {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 
@@ -101,6 +101,15 @@ main {
     font-size: 14px;
 
     color: #777;
+}
+
+.directorLink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.directorLink:hover {
+    text-decoration: underline;
 }
 
 

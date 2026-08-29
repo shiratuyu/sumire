@@ -1,0 +1,117 @@
+main {
+    width: 100%;
+    max-width: 900px;
+    padding: 90px 25px 60px;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------------
+   演出家名
+--------------------------------- */
+
+#directorProfile {
+    margin-bottom: 35px;
+}
+
+#directorName {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+/* ---------------------------------
+   セクション
+--------------------------------- */
+
+.directorSection {
+    margin-bottom: 35px;
+}
+
+.directorSection h2 {
+    margin: 0 0 15px;
+    padding: 6px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-left: 5px solid #777;
+    background-color: #f3f3f3;
+}
+
+
+/* ---------------------------------
+   担当作品
+--------------------------------- */
+
+.workItem {
+    display: block;
+    padding: 14px 5px;
+    border-bottom: 1px solid #ddd;
+    color: inherit;
+    text-decoration: none;
+}
+
+.workItem:hover .workMain {
+    text-decoration: underline;
+}
+
+
+/* 日付・組 */
+
+.workInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    color: #777;
+}
+
+
+/* 作品名 */
+
+.workTitle {
+    display: flex;
+    align-items: baseline;
+}
+
+.workMain {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* 該当なし */
+
+.workEmpty {
+    padding: 15px 5px;
+    color: #999;
+    font-size: 14px;
+}
+
+
+/* ---------------------------------
+   スマートフォン
+--------------------------------- */
+
+@media (max-width: 600px) {
+
+    main {
+        padding: 80px 15px 40px;
+    }
+
+    #directorName {
+        font-size: 24px;
+    }
+
+    .workTitle {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .workPost {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+}

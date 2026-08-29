@@ -89,6 +89,7 @@ document
     .querySelector(".top-heading")
     .classList.add(trp);
 
+/*
 const memberImage =
     document.getElementById("memberImage");
 
@@ -118,6 +119,7 @@ if(member.id){
         .classList.add("noImage");
 
 }
+*/
     
 document.getElementById("memberName").textContent =
     member.name;

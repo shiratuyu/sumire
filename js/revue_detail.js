@@ -305,37 +305,82 @@ if(!revue){
         const area =
             document.getElementById("revueDirectors");
 
-        area.innerHTML = "";
+        const label =
+            area.previousElementSibling;
 
+        const directorGroups =
+            (revue.title_parts || [])
+            .map(part => part.directors || [])
+            .filter(directors => directors.length > 0);
 
-        if(!revue.directors || !revue.directors.length){
+        if(directorGroups.length === 0){
 
-            const label =
-                area.previousElementSibling;
-
-            if(label){
-                label.style.display = "none";
-            }
-
+            label.style.display = "none";
             area.style.display = "none";
 
             return;
+
         }
 
+        area.innerHTML = "";
 
-        revue.directors.forEach(name=>{
+        directorGroups.forEach((group, groupIndex)=>{
 
-            const span =
-                document.createElement("span");
+            group.forEach((name, index)=>{
 
-            span.className =
-                "director";
+                const director =
+                    directors.find(
+                        d => d.name === name
+                    );
 
-            span.textContent = name;
+                if(director){
 
-            area.appendChild(span);
+                    const a =
+                        document.createElement("a");
+
+                    a.href =
+                        `director.html?id=${director.id}`;
+
+                    a.textContent =
+                        name;
+
+                    a.className =
+                        "directorLink";
+
+                    area.appendChild(a);
+
+                }else{
+
+                    area.appendChild(
+                        document.createTextNode(name)
+                    );
+
+                }
+
+
+                // 同じ作品内は「・」
+                if(index < group.length - 1){
+
+                    area.appendChild(
+                        document.createTextNode("・")
+                    );
+
+                }
+
+            });
+
+
+            // 別作品との間は「，」
+            if(groupIndex < directorGroups.length - 1){
+
+                area.appendChild(
+                    document.createTextNode("，")
+                );
+
+            }
 
         });
+
     }
 
 
