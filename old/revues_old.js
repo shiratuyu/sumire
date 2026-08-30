@@ -11,17 +11,19 @@ const revues = [
       {
         "pre": "ミュージカル・タペストリー",
         "main": "『The London Way』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "アヴァンチュール・ショー",
         "main": "『Ivresse Vague』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2027/thelondonway/index.html",
     "schedule": [
@@ -50,11 +52,11 @@ const revues = [
       {
         "pre": "バウ・プロミシング・ショーステージ",
         "main": "『Snowing!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2027/snowing/index.html",
     "schedule": [
@@ -109,11 +111,11 @@ const revues = [
       {
         "pre": "ロックミュージカル",
         "main": "『Monte-Cristo（モンテ・クリスト）－le spectacle musical－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/montecristo/index.html",
     "schedule": [
@@ -174,17 +176,19 @@ const revues = [
       {
         "pre": "ルナティック・シアター",
         "main": "『天穹のアルテミス』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "レヴュー ロマン",
         "main": "『Belle Époque（ベル エポック）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/tenkyuunoartemis/index.html",
     "schedule": [
@@ -213,11 +217,11 @@ const revues = [
       {
         "pre": "寛政御伽草子",
         "main": "『酔いどれ御免！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "菅谷 元"
+        ]
       }
-    ],
-    "directors": [
-      "菅谷 元"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/yoidoregomen/index.html",
     "schedule": [
@@ -277,18 +281,20 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『再会』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也",
+          "中村 真央"
+        ]
       },
       {
         "pre": "スパーキング・イルミネイト",
         "main": "『Diamond IMPULSE（ダイヤモンド インパルス）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "中村 真央",
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/saikai/index.html",
     "schedule": [
@@ -362,11 +368,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『エリザベート－愛と死の輪舞（ロンド）－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/elisabeth/index.html",
     "schedule": [
@@ -508,11 +514,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『稲妻開化譚－イナズマカイカタン－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/inazumakaikatan/index.html",
     "schedule": [
@@ -753,11 +759,11 @@ const revues = [
       {
         "pre": "",
         "main": "『NINE』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/nine/index.html",
     "schedule": [
@@ -823,11 +829,11 @@ const revues = [
       {
         "pre": "",
         "main": "『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/rrr/index.html",
     "schedule": [
@@ -1251,11 +1257,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『赤と黒』",
-        "post": "－原作 スタンダール－"
+        "post": "－原作 スタンダール－",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/theredandtheblack/index.html",
     "schedule": [
@@ -1491,17 +1497,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『マジシャンの憂鬱』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "スパークリング・ショー",
         "main": "『EXCITER!!2026』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/magiciannoyuuutsu/index.html",
     "schedule": [
@@ -1777,11 +1785,11 @@ const revues = [
       {
         "pre": "ミュージカル・ゴシック",
         "main": "『ポーの一族』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/ponoichizoku/index.html",
     "schedule": [
@@ -2258,11 +2266,11 @@ const revues = [
       {
         "pre": "浪華人情物語",
         "main": "『銀二貫』",
-        "post": "－梅が枝の花かんざし－"
+        "post": "－梅が枝の花かんざし－",
+        "directors": [
+          "鈴木 圭"
+        ]
       }
-    ],
-    "directors": [
-      "鈴木 圭"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/gin2kan/index.html",
     "schedule": [
@@ -2498,11 +2506,11 @@ const revues = [
       {
         "pre": "TAKARAZUKA MUSICAL ROMANCE",
         "main": "『花より男子II』",
-        "post": "－Shooting STAR－"
+        "post": "－Shooting STAR－",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/hanayoridango2/index.html",
     "schedule": [
@@ -2782,17 +2790,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『黒蜥蜴』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "スパーキング・イルミネイト",
         "main": "『Diamond IMPULSE（ダイヤモンド インパルス）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/kurotokage/index.html",
     "schedule": [
@@ -3272,11 +3282,11 @@ const revues = [
       {
         "pre": "超現実浪漫（シュルレアリスム・ロマン）",
         "main": "『DayDream Dali』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/daydreamdali/index.html",
     "schedule": [
@@ -3488,12 +3498,12 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『波うららかに、めおと日和』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子",
+          "雑賀 ヒカル"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "雑賀 ヒカル"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/namiurarakanimeotobiyori/index.html",
     "schedule": [
@@ -3755,17 +3765,19 @@ const revues = [
       {
         "pre": "三国志炎戯",
         "main": "『RYOFU』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "栗田 優香"
+        ]
       },
       {
         "pre": "Amazing Fantasy",
         "main": "『水晶宮殿（クリスタルパレス）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "栗田 優香",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/ryofu/index.html",
     "schedule": [
@@ -4209,11 +4221,11 @@ const revues = [
       {
         "pre": "バウ・ワークショップ",
         "main": "『Beautiful SKY !!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "鈴木 圭"
+        ]
       }
-    ],
-    "directors": [
-      "鈴木 圭"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/beautifulsky/index.html",
     "schedule": [
@@ -4265,17 +4277,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『愛するには短すぎる』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "スーパー・レビュー",
         "main": "『VIVA! FESTA! 2026 in HAKATA』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/aisurunihamijikasugiru/index.html",
     "schedule": [
@@ -4592,17 +4606,19 @@ const revues = [
       {
         "pre": "グランド・ラメント",
         "main": "『蒼月抄（そうげつしょう）』",
-        "post": "－平家終焉の契り－"
+        "post": "－平家終焉の契り－",
+        "directors": [
+          "熊倉 飛鳥"
+        ]
       },
       {
         "pre": "スパイシー・ショー",
         "main": "『EL DESEO（エル・デセーオ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "熊倉 飛鳥",
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/sogetsusho/index.html",
     "schedule": [
@@ -5101,11 +5117,11 @@ const revues = [
       {
         "pre": "亡国封史",
         "main": "『雨にじむ渤海（パレ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "平松 結有"
+        ]
       }
-    ],
-    "directors": [
-      "平松 結有"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/amenijimupare/index.html",
     "schedule": [
@@ -5324,11 +5340,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『侍タイムスリッパー』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/timeslipper/index.html",
     "schedule": [
@@ -5559,17 +5575,19 @@ const revues = [
       {
         "pre": "Beat Theater",
         "main": "『恋する天動説』",
-        "post": "－The Wand'rin' Stars－"
+        "post": "－The Wand'rin' Stars－",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "Galaxy Review",
         "main": "『DYNAMIC NOVA』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/koisurutendosetsu/index.html",
     "schedule": [
@@ -6152,11 +6170,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『DEAN』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/dean/index.html",
     "schedule": [
@@ -6344,11 +6362,11 @@ const revues = [
       {
         "pre": "A New German Musical",
         "main": "『Goethe（ゲーテ）！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/goethe/index.html",
     "schedule": [
@@ -6586,17 +6604,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『ボー・ブランメル～美しすぎた男～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "プレジャー・ステージ",
         "main": "『Prayer～祈り～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/beaubrummell/index.html",
     "schedule": [
@@ -7107,11 +7127,11 @@ const revues = [
       {
         "pre": "ミュージカル・ヘリテージ",
         "main": "『アレクサンダー』",
-        "post": "―天上の王国―"
+        "post": "―天上の王国―",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/alexander/index.html",
     "schedule": [
@@ -7317,17 +7337,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『ダンサ セレナータ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "カルナバル・ファンタジア",
         "main": "『Tiara Azul -Destino-（ティアラ・アスール ディスティーノ）II』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/danceserenade/index.html",
     "schedule": [
@@ -7635,17 +7657,19 @@ const revues = [
       {
         "pre": "TAKARAZUKA MUSICAL ROMANCE",
         "main": "『PRINCE OF LEGEND』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       },
       {
         "pre": "ビートオンステージ",
         "main": "『BAYSIDE STAR』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/princeoflegend/index.html",
     "schedule": [
@@ -8238,11 +8262,11 @@ const revues = [
       {
         "pre": "ミュージカル・リフレクション",
         "main": "『ステップ・バイ・ミー』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "菅谷 元"
+        ]
       }
-    ],
-    "directors": [
-      "菅谷 元"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/stepbyme/index.html",
     "schedule": [
@@ -8431,11 +8455,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『An American in Paris（パリのアメリカ人）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/anamericaninparis/index.html",
     "schedule": [
@@ -8630,11 +8654,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『GUYS AND DOLLS』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/guysanddolls/index.html",
     "schedule": [
@@ -9099,11 +9123,11 @@ const revues = [
       {
         "pre": "ミステリアス・ロマン",
         "main": "『RED STONE』",
-        "post": "～悠遠なる叫び～"
+        "post": "～悠遠なる叫び～",
+        "directors": [
+          "謝 珠栄"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/redstone/index.html",
     "schedule": [
@@ -9286,11 +9310,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ZORRO THE MUSICAL』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/zorrothemusical/index.html",
     "schedule": [
@@ -9540,17 +9564,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『悪魔城ドラキュラ』",
-        "post": "～月下の覚醒～"
+        "post": "～月下の覚醒～",
+        "directors": [
+          "鈴木 圭"
+        ]
       },
       {
         "pre": "Romantic Revue",
         "main": "『愛, Love Revue！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "鈴木 圭",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/dracula/index.html",
     "schedule": [
@@ -9877,11 +9903,11 @@ const revues = [
       {
         "pre": "Bow workshop show",
         "main": "『Twinkle Moon』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "樫畑 亜依子"
+        ]
       }
-    ],
-    "directors": [
-      "樫畑 亜依子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/twinklemoon/index.html",
     "schedule": [
@@ -9926,17 +9952,19 @@ const revues = [
       {
         "pre": "王朝ロマン",
         "main": "『花の業平』",
-        "post": "～忍ぶの乱れ～"
+        "post": "～忍ぶの乱れ～",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "Takarazuka Spectacular",
         "main": "『PHOENIX RISING（フェニックス・ライジング）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/hananonarihira/index.html",
     "schedule": [
@@ -10255,17 +10283,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『阿修羅城の瞳』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ファンタジック・タペストリー",
         "main": "『エスペラント!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/ashurajo/index.html",
     "schedule": [
@@ -10689,11 +10719,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『儚き星の照らす海の果てに』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 真央"
+        ]
       }
-    ],
-    "directors": [
-      "中村 真央"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/hakanakihoshi/index.html",
     "schedule": [
@@ -10931,17 +10961,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ROBIN THE HERO』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       },
       {
         "pre": "ファンタスティック・ショー",
         "main": "『オーヴァチュア！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正",
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/robinthehero/index.html",
     "schedule": [
@@ -11456,17 +11488,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『マジシャンの憂鬱』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "レヴュー グロリア",
         "main": "『Jubilee（ジュビリー）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/magiciannoyuuutsu/index.html",
     "schedule": [
@@ -11721,11 +11755,11 @@ const revues = [
       {
         "pre": "幻想秘抄",
         "main": "『にぎたつの海に月出づ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "平松 結有"
+        ]
       }
-    ],
-    "directors": [
-      "平松 結有"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/nigitatsunoumi/index.html",
     "schedule": [
@@ -11943,11 +11977,11 @@ const revues = [
       {
         "pre": "礼真琴 日本武道館コンサート",
         "main": "『ANTHEM－アンセム－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/anthem/index.html",
     "schedule": [
@@ -12000,17 +12034,19 @@ const revues = [
       {
         "pre": "宝塚歌劇百十周年紀念奉舞",
         "main": "『宝塚110年の恋のうた』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "ジャズ・スラップスティック",
         "main": "『Razzle Dazzle（ラズル ダズル）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/razzledazzle/index.html",
     "schedule": [
@@ -12370,11 +12406,11 @@ const revues = [
       {
         "pre": "西洋奇譚",
         "main": "『FORMOSA!!（フォルモサ）』",
-        "post": "－空想世界の歩き方－"
+        "post": "－空想世界の歩き方－",
+        "directors": [
+          "熊倉 飛鳥"
+        ]
       }
-    ],
-    "directors": [
-      "熊倉 飛鳥"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/formosa/index.html",
     "schedule": [
@@ -12573,11 +12609,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『愛の不時着』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/ainofujichaku/index.html",
     "schedule": [
@@ -12844,17 +12880,19 @@ const revues = [
       {
         "pre": "ミュージカル・クエスト",
         "main": "『ゴールデン・リバティ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "Takarazuka Spectacular",
         "main": "『PHOENIX RISING（フェニックス・ライジング）』",
-        "post": "～IN THE MOONLIGHT～"
+        "post": "～IN THE MOONLIGHT～",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/goldenliberty/index.html",
     "schedule": [
@@ -13378,17 +13416,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『大海賊』",
-        "post": "－復讐のカリブ海－"
+        "post": "－復讐のカリブ海－",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "ファンタスティック・ショー",
         "main": "『Heat on Beat!（ヒートオンビート） －Evolution－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/daikaizoku/index.html",
     "schedule": [
@@ -13629,11 +13669,11 @@ const revues = [
       {
         "pre": "横濱RHAPSODY",
         "main": "『MY BLUE HEAVEN －わたしのあおぞら－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/myblueheaven_oct/index.html",
     "schedule": [
@@ -13864,17 +13904,19 @@ const revues = [
       {
         "pre": "ファンタジー・ホラロマン",
         "main": "『エンジェリックライ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       },
       {
         "pre": "レヴュー グロリア",
         "main": "『Jubilee（ジュビリー）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/angeliclie/index.html",
     "schedule": [
@@ -14271,11 +14313,11 @@ const revues = [
       {
         "pre": "アドベンチャーロマン",
         "main": "『BLUFF（ブラフ）』",
-        "post": "－復讐のシナリオ－"
+        "post": "－復讐のシナリオ－",
+        "directors": [
+          "正塚 晴彦"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/bluff/index.html",
     "schedule": [
@@ -14446,17 +14488,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『琥珀色の雨にぬれて』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "レビュー・アニバーサリー",
         "main": "『Grande TAKARAZUKA 110!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/kohakuironoameninurete/index.html",
     "schedule": [
@@ -14804,17 +14848,19 @@ const revues = [
       {
         "pre": "政界コメディ",
         "main": "『記憶にございません！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "カルナバル・ファンタジア",
         "main": "『Tiara Azul －Destino－（ティアラ・アスール ディスティーノ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/kiokunigozaimasen/index.html",
     "schedule": [
@@ -15289,11 +15335,11 @@ const revues = [
       {
         "pre": "ロマンチックコメディ",
         "main": "『Liefie（リーフィー）－愛しい人－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生駒 怜子"
+        ]
       }
-    ],
-    "directors": [
-      "生駒 怜子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/liefie/index.html",
     "schedule": [
@@ -15522,11 +15568,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ドン・ジュアン』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/donjuan/index.html",
     "schedule": [
@@ -15701,11 +15747,11 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『ベルサイユのばら』",
-        "post": "－フェルゼン編－"
+        "post": "－フェルゼン編－",
+        "directors": [
+          "植田 紳爾"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/roseofversailles/index.html",
     "schedule": [
@@ -16175,11 +16221,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Le Grand Escalier ―ル・グラン・エスカリエ―』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/legrandescalier/index.html",
     "schedule": [
@@ -16353,11 +16399,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『夜明けの光芒』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "鈴木 圭"
+        ]
       }
-    ],
-    "directors": [
-      "鈴木 圭"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/yoakenokoubou/index.html",
     "schedule": [
@@ -16486,11 +16532,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『BIG FISH（ビッグ・フィッシュ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/bigfish/index.html",
     "schedule": [
@@ -16639,11 +16685,11 @@ const revues = [
       {
         "pre": "バウ・ヴォードヴィル",
         "main": "『39 Steps』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/39steps/index.html",
     "schedule": [
@@ -16760,11 +16806,11 @@ const revues = [
       {
         "pre": "彩風咲奈ドラマティック・リサイタル",
         "main": "『ALL BY MYSELF』",
-        "post": "－BLOOM'S COLORFUL MEMORIES－"
+        "post": "－BLOOM'S COLORFUL MEMORIES－",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/allbymyself/index.html",
     "schedule": [
@@ -16826,17 +16872,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『仮面のロマネスク』",
-        "post": "～ラクロ作「危険な関係」より～"
+        "post": "～ラクロ作「危険な関係」より～",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "ショー・パッショナブル",
         "main": "『Gato Bonito!!』",
-        "post": "～ガート・ボニート、美しい猫のような男～"
+        "post": "～ガート・ボニート、美しい猫のような男～",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/romanesque/index.html",
     "schedule": [
@@ -17144,17 +17192,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『Eternal Voice 消え残る想い』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "レビュー・アニバーサリー",
         "main": "『Grande TAKARAZUKA 110!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/eternalvoice/index.html",
     "schedule": [
@@ -17626,11 +17676,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『アルカンシェル』",
-        "post": "～パリに架かる虹～"
+        "post": "～パリに架かる虹～",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/arcenciel/index.html",
     "schedule": [
@@ -18128,11 +18178,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『Golden Dead Schiele』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "熊倉 飛鳥"
+        ]
       }
-    ],
-    "directors": [
-      "熊倉 飛鳥"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/goldendeadschiele/index.html",
     "schedule": [
@@ -18326,7 +18376,6 @@ const revues = [
         "post": ""
       }
     ],
-    "directors": [],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/goat/index.html",
     "schedule": [
       {
@@ -18388,17 +18437,19 @@ const revues = [
       {
         "pre": "",
         "main": "『RRR × TAKA\"R\"AZUKA ～√Bheem～（アールアールアール バイ タカラヅカ ～ルートビーム～）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       },
       {
         "pre": "レビュー・シンドローム",
         "main": "『VIOLETOPIA（ヴィオレトピア）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢",
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/rrr/index.html",
     "schedule": [
@@ -18842,11 +18893,11 @@ const revues = [
       {
         "pre": "柚香光 スペシャルコンサート",
         "main": "『BE SHINING!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/beshining/index.html",
     "schedule": [
@@ -18904,17 +18955,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『激情』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "ネオ・ロマンチック・レビュー",
         "main": "『GRAND MIRAGE!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/gekijo/index.html",
     "schedule": [
@@ -19168,17 +19221,19 @@ const revues = [
       {
         "pre": "Happy “New” Musical",
         "main": "『ボイルド・ドイル・オンザ・トイル・トレイル』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "Winter Spectacular",
         "main": "『FROZEN HOLIDAY（フローズン・ホリデイ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/boileddoyleonthetoiltrail/index.html",
     "schedule": [
@@ -19709,11 +19764,11 @@ const revues = [
       {
         "pre": "バウ・ワークショップ",
         "main": "『My Last Joke―虚構に生きる―』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/mylastjoke/index.html",
     "schedule": [
@@ -19753,11 +19808,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ME AND MY GIRL』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/meandmygirl/index.html",
     "schedule": [
@@ -20014,17 +20069,19 @@ const revues = [
       {
         "pre": "ミュージカル・ノワール",
         "main": "『PAGAD（パガド）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       },
       {
         "pre": "ショー・スピリット",
         "main": "『Sky Fantasy!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/pagado/index.html",
     "schedule": [
@@ -20431,11 +20488,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『双曲線上のカルテ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/soukyokusenjounokarute/index.html",
     "schedule": [
@@ -20676,17 +20733,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『愛するには短すぎる』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "ファッシネイティング・レビュー",
         "main": "『ジュエル・ド・パリ!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/aisurunihamijikasugiru/index.html",
     "schedule": [
@@ -20941,17 +21000,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『フリューゲル -君がくれた翼-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       },
       {
         "pre": "東京詞華集（トウキョウアンソロジー）",
         "main": "『万華鏡百景色（ばんかきょうひゃくげしき）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "栗田 優香"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正",
-      "栗田 優香"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/fluegel/index.html",
     "schedule": [
@@ -21459,11 +21520,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『Xcalibur エクスカリバー』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/xcalibur/index.html",
     "schedule": [
@@ -21653,11 +21714,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『大逆転裁判』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "鈴木 圭"
+        ]
       }
-    ],
-    "directors": [
-      "鈴木 圭"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/daigyakutensaiban/index.html",
     "schedule": [
@@ -21846,17 +21907,19 @@ const revues = [
       {
         "pre": "オペレッタ・ジャパネスク",
         "main": "『鴛鴦歌合戦（おしどりうたがっせん）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ネオ・ロマンチック・レビュー",
         "main": "『GRAND MIRAGE!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/oshidori/index.html",
     "schedule": [
@@ -22383,11 +22446,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『月の燈影（ほかげ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/tsukinohokage/index.html",
     "schedule": [
@@ -22623,11 +22686,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『DEATH TAKES A HOLIDAY』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/deathtakesaholiday/index.html",
     "schedule": [
@@ -22793,11 +22856,11 @@ const revues = [
       {
         "pre": "スペクタクル・ミュージカル",
         "main": "『1789-バスティーユの恋人たち-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/1789/index.html",
     "schedule": [
@@ -23141,11 +23204,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『舞姫』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/maihime/index.html",
     "schedule": [
@@ -23330,11 +23393,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『二人だけの戦場』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/futaridakenosenjou/index.html",
     "schedule": [
@@ -23544,17 +23607,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『Lilac（ライラック）の夢路』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "ファッシネイティング・レビュー",
         "main": "『ジュエル・ド・パリ!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/lilacnoyumeji/index.html",
     "schedule": [
@@ -23957,7 +24022,6 @@ const revues = [
         "post": ""
       }
     ],
-    "directors": [],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/stellavoice/index.html",
     "schedule": [
       {
@@ -23981,17 +24045,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『バレンシアの熱い花』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『パッション・ダムール・アゲイン！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/valencia/index.html",
     "schedule": [
@@ -24212,11 +24278,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『赤と黒』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/lerougeetlenoir/index.html",
     "schedule": [
@@ -24347,11 +24413,11 @@ const revues = [
       {
         "pre": "アクション・ロマネスク",
         "main": "『カジノ・ロワイヤル ～我が名はボンド～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/casinoroyale/index.html",
     "schedule": [
@@ -24804,11 +24870,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『BONNIE & CLYDE』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/bonnieandclyde/index.html",
     "schedule": [
@@ -24906,17 +24972,19 @@ const revues = [
       {
         "pre": "平安朝クライム",
         "main": "『応天の門』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       },
       {
         "pre": "ラテン グルーヴ",
         "main": "『Deep Sea -海神たちのカルナバル-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/outennomon/index.html",
     "schedule": [
@@ -25424,11 +25492,11 @@ const revues = [
       {
         "pre": "ミュージカル・フォレルスケット",
         "main": "『海辺のストルーエンセ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/umibenostruensee/index.html",
     "schedule": [
@@ -25529,11 +25597,11 @@ const revues = [
       {
         "pre": "真風涼帆リサイタル",
         "main": "『MAKAZE IZM』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/makazeizm/index.html",
     "schedule": [
@@ -25578,11 +25646,11 @@ const revues = [
       {
         "pre": "バウ・ドリーミング",
         "main": "『夢現（ゆめうつつ）の先に』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生駒 怜子"
+        ]
       }
-    ],
-    "directors": [
-      "生駒 怜子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/yumeutsutsunosakini/index.html",
     "schedule": [
@@ -25617,17 +25685,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『うたかたの恋』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "タカラヅカ・スペクタキュラー",
         "main": "『ENCHANTEMENT（アンシャントマン） -華麗なる香水（パルファン）-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/utakatanokoi/index.html",
     "schedule": [
@@ -26136,11 +26206,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマンティコ",
         "main": "『ELPIDIO（エルピディイオ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/elpidio/index.html",
     "schedule": [
@@ -26328,17 +26398,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『ブラック・ジャック 危険な賭け』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "ジャズ・オマージュ",
         "main": "『FULL SWING!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/blackjack/index.html",
     "schedule": [
@@ -26566,17 +26638,19 @@ const revues = [
       {
         "pre": "浪漫楽劇",
         "main": "『ディミトリ～曙光に散る、紫の花～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "メガファンタジー",
         "main": "『JAGUAR BEAT－ジャガービート－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/syayounokuninorusudan/index.html",
     "schedule": [
@@ -27020,11 +27094,11 @@ const revues = [
       {
         "pre": "バウ・ワークショップ",
         "main": "『殉情（じゅんじょう）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/junjo/index.html",
     "schedule": [
@@ -27213,17 +27287,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマンス",
         "main": "『フィレンツェに燃える』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "ショー グルーヴ",
         "main": "『Fashionable Empire』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/firenze/index.html",
     "schedule": [
@@ -27555,11 +27631,11 @@ const revues = [
       {
         "pre": "グランド・ミュージカル",
         "main": "『蒼穹の昴』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/soukyunosubaru/index.html",
     "schedule": [
@@ -28029,11 +28105,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ベアタ・ベアトリクス』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "熊倉 飛鳥"
+        ]
       }
-    ],
-    "directors": [
-      "熊倉 飛鳥"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/beatabeatrix/index.html",
     "schedule": [
@@ -28210,17 +28286,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『モンテ・クリスト伯』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "レビュー・エスパーニャ",
         "main": "『Gran Cantante（グラン カンタンテ）!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/montecristo/index.html",
     "schedule": [
@@ -28529,17 +28607,19 @@ const revues = [
       {
         "pre": "TAKARAZUKA MUSICAL ROMANCE",
         "main": "『HiGH&LOW －THE PREQUEL－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       },
       {
         "pre": "ファッシーノ・モストラーレ",
         "main": "『Capricciosa（カプリチョーザ）!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/highandlow/index.html",
     "schedule": [
@@ -28930,11 +29010,11 @@ const revues = [
       {
         "pre": "Midsummer Spectacular",
         "main": "『ODYSSEY（オデッセイ）－The Age of Discovery－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/odyssey_umegei/index.html",
     "schedule": [
@@ -29013,11 +29093,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『心中・恋の大和路』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/koinoyamatoji/index.html",
     "schedule": [
@@ -29225,11 +29305,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『グレート・ギャツビー』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/greatgatsby/index.html",
     "schedule": [
@@ -29732,11 +29812,11 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『カルト・ワイン』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "栗田 優香"
+        ]
       }
-    ],
-    "directors": [
-      "栗田 優香"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/cultwine/index.html",
     "schedule": [
@@ -29971,11 +30051,11 @@ const revues = [
       {
         "pre": "",
         "main": "『FLY WITH ME（フライ ウィズ ミー）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/flywithme/index.html",
     "schedule": [
@@ -30046,17 +30126,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『巡礼の年〜リスト・フェレンツ、魂の彷徨〜』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "ショー グルーヴ",
         "main": "『Fashionable Empire』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/junreinotoshi/index.html",
     "schedule": [
@@ -30535,11 +30617,11 @@ const revues = [
       {
         "pre": "ドラマティック・ショースペース",
         "main": "『Rain on Neptune』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/rainonneptune/index.html",
     "schedule": [
@@ -30733,11 +30815,11 @@ const revues = [
       {
         "pre": "",
         "main": "『ブエノスアイレスの風』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/buenosaires/index.html",
     "schedule": [
@@ -30881,17 +30963,19 @@ const revues = [
       {
         "pre": "ミュージカル・エトワール",
         "main": "『めぐり会いは再び next generation－真夜中の依頼人（ミッドナイト・ガールフレンド）－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "レビュー・エスパーニャ",
         "main": "『Gran Cantante（グラン カンタンテ）!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/meguriainextgeneration/index.html",
     "schedule": [
@@ -31493,11 +31577,11 @@ const revues = [
       {
         "pre": "Fantasmagorie",
         "main": "『冬霞（ふゆがすみ）の巴里』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/fuyugasuminopari/index.html",
     "schedule": [
@@ -31733,11 +31817,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『TOP HAT』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/tophat/index.html",
     "schedule": [
@@ -31990,17 +32074,19 @@ const revues = [
       {
         "pre": "大江戸スクランブル",
         "main": "『夢介千両みやげ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "ショー・スプレンディッド",
         "main": "『Sensational!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/yumesukesenryoumiyage/index.html",
     "schedule": [
@@ -32396,11 +32482,11 @@ const revues = [
       {
         "pre": "グランド・ロマンス",
         "main": "『王家に捧ぐ歌』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/aida/index.html",
     "schedule": [
@@ -32702,11 +32788,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『NEVER SAY GOODBYE』",
-        "post": "－ある愛の軌跡－"
+        "post": "－ある愛の軌跡－",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/neversaygoodbye/index.html",
     "schedule": [
@@ -33134,11 +33220,11 @@ const revues = [
       {
         "pre": "ミュージカル・コメディ",
         "main": "『ザ・ジェントル・ライアー ～英国的、紳士と淑女のゲーム～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/gentleliar/index.html",
     "schedule": [
@@ -33282,11 +33368,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル・プレイ",
         "main": "『Sweet Little Rock 'n' Roll』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/sweetlittlerocknroll/index.html",
     "schedule": [
@@ -33524,17 +33610,19 @@ const revues = [
       {
         "pre": "ミュージカル・キネマ",
         "main": "『今夜、ロマンス劇場で』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ジャズ・オマージュ",
         "main": "『FULL SWING!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/romance_gekijo/index.html",
     "schedule": [
@@ -33959,17 +34047,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『バロンの末裔』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "ショー・トゥー・クール",
         "main": "『アクアヴィーテ（aquavitae）!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/baronnomatsuei/index.html",
     "schedule": [
@@ -34225,11 +34315,11 @@ const revues = [
       {
         "pre": "ブロードウェイ・ミュージカル",
         "main": "『プロミセス、プロミセス』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/promisespromises/index.html",
     "schedule": [
@@ -34388,17 +34478,19 @@ const revues = [
       {
         "pre": "忠臣蔵ファンタジー",
         "main": "『元禄バロックロック』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       },
       {
         "pre": "レビュー・アニバーサリー",
         "main": "『The Fascination（ザ ファシネイション）!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/baroquerock/index.html",
     "schedule": [
@@ -34913,17 +35005,19 @@ const revues = [
       {
         "pre": "江戸切絵",
         "main": "『川霧の橋』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "スーパー・ファンタジー",
         "main": "『Dream Chaser －新たな夢へ－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/kawagirinohashi/index.html",
     "schedule": [
@@ -35290,11 +35384,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『LOVE AND ALL THAT JAZZ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/loveandallthatjazz/index.html",
     "schedule": [
@@ -35518,17 +35612,19 @@ const revues = [
       {
         "pre": "宝塚剣豪秘録",
         "main": "『柳生忍法帖』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『モアー・ダンディズム！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/yagyuninpouchou/index.html",
     "schedule": [
@@ -36124,17 +36220,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『哀しみのコルドバ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "樫畑 亜依子"
+        ]
       },
       {
         "pre": "パッショネイト・ファンタジー",
         "main": "『Cool Beast!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "樫畑 亜依子",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/cordoba/index.html",
     "schedule": [
@@ -36409,11 +36507,11 @@ const revues = [
       {
         "pre": "プレイ",
         "main": "『銀ちゃんの恋』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/ginchannokoi/index.html",
     "schedule": [
@@ -36631,17 +36729,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『CITY HUNTER』",
-        "post": "－盗まれたXYZ－"
+        "post": "－盗まれたXYZ－",
+        "directors": [
+          "齋藤 吉正"
+        ]
       },
       {
         "pre": "ショー オルケスタ",
         "main": "『Fire Fever!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/cityhunter/index.html",
     "schedule": [
@@ -37202,11 +37302,11 @@ const revues = [
       {
         "pre": "戯作",
         "main": "『婆娑羅（ばさら）の玄孫（やしゃご）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/basaranoyashago/index.html",
     "schedule": [
@@ -37426,11 +37526,11 @@ const revues = [
       {
         "pre": "REY'S Special Show Time",
         "main": "『VERDAD（ヴェルダッド）!!』",
-        "post": "—真実の音—"
+        "post": "—真実の音—",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/verdad/index.html",
     "schedule": [
@@ -37477,11 +37577,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『マノン』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/manon/index.html",
     "schedule": [
@@ -37651,17 +37751,19 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『シャーロック・ホームズ－The Game Is Afoot!－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "タカラヅカ・スペクタキュラー",
         "main": "『Délicieux（デリシュー）!－甘美なる巴里－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/sherlockholmes/index.html",
     "schedule": [
@@ -38139,17 +38241,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『ヴェネチアの紋章』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『ル・ポァゾン 愛の媚薬 －Again－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/venezia/index.html",
     "schedule": [
@@ -38450,11 +38554,11 @@ const revues = [
       {
         "pre": "ロマンス",
         "main": "『ほんものの魔法使』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/honmononomahoutsukai/index.html",
     "schedule": [
@@ -38642,17 +38746,19 @@ const revues = [
       {
         "pre": "ロマン・トラジック",
         "main": "『桜嵐記（おうらんき）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       },
       {
         "pre": "スーパー・ファンタジー",
         "main": "『Dream Chaser』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/ouranki/index.html",
     "schedule": [
@@ -39239,11 +39345,11 @@ const revues = [
       {
         "pre": "大正浪漫抒情劇",
         "main": "『夢千鳥』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "栗田 優香"
+        ]
       }
-    ],
-    "directors": [
-      "栗田 優香"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/yumechidori/index.html",
     "schedule": [
@@ -39465,11 +39571,11 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『Hotel Svizra House ホテル スヴィッツラ ハウス』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/hotelsvizrahouse/index.html",
     "schedule": [
@@ -39706,17 +39812,19 @@ const revues = [
       {
         "pre": "ドラマ・ヒストリ",
         "main": "『アウグストゥス－尊厳ある者－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       },
       {
         "pre": "パッショネイト・ファンタジー",
         "main": "『Cool Beast!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/augustus/index.html",
     "schedule": [
@@ -40045,11 +40153,11 @@ const revues = [
       {
         "pre": "バウ・プレイ",
         "main": "『幽霊刑事（デカ）～サヨナラする、その前に～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/yuureideka/index.html",
     "schedule": [
@@ -40206,11 +40314,11 @@ const revues = [
       {
         "pre": "グランド・ミュージカル",
         "main": "『ダル・レークの恋』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/dallake/index.html",
     "schedule": [
@@ -40395,11 +40503,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ロミオとジュリエット』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/romeoandjuliette/index.html",
     "schedule": [
@@ -40703,11 +40811,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『PRINCE OF ROSES－王冠に導かれし男－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ]
       }
-    ],
-    "directors": [
-      "竹田 悠一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/princeofroses/index.html",
     "schedule": [
@@ -40892,11 +41000,11 @@ const revues = [
       {
         "pre": "珠城りょう 3Days Special LIVE",
         "main": "『Eternità』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/eternita/index.html",
     "schedule": [
@@ -40927,11 +41035,11 @@ const revues = [
       {
         "pre": "ブロードウェイ・ミュージカル",
         "main": "『NICE WORK IF YOU CAN GET IT』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/niceworkifyoucangetit/index.html",
     "schedule": [
@@ -41207,17 +41315,19 @@ const revues = [
       {
         "pre": "ミュージカル・シンフォニア",
         "main": "『f f f －フォルティッシッシモ－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       },
       {
         "pre": "レビュー・アラベスク",
         "main": "『シルクロード～盗賊と宝石～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子",
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/fortississimo/index.html",
     "schedule": [
@@ -41562,11 +41672,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『シラノ・ド・ベルジュラック』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/cyranodebergerac/index.html",
     "schedule": [
@@ -41805,17 +41915,19 @@ const revues = [
       {
         "pre": "グランステージ",
         "main": "『エル・アルコン－鷹－』",
-        "post": "～青池保子原作「エル・アルコン－鷹－」「七つの海七つの空」より～"
+        "post": "～青池保子原作「エル・アルコン－鷹－」「七つの海七つの空」より～",
+        "directors": [
+          "齋藤 吉正"
+        ]
       },
       {
         "pre": "Show Stars",
         "main": "『Ｒａｙ -星の光線-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/elhalcon/index.html",
     "schedule": [
@@ -42108,11 +42220,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『アナスタシア』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/anastasia/index.html",
     "schedule": [
@@ -42483,17 +42595,19 @@ const revues = [
       {
         "pre": "JAPAN TRADITIONAL REVUE",
         "main": "『WELCOME TO TAKARAZUKA －雪と月と花と－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       },
       {
         "pre": "ミュージカル",
         "main": "『ピガール狂騒曲』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/welcometotakarazuka/index.html",
     "schedule": [
@@ -43017,11 +43131,11 @@ const revues = [
       {
         "pre": "望海風斗 MEGA LIVE TOUR",
         "main": "『NOW! ZOOM ME!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/nowzoomme/index.html",
     "schedule": [
@@ -43077,17 +43191,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『炎のボレロ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "ネオダイナミック・ショー",
         "main": "『Music Revolution! -New Spirit-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/honoonoborero/index.html",
     "schedule": [
@@ -43384,11 +43500,11 @@ const revues = [
       {
         "pre": "オリエンタル・テイル",
         "main": "『壮麗帝』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "樫畑 亜依子"
+        ]
       }
-    ],
-    "directors": [
-      "樫畑 亜依子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/soureitei/index.html",
     "schedule": [
@@ -43535,11 +43651,11 @@ const revues = [
       {
         "pre": "",
         "main": "『FLYING SAPA －フライング サパ－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/flyingsapa/index.html",
     "schedule": [
@@ -43774,11 +43890,11 @@ const revues = [
       {
         "pre": "ミュージカル浪漫",
         "main": "『はいからさんが通る』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/haikarasangatooru/index.html",
     "schedule": [
@@ -44220,11 +44336,11 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『赤と黒』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/theredandtheblack/index.html",
     "schedule": [
@@ -44466,11 +44582,11 @@ const revues = [
       {
         "pre": "デジタル・マジカル・ミュージカル",
         "main": "『出島小宇宙戦争』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/dejimashouchusenso/index.html",
     "schedule": [
@@ -44708,17 +44824,19 @@ const revues = [
       {
         "pre": "幻想歌舞録",
         "main": "『眩耀（げんよう）の谷 ～舞い降りた新星～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "Show Stars",
         "main": "『Ｒａｙ -星の光線-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/genyounotani/index.html",
     "schedule": [
@@ -45193,11 +45311,11 @@ const revues = [
       {
         "pre": "Grand Festival",
         "main": "『DANCE OLYMPIA』",
-        "post": "-Welcome to 2020-"
+        "post": "-Welcome to 2020-",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/danceolympia/index.html",
     "schedule": [
@@ -45258,11 +45376,11 @@ const revues = [
       {
         "pre": "ミステリアス・ロマン",
         "main": "『マスカレード・ホテル』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/masqueradehotel/index.html",
     "schedule": [
@@ -45498,11 +45616,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ONCE UPON A TIME IN AMERICA（ワンス アポン ア タイム イン アメリカ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/onceuponatimeinamerica/index.html",
     "schedule": [
@@ -45966,11 +46084,11 @@ const revues = [
       {
         "pre": "音楽奇譚",
         "main": "『龍の宮（たつのみや）物語』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "指田 珠子"
+        ]
       }
-    ],
-    "directors": [
-      "指田 珠子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/tatsunomiyamonogatari/index.html",
     "schedule": [
@@ -46195,11 +46313,11 @@ const revues = [
       {
         "pre": "フレンチ・ミュージカル",
         "main": "『ロックオペラ モーツァルト』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/rockoperamozart/index.html",
     "schedule": [
@@ -46399,17 +46517,19 @@ const revues = [
       {
         "pre": "宝塚ミュージカル・ロマン",
         "main": "『El Japón（エル ハポン） －イスパニアのサムライ－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "ショー・トゥー・クール",
         "main": "『アクアヴィーテ（aquavitae）！！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史", 
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/eljapon/index.html",
     "schedule": [
@@ -46840,17 +46960,19 @@ const revues = [
       {
         "pre": "宝塚ロマン",
         "main": "『はばたけ黄金の翼よ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ダイナミック・ショー",
         "main": "『Music Revolution!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/habatakeougonnotubasayo/index.html",
     "schedule": [
@@ -47069,11 +47191,11 @@ const revues = [
       {
         "pre": "ミュージカル・スクリーン",
         "main": "『ハリウッド・ゴシップ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/hollywoodgossip/index.html",
     "schedule": [
@@ -47234,11 +47356,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『I AM FROM AUSTRIA－故郷（ふるさと）は甘き調（しら）べ－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/iamfromaustria/index.html",
     "schedule": [
@@ -47681,11 +47803,11 @@ const revues = [
       {
         "pre": "バウ・ロマンス",
         "main": "『リッツ・ホテルくらいに大きなダイヤモンド』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/thediamondasbigastheritz/index.html",
     "schedule": [
@@ -47886,17 +48008,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『追憶のバルセロナ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "ショー・アトラクト",
         "main": "『NICE GUY!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/tsuiokunobaruserona/index.html",
     "schedule": [
@@ -48220,17 +48344,19 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『A Fairy Tale －青い薔薇の精－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       },
       {
         "pre": "レヴューロマン",
         "main": "『シャルム！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/afairytale/index.html",
     "schedule": [
@@ -48742,11 +48868,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『チェ・ゲバラ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/cheguevara/index.html",
     "schedule": [
@@ -48948,11 +49074,11 @@ const revues = [
       {
         "pre": "ブロードウェイ・ミュージカル",
         "main": "『ON THE TOWN（オン・ザ・タウン）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/onthetown_umegei/index.html",
     "schedule": [
@@ -49206,17 +49332,19 @@ const revues = [
       {
         "pre": "ミュージカル・フルコース",
         "main": "『GOD OF STARS-食聖-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "スペース・レビュー・ファンタジア",
         "main": "『Éclair Brillant（エクレール ブリアン）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "酒井 澄夫"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "酒井 澄夫"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/godofstars/index.html",
     "schedule": [
@@ -49660,11 +49788,11 @@ const revues = [
       {
         "pre": "RIO ASUMI SUPER TIME@045",
         "main": "『恋スルARENA』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/koisuruarena/index.html",
     "schedule": [
@@ -49754,11 +49882,11 @@ const revues = [
       {
         "pre": "TAKARAZUKA MUSICAL ROMANCE",
         "main": "『花より男子』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/hanayoridango/index.html",
     "schedule": [
@@ -49996,17 +50124,19 @@ const revues = [
       {
         "pre": "幕末ロマン",
         "main": "『壬生義士伝』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "ダイナミック・ショー",
         "main": "『Music Revolution!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/mibugishiden/index.html",
     "schedule": [
@@ -50460,11 +50590,11 @@ const revues = [
       {
         "pre": "ショーケース",
         "main": "『Dream On!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/dreamon/index.html",
     "schedule": [
@@ -50512,11 +50642,11 @@ const revues = [
       {
         "pre": "楽劇（ミュージカル）",
         "main": "『鎌足−夢のまほろば、大和（やまと）し美（うるわ）し−』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/kamatari/index.html",
     "schedule": [
@@ -50711,18 +50841,20 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『アルジェの男』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "柴田 侑宏",
+          "大野 拓史"
+        ]
       },
       {
         "pre": "スーパー・レビュー",
         "main": "『ESTRELLAS（エストレージャス） ～星たち～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "柴田 侑宏", 
-      "大野 拓史", 
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/arujenootoko/index.html",
     "schedule": [
@@ -51055,11 +51187,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『オーシャンズ11』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/oceanseleven/index.html",
     "schedule": [
@@ -51514,11 +51646,11 @@ const revues = [
       {
         "pre": "Bow Happy Romance",
         "main": "『PR×PRince』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "町田 菜花"
+        ]
       }
-    ],
-    "directors": [
-      "町田 菜花"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/pr_prince/index.html",
     "schedule": [
@@ -51707,11 +51839,11 @@ const revues = [
       {
         "pre": "ブロードウェイ・ミュージカル",
         "main": "『20世紀号に乗って』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/20seikigouninotte/index.html",
     "schedule": [
@@ -51906,17 +52038,19 @@ const revues = [
       {
         "pre": "グランステージ",
         "main": "『夢現無双 -吉川英治原作「宮本武蔵」より-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       },
       {
         "pre": "レビュー・エキゾチカ",
         "main": "『クルンテープ 天使の都』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/mugenmuso/index.html",
     "schedule": [
@@ -52300,11 +52434,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『群盗-Die Räuber-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/gunto/index.html",
     "schedule": [
@@ -52437,11 +52571,11 @@ const revues = [
       {
         "pre": "祝祭喜歌劇",
         "main": "『CASANOVA』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/casanova/index.html",
     "schedule": [
@@ -52955,17 +53089,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『黒い瞳』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "スーパー・レビュー",
         "main": "『VIVA！ FESTA！ in HAKATA』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/kuroihitomi/index.html",
     "schedule": [
@@ -53181,11 +53317,11 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『Anna Karenina（アンナ・カレーニナ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/annakarenina/index.html",
     "schedule": [
@@ -53312,11 +53448,11 @@ const revues = [
       {
         "pre": "ブロードウェイ・ミュージカル",
         "main": "『ON THE TOWN（オン・ザ・タウン）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/onthetown_forum/index.html",
     "schedule": [
@@ -53562,17 +53698,19 @@ const revues = [
       {
         "pre": "Once upon a time in Takarazuka",
         "main": "『霧深きエルベのほとり』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       },
       {
         "pre": "スーパー・レビュー",
         "main": "『ESTRELLAS（エストレージャス） ～星たち～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/kirifukakierubenohotori/index.html",
     "schedule": [
@@ -54036,7 +54174,6 @@ const revues = [
         "post": ""
       }
     ],
-    "directors": [],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/delightholiday/index.html",
     "schedule": [
       {
@@ -54079,17 +54216,19 @@ const revues = [
       {
         "pre": "サスペンス・コメディ",
         "main": "『メランコリック・ジゴロ』",
-        "post": "－あぶない相続人－"
+        "post": "－あぶない相続人－",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "スパークリング・ショー",
         "main": "『EXCITER!!2018』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/melancholicgigolo/index.html",
     "schedule": [
@@ -54323,11 +54462,11 @@ const revues = [
       {
         "pre": "ロマンス",
         "main": "『蘭陵王（らんりょうおう）—美しすぎる武将—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/ranryouou/index.html",
     "schedule": [
@@ -54395,11 +54534,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ファントム』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/phantom/index.html",
     "schedule": [
@@ -54838,11 +54977,11 @@ const revues = [
       {
         "pre": "",
         "main": "『デビュタント』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/debutante/index.html",
     "schedule": [
@@ -54997,17 +55136,19 @@ const revues = [
       {
         "pre": "－本朝妖綺譚－",
         "main": "『白鷺（しらさぎ）の城（しろ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "ミュージカル・プレイ",
         "main": "『異人たちのルネサンス』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/shirasaginoshiro/index.html",
     "schedule": [
@@ -55382,17 +55523,19 @@ const revues = [
       {
         "pre": "異次元武侠ミュージカル",
         "main": "『Thunderbolt Fantasy（サンダーボルト ファンタジー）東離劍遊紀（とうりけんゆうき）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "タカラヅカ・ワンダーステージ",
         "main": "『Killer Rouge／星秀☆煌紅』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/thunderboltfantasytourikenyuuki/index.html",
     "schedule": [
@@ -55637,11 +55780,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『エリザベート－愛と死の輪舞（ロンド）－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/elisabeth/index.html",
     "schedule": [
@@ -56113,11 +56256,11 @@ const revues = [
       {
         "pre": "バウ・ショーケース",
         "main": "『New Wave! －星－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/newwave_star/index.html",
     "schedule": [
@@ -56164,11 +56307,11 @@ const revues = [
       {
         "pre": "バウ・Song & Dance Entertainment",
         "main": "『ハッスル メイツ！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/hustlemates/index.html",
     "schedule": [
@@ -56210,11 +56353,11 @@ const revues = [
       {
         "pre": "MUSICAL",
         "main": "『WEST SIDE STORY』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/westsidestory_tokyokokusai/index.html",
     "schedule": [
@@ -56522,17 +56665,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『MESSIAH（メサイア） −異聞・天草四郎−』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       },
       {
         "pre": "ショー・スペクタキュラー",
         "main": "『BEAUTIFUL GARDEN −百花繚乱−』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/messiah/index.html",
     "schedule": [
@@ -57023,11 +57168,11 @@ const revues = [
       {
         "pre": "キューティーステージ",
         "main": "『愛聖女（サントダムール）－Sainte♡d'Amour－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/saintedamour/index.html",
     "schedule": [
@@ -57152,11 +57297,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『雨に唄えば』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/ameniutaeba/index.html",
     "schedule": [
@@ -57317,11 +57462,11 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『THE LAST PARTY ～S.Fitzgerald's last day～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/thelastparty/index.html",
     "schedule": [
@@ -57473,17 +57618,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『凱旋門』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "ショー・パッショナブル",
         "main": "『Gato Bonito!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/gaisenmon/index.html",
     "schedule": [
@@ -57882,11 +58029,11 @@ const revues = [
       {
         "pre": "バウ・ラテングルーヴ",
         "main": "『Senhor CRUZEIRO（セニョール クルゼイロ）!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/senhorcruzeiro/index.html",
     "schedule": [
@@ -57932,17 +58079,19 @@ const revues = [
       {
         "pre": "万葉ロマン",
         "main": "『あかねさす紫の花』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "レビュー・ファンタスティーク",
         "main": "『Santé!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/akanesasumurasakinohana/index.html",
     "schedule": [
@@ -58177,17 +58326,19 @@ const revues = [
       {
         "pre": "RAKUGO MUSICAL",
         "main": "『ANOTHER WORLD』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       },
       {
         "pre": "タカラヅカ・ワンダーステージ",
         "main": "『Killer Rouge（キラー ルージュ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/anotherworld/index.html",
     "schedule": [
@@ -58598,11 +58749,11 @@ const revues = [
       {
         "pre": "",
         "main": "『義経妖狐夢幻桜（よしつねようこむげんざくら）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/yoshitsuneyoukomugenzakura/index.html",
     "schedule": [
@@ -58738,17 +58889,19 @@ const revues = [
       {
         "pre": "幕末ロマン",
         "main": "『誠の群像』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "レヴュー・スペクタキュラー",
         "main": "『SUPER VOYAGER!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/makotonogunzou/index.html",
     "schedule": [
@@ -59019,17 +59172,19 @@ const revues = [
       {
         "pre": "ミュージカル・オリエント",
         "main": "『天（そら）は赤い河のほとり』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『シトラスの風－Sunrise－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/sorahaakaikawanohotori/index.html",
     "schedule": [
@@ -59483,17 +59638,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『カンパニー -努力（レッスン）、情熱（パッション）、そして仲間たち（カンパニー）-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "ショー・テント・タカラヅカ",
         "main": "『BADDY（バッディ）－悪党（ヤツ）は月からやって来る－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "上田 久美子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/company/index.html",
     "schedule": [
@@ -59815,11 +59972,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ドクトル・ジバゴ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/doctorzhivago/index.html",
     "schedule": [
@@ -60025,17 +60182,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『うたかたの恋』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "タカラヅカレビュー",
         "main": "『Bouquet de TAKARAZUKA（ブーケ ド タカラヅカ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "酒井 澄夫"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "酒井 澄夫"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/utakatanokoi/index.html",
     "schedule": [
@@ -60406,11 +60565,11 @@ const revues = [
       {
         "pre": "MUSICAL",
         "main": "『WEST SIDE STORY』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/westsidestory_tokyokokusai/index.html",
     "schedule": [
@@ -60662,11 +60821,11 @@ const revues = [
       {
         "pre": "ロマンス",
         "main": "『不滅の棘（とげ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/fumetsunotoge/index.html",
     "schedule": [
@@ -60863,11 +61022,11 @@ const revues = [
       {
         "pre": "ミュージカル・ゴシック",
         "main": "『ポーの一族』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/ponoichizoku/index.html",
     "schedule": [
@@ -61313,11 +61472,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Arkadia －アルカディア－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "樫畑 亜依子"
+        ]
       }
-    ],
-    "directors": [
-      "樫畑 亜依子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/arkadia/index.html",
     "schedule": [
@@ -61485,17 +61644,19 @@ const revues = [
       {
         "pre": "グランド・ロマンス",
         "main": "『鳳凰伝』",
-        "post": "－カラフとトゥーランドット－"
+        "post": "－カラフとトゥーランドット－",
+        "directors": [
+          "木村 信司"
+        ]
       },
       {
         "pre": "ショー・ファンタジー",
         "main": "『CRYSTAL TAKARAZUKA－イメージの結晶－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hououden/index.html",
     "schedule": [
@@ -61680,17 +61841,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ひかりふる路（みち） 〜革命家、マクシミリアン・ロベスピエール〜』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "レヴュー・スペクタキュラー",
         "main": "『SUPER VOYAGER!』",
-        "post": "－希望の海へ－"
+        "post": "－希望の海へ－",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hikarifurumichi/index.html",
     "schedule": [
@@ -62092,11 +62255,11 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『ハンナのお花屋さん —Hanna's Florist—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hannanoohanayasan/index.html",
     "schedule": [
@@ -62328,11 +62491,11 @@ const revues = [
       {
         "pre": "ミュージカル浪漫",
         "main": "『はいからさんが通る』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/haikarasan_dc/index.html",
     "schedule": [
@@ -62540,17 +62703,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ベルリン、わが愛』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       },
       {
         "pre": "タカラヅカレビュー90周年",
         "main": "『Bouquet de TAKARAZUKA（ブーケ ド タカラヅカ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "酒井 澄夫"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒",
-      "酒井 澄夫"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/berlinwagaai/index.html",
     "schedule": [
@@ -62959,11 +63124,11 @@ const revues = [
       {
         "pre": "MUSICAL FANTASY",
         "main": "『CAPTAIN NEMO』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/captainnemo/index.html",
     "schedule": [
@@ -63149,18 +63314,20 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『琥珀色の雨にぬれて』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "柴田 侑宏",
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "Show Spirit",
         "main": "『\"D\"ramatic S!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "柴田 侑宏",
-      "正塚 晴彦",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/kohakuironoameninurete/index.html",
     "schedule": [
@@ -63462,17 +63629,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『神々の土地』",
-        "post": "～ロマノフたちの黄昏～"
+        "post": "～ロマノフたちの黄昏～",
+        "directors": [
+          "上田 久美子"
+        ]
       },
       {
         "pre": "レヴューロマン",
         "main": "『クラシカル ビジュー』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/kamigaminotochi/index.html",
     "schedule": [
@@ -63909,11 +64078,11 @@ const revues = [
       {
         "pre": "マサラ・ミュージカル",
         "main": "『オーム・シャンティ・オーム －恋する輪廻－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/ohmshanti/index.html",
     "schedule": [
@@ -64099,11 +64268,11 @@ const revues = [
       {
         "pre": "",
         "main": "『阿弖流為 -ATERUI-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/aterui/index.html",
     "schedule": [
@@ -64346,11 +64515,11 @@ const revues = [
       {
         "pre": "浪漫活劇（アクション・ロマネスク）",
         "main": "『All for One』",
-        "post": "～ダルタニアンと太陽王～"
+        "post": "～ダルタニアンと太陽王～",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/allforone/index.html",
     "schedule": [
@@ -64766,11 +64935,11 @@ const revues = [
       {
         "pre": "",
         "main": "『パーシャルタイムトラベル 時空の果てに』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/partialtimetravel/index.html",
     "schedule": [
@@ -64964,11 +65133,11 @@ const revues = [
       {
         "pre": "朝夏まなとアメイジングステージ",
         "main": "『A Motion（エース モーション）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/amotion/index.html",
     "schedule": [
@@ -65031,17 +65200,19 @@ const revues = [
       {
         "pre": "古代ロマン",
         "main": "『邪馬台国の風』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "レビュー・ファンタスティーク",
         "main": "『Santé!!』",
-        "post": "～最高級ワインをあなたに～"
+        "post": "～最高級ワインをあなたに～",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/yamataikokunokaze/index.html",
     "schedule": [
@@ -65502,17 +65673,19 @@ const revues = [
       {
         "pre": "宝塚ミュージカル・ロマン",
         "main": "『長崎しぐれ坂』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       },
       {
         "pre": "モン・パリ誕生90周年 レヴューロマン",
         "main": "『カルーセル輪舞曲（ロンド）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/nagasakishigurezaka/index.html",
     "schedule": [
@@ -65778,11 +65951,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『瑠璃色の刻（とき）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/ruiriironotoki/index.html",
     "schedule": [
@@ -65984,17 +66157,19 @@ const revues = [
       {
         "pre": "ミュージカル・コメディ",
         "main": "『幕末太陽傳（ばくまつたいようでん）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "Show Spirit",
         "main": "『Dramatic \"S\"!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/bakumatsutaiyoden/index.html",
     "schedule": [
@@ -66518,17 +66693,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『仮面のロマネスク』",
-        "post": "～ラクロ作「危険な関係」より～"
+        "post": "～ラクロ作「危険な関係」より～",
+        "directors": [
+          "柴田 侑宏"
+        ]
       },
       {
         "pre": "スパークリング・ショー",
         "main": "『EXCITER!!2017』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "柴田 侑宏",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/kamenoromanesque/index.html",
     "schedule": [
@@ -66801,11 +66978,11 @@ const revues = [
       {
         "pre": "アクションステージ",
         "main": "『MY HERO』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/myhero/index.html",
     "schedule": [
@@ -67031,11 +67208,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『THE SCARLET PIMPERNEL（スカーレット ピンパーネル）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/thescarletpimpernel/index.html",
     "schedule": [
@@ -67474,11 +67651,11 @@ const revues = [
       {
         "pre": "バウ・ショーケース",
         "main": "『New Wave! －雪－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/newwaveyuki/index.html",
     "schedule": [
@@ -67516,17 +67693,19 @@ const revues = [
       {
         "pre": "ミュージカル・ノスタルジー",
         "main": "『星逢一夜（ほしあいひとよ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       },
       {
         "pre": "ショーグルーヴ",
         "main": "『Greatest HITS！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hoshiaihitoyo_chunichi/index.html",
     "schedule": [
@@ -67875,17 +68054,19 @@ const revues = [
       {
         "pre": "ミュージカル・コメディ",
         "main": "『王妃の館 －Château de la Reine－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       },
       {
         "pre": "スーパー・レビュー",
         "main": "『VIVA！ FESTA！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/ouhinoyakata/index.html",
     "schedule": [
@@ -68271,11 +68452,11 @@ const revues = [
       {
         "pre": "バウ・戦国ロマン",
         "main": "『燃ゆる風 －軍師・竹中半兵衛－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "鈴木 圭"
+        ]
       }
-    ],
-    "directors": [
-      "鈴木 圭"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/moyurukaze/index.html",
     "schedule": [
@@ -68463,11 +68644,11 @@ const revues = [
       {
         "pre": "マサラ・ミュージカル",
         "main": "『オーム・シャンティ・オーム －恋する輪廻－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/ohmshanti/index.html",
     "schedule": [
@@ -68654,17 +68835,19 @@ const revues = [
       {
         "pre": "ザ・ミュージカル",
         "main": "『グランドホテル』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       },
       {
         "pre": "レヴューロマン",
         "main": "『カルーセル輪舞曲（ロンド）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "岡田 敬二",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/grandhotel/index.html",
     "schedule": [
@@ -69000,11 +69183,11 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『双頭の鷲』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/doubleheaded_eagle/index.html",
     "schedule": [
@@ -69177,17 +69360,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『バレンシアの熱い花』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       },
       {
         "pre": "ダイナミック・ショー",
         "main": "『HOT EYES!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "岡田 敬二",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/valencia/index.html",
     "schedule": [
@@ -69500,17 +69685,19 @@ const revues = [
       {
         "pre": "宝塚舞踊詩",
         "main": "『雪華抄（せっかしょう）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       },
       {
         "pre": "トラジェディ・アラベスク",
         "main": "『金色（こんじき）の砂漠』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒",
-      "上田 久美子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/sekkasho/index.html",
     "schedule": [
@@ -69942,11 +70129,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Bow Singing Workshop』",
-        "post": "-月-"
+        "post": "-月-",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_moon/index.html",
     "schedule": [
@@ -69971,11 +70158,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『アーサー王伝説』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/arthur/index.html",
     "schedule": [
@@ -70202,7 +70389,6 @@ const revues = [
         "post": ""
       }
     ],
-    "directors": [],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/falstaff/index.html",
     "schedule": [
       {
@@ -70390,17 +70576,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『私立探偵ケイレブ・ハント』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "ショーグルーヴ",
         "main": "『Greatest HITS！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/calebhunt/index.html",
     "schedule": [
@@ -70671,11 +70859,11 @@ const revues = [
       {
         "pre": "サイエンス・フィクションラブ・ストーリー",
         "main": "『アイラブアインシュタイン』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 貴矢"
+        ]
       }
-    ],
-    "directors": [
-      "谷 貴矢"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/einstein/index.html",
     "schedule": [
@@ -70828,17 +71016,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『仮面のロマネスク』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "グランド・レビュー",
         "main": "『Melodia －熱く美しき旋律－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/romanesque/index.html",
     "schedule": [
@@ -71169,17 +71359,19 @@ const revues = [
       {
         "pre": "グランステージ",
         "main": "『桜華に舞え』",
-        "post": "－SAMURAI The FINAL－"
+        "post": "－SAMURAI The FINAL－",
+        "directors": [
+          "齋藤 吉正"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『ロマンス！！（Romance）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/oukanyimae/index.html",
     "schedule": [
@@ -71650,11 +71842,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Bow Singing Workshop』",
-        "post": "-花-"
+        "post": "-花-",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_flower/index.html",
     "schedule": [
@@ -71678,11 +71870,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Bow Singing Workshop』",
-        "post": "-雪-"
+        "post": "-雪-",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_snow/index.html",
     "schedule": [
@@ -71709,11 +71901,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『エリザベート－愛と死の輪舞（ロンド）－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/elisabeth/index.html",
     "schedule": [
@@ -72140,11 +72332,11 @@ const revues = [
       {
         "pre": "",
         "main": "『One Voice』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/onevoice/index.html",
     "schedule": [
@@ -72199,11 +72391,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Bow Singing Workshop』",
-        "post": "-星-"
+        "post": "-星-",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_star/index.html",
     "schedule": [
@@ -72228,11 +72420,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ドン・ジュアン』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/06_donjuan/index.html",
     "schedule": [
@@ -72414,11 +72606,11 @@ const revues = [
       {
         "pre": "タカラヅカ・シネマティック",
         "main": "『ローマの休日』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/romano/index.html",
     "schedule": [
@@ -72615,17 +72807,19 @@ const revues = [
       {
         "pre": "ロック・ミュージカル",
         "main": "『NOBUNAGA＜信長＞ －下天の夢－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "シャイニング・ショー",
         "main": "『Forever LOVE!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/nobunaga/index.html",
     "schedule": [
@@ -73156,11 +73350,11 @@ const revues = [
       {
         "pre": "",
         "main": "『Bow Singing Workshop』",
-        "post": "-宙-"
+        "post": "-宙-",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_cosmos/index.html",
     "schedule": [
@@ -73185,11 +73379,11 @@ const revues = [
       {
         "pre": "グランド・ロマンス",
         "main": "『王家に捧ぐ歌』",
-        "post": "－オペラ「アイーダ」より－"
+        "post": "－オペラ「アイーダ」より－",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/aida/index.html",
     "schedule": [
@@ -73471,11 +73665,11 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『ヴァンパイア・サクセション』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/vampire_succession/index.html",
     "schedule": [
@@ -73627,11 +73821,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ME AND MY GIRL』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/meandmygirl/index.html",
     "schedule": [
@@ -73936,11 +74130,11 @@ const revues = [
       {
         "pre": "龍真咲コンサート",
         "main": "『Voice』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/voice/index.html",
     "schedule": [
@@ -74111,17 +74305,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『激情』",
-        "post": "—ホセとカルメン—"
+        "post": "—ホセとカルメン—",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "ファナティック・ショー",
         "main": "『Apasionado（アパショナード）!!III』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/gekijo/index.html",
     "schedule": [
@@ -74380,17 +74576,19 @@ const revues = [
       {
         "pre": "MUSICAL",
         "main": "『こうもり』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       },
       {
         "pre": "ショー・スペクタキュラー",
         "main": "『THE ENTERTAINER！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純",
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/koumori/index.html",
     "schedule": [
@@ -74779,11 +74977,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『For the people —リンカーン 自由を求めた男—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/lincoln/index.html",
     "schedule": [
@@ -74985,11 +75183,11 @@ const revues = [
       {
         "pre": "浪漫活劇",
         "main": "『るろうに剣心』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/rurouni/index.html",
     "schedule": [
@@ -75377,11 +75575,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『Ernest in Love』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/ernestinlove/index.html",
     "schedule": [
@@ -75536,11 +75734,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『鈴蘭（ル・ミュゲ） —思い出の淵から見えるものは—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "樫畑 亜依子"
+        ]
       }
-    ],
-    "directors": [
-      "樫畑 亜依子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/ru_myuge/index.html",
     "schedule": [
@@ -75717,11 +75915,11 @@ const revues = [
       {
         "pre": "北翔海莉 Dramatic Revue",
         "main": "『LOVE & DREAM』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/lovedream/index.html",
     "schedule": [
@@ -75791,17 +75989,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『Shakespeare 〜空に満つるは、尽きせぬ言の葉〜』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "ダイナミック・ショー",
         "main": "『HOT EYES!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/shakespeare/index.html",
     "schedule": [
@@ -76200,17 +76400,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『哀しみのコルドバ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "柴田 侑宏"
+        ]
       },
       {
         "pre": "バイレ・ロマンティコ",
         "main": "『La Esmeralda（ラ エスメラルダ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "柴田 侑宏",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/aishunocordoba/index.html",
     "schedule": [
@@ -76567,11 +76769,11 @@ const revues = [
       {
         "pre": "浪華人情物語",
         "main": "『銀二貫』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/gin2kan/index.html",
     "schedule": [
@@ -76743,17 +76945,19 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『舞音-MANON-』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       },
       {
         "pre": "グランドカーニバル",
         "main": "『GOLDEN JAZZ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/manon/index.html",
     "schedule": [
@@ -77119,11 +77323,11 @@ const revues = [
       {
         "pre": "バウ・プレイ",
         "main": "『相続人の肖像』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ]
       }
-    ],
-    "directors": [
-      "田渕 大輔"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/souzokunin/index.html",
     "schedule": [
@@ -77296,17 +77500,19 @@ const revues = [
       {
         "pre": "サスペンス・コメディ",
         "main": "『メランコリック・ジゴロ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『シトラスの風III』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/melancholicgigolo/index.html",
     "schedule": [
@@ -77510,17 +77716,19 @@ const revues = [
       {
         "pre": "宝塚グランド・ロマン",
         "main": "『新源氏物語』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "グランド・レビュー",
         "main": "『Melodia －熱く美しき旋律－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/genji/index.html",
     "schedule": [
@@ -77975,11 +78183,11 @@ const revues = [
       {
         "pre": "ドラマティック・ドリーム",
         "main": "『DRAGON NIGHT!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/dragonnight/index.html",
     "schedule": [
@@ -78024,11 +78232,11 @@ const revues = [
       {
         "pre": "BOW WORKSHOP",
         "main": "『A－EN（エイエン）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/a_en_arthur/index.html",
     "schedule": [
@@ -78196,11 +78404,11 @@ const revues = [
       {
         "pre": "ブロードウェイ・ミュージカル",
         "main": "『ガイズ＆ドールズ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "酒井 澄夫"
+        ]
       }
-    ],
-    "directors": [
-      "酒井 澄夫"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/guysanddolls/index.html",
     "schedule": [
@@ -78584,11 +78792,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『スターダム』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/stardom/index.html",
     "schedule": [
@@ -78805,17 +79013,19 @@ const revues = [
       {
         "pre": "ミュージカル・ノスタルジー",
         "main": "『星逢一夜（ほしあいひとよ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       },
       {
         "pre": "バイレ・ロマンティコ",
         "main": "『La Esmeralda（ラ エスメラルダ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/hoshiaihitoyo/index.html",
     "schedule": [
@@ -79321,17 +79531,19 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『ベルサイユのばら—フェルゼンとマリー・アントワネット編—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       },
       {
         "pre": "レヴューロマン",
         "main": "『宝塚幻想曲（タカラヅカ ファンタジア）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/versailles_flower/index.html",
     "schedule": [
@@ -79589,11 +79801,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『キャッチ・ミー・イフ・ユー・キャン』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/catchmeifyoucan/index.html",
     "schedule": [
@@ -79724,17 +79936,19 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『大海賊』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『Amour それは･･･』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/greatpirate/index.html",
     "schedule": [
@@ -80004,11 +80218,11 @@ const revues = [
       {
         "pre": "シアター グランド・ロマンス",
         "main": "『王家に捧ぐ歌』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/aida/index.html",
     "schedule": [
@@ -80369,11 +80583,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『アル・カポネ —スカーフェイスに秘められた真実—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/alcapone/index.html",
     "schedule": [
@@ -80600,18 +80814,20 @@ const revues = [
       {
         "pre": "ミュージカル・ロマン",
         "main": "『星影の人』",
-        "post": "－沖田総司・まぼろしの青春－"
+        "post": "－沖田総司・まぼろしの青春－",
+        "directors": [
+          "柴田 侑宏",
+          "中村 暁"
+        ]
       },
       {
         "pre": "ファンタスティック・ショー",
         "main": "『ファンシー・ガイ！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "柴田 侑宏", 
-      "中村 暁", 
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/hoshikage/index.html",
     "schedule": [
@@ -80979,11 +81195,11 @@ const revues = [
       {
         "pre": "スペクタクル・ミュージカル",
         "main": "『1789 －バスティーユの恋人たち－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/1789/index.html",
     "schedule": [
@@ -81308,11 +81524,11 @@ const revues = [
       {
         "pre": "バウ・ショーケース",
         "main": "『New Wave! －宙－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/newwave_cosmos/index.html",
     "schedule": [
@@ -81355,11 +81571,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『TOP HAT』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/tophat/index.html",
     "schedule": [
@@ -81617,17 +81833,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『カリスタの海に抱かれて』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "レヴューロマン",
         "main": "『宝塚幻想曲（タカラヅカ ファンタジア）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/calista/index.html",
     "schedule": [
@@ -81978,17 +82196,19 @@ const revues = [
       {
         "pre": "ミュージカル・プレイ",
         "main": "『黒豹（くろひょう）の如（ごと）く』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "謝 珠栄"
+        ]
       },
       {
         "pre": "ダイナミック・ドリーム",
         "main": "『Dear DIAMOND!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "謝 珠栄",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/blackleopard/index.html",
     "schedule": [
@@ -82423,12 +82643,12 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『風と共に去りぬ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾",
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gone_with_the_wind/index.html",
     "schedule": [
@@ -82676,11 +82896,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『Bandito（バンディート） －義賊 サルヴァトーレ・ジュリアーノ－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/bandito/index.html",
     "schedule": [
@@ -82869,11 +83089,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『Ernest in Love』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/ernestinlove_2015/index.html",
     "schedule": [
@@ -83029,11 +83249,11 @@ const revues = [
       {
         "pre": "OH! Edo Night Show",
         "main": "『風の次郎吉　—大江戸夜飛翔—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/jirokichi/index.html",
     "schedule": [
@@ -83276,17 +83496,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ルパン三世 —王妃の首飾りを追え！—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ファンタスティック・ショー",
         "main": "『ファンシー・ガイ！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/lupin/index.html",
     "schedule": [
@@ -83677,11 +83899,11 @@ const revues = [
       {
         "pre": "バウ・ロマン",
         "main": "『アルカサル ～王城～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/alcazar/index.html",
     "schedule": [
@@ -83875,11 +84097,11 @@ const revues = [
       {
         "pre": "柚希礼音スーパー・リサイタル",
         "main": "『REON in BUDOKAN～LEGEND～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       }
-    ],
-    "directors": [
-      "石田 昌也"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/reoninbudokan/index.html",
     "schedule": [
@@ -83919,12 +84141,12 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『風と共に去りぬ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾",
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gone_with_the_wind/index.html",
     "schedule": [
@@ -84229,17 +84451,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『白夜の誓い —グスタフIII世、誇り高き王の戦い—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       },
       {
         "pre": "グランド・ショー",
         "main": "『PHOENIX 宝塚!! —蘇る愛—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gustav/index.html",
     "schedule": [
@@ -84667,11 +84891,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル・ロマネスク",
         "main": "『パルムの僧院 —美しき愛の囚人—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "野口 幸作"
+        ]
       }
-    ],
-    "directors": [
-      "野口 幸作"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/parme/index.html",
     "schedule": [
@@ -84851,11 +85075,11 @@ const revues = [
       {
         "pre": "ル・ミュージカル・ア・ラ・ベル・エポック",
         "main": "『伯爵令嬢』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/hakushakureijo/index.html",
     "schedule": [
@@ -85149,17 +85373,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『PUCK（パック）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       },
       {
         "pre": "ショー・ファンタジー",
         "main": "『CRYSTAL TAKARAZUKA－イメージの結晶－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 暁"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎",
-      "中村 暁"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/puck/index.html",
     "schedule": [
@@ -85650,11 +85876,11 @@ const revues = [
       {
         "pre": "バウ・ゴシック",
         "main": "『SANCTUARY（サンクチュアリ）』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/sanctuary/index.html",
     "schedule": [
@@ -85940,11 +86166,11 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『ベルサイユのばら—フェルゼンとマリー・アントワネット編—』",
-        "post": "～池田理代子原作「ベルサイユのばら」より～"
+        "post": "～池田理代子原作「ベルサイユのばら」より～",
+        "directors": [
+          "植田 紳爾, 谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾, 谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_fersen_antoinette_cosmo/index.html",
     "schedule": [
@@ -86238,11 +86464,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『エリザベート－愛と死の輪舞（ロンド）－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/elisabeth/index.html",
     "schedule": [
@@ -86684,11 +86910,11 @@ const revues = [
       {
         "pre": "",
         "main": "『THE KINGDOM』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "正塚 晴彦"
+        ]
       }
-    ],
-    "directors": [
-      "正塚 晴彦"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/kingdom/index.html",
     "schedule": [
@@ -86931,17 +87157,19 @@ const revues = [
       {
         "pre": "Musical",
         "main": "『The Lost Glory —美しき幻影—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 景子"
+        ]
       },
       {
         "pre": "ラテン・グルーヴ",
         "main": "『パッショネイト宝塚！』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "稲葉 太地"
+        ]
       }
-    ],
-    "directors": [
-      "植田 景子",
-      "稲葉 太地"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/lostglory/index.html",
     "schedule": [
@@ -87392,23 +87620,27 @@ const revues = [
       {
         "pre": "日本絵草紙",
         "main": "『宝塚をどり』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       },
       {
         "pre": "プチ・ミュージカル・プレイ",
         "main": "『明日への指針 －センチュリー号の航海日誌－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "グランド・レビュー",
         "main": "『TAKARAZUKA 花詩集100!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "石田 昌也",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/takarazukawodori_hakata/index.html",
     "schedule": [
@@ -87706,11 +87938,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『ノクターン －遠い夏の日の記憶－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/nocturne/index.html",
     "schedule": [
@@ -87894,12 +88126,12 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『ベルサイユのばら—フェルゼンとマリー・アントワネット編—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾",
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_fersen_antoinette_flower/index.html",
     "schedule": [
@@ -88231,17 +88463,19 @@ const revues = [
       {
         "pre": "宝塚傾奇絵巻",
         "main": "『一夢庵風流記 前田慶次』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "大野 拓史"
+        ]
       },
       {
         "pre": "グランド・レビュー",
         "main": "『My Dream TAKARAZUKA』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "中村 一徳"
+        ]
       }
-    ],
-    "directors": [
-      "大野 拓史",
-      "中村 一徳"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/maedakeiji/index.html",
     "schedule": [
@@ -88733,11 +88967,11 @@ const revues = [
       {
         "pre": "バウ・ミュージカル",
         "main": "『かもめ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/seagull/index.html",
     "schedule": [
@@ -88859,11 +89093,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『太陽王 ～ル・ロワ・ソレイユ～』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "木村 信司"
+        ]
       }
-    ],
-    "directors": [
-      "木村 信司"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/roisoleil/index.html",
     "schedule": [
@@ -89044,12 +89278,12 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『ベルサイユのばら—オスカル編—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾",
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_oscar/index.html",
     "schedule": [
@@ -89459,23 +89693,27 @@ const revues = [
       {
         "pre": "日本絵草紙",
         "main": "『宝塚をどり』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       },
       {
         "pre": "プチ・ミュージカル・プレイ",
         "main": "『明日への指針 －センチュリー号の航海日誌－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "石田 昌也"
+        ]
       },
       {
         "pre": "グランド・レビュー",
         "main": "『TAKARAZUKA 花詩集100!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "石田 昌也",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/takarazukawodori/index.html",
     "schedule": [
@@ -89928,11 +90166,11 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『心中・恋の大和路』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/koinoyamatoji/index.html",
     "schedule": [
@@ -90138,11 +90376,11 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『ベルサイユのばら－オスカルとアンドレ編－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_oscar_andre/index.html",
     "schedule": [
@@ -90415,11 +90653,11 @@ const revues = [
       {
         "pre": "",
         "main": "『翼ある人びと—ブラームスとクララ・シューマン—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "上田 久美子"
+        ]
       }
-    ],
-    "directors": [
-      "上田 久美子"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/tsubasa/index.html",
     "schedule": [
@@ -90606,17 +90844,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ラスト・タイクーン —ハリウッドの帝王、不滅の愛—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ]
       },
       {
         "pre": "メガステージ",
         "main": "『TAKARAZUKA ∞ 夢眩』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ]
       }
-    ],
-    "directors": [
-      "生田 大和",
-      "齋藤 吉正"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/lasttycoon/index.html",
     "schedule": [
@@ -91097,17 +91337,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『ロバート・キャパ 魂の記録』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "原田 諒"
+        ]
       },
       {
         "pre": "ロマンチック・レビュー",
         "main": "『シトラスの風II』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "岡田 敬二"
+        ]
       }
-    ],
-    "directors": [
-      "原田 諒",
-      "岡田 敬二"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/robertcapa/index.html",
     "schedule": [
@@ -91370,11 +91612,11 @@ const revues = [
       {
         "pre": "バウ・ショーケース",
         "main": "『New Wave! －月－』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "三木 章雄"
+        ]
       }
-    ],
-    "directors": [
-      "三木 章雄"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/newwave_moon/index.html",
     "schedule": [
@@ -91424,12 +91666,12 @@ const revues = [
       {
         "pre": "宝塚グランドロマン",
         "main": "『風と共に去りぬ』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "植田 紳爾",
+          "谷 正純"
+        ]
       }
-    ],
-    "directors": [
-      "植田 紳爾",
-      "谷 正純"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gone_with_the_wind_umegei/index.html",
     "schedule": [
@@ -91675,11 +91917,11 @@ const revues = [
       {
         "pre": "ル・スペクタクル・ミュージカル",
         "main": "『眠らない男・ナポレオン —愛と栄光の涯（はて）に—』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小池 修一郎"
+        ]
       }
-    ],
-    "directors": [
-      "小池 修一郎"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/napoleon/index.html",
     "schedule": [
@@ -92231,17 +92473,19 @@ const revues = [
       {
         "pre": "ミュージカル",
         "main": "『Shall we ダンス?』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "小柳 奈穂子"
+        ]
       },
       {
         "pre": "ショー・ビッグモニュメント",
         "main": "『CONGRATULATIONS 宝塚!!』",
-        "post": ""
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ]
       }
-    ],
-    "directors": [
-      "小柳 奈穂子",
-      "藤井 大介"
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/shall_we_dance/index.html",
     "schedule": [

@@ -35,26 +35,6 @@ if(!director){
 
 
     // ---------------------------------
-    // 組名
-    // ---------------------------------
-
-    function getTrpName(trp){
-
-        const names = {
-            flower:"花組",
-            moon:"月組",
-            snow:"雪組",
-            star:"星組",
-            cosmos:"宙組",
-            special:"専科"
-        };
-
-        return names[trp] || "";
-
-    }
-
-
-    // ---------------------------------
     // タイトルの（）内を削除
     // ---------------------------------
 
@@ -194,7 +174,7 @@ if(!director){
             .map(work=>`
 
                 <a
-                    class="workItem"
+                    class="workItem ${work.trp}"
                     href="revue_detail.html?id=${work.revueId}"
                 >
 
@@ -202,10 +182,6 @@ if(!director){
 
                         <span class="workDate">
                             ${formatDate(work.date)}
-                        </span>
-
-                        <span class="workTrp">
-                            ${getTrpName(work.trp)}
                         </span>
 
                     </div>
