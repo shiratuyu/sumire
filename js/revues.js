@@ -14,15 +14,17 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "アヴァンチュール・ショー",
-        "main": "『Ivresse Vague』",
+        "main": "『Ivresse Vague（イヴレス ヴァーグ）』",
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2027/thelondonway/index.html",
@@ -55,7 +57,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2027/snowing/index.html",
@@ -104,17 +107,18 @@ const revues = [
     "name": "Monte-Cristo－le spectacle musical－",
     "trp": "snow",
     "date": "2026-12-24",
-    "theater": "梅田芸術劇場メインホール, 東京国際フォーラムホールC",
+    "theater": "梅田芸術劇場メインホール, 東京国際フォーラム ホールC",
     "hero": "朝美 絢",
     "heroine": "音彩 唯",
     "title_parts": [
       {
-        "pre": "ロックミュージカル",
-        "main": "『Monte-Cristo（モンテ・クリスト）－le spectacle musical－』",
+        "pre": "",
+        "main": "『Monte-Cristo（モンテ・クリスト） -le spectacle musical-』",
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/montecristo/index.html",
@@ -179,7 +183,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴュー ロマン",
@@ -187,7 +192,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/tenkyuunoartemis/index.html",
@@ -204,7 +210,79 @@ const revues = [
       }
     ],
     "main_cast": [],
-    "cast": []
+    "cast": [
+      "梨花 ますみ",
+      "鳳月 杏",
+      "夢奈 瑠音",
+      "佳城 葵",
+      "英 かおと",
+      "風間 柚乃",
+      "桃歌 雪",
+      "妃純 凛",
+      "天紫 珠李",
+      "礼華 はる",
+      "甲海 夏帆",
+      "彩海 せら",
+      "菜々野 あり",
+      "柊木 絢斗",
+      "大楠 てら",
+      "白河 りり",
+      "彩路 ゆりか",
+      "毬矢 ソナタ",
+      "咲彩 いちご",
+      "真弘 蓮",
+      "美海 そら",
+      "月乃 だい亜",
+      "静音 ほたる",
+      "七城 雅",
+      "朝香 ゆらら",
+      "槙 照斗",
+      "遥稀 れお",
+      "和真 あさ乃",
+      "一乃 凜",
+      "花妃 舞音",
+      "蘭叶 みり",
+      "涼宮 蘭奈",
+      "澪 あゆと",
+      "綺乃 ゆず",
+      "大瀬 いぶき",
+      "美颯 りひと",
+      "天つ風 朱李",
+      "華羽 りみ",
+      "愛梛 ちとせ",
+      "澪花 えりさ",
+      "美渦 せいか",
+      "彩姫 みみ",
+      "星丘 しずく",
+      "雅 耀",
+      "八重 ひめか",
+      "穂波 舞咲",
+      "桜之 真緒",
+      "帆華 なつ海",
+      "翔 ゆり愛",
+      "乃々 れいあ",
+      "朱鷺 あおい",
+      "飛翔 れいや",
+      "梨乃 すずらん",
+      "央河 希涼",
+      "日向 みなき",
+      "碧月 光",
+      "陽悠 はれ",
+      "陽稀 はる",
+      "薫乃 咲月",
+      "希瀬 旭",
+      "光 桜紀",
+      "也乃 英心",
+      "百詠 心春",
+      "雪乃 あい",
+      "瑠希 友杏",
+      "詩羽 月乃",
+      "朝霧 彗斗",
+      "湊 英",
+      "ひまり 愛莉",
+      "橙咲 じゅん",
+      "奏翔 耀"
+    ]
   },
   {
     "id": "cosmos_20261106_01",
@@ -216,11 +294,12 @@ const revues = [
     "title_parts": [
       {
         "pre": "寛政御伽草子",
-        "main": "『酔いどれ御免！』",
+        "main": "『酔いどれ御免!』",
         "post": "",
         "directors": [
           "菅谷 元"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/yoidoregomen/index.html",
@@ -236,12 +315,17 @@ const revues = [
         "to": "2026-11-23"
       }
     ],
-    "main_cast": [],
+    "main_cast": [
+      {
+        "role": "清次郎/酒呑童子",
+        "members": ["鷹翔 千空"],
+        "new_members": []
+      }
+    ],
     "cast": [
       "愛 すみれ",
       "叶 ゆうり",
       "花菱 りず",
-      "鷹翔 千空",
       "湖々 さくら",
       "雪輝 れんや",
       "凰海 るの",
@@ -280,12 +364,13 @@ const revues = [
     "title_parts": [
       {
         "pre": "ミュージカル・プレイ",
-        "main": "『再会』",
+        "main": "『再会-風が残した君の名前-』",
         "post": "",
         "directors": [
           "石田 昌也",
           "中村 真央"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スパーキング・イルミネイト",
@@ -293,7 +378,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/saikai/index.html",
@@ -356,7 +442,7 @@ const revues = [
     "id": "flower_20261017_01",
     "name": "エリザベート－愛と死の輪舞－",
     "trp": "flower",
-    "date": "2014-08-22",
+    "date": "2026-10-17",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "永久輝 せあ",
     "heroine": "星空 美咲",
@@ -367,296 +453,325 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
-    "official_url": "https://kageki.hankyu.co.jp/revue/2014/elisabeth/index.html",
+    "official_url": "https://kageki.hankyu.co.jp/revue/2026/elisabeth/index.html",
     "schedule": [
       {
         "theater": "宝塚大劇場",
-        "from": "2014-08-22",
-        "to": "2014-09-22"
+        "from": "2026-10-17",
+        "to": "2026-11-22"
       },
       {
         "theater": "東京宝塚劇場",
-        "from": "2014-10-11",
-        "to": "2014-11-16"
+        "from": "2026-12-19",
+        "to": "2027-02-07"
       }
     ],
     "main_cast": [
       {
         "role": "トート",
-        "members": ["明日海 りお"],
-        "new_members": ["柚香 光"]
+        "members": ["永久輝 せあ"],
+        "new_members": []
       },
       {
         "role": "エリザベート",
-        "members": ["蘭乃 はな"],
-        "new_members": ["花乃 まりあ"]
+        "members": ["星空 美咲"],
+        "new_members": []
       },
       {
         "role": "フランツ・ヨーゼフ",
-        "members": ["北翔 海莉"],
-        "new_members": ["和海 しょう"]
+        "members": ["聖乃 あすか"],
+        "new_members": []
       },
       {
         "role": "ルイジ・ルキーニ",
-        "members": ["望海 風斗"],
-        "new_members": ["水美 舞斗"]
+        "members": ["極美 慎"],
+        "new_members": []
       },
       {
         "role": "ルドルフ",
-        "members": ["芹香 斗亜", "柚香 光"],
-        "new_members": ["優波 慧"]
-      },
-      {
-        "role": "マックス",
-        "members": ["悠真 倫"],
-        "new_members": ["羽立 光来"]
-      },
-      {
-        "role": "グリュンネ",
-        "members": ["高翔 みず希"],
-        "new_members": ["舞月 なぎさ"]
+        "members": ["侑輝 大弥", "希波 らいと"],
+        "new_members": []
       },
       {
         "role": "ゾフィー",
-        "members": ["桜 一花"],
-        "new_members": ["仙名 彩世"]
-      },
-      {
-        "role": "ラウシャー",
-        "members": ["紫峰 七海"],
-        "new_members": ["峰果 とわ"]
-      },
-      {
-        "role": "ルドヴィカ",
-        "members": ["花野 じゅりあ"],
-        "new_members": ["華雅 りりか"]
-      },
-      {
-        "role": "ケンペン",
-        "members": ["夕霧 らい"],
-        "new_members": ["高峰 潤"]
-      },
-      {
-        "role": "ヘレネ",
-        "members": ["華耀 きらり"],
-        "new_members": ["春妃 うらら"]
-      },
-      {
-        "role": "リヒテンシュタイン",
-        "members": ["芽吹 幸奈"],
-        "new_members": ["乙羽 映見"]
-      },
-      {
-        "role": "スターレイ",
-        "members": ["梅咲 衣舞"],
-        "new_members": ["夢花 らん"]
-      },
-      {
-        "role": "エルマー・バチャーニー",
-        "members": ["瀬戸 かずや"],
-        "new_members": ["矢吹 世奈"]
-      },
-      {
-        "role": "黒天使",
-        "members": ["冴月 瑠那"],
-        "new_members": []
-      },
-      {
-        "role": "シュテファン",
-        "members": ["鳳 真由"],
-        "new_members": ["綺城 ひか理"]
-      },
-      {
-        "role": "黒天使",
-        "members": ["白姫 あかり"],
-        "new_members": []
-      },
-      {
-        "role": "家庭教師",
-        "members": ["春花 きらら"],
-        "new_members": ["紗愛 せいら"]
-      },
-      {
-        "role": "女官",
-        "members": ["鞠花 ゆめ"],
+        "members": ["美風 舞良"],
         "new_members": []
       },
       {
         "role": "ツェップス",
-        "members": ["天真 みちる"],
-        "new_members": ["冴華 りおな"]
-      },
-      {
-        "role": "病院長",
-        "members": ["神房 佳希"],
+        "members": ["紫門 ゆりや"],
         "new_members": []
       },
       {
-        "role": "ジュラ",
-        "members": ["芹香 斗亜", "柚香 光"],
-        "new_members": ["亜蓮 冬馬"]
-      },
-      {
-        "role": "死刑囚の母",
-        "members": ["菜那 くらら"],
-        "new_members": ["新菜 かほ"]
-      },
-      {
-        "role": "黒天使",
-        "members": ["真輝 いづみ"],
-        "new_members": []
-      },
-      {
-        "role": "マダム・ヴォルフ",
-        "members": ["大河 凜"],
-        "new_members": ["真彩 希帆"]
-      },
-      {
-        "role": "女官",
-        "members": ["桜咲 彩花"],
-        "new_members": []
-      },
-      {
-        "role": "ヒューブナー",
-        "members": ["航琉 ひびき"],
-        "new_members": ["七輝 かおる"]
-      },
-      {
-        "role": "黒天使",
-        "members": ["舞月 なぎさ"],
-        "new_members": []
-      },
-      {
-        "role": "ヴィンディッシュ嬢",
-        "members": ["仙名 彩世"],
-        "new_members": []
-      },
-      {
-        "role": "黒天使",
-        "members": ["和海 しょう"],
-        "new_members": []
-      },
-      {
-        "role": "女官",
-        "members": ["華雅 りりか"],
-        "new_members": []
-      },
-      {
-        "role": "シュヴァルツェンベルク",
-        "members": ["羽立 光来"],
-        "new_members": ["飛龍 つかさ"]
-      },
-      {
-        "role": "市長",
-        "members": ["冴華 りおな"],
-        "new_members": []
-      },
-      {
-        "role": "黒天使（マデレーネ）",
-        "members": ["水美 舞斗"],
-        "new_members": ["更紗 那知"]
-      },
-      {
-        "role": "黒天使",
-        "members": ["優波 慧"],
-        "new_members": []
-      },
-      {
-        "role": "女官",
-        "members": ["乙羽 映見"],
-        "new_members": []
-      },
-      {
-        "role": "女官",
-        "members": ["朝月 希和"],
-        "new_members": []
-      },
-      {
-        "role": "女官",
-        "members": ["花乃 まりあ"],
-        "new_members": []
-      },
-      {
-        "role": "黒天使",
-        "members": ["千幸 あき"],
-        "new_members": []
-      },
-      {
-        "role": "少年ルドルフ",
-        "members": ["矢吹 世奈"],
-        "new_members": ["桜舞 しおん"]
-      },
-      {
-        "role": "黒天使",
+        "role": "グリュンネ",
         "members": ["紅羽 真希"],
         "new_members": []
       },
       {
+        "role": "ラウシャー",
+        "members": ["峰果 とわ"],
+        "new_members": []
+      },
+      {
+        "role": "スターレイ",
+        "members": ["凛乃 しづか"],
+        "new_members": []
+      },
+      {
+        "role": "ヒューブナー",
+        "members": ["高峰 潤"],
+        "new_members": []
+      },
+      {
+        "role": "ルドヴィカ",
+        "members": ["糸月 雪羽"],
+        "new_members": []
+      },
+      {
+        "role": "マックス",
+        "members": ["一之瀬 航季"],
+        "new_members": []
+      },
+      {
+        "role": "市長",
+        "members": ["和 礼彩"],
+        "new_members": []
+      },
+      {
+        "role": "リヒテンシュタイン",
+        "members": ["咲乃 深音"],
+        "new_members": []
+      },
+      {
+        "role": "シュヴァルツェンベルク",
+        "members": ["愛乃 一真"],
+        "new_members": []
+      },
+      {
+        "role": "ケンペン",
+        "members": ["龍季 澪"],
+        "new_members": []
+      },
+      {
+        "role": "神父",
+        "members": ["涼香 希南"],
+        "new_members": []
+      },
+      {
+        "role": "シュテファン",
+        "members": ["侑輝 大弥", "希波 らいと"],
+        "new_members": []
+      },
+      {
+        "role": "病院長",
+        "members": ["太凰 旬"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使",
+        "members": ["三空 凜花"],
+        "new_members": []
+      },
+      {
         "role": "エーアンの歌手",
-        "members": ["綺城 ひか理"],
+        "members": ["南音 あきら"],
+        "new_members": []
+      },
+      {
+        "role": "マダム・ヴォルフ",
+        "members": ["朝葉 ことの"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使（娼婦）",
+        "members": ["涼葉 まれ"],
+        "new_members": []
+      },
+      {
+        "role": "死刑囚の母",
+        "members": ["詩希 すみれ"],
+        "new_members": []
+      },
+      {
+        "role": "親戚の男",
+        "members": ["海叶 あさひ"],
+        "new_members": []
+      },
+      {
+        "role": "家庭教師",
+        "members": ["琴美 くらら"],
+        "new_members": []
+      },
+      {
+        "role": "医者",
+        "members": ["颯美 汐紗"],
+        "new_members": []
+      },
+      {
+        "role": "エルマー",
+        "members": ["天城 れいん"],
+        "new_members": []
+      },
+      {
+        "role": "ヴィンディッシュ嬢",
+        "members": ["美羽 愛"],
+        "new_members": []
+      },
+      {
+        "role": "叔父",
+        "members": ["珀斗 星来"],
+        "new_members": []
+      },
+      {
+        "role": "ハンガリー貴族（男）",
+        "members": ["青騎 司"],
+        "new_members": []
+      },
+      {
+        "role": "ジュラ",
+        "members": ["美空 真瑠"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使（娼婦）",
+        "members": ["夏希 真斗"],
+        "new_members": []
+      },
+      {
+        "role": "女官",
+        "members": ["稀奈 ゆい"],
+        "new_members": []
+      },
+      {
+        "role": "女官",
+        "members": ["初音 夢"],
+        "new_members": []
+      },
+      {
+        "role": "女官",
+        "members": ["湖華 詩"],
+        "new_members": []
+      },
+      {
+        "role": "ハンガリー貴族（男）",
+        "members": ["伶愛輝 みら"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使（マデレーネ）",
+        "members": ["鏡 星珠"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使",
+        "members": ["遼 美来"],
+        "new_members": []
+      },
+      {
+        "role": "女官",
+        "members": ["真澄 ゆかり"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使",
+        "members": ["宇咲 瞬"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使",
+        "members": ["月翔 きら"],
+        "new_members": []
+      },
+      {
+        "role": "ヘレネ",
+        "members": ["七彩 はづき"],
         "new_members": []
       },
       {
         "role": "美容師",
-        "members": ["真彩 希帆"],
-        "new_members": ["若草 萌香"]
-      },
-      {
-        "role": "黒天使",
-        "members": ["亜蓮 冬馬"],
+        "members": ["花海 凛"],
         "new_members": []
       },
       {
-        "role": "（新人公演）黒天使",
-        "members": [],
-        "new_members": ["朝月 希和", "千幸 あき", "紅羽 真希", "碧宮 るか", "澄月 菜音", "帆純 まひろ", "凛乃 しづか"]
+        "role": "黒天使",
+        "members": ["纏 涼"],
+        "new_members": []
       },
       {
-        "role": "（新人公演）女官",
-        "members": [],
-        "new_members": ["真鳳 つぐみ", "美蘭 レンナ", "茉玲 さや那", "妃月 ゆめ", "桜花 りな", "姫歌 ひな乃"]
+        "role": "女官",
+        "members": ["翠笙 芹南"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使",
+        "members": ["風美 はる帆"],
+        "new_members": []
+      },
+      {
+        "role": "女官",
+        "members": ["花綺 ちさと"],
+        "new_members": []
+      },
+      {
+        "role": "少年ルドルフ",
+        "members": ["彩葉 ゆめ"],
+        "new_members": []
+      },
+      {
+        "role": "侍女",
+        "members": ["優花 りら"],
+        "new_members": []
+      },
+      {
+        "role": "黒天使",
+        "members": ["凛 航瑠"],
+        "new_members": []
       }
     ],
     "cast": [
-      "桜帆 ゆかり",
-      "美花 梨乃",
-      "花奈 澪",
-      "新菜 かほ",
-      "夢花 らん",
-      "紗愛 せいら",
-      "真鳳 つぐみ",
-      "美蘭 レンナ",
-      "更紗 那知",
-      "桜舞 しおん",
-      "春妃 うらら",
-      "雛 リリカ",
-      "碧宮 るか",
-      "峰果 とわ",
-      "飛龍 つかさ",
-      "茉玲 さや那",
-      "七輝 かおる",
-      "澄月 菜音",
-      "妃月 ゆめ",
-      "桜花 りな",
-      "若草 萌香",
-      "姫歌 ひな乃",
-      "帆純 まひろ",
-      "高峰 潤",
-      "凛乃 しづか",
-      "春矢 祐璃",
-      "糸月 雪羽",
-      "聖乃 あすか",
-      "桃歌 雪",
-      "希沙 薫",
-      "二條 華",
-      "星加 梨杏",
-      "妃純 凛",
-      "琥南 まこと",
-      "ゆめ 真音",
-      "舞希 翼"
+      "美遥 あゆ",
+      "希蘭 るね",
+      "瀬七波 いろ",
+      "常和 紅葉",
+      "滝 みらい",
+      "光稀 れん",
+      "美翠 せいら",
+      "華路 らら",
+      "輝涼 じゅん",
+      "風白 ルイ",
+      "月世 麗",
+      "夢希 舞香",
+      "咲葉 えめ",
+      "優帆 なぎさ",
+      "海月 優",
+      "七香 美海",
+      "伊吹 すがた",
+      "宙翔 かなた",
+      "綺陽 なぎ",
+      "陽咲 かりん",
+      "羽月 涼風",
+      "遥花 なな",
+      "春真 幸",
+      "ゆるか 舞桜",
+      "涼雅 水",
+      "仁 彩斗",
+      "雪白 詩乃",
+      "春華 にこ",
+      "碧 一星",
+      "朝妃 流音",
+      "夏妃 のどか",
+      "咲月 蒼",
+      "葉月 瑶",
+      "花彩 愛奈",
+      "鈴花 波音",
+      "深冬 椿",
+      "栞世 光",
+      "星純 せいあ",
+      "城月 めあ理"
     ]
   },
   {
@@ -664,23 +779,24 @@ const revues = [
     "name": "稲妻開化譚－イナズマカイカタン－",
     "trp": "moon",
     "date": "2026-09-13",
-    "theater": "兵庫県立芸術文化センター阪急中ホール, KAAT神奈川芸術劇場",
+    "theater": "兵庫県立芸術文化センター 阪急 中ホール, KAAT神奈川芸術劇場",
     "hero": "風間 柚乃",
     "heroine": "白河 りり",
     "title_parts": [
       {
         "pre": "ミュージカル",
-        "main": "『稲妻開化譚－イナズマカイカタン－』",
+        "main": "『稲妻開化譚-イナズマカイカタン-』",
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/inazumakaikatan/index.html",
     "schedule": [
       {
-        "theater": "兵庫県立芸術文化センター阪急中ホール",
+        "theater": "兵庫県立芸術文化センター 阪急 中ホール",
         "from": "2026-09-13",
         "to": "2026-09-22"
       },
@@ -859,7 +975,8 @@ const revues = [
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/nine/index.html",
@@ -872,43 +989,142 @@ const revues = [
     ],
     "main_cast": [
       {
-        "role": "グイド・コンティーニ",
+        "role": "グイード・コンティーニ",
         "members": ["鳳月 杏"],
         "new_members": []
       },
       {
-        "role": "ルイザ・コンティーニ",
+        "role": "ルイーザ・コンティーニ",
         "members": ["天紫 珠李"],
+        "new_members": []
+      },
+      {
+        "role": "リリアン・ラ・フルール",
+        "members": ["輝月 ゆうま"],
+        "new_members": []
+      },
+      {
+        "role": "ママ",
+        "members": ["夢奈 瑠音"],
+        "new_members": []
+      },
+      {
+        "role": "サラギーナ",
+        "members": ["桃歌 雪"],
+        "new_members": []
+      },
+      {
+        "role": "クラウディア",
+        "members": ["礼華 はる"],
+        "new_members": []
+      },
+      {
+        "role": "リナ",
+        "members": ["菜々野 あり"],
+        "new_members": []
+      },
+      {
+        "role": "マリア",
+        "members": ["咲彩 いちご"],
+        "new_members": []
+      },
+      {
+        "role": "リトル・グイード",
+        "members": ["美海 そら"],
+        "new_members": []
+      },
+      {
+        "role": "オルガ",
+        "members": ["静音 ほたる"],
+        "new_members": []
+      },
+      {
+        "role": "スパの聖母 姉",
+        "members": ["花妃 舞音"],
+        "new_members": []
+      },
+      {
+        "role": "レナータ",
+        "members": ["蘭叶 みり"],
+        "new_members": []
+      },
+      {
+        "role": "ポーラ",
+        "members": ["愛梛 ちとせ"],
+        "new_members": []
+      },
+      {
+        "role": "ソフィア",
+        "members": ["澪花 えりさ"],
+        "new_members": []
+      },
+      {
+        "role": "カルラ",
+        "members": ["美渦 せいか"],
+        "new_members": []
+      },
+      {
+        "role": "アンナベッラ",
+        "members": ["彩姫 みみ"],
+        "new_members": []
+      },
+      {
+        "role": "ジュリエット",
+        "members": ["星丘 しずく"],
+        "new_members": []
+      },
+      {
+        "role": "ディアーナ",
+        "members": ["八重 ひめか"],
+        "new_members": []
+      },
+      {
+        "role": "マデレーナ",
+        "members": ["翔 ゆり愛"],
+        "new_members": []
+      },
+      {
+        "role": "スパの聖母 妹",
+        "members": ["乃々 れいあ"],
+        "new_members": []
+      },
+      {
+        "role": "ステファニー・ネクロフォラス",
+        "members": ["朱鷺 あおい"],
+        "new_members": []
+      },
+      {
+        "role": "ノーラ",
+        "members": ["陽悠 はれ"],
+        "new_members": []
+      },
+      {
+        "role": "グレートヒェン",
+        "members": ["陽稀 はる"],
+        "new_members": []
+      },
+      {
+        "role": "ハイディ",
+        "members": ["光 桜紀"],
+        "new_members": []
+      },
+      {
+        "role": "ローラ",
+        "members": ["雪乃 あい"],
+        "new_members": []
+      },
+      {
+        "role": "ジュリエッタ",
+        "members": ["瑠希 友杏"],
+        "new_members": []
+      },
+      {
+        "role": "イルザ",
+        "members": ["詩羽 月乃"],
         "new_members": []
       }
     ],
-    "cast": [
-      "夢奈 瑠音",
-      "桃歌 雪",
-      "礼華 はる",
-      "菜々野 あり",
-      "咲彩 いちご",
-      "美海 そら",
-      "静音 ほたる",
-      "花妃 舞音",
-      "蘭叶 みり",
-      "愛梛 ちとせ",
-      "澪花 えりさ",
-      "美渦 せいか",
-      "彩姫 みみ",
-      "星丘 しずく",
-      "八重 ひめか",
-      "翔 ゆり愛",
-      "乃々 れいあ",
-      "朱鷺 あおい",
-      "陽悠 はれ",
-      "陽稀 はる",
-      "光 桜紀",
-      "雪乃 あい",
-      "瑠希 友杏",
-      "詩羽 月乃",
-      "輝月 ゆうま"
-    ]
+    "cast": []
   },
   {
     "id": "star_20260829_01",
@@ -920,12 +1136,13 @@ const revues = [
     "heroine": "詩 ちづる",
     "title_parts": [
       {
-        "pre": "",
-        "main": "『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
+        "pre": "三井住友VISAカード シアター",
+        "main": "『RRR × TAKA”R”AZUKA ~√Rama~（アールアールアール バイ タカラヅカ ~ルートラーマ~）』",
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/rrr/index.html",
@@ -948,7 +1165,7 @@ const revues = [
         "new_members": ["馳 琉輝"]
       },
       {
-        "role": "シータ／FIRRRE MIRRRAGE",
+        "role": "シータ/FIRRRE MIRRRAGE",
         "members": ["詩 ちづる"],
         "new_members": ["茉莉那 ふみ"]
       },
@@ -958,22 +1175,12 @@ const revues = [
         "new_members": ["世奈 未蘭"]
       },
       {
-        "role": "ラッチュ",
-        "members": ["世奈 未蘭"],
-        "new_members": ["逢莉 しゅん"]
+        "role": "オム",
+        "members": ["ひろ香 祐"],
+        "new_members": ["新 琉"]
       },
       {
-        "role": "マッリ",
-        "members": ["茉莉那 ふみ"],
-        "new_members": ["星奈 蘭"]
-      },
-      {
-        "role": "ライアン",
-        "members": ["馳 琉輝"],
-        "new_members": []
-      },
-      {
-        "role": "バッジュ／SINGERRR男",
+        "role": "バッジュ/SINGERRR男",
         "members": ["美稀 千種"],
         "new_members": ["和波 煌"]
       },
@@ -1013,11 +1220,6 @@ const revues = [
         "new_members": ["青星 すみと"]
       },
       {
-        "role": "オム",
-        "members": ["ひろ香 祐"],
-        "new_members": ["新 琉"]
-      },
-      {
         "role": "エドワード",
         "members": ["碧海 さりお"],
         "new_members": ["飛翠 真凜"]
@@ -1043,7 +1245,7 @@ const revues = [
         "new_members": ["碧羽 陽"]
       },
       {
-        "role": "ルードラ／司令官",
+        "role": "ルードラ/司令官",
         "members": ["奏碧 タケル"],
         "new_members": []
       },
@@ -1123,6 +1325,11 @@ const revues = [
         "new_members": []
       },
       {
+        "role": "ラッチュ",
+        "members": ["世奈 未蘭"],
+        "new_members": ["逢莉 しゅん"]
+      },
+      {
         "role": "SINGERRR女",
         "members": ["詩花 すず"],
         "new_members": ["乙華 菜乃"]
@@ -1141,6 +1348,16 @@ const revues = [
         "role": "少年ラーマ",
         "members": ["藍羽 ひより"],
         "new_members": ["夏 音葉"]
+      },
+      {
+        "role": "マッリ",
+        "members": ["茉莉那 ふみ"],
+        "new_members": ["星奈 蘭"]
+      },
+      {
+        "role": "ライアン",
+        "members": ["馳 琉輝"],
+        "new_members": []
       },
       {
         "role": "少女シータ",
@@ -1190,7 +1407,20 @@ const revues = [
       "琥珀 空",
       "紫宮 かなめ",
       "春月 くれあ",
-      "夏渚 稀"
+      "夏渚 稀",
+      "昴 三琴",
+      "羽美 風花",
+      "花乃愛 ここ",
+      "天翔 心",
+      "叶多 ひろ",
+      "結美 れいな",
+      "一秀 実央",
+      "月路 あゆ",
+      "姫乃 かぐや",
+      "千鶴 ましろ",
+      "優奈 美杏",
+      "星華 うらら",
+      "悠木 琉衣"
     ]
   },
   {
@@ -1208,7 +1438,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/theredandtheblack/index.html",
@@ -1388,7 +1619,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スパークリング・ショー",
@@ -1396,7 +1628,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/magiciannoyuuutsu/index.html",
@@ -1628,7 +1861,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/ponoichizoku/index.html",
@@ -1671,14 +1905,29 @@ const revues = [
         "new_members": ["律希 奏"]
       },
       {
+        "role": "ブラヴァツキー",
+        "members": ["美穂 圭子"],
+        "new_members": ["華純 沙那"]
+      },
+      {
+        "role": "大老ポー",
+        "members": ["奏乃 はると"],
+        "new_members": ["夢翔 みわ"]
+      },
+      {
         "role": "老ハンナ",
         "members": ["透真 かずき"],
         "new_members": ["瑞季 せれな"]
       },
       {
-        "role": "ビル／オルコット大佐",
+        "role": "ビル",
         "members": ["真那 春人"],
         "new_members": []
+      },
+      {
+        "role": "オルコット大佐",
+        "members": ["真那 春人"],
+        "new_members": ["乙瀬 千晴"]
       },
       {
         "role": "ハロルド",
@@ -1696,22 +1945,32 @@ const revues = [
         "new_members": ["鏡花 くらら"]
       },
       {
-        "role": "バイク・ブラウン4世／バイク・ブラウン",
+        "role": "バイク・ブラウン/バイク・ブラウン4世",
         "members": ["諏訪 さき"],
         "new_members": ["水月 胡蝶"]
       },
       {
-        "role": "オズワルド／ポール・メイヤー",
+        "role": "オズワルド",
         "members": ["眞ノ宮 るい"],
-        "new_members": []
+        "new_members": ["乙瀬 千晴"]
       },
       {
-        "role": "村長／トワイライト家の執事",
+        "role": "ポール・メイヤー",
+        "members": ["眞ノ宮 るい"],
+        "new_members": ["千乃 新"]
+      },
+      {
+        "role": "村長",
         "members": ["麻斗 海伶"],
         "new_members": []
       },
       {
-        "role": "グレン・スミス／ジャック",
+        "role": "トワイライト家の執事",
+        "members": ["麻斗 海伶"],
+        "new_members": ["楓真 優"]
+      },
+      {
+        "role": "グレンスミス/ジャック",
         "members": ["咲城 けい"],
         "new_members": ["瞳月 りく"]
       },
@@ -1721,24 +1980,44 @@ const revues = [
         "new_members": []
       },
       {
-        "role": "アボット支配人",
+        "role": "サミー・アボット支配人",
         "members": ["壮海 はるま"],
         "new_members": ["風立 にき"]
       },
       {
-        "role": "レダ／エレン",
+        "role": "レダ",
         "members": ["愛羽 あやね"],
-        "new_members": []
+        "new_members": ["妃奈 環"]
       },
       {
-        "role": "牧師／ハリソン先生",
+        "role": "エレン",
+        "members": ["愛羽 あやね"],
+        "new_members": ["夢陽 まり"]
+      },
+      {
+        "role": "牧師",
         "members": ["紗蘭 令愛"],
         "new_members": []
       },
       {
-        "role": "ドン・マーシャル／マイケル",
+        "role": "ハリソン先生",
+        "members": ["紗蘭 令愛"],
+        "new_members": ["絢月 晴斗"]
+      },
+      {
+        "role": "ドン・マーシャル",
         "members": ["蒼波 黎也"],
-        "new_members": []
+        "new_members": ["絢月 晴斗"]
+      },
+      {
+        "role": "マイケル",
+        "members": ["蒼波 黎也"],
+        "new_members": ["星名 りおん"]
+      },
+      {
+        "role": "レミ",
+        "members": ["蒼波 黎也"],
+        "new_members": ["星 美音"]
       },
       {
         "role": "イゾルデ",
@@ -1771,7 +2050,12 @@ const revues = [
         "new_members": ["杏 麗奈"]
       },
       {
-        "role": "ユーシスの母／メアリー",
+        "role": "ユーシスの母",
+        "members": ["愛空 みなみ"],
+        "new_members": ["桜菜 みのり"]
+      },
+      {
+        "role": "メアリー",
         "members": ["愛空 みなみ"],
         "new_members": []
       },
@@ -1796,7 +2080,7 @@ const revues = [
         "new_members": ["琴華 ひまわり"]
       },
       {
-        "role": "マルグリット・ヘッセン",
+        "role": "マルグリッド・ヘッセン",
         "members": ["白綺 華"],
         "new_members": ["紗香 にいな"]
       },
@@ -1806,9 +2090,14 @@ const revues = [
         "new_members": []
       },
       {
-        "role": "ロッド／サミー",
+        "role": "ロッド",
         "members": ["苑利 香輝"],
-        "new_members": []
+        "new_members": ["一貴 蘭"]
+      },
+      {
+        "role": "サミー",
+        "members": ["苑利 香輝"],
+        "new_members": ["千聖 侑"]
       },
       {
         "role": "エミリー",
@@ -1821,29 +2110,34 @@ const revues = [
         "new_members": ["音綺 みあ"]
       },
       {
+        "role": "フローリスト女",
+        "members": ["清羽 美伶"],
+        "new_members": ["七咲 りか"]
+      },
+      {
         "role": "ディリー",
         "members": ["音綺 みあ"],
         "new_members": []
       },
       {
-        "role": "ユーシス／ピーター",
+        "role": "ユーシス",
         "members": ["律希 奏"],
-        "new_members": []
+        "new_members": ["遥陽 音"]
+      },
+      {
+        "role": "ピーター",
+        "members": ["律希 奏"],
+        "new_members": ["千隼 悠"]
+      },
+      {
+        "role": "ペッペ",
+        "members": ["律希 奏"],
+        "new_members": ["天羽 輝空"]
       },
       {
         "role": "ビリー",
         "members": ["祈菜 さあや"],
         "new_members": ["路花 める"]
-      },
-      {
-        "role": "ブラヴァツキー",
-        "members": ["美穂 圭子"],
-        "new_members": ["華純 沙那"]
-      },
-      {
-        "role": "大老ポー",
-        "members": ["奏乃 はると"],
-        "new_members": ["夢翔 みわ"]
       }
     ],
     "cast": [
@@ -1860,7 +2154,6 @@ const revues = [
       "妃奈 環",
       "乙瀬 千晴",
       "水月 胡蝶",
-      "清羽 美伶",
       "榊 歩",
       "琴華 ひまわり",
       "千乃 新",
@@ -1974,7 +2267,8 @@ const revues = [
         "directors": [
           "谷 正純",
           "鈴木 圭"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/gin2kan/index.html",
@@ -2154,7 +2448,8 @@ const revues = [
         "post": "-Shooting STAR-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/hanayoridango2/index.html",
@@ -2366,7 +2661,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スパーキング・イルミネイト",
@@ -2374,7 +2670,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/kurotokage/index.html",
@@ -2442,12 +2739,12 @@ const revues = [
         "new_members": ["華乃 みゆ"]
       },
       {
-        "role": "岐阜［明智の部下］",
+        "role": "岐阜[明智の部下]",
         "members": ["若翔 りつ"],
         "new_members": ["郁 いりや"]
       },
       {
-        "role": "岩瀬早苗／桜山葉子",
+        "role": "岩瀬早苗/桜山葉子",
         "members": ["天彩 峰里"],
         "new_members": ["朝絵 咲名"]
       },
@@ -2462,7 +2759,7 @@ const revues = [
         "new_members": ["宇河 キラ"]
       },
       {
-        "role": "北村［黒蜥蜴の手下］",
+        "role": "北村[黒蜥蜴の手下]",
         "members": ["真名瀬 みら"],
         "new_members": ["志凪 咲杜"]
       },
@@ -2472,67 +2769,72 @@ const revues = [
         "new_members": ["柚月 翔"]
       },
       {
-        "role": "堺［明智の部下］",
+        "role": "堺[明智の部下]",
         "members": ["風色 日向"],
         "new_members": ["響 望歌"]
       },
       {
         "role": "用心棒・富山",
         "members": ["凰海 るの"],
-        "new_members": []
+        "new_members": ["純 れい"]
       },
       {
         "role": "第一の女",
         "members": ["夢風 咲也花"],
-        "new_members": []
+        "new_members": ["結沙 かのん"]
       },
       {
-        "role": "倉田［岩瀬の秘書］",
+        "role": "倉田[岩瀬の秘書]",
         "members": ["輝 ゆう"],
         "new_members": ["飛月 夏純"]
       },
       {
-        "role": "木津［明智の部下］",
+        "role": "木津[明智の部下]",
         "members": ["亜音 有星"],
         "new_members": ["悠久 颯"]
       },
       {
-        "role": "第三の女／女中・花江",
+        "role": "第三の女",
         "members": ["二葉 ゆゆ"],
-        "new_members": []
+        "new_members": ["ゆり 遥"]
       },
       {
-        "role": "合田［黒蜥蜴の手下］",
+        "role": "女中・花江",
+        "members": ["二葉 ゆゆ"],
+        "new_members": ["麗月 るな"]
+      },
+      {
+        "role": "合田[黒蜥蜴の手下]",
         "members": ["嵐之 真"],
         "new_members": ["華楽 逸聖"]
       },
       {
-        "role": "吉野［明智の秘書］",
+        "role": "吉野[明智の秘書]",
         "members": ["きよら 羽龍"],
         "new_members": ["愛城 美紗"]
       },
       {
-        "role": "灰島［黒蜥蜴の手下］",
+        "role": "灰島[黒蜥蜴の手下]",
         "members": ["真白 悠希"],
         "new_members": ["輝星 成"]
       },
       {
         "role": "第二の女",
         "members": ["楓姫 るる"],
-        "new_members": []
+        "new_members": ["風羽 咲季"]
       },
       {
-        "role": "近江［明智の部下］",
+        "role": "近江[明智の部下]",
         "members": ["大路 りせ"],
         "new_members": []
       },
       {
-        "role": "蔭山［黒蜥蜴の手下］",
+        "role": "蔭山[黒蜥蜴の手下]",
         "members": ["泉堂 成"],
         "new_members": ["一斗 勇輝"]
       },
       {
-        "role": "ひな／青い亀",
+        "role": "ひな/青い亀",
         "members": ["山吹 ひばり"],
         "new_members": ["祈宮 えれな"]
       },
@@ -2547,7 +2849,7 @@ const revues = [
         "new_members": ["花咲 美玖"]
       },
       {
-        "role": "丹波［明智の部下］",
+        "role": "丹波[明智の部下]",
         "members": ["鳳城 のあん"],
         "new_members": ["花恋 こまち"]
       },
@@ -2559,26 +2861,86 @@ const revues = [
       {
         "role": "警察官1",
         "members": ["郁 いりや"],
-        "new_members": []
+        "new_members": ["純 れい"]
       },
       {
         "role": "明智小五郎の影",
-        "members": ["波輝 瑛斗", "風翔 夕", "華楽 逸聖", "輝星 成", "響 望歌", "一斗 勇輝", "悠久 颯", "綾城 潤"],
-        "new_members": ["朝比奈 天", "空輝 紫夕", "志槻 りゅう", "白蘭 薫"]
+        "members": ["波輝 瑛斗"],
+        "new_members": ["風羽 咲季"]
       },
       {
-        "role": "虻谷［黒蜥蜴の手下］",
+        "role": "虻谷[黒蜥蜴の手下]",
         "members": ["奈央 麗斗"],
         "new_members": []
       },
       {
+        "role": "明智小五郎の影",
+        "members": ["風翔 夕"],
+        "new_members": ["結沙 かのん"]
+      },
+      {
         "role": "黒蜥蜴の僕",
-        "members": ["結沙 かのん", "愛城 美紗", "梨恋 あやめ", "花恋 こまち", "朝絵 咲名", "祈宮 えれな"],
-        "new_members": ["華愛 りりい", "絢花 澪"]
+        "members": ["結沙 かのん"],
+        "new_members": ["華愛 りりい"]
       },
       {
         "role": "警察官2",
         "members": ["朱 涼"],
+        "new_members": []
+      },
+      {
+        "role": "黒蜥蜴の僕",
+        "members": ["愛城 美紗"],
+        "new_members": ["絢花 澪"]
+      },
+      {
+        "role": "黒蜥蜴の僕",
+        "members": ["梨恋 あやめ"],
+        "new_members": []
+      },
+      {
+        "role": "黒蜥蜴の僕",
+        "members": ["花恋 こまち"],
+        "new_members": []
+      },
+      {
+        "role": "明智小五郎の影",
+        "members": ["華楽 逸聖"],
+        "new_members": ["朝比奈 天"]
+      },
+      {
+        "role": "黒蜥蜴の僕",
+        "members": ["朝絵 咲名"],
+        "new_members": []
+      },
+      {
+        "role": "明智小五郎の影",
+        "members": ["輝星 成"],
+        "new_members": ["空輝 紫夕"]
+      },
+      {
+        "role": "明智小五郎の影",
+        "members": ["響 望歌"],
+        "new_members": ["志槻 りゅう"]
+      },
+      {
+        "role": "明智小五郎の影",
+        "members": ["一斗 勇輝"],
+        "new_members": ["白蘭 薫"]
+      },
+      {
+        "role": "黒蜥蜴の僕",
+        "members": ["祈宮 えれな"],
+        "new_members": []
+      },
+      {
+        "role": "明智小五郎の影",
+        "members": ["悠久 颯"],
+        "new_members": []
+      },
+      {
+        "role": "明智小五郎の影",
+        "members": ["綾城 潤"],
         "new_members": []
       }
     ],
@@ -2607,7 +2969,20 @@ const revues = [
       "白蘭 薫",
       "瑚都 雅",
       "稀爽 礼",
-      "一世 羅央"
+      "一世 羅央",
+      "美雲 かなみ",
+      "十季星 琅",
+      "蒼渚 れお",
+      "駿 一愛",
+      "美乃 ゆず希",
+      "三日月 のばら",
+      "蒼真 唯斗",
+      "菜乃華 まり",
+      "煌世 涼",
+      "まりの 六花",
+      "花菜 りりあ",
+      "星乃 光希",
+      "千城 華月"
     ],
     "kaidan": [
       {
@@ -2706,7 +3081,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/daydreamdali/index.html",
@@ -2892,7 +3268,8 @@ const revues = [
         "directors": [
           "小柳 奈穂子",
           "雑賀 ヒカル"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/namiurarakanimeotobiyori/index.html",
@@ -3104,7 +3481,8 @@ const revues = [
         "post": "",
         "directors": [
           "栗田 優香"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Amazing Fantasy",
@@ -3112,7 +3490,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/ryofu/index.html",
@@ -3479,7 +3858,8 @@ const revues = [
         "post": "",
         "directors": [
           "鈴木 圭"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/beautifulsky/index.html",
@@ -3535,7 +3915,8 @@ const revues = [
         "directors": [
           "小林 公平",
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・レビュー",
@@ -3543,7 +3924,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/aisurunihamijikasugiru/index.html",
@@ -3806,7 +4188,8 @@ const revues = [
         "post": "-平家終焉の契り-",
         "directors": [
           "熊倉 飛鳥"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スパイシー・ショー",
@@ -3814,7 +4197,8 @@ const revues = [
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/sogetsusho/index.html",
@@ -4187,7 +4571,8 @@ const revues = [
         "post": "",
         "directors": [
           "平松 結有"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/amenijimupare/index.html",
@@ -4352,7 +4737,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/timeslipper/index.html",
@@ -4538,7 +4924,8 @@ const revues = [
         "post": "-The Wand'rin' Stars-",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ギャラクシーレヴュー",
@@ -4546,7 +4933,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2026/koisurutendosetsu/index.html",
@@ -4959,7 +5347,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/dean/index.html",
@@ -5109,7 +5498,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/goethe/index.html",
@@ -5295,7 +5685,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "プレジャー・ステージ",
@@ -5303,7 +5694,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/beaubrummell/index.html",
@@ -5691,7 +6083,8 @@ const revues = [
         "post": "-天上の王国-",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/alexander/index.html",
@@ -5876,7 +6269,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "カルナバル・ファンタジア",
@@ -5884,7 +6278,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/danceserenade/index.html",
@@ -6136,7 +6531,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ビートオンステージ",
@@ -6144,7 +6540,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/princeoflegend/index.html",
@@ -6597,7 +6994,8 @@ const revues = [
         "post": "",
         "directors": [
           "菅谷 元"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/stepbyme/index.html",
@@ -6747,7 +7145,8 @@ const revues = [
         "directors": [
           "石田 昌也",
           "指田 珠子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/anamericaninparis/index.html",
@@ -6900,7 +7299,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/guysanddolls/index.html",
@@ -7309,7 +7709,8 @@ const revues = [
         "post": "~悠遠なる叫び~",
         "directors": [
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/redstone/index.html",
@@ -7461,7 +7862,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/zorrothemusical/index.html",
@@ -7653,7 +8055,8 @@ const revues = [
         "post": "~月下の覚醒~",
         "directors": [
           "鈴木 圭"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Romantic Revue",
@@ -7661,7 +8064,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/dracula/index.html",
@@ -8019,7 +8423,8 @@ const revues = [
         "post": "",
         "directors": [
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/twinklemoon/index.html",
@@ -8070,7 +8475,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Takarazuka Spectacular",
@@ -8078,7 +8484,8 @@ const revues = [
         "post": "-IN THE MOONLIGHT-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/hananonarihira/index.html",
@@ -8352,7 +8759,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファンタジック・タペストリー",
@@ -8360,7 +8768,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/ashurajo/index.html",
@@ -8724,7 +9133,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 真央"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/hakanakihoshi/index.html",
@@ -8906,7 +9316,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファンタスティック・ショー",
@@ -8914,7 +9325,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/robinthehero/index.html",
@@ -9280,7 +9692,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴュー グロリア",
@@ -9288,7 +9701,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/magiciannoyuuutsu/index.html",
@@ -9502,7 +9916,8 @@ const revues = [
         "post": "",
         "directors": [
           "平松 結有"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/nigitatsunoumi/index.html",
@@ -9654,7 +10069,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/anthem/index.html",
@@ -9715,7 +10131,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ジャズ・スラップスティック",
@@ -9723,7 +10140,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2025/razzledazzle/index.html",
@@ -10062,7 +10480,8 @@ const revues = [
         "post": "-空想世界の歩き方-",
         "directors": [
           "熊倉 飛鳥"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/formosa/index.html",
@@ -10219,7 +10638,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/ainofujichaku/index.html",
@@ -10431,7 +10851,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Takarazuka Spectacular",
@@ -10439,7 +10860,8 @@ const revues = [
         "post": "-IN THE MOONLIGHT-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/goldenliberty/index.html",
@@ -10808,7 +11230,8 @@ const revues = [
         "post": "-復讐のカリブ海-",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファンタスティック・ショー",
@@ -10816,7 +11239,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/daikaizoku/index.html",
@@ -11023,7 +11447,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/myblueheaven_oct/index.html",
@@ -11200,7 +11625,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "三井住友VISAカード シアター レヴュー グロリア",
@@ -11208,7 +11634,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/angeliclie/index.html",
@@ -11528,7 +11955,8 @@ const revues = [
         "post": "-復讐のシナリオ-",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/bluff/index.html",
@@ -11674,7 +12102,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・アニバーサリー",
@@ -11682,7 +12111,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/kohakuironoameninurete/index.html",
@@ -11964,7 +12394,8 @@ const revues = [
         "post": "-トップ・シークレット-",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "カルナバル・ファンタジア",
@@ -11972,7 +12403,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/kiokunigozaimasen/index.html",
@@ -12374,7 +12806,8 @@ const revues = [
         "post": "",
         "directors": [
           "生駒 怜子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/liefie/index.html",
@@ -12554,7 +12987,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/donjuan/index.html",
@@ -12707,7 +13141,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/roseofversailles/index.html",
@@ -13081,7 +13516,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/legrandescalier/index.html",
@@ -13259,7 +13695,8 @@ const revues = [
         "post": "チャールズ・ディケンズ作「大いなる遺産」より",
         "directors": [
           "鈴木 圭"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/yoakenokoubou/index.html",
@@ -13381,7 +13818,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/bigfish/index.html",
@@ -13506,7 +13944,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/39steps/index.html",
@@ -13613,7 +14052,8 @@ const revues = [
         "post": "-BLOOM’S COLORFUL MEMORIES-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/allbymyself/index.html",
@@ -13673,7 +14113,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・パッショナブル",
@@ -13681,7 +14122,8 @@ const revues = [
         "post": "~ガート・ボニート、美しい猫のような男~",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/romanesque/index.html",
@@ -13927,7 +14369,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・アニバーサリー",
@@ -13935,7 +14378,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/eternalvoice/index.html",
@@ -14281,7 +14725,8 @@ const revues = [
         "post": "~パリに架かる虹~",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/arcenciel/index.html",
@@ -14660,7 +15105,8 @@ const revues = [
         "post": "",
         "directors": [
           "熊倉 飛鳥"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/goldendeadschiele/index.html",
@@ -14830,7 +15276,8 @@ const revues = [
         "directors": [
           "石田 昌也",
           "三井 聡"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/goat/index.html",
@@ -14897,7 +15344,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・シンドローム",
@@ -14905,7 +15353,8 @@ const revues = [
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2024/rrr/index.html",
@@ -15228,7 +15677,8 @@ const revues = [
         "post": "-華麗なる時-",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/beshining/index.html",
@@ -15296,7 +15746,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ネオ・ロマンチック・レビュー",
@@ -15304,7 +15755,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/gekijo/index.html",
@@ -15522,7 +15974,8 @@ const revues = [
         "post": "-Boiled Doyle on the Toil Trail-",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Winter Spectacular",
@@ -15530,7 +15983,8 @@ const revues = [
         "post": "-Snow Troupe 100th Anniversary-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/boileddoyleonthetoiltrail/index.html",
@@ -15897,7 +16351,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/mylastjoke/index.html",
@@ -16051,7 +16506,8 @@ const revues = [
         "directors": [
           "小原 弘稔",
           "三木 章雄"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/meandmygirl/index.html",
@@ -16276,7 +16732,8 @@ const revues = [
         "post": "~世紀の奇術師カリオストロ~",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・スピリット",
@@ -16284,7 +16741,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/pagado/index.html",
@@ -16596,7 +17054,8 @@ const revues = [
         "directors": [
           "石田 昌也",
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/soukyokusenjounokarute/index.html",
@@ -16782,7 +17241,8 @@ const revues = [
         "directors": [
           "小林 公平",
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファッシネイト・レビュー",
@@ -16790,7 +17250,8 @@ const revues = [
         "post": "-パリの宝石たち-",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/aisurunihamijikasugiru/index.html",
@@ -17004,7 +17465,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "東京詞華集（トウキョウアンソロジー）",
@@ -17012,7 +17474,8 @@ const revues = [
         "post": "",
         "directors": [
           "栗田 優香"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/fluegel/index.html",
@@ -17421,7 +17884,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/xcalibur/index.html",
@@ -17573,7 +18037,8 @@ const revues = [
         "post": "-新・蘇る真実-",
         "directors": [
           "鈴木 圭"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/daigyakutensaiban/index.html",
@@ -17724,7 +18189,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ネオ・ロマンチック・レビュー",
@@ -17732,7 +18198,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/oshidori/index.html",
@@ -18112,7 +18579,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/tsukinohokage/index.html",
@@ -18292,7 +18760,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/deathtakesaholiday/index.html",
@@ -18426,7 +18895,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/1789/index.html",
@@ -18716,7 +19186,8 @@ const revues = [
         "post": "-MAIHIME-",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/maihime/index.html",
@@ -18861,7 +19332,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/futaridakenosenjou/index.html",
@@ -19037,7 +19509,8 @@ const revues = [
         "post": "-ドロイゼン家の誇り-",
         "directors": [
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファッシネイト・レビュー",
@@ -19045,7 +19518,8 @@ const revues = [
         "post": "-パリの宝石たち-",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/lilacnoyumeji/index.html",
@@ -19359,7 +19833,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/stellavoice/index.html",
@@ -19407,7 +19882,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -19415,7 +19891,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/valencia/index.html",
@@ -19649,7 +20126,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/lerougeetlenoir/index.html",
@@ -19765,7 +20243,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/casinoroyale/index.html",
@@ -20119,7 +20598,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/bonnieandclyde/index.html",
@@ -20316,7 +20796,8 @@ const revues = [
         "post": "-若き日の菅原道真の事-",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ラテン グルーヴ",
@@ -20324,7 +20805,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/outennomon/index.html",
@@ -20701,7 +21183,8 @@ const revues = [
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/umibenostruensee/index.html",
@@ -20886,7 +21369,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/makazeizm/index.html",
@@ -20947,7 +21431,8 @@ const revues = [
         "post": "",
         "directors": [
           "生駒 怜子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/yumeutsutsunosakini/index.html",
@@ -21130,7 +21615,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "タカラヅカ・スペクタキュラー",
@@ -21138,7 +21624,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2023/utakatanokoi/index.html",
@@ -21491,7 +21978,8 @@ const revues = [
         "post": "",
         "directors": [
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/elpidio/index.html",
@@ -21641,7 +22129,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ジャズ・オマージュ",
@@ -21649,7 +22138,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/blackjack/index.html",
@@ -21868,7 +22358,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "メガファンタジー",
@@ -21876,7 +22367,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/syayounokuninorusudan/index.html",
@@ -22239,7 +22731,8 @@ const revues = [
         "directors": [
           "石田 昌也",
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/junjo/index.html",
@@ -22400,7 +22893,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー グルーヴ",
@@ -22408,7 +22902,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/firenze/index.html",
@@ -22676,7 +23171,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/soukyunosubaru/index.html",
@@ -23052,7 +23548,8 @@ const revues = [
         "post": "",
         "directors": [
           "熊倉 飛鳥"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/beatabeatrix/index.html",
@@ -23193,7 +23690,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・エスパーニャ",
@@ -23201,7 +23699,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/montecristo/index.html",
@@ -23436,7 +23935,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファッシーノ・モストラーレ",
@@ -23444,7 +23944,8 @@ const revues = [
         "post": "-心のままに-",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/highandlow/index.html",
@@ -23856,7 +24357,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/odyssey_umegei/index.html",
@@ -23934,7 +24436,8 @@ const revues = [
         "directors": [
           "菅沼 潤",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/koinoyamatoji/index.html",
@@ -24098,7 +24601,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/greatgatsby/index.html",
@@ -24495,7 +24999,8 @@ const revues = [
         "post": "",
         "directors": [
           "栗田 優香"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/cultwine/index.html",
@@ -24684,7 +25189,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/flywithme/index.html",
@@ -24736,7 +25242,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー グルーヴ",
@@ -24744,7 +25251,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/junreinotoshi/index.html",
@@ -25087,7 +25595,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/rainonneptune/index.html",
@@ -25264,7 +25773,8 @@ const revues = [
         "post": "-光と影の狭間を吹き抜けてゆく...-",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/buenosaires/index.html",
@@ -25384,7 +25894,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・エスパーニャ",
@@ -25392,7 +25903,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/meguriainextgeneration/index.html",
@@ -25817,7 +26329,8 @@ const revues = [
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/fuyugasuminopari/index.html",
@@ -26002,7 +26515,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/tophat/index.html",
@@ -26201,7 +26715,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・スプレンディッド",
@@ -26209,7 +26724,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/yumesukesenryoumiyage/index.html",
@@ -26499,7 +27015,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/aida/index.html",
@@ -26747,7 +27264,8 @@ const revues = [
         "post": "-ある愛の軌跡-",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/neversaygoodbye/index.html",
@@ -27086,7 +27604,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/gentleliar/index.html",
@@ -27204,7 +27723,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/sweetlittlerocknroll/index.html",
@@ -27386,7 +27906,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ジャズ・オマージュ",
@@ -27394,7 +27915,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/romance_gekijo/index.html",
@@ -27819,7 +28341,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・トゥー・クール",
@@ -27827,7 +28350,8 @@ const revues = [
         "post": "~生命の水~",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/baronnomatsuei/index.html",
@@ -28045,7 +28569,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/promisespromises/index.html",
@@ -28179,7 +28704,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "三井住友VISAカード シアター レビュー・アニバーサリー",
@@ -28187,7 +28713,8 @@ const revues = [
         "post": "-花組誕生100周年 そして未来へ-",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/baroquerock/index.html",
@@ -28581,7 +29108,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・ファンタジー",
@@ -28589,7 +29117,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/kawagirinohashi/index.html",
@@ -28882,7 +29411,8 @@ const revues = [
         "post": "...ベルリンの冬、モントリオールの春...",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/loveandallthatjazz/index.html",
@@ -29054,7 +29584,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -29062,7 +29593,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/yagyuninpouchou/index.html",
@@ -29471,7 +30003,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "パッショネイト・ファンタジー",
@@ -29479,7 +30012,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/cordoba/index.html",
@@ -29710,7 +30244,8 @@ const revues = [
         "post": "~銀ちゃん、本日も反省の色なし~",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/ginchannokoi/index.html",
@@ -29897,7 +30432,8 @@ const revues = [
         "post": "-盗まれたXYZ-",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー オルケスタ",
@@ -29905,7 +30441,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/cityhunter/index.html",
@@ -30322,7 +30859,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 紳爾"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/basaranoyashago/index.html",
@@ -30492,7 +31030,8 @@ const revues = [
         "post": "—真実の音—",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/verdad/index.html",
@@ -30543,7 +31082,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/manon/index.html",
@@ -30681,7 +31221,8 @@ const revues = [
         "post": "~サー・アーサー・コナン・ドイルの著したキャラクターに拠る~",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "タカラヅカ・スペクタキュラー",
@@ -30689,7 +31230,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/sherlockholmes/index.html",
@@ -31088,7 +31630,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -31096,7 +31639,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/venezia/index.html",
@@ -31341,7 +31885,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/honmononomahoutsukai/index.html",
@@ -31491,7 +32036,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・ファンタジー",
@@ -31499,7 +32045,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/ouranki/index.html",
@@ -31942,7 +32489,8 @@ const revues = [
         "post": "",
         "directors": [
           "栗田 優香"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/yumechidori/index.html",
@@ -32112,7 +32660,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/hotelsvizrahouse/index.html",
@@ -32302,7 +32851,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "パッショネイト・ファンタジー",
@@ -32310,7 +32860,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/augustus/index.html",
@@ -32617,7 +33168,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/yuureideka/index.html",
@@ -32754,7 +33306,8 @@ const revues = [
           "菊田 一夫",
           "酒井 澄夫",
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/dallake/index.html",
@@ -32914,7 +33467,8 @@ const revues = [
         "directors": [
           "小池 修一郎",
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/romeoandjuliette/index.html",
@@ -33183,7 +33737,8 @@ const revues = [
         "post": "",
         "directors": [
           "竹田 悠一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/princeofroses/index.html",
@@ -33352,7 +33907,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/eternita/index.html",
@@ -33387,7 +33943,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/niceworkifyoucangetit/index.html",
@@ -33597,7 +34154,8 @@ const revues = [
         "post": "~歓喜に歌え!~",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "かんぽ生命 ドリームシアター レビュー・アラベスク",
@@ -33605,7 +34163,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2021/fortississimo/index.html",
@@ -33970,7 +34529,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/cyranodebergerac/index.html",
@@ -34165,7 +34725,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Show Stars",
@@ -34173,7 +34734,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/elhalcon/index.html",
@@ -34412,7 +34974,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/anastasia/index.html",
@@ -34730,7 +35293,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 紳爾"
-        ]
+        ],
+        "work_type": "show"
       },
       {
         "pre": "ミュージカル",
@@ -34738,7 +35302,8 @@ const revues = [
         "post": "〜シェイクスピア原作「十二夜」より〜",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/welcometotakarazuka/index.html",
@@ -35068,7 +35633,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/nowzoomme/index.html",
@@ -35129,7 +35695,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ネオダイナミック・ショー",
@@ -35137,7 +35704,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/honoonoborero/index.html",
@@ -35382,7 +35950,8 @@ const revues = [
         "post": "",
         "directors": [
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/soureitei/index.html",
@@ -35543,7 +36112,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/flyingsapa/index.html",
@@ -35717,7 +36287,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/haikarasangatooru/index.html",
@@ -36053,7 +36624,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/theredandtheblack/index.html",
@@ -36263,7 +36835,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/dejimashouchusenso/index.html",
@@ -36450,7 +37023,8 @@ const revues = [
         "post": "",
         "directors": [
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Show Stars",
@@ -36458,7 +37032,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/genyounotani/index.html",
@@ -36790,7 +37365,8 @@ const revues = [
         "post": "-Welcome to 2020-",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/danceolympia/index.html",
@@ -36855,7 +37431,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/masqueradehotel/index.html",
@@ -37037,7 +37614,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2020/onceuponatimeinamerica/index.html",
@@ -37400,7 +37978,8 @@ const revues = [
         "post": "",
         "directors": [
           "指田 珠子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/tatsunomiyamonogatari/index.html",
@@ -37573,7 +38152,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/rockoperamozart/index.html",
@@ -37735,7 +38315,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・トゥー・クール",
@@ -37743,7 +38324,8 @@ const revues = [
         "post": "~生命の水~",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/eljapon/index.html",
@@ -38110,7 +38692,8 @@ const revues = [
         "directors": [
           "阿古 健",
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ダイナミック・ショー",
@@ -38118,7 +38701,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/habatakeougonnotubasayo/index.html",
@@ -38338,7 +38922,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/hollywoodgossip/index.html",
@@ -38482,7 +39067,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/iamfromaustria/index.html",
@@ -38851,7 +39437,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/thediamondasbigastheritz/index.html",
@@ -39006,7 +39593,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・アトラクト",
@@ -39014,7 +39602,8 @@ const revues = [
         "post": "-その男、Sによる法則-",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/tsuiokunobaruserona/index.html",
@@ -39282,7 +39871,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "三井住友VISAカード シアター レヴューロマン",
@@ -39290,7 +39880,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/afairytale/index.html",
@@ -39700,7 +40291,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/cheguevara/index.html",
@@ -39865,7 +40457,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/onthetown_umegei/index.html",
@@ -40087,7 +40680,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スペース・レビュー・ファンタジア",
@@ -40095,7 +40689,8 @@ const revues = [
         "post": "",
         "directors": [
           "酒井 澄夫"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/godofstars/index.html",
@@ -40453,7 +41048,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/koisuruarena/index.html",
@@ -40547,7 +41143,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/hanayoridango/index.html",
@@ -40729,7 +41326,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "かんぽ生命 ドリームシアター ダイナミック・ショー",
@@ -40737,7 +41335,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/mibugishiden/index.html",
@@ -41057,7 +41656,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/dreamon/index.html",
@@ -41109,7 +41709,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/kamatari/index.html",
@@ -41268,7 +41869,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・レビュー",
@@ -41276,7 +41878,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/arujenootoko/index.html",
@@ -41545,7 +42148,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/oceanseleven/index.html",
@@ -41881,7 +42485,8 @@ const revues = [
         "post": "",
         "directors": [
           "町田 菜花"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/pr_prince/index.html",
@@ -42026,7 +42631,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/20seikigouninotte/index.html",
@@ -42181,7 +42787,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・エキゾチカ",
@@ -42189,7 +42796,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/mugenmuso/index.html",
@@ -42594,7 +43202,8 @@ const revues = [
         "post": "-フリードリッヒ・フォン・シラー作「群盗」より-",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/gunto/index.html",
@@ -42771,7 +43380,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/casanova/index.html",
@@ -43136,7 +43746,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・レビュー",
@@ -43144,7 +43755,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/kuroihitomi/index.html",
@@ -43387,7 +43999,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/annakarenina/index.html",
@@ -43494,7 +44107,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/onthetown_forum/index.html",
@@ -43696,7 +44310,8 @@ const revues = [
         "directors": [
           "菊田 一夫",
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・レビュー",
@@ -43704,7 +44319,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2019/kirifukakierubenohotori/index.html",
@@ -44072,7 +44688,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/delightholiday/index.html",
@@ -44120,7 +44737,8 @@ const revues = [
         "post": "-あぶない相続人-",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スパークリング・ショー",
@@ -44128,7 +44746,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/melancholicgigolo/index.html",
@@ -44347,7 +44966,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/ranryouou/index.html",
@@ -44487,7 +45107,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/phantom/index.html",
@@ -44853,7 +45474,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/debutante/index.html",
@@ -44980,7 +45602,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "show"
       },
       {
         "pre": "ミュージカル・プレイ",
@@ -44988,7 +45611,8 @@ const revues = [
         "post": "—ダ・ヴィンチが描いた記憶—",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/shirasaginoshiro/index.html",
@@ -45292,7 +45916,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "タカラヅカ・ワンダーステージ",
@@ -45300,7 +45925,8 @@ const revues = [
         "post": "（アメイジングスター☆キラールージュ）",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/thunderboltfantasytourikenyuuki/index.html",
@@ -45547,7 +46173,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/elisabeth/index.html",
@@ -45961,7 +46588,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/newwave_star/index.html",
@@ -46013,7 +46641,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/hustlemates/index.html",
@@ -46060,7 +46689,8 @@ const revues = [
         "directors": [
           "ジョシュア・ベルガッセ",
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/westsidestory_tokyokokusai/index.html",
@@ -46292,7 +46922,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・スペクタキュラー",
@@ -46300,7 +46931,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/messiah/index.html",
@@ -46679,7 +47311,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/saintedamour/index.html",
@@ -46782,7 +47415,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/ameniutaeba/index.html",
@@ -46933,7 +47567,8 @@ const revues = [
         "post": "フィッツジェラルド最後の一日",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/thelastparty/index.html",
@@ -47056,7 +47691,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "かんぽ生命 ドリームシアター ショー・パッショナブル",
@@ -47064,7 +47700,8 @@ const revues = [
         "post": "~ガート・ボニート、美しい猫のような男~",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/gaisenmon/index.html",
@@ -47418,7 +48055,8 @@ const revues = [
         "post": "—南十字に愛された男—",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/senhorcruzeiro/index.html",
@@ -47556,7 +48194,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・ファンタスティーク",
@@ -47564,7 +48203,8 @@ const revues = [
         "post": "~最高級ワインをあなたに~",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/akanesasumurasakinohana/index.html",
@@ -47856,7 +48496,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "タカラヅカ・ワンダーステージ",
@@ -47864,7 +48505,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/anotherworld/index.html",
@@ -48187,7 +48829,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/yoshitsuneyoukomugenzakura/index.html",
@@ -48328,7 +48971,8 @@ const revues = [
         "post": "-新選組流亡記-",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴュー・スペクタキュラー",
@@ -48336,7 +48980,8 @@ const revues = [
         "post": "-希望の海へ-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/makotonogunzou/index.html",
@@ -48572,7 +49217,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -48580,7 +49226,8 @@ const revues = [
         "post": "~Special Version for 20th Anniversary~",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/sorahaakaikawanohotori/index.html",
@@ -48961,7 +49608,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・テント・タカラヅカ",
@@ -48969,7 +49617,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/company/index.html",
@@ -49259,7 +49908,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/doctorzhivago/index.html",
@@ -49420,7 +50070,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "タカラヅカレビュー",
@@ -49428,7 +50079,8 @@ const revues = [
         "post": "",
         "directors": [
           "酒井 澄夫"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/utakatanokoi/index.html",
@@ -49724,7 +50376,8 @@ const revues = [
         "directors": [
           "ジョシュア・ベルガッセ",
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/westsidestory_umegei/index.html",
@@ -49954,7 +50607,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/fumetsunotoge/index.html",
@@ -50121,7 +50775,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2018/ponoichizoku/index.html",
@@ -50529,7 +51184,8 @@ const revues = [
         "post": "",
         "directors": [
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/arkadia/index.html",
@@ -50663,7 +51319,8 @@ const revues = [
         "post": "-カラフとトゥーランドット-",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・ファンタジー",
@@ -50671,7 +51328,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hououden/index.html",
@@ -50890,7 +51548,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴュー・スペクタキュラー",
@@ -50898,7 +51557,8 @@ const revues = [
         "post": "-希望の海へ-",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hikarifurumichi/index.html",
@@ -51247,7 +51907,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hannasflorist/index.html",
@@ -51427,7 +52088,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/haikarasan/index.html",
@@ -51591,7 +52253,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "タカラヅカレビュー90周年",
@@ -51599,7 +52262,8 @@ const revues = [
         "post": "",
         "directors": [
           "酒井 澄夫"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/berlinwagaai/index.html",
@@ -51935,7 +52599,8 @@ const revues = [
         "post": "...ネモ船長と神秘の島...",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/captainnemo/index.html",
@@ -52085,7 +52750,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "Show Spirit",
@@ -52093,7 +52759,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/kohakuironoameninurete/index.html",
@@ -52337,7 +53004,8 @@ const revues = [
         "post": "~ロマノフたちの黄昏~",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴューロマン",
@@ -52345,7 +53013,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/kamigaminotochi/index.html",
@@ -52696,7 +53365,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/omshantiom2/index.html",
@@ -52850,7 +53520,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/aterui/index.html",
@@ -53037,7 +53708,8 @@ const revues = [
         "post": "~ダルタニアンと太陽王~",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/allforone/index.html",
@@ -53373,7 +54045,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/partialtimetravel/index.html",
@@ -53527,7 +54200,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/amotion/index.html",
@@ -53594,7 +54268,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レビュー・ファンタスティーク",
@@ -53602,7 +54277,8 @@ const revues = [
         "post": "~最高級ワインをあなたに~",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/yamataikokunokaze/index.html",
@@ -53979,7 +54655,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 紳爾"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "モン・パリ誕生90周年 レヴューロマン",
@@ -53987,7 +54664,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/nagasakishigurezaka/index.html",
@@ -54215,7 +54893,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/ruriironotoki/index.html",
@@ -54375,7 +55054,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "かんぽ生命 ドリームシアター Show Spirit",
@@ -54383,7 +55063,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/bakumatsutaiyouden/index.html",
@@ -54754,7 +55435,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スパークリング・ショー",
@@ -54762,7 +55444,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/romanesque/index.html",
@@ -55039,7 +55722,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/myhero/index.html",
@@ -55215,7 +55899,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/scarletpimpernel/index.html",
@@ -55547,7 +56232,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/newwave_snow/index.html",
@@ -55597,7 +56283,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショーグルーヴ",
@@ -55605,7 +56292,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/hoshiaihitoyo/index.html",
@@ -55888,7 +56576,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "スーパー・レビュー",
@@ -55896,7 +56585,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/ouhinoyakata/index.html",
@@ -56244,7 +56934,8 @@ const revues = [
         "post": "",
         "directors": [
           "鈴木 圭"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/moyurukaze/index.html",
@@ -56392,7 +57083,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/omshantiom/index.html",
@@ -56549,7 +57241,8 @@ const revues = [
           "岡田 敬二",
           "生田 大和",
           "小田島 雄志"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "モン・パリ誕生90周年 レヴューロマン",
@@ -56557,7 +57250,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2017/grandhotel/index.html",
@@ -56965,7 +57659,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/laigleadeuxtetes/index.html",
@@ -57106,7 +57801,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ダイナミック・ショー",
@@ -57114,7 +57810,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/valencia/index.html",
@@ -57380,7 +58077,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "トラジェディ・アラベスク",
@@ -57388,7 +58086,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/konjiki/index.html",
@@ -57719,7 +58418,8 @@ const revues = [
         "directors": [
           "中村 一徳",
           "𠮷田 優子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/workshop/index.html",
@@ -57768,7 +58468,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/arthur/index.html",
@@ -57944,7 +58645,8 @@ const revues = [
         "post": "~ロミオとジュリエットの物語に飛び込んだフォルスタッフ~",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/falstaff/index.html",
@@ -58099,7 +58801,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショーグルーヴ",
@@ -58107,7 +58810,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/caleb_hunt/index.html",
@@ -58382,7 +59086,8 @@ const revues = [
         "post": "",
         "directors": [
           "谷 貴矢"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/einstein/index.html",
@@ -58508,7 +59213,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランド・レビュー",
@@ -58516,7 +59222,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/romanesque/index.html",
@@ -58781,7 +59488,8 @@ const revues = [
         "post": "-SAMURAI The FINAL-",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -58789,7 +59497,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/ouka/index.html",
@@ -59165,7 +59874,8 @@ const revues = [
         "post": "-花-",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_flower/index.html",
@@ -59193,7 +59903,8 @@ const revues = [
         "post": "-雪-",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_snow/index.html",
@@ -59225,7 +59936,8 @@ const revues = [
         "directors": [
           "小池 修一郎",
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/elisabeth/index.html",
@@ -59609,7 +60321,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/onevoice/index.html",
@@ -59668,7 +60381,8 @@ const revues = [
         "post": "-星-",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_star/index.html",
@@ -59697,7 +60411,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/06_donjuan/index.html",
@@ -59843,7 +60558,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/romano/index.html",
@@ -60005,7 +60721,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "簡易生命保険誕生100周年 かんぽ生命 ドリームシアター シャイニング・ショー",
@@ -60013,7 +60730,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/nobunaga/index.html",
@@ -60437,7 +61155,8 @@ const revues = [
         "post": "-宙-",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/bowsingingworkshop_cosmos/index.html",
@@ -60466,7 +61185,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/aida/index.html",
@@ -60712,7 +61432,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/vampire_succession/index.html",
@@ -60839,7 +61560,8 @@ const revues = [
         "directors": [
           "小原 弘稔",
           "三木 章雄"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/meandmygirl/index.html",
@@ -61102,7 +61824,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/voice/index.html",
@@ -61238,7 +61961,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファナティック・ショー",
@@ -61246,7 +61970,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/gekijo/index.html",
@@ -61467,7 +62192,8 @@ const revues = [
         "post": "...こうもり博士の愉快な復讐劇...",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・スペクタキュラー",
@@ -61475,7 +62201,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/die_fledermaus/index.html",
@@ -61792,7 +62519,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/lincoln/index.html",
@@ -61952,7 +62680,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/rurouni/index.html",
@@ -62329,7 +63058,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/ernest/index.html",
@@ -62504,7 +63234,8 @@ const revues = [
         "post": "",
         "directors": [
           "樫畑 亜依子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/ru_myuge/index.html",
@@ -62645,7 +63376,8 @@ const revues = [
         "post": "—I. Sings Disney/II. Sings TAKARAZUKA —",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/love&dream/index.html",
@@ -62719,7 +63451,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ダイナミック・ショー",
@@ -62727,7 +63460,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2016/shakespeare/index.html",
@@ -63125,7 +63859,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "バイレ・ロマンティコ",
@@ -63133,7 +63868,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/cordoba/index.html",
@@ -63424,7 +64160,8 @@ const revues = [
         "post": "—梅が枝の花かんざし—",
         "directors": [
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/gin2kan/index.html",
@@ -63562,7 +64299,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランドカーニバル",
@@ -63570,7 +64308,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/manon/index.html",
@@ -63961,7 +64700,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/souzokunin/index.html",
@@ -64098,7 +64838,8 @@ const revues = [
         "post": "-あぶない相続人-",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -64106,7 +64847,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/melancholicgigolo/index.html",
@@ -64320,7 +65062,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランド・レビュー",
@@ -64328,7 +65071,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/genji/index.html",
@@ -64685,7 +65429,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/dragonnight/index.html",
@@ -64739,7 +65484,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/a-en/index.html",
@@ -64876,7 +65622,8 @@ const revues = [
         "post": "-GUYS & DOLLS-",
         "directors": [
           "酒井 澄夫"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/guysanddolls/index.html",
@@ -65198,7 +65945,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/stardom/index.html",
@@ -65365,7 +66113,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "バイレ・ロマンティコ",
@@ -65373,7 +66122,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/hoshiaihitoyo/index.html",
@@ -65802,7 +66552,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴューロマン",
@@ -65810,7 +66561,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/versailles_flower/index.html",
@@ -66068,7 +66820,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/catchmeifyoucan/index.html",
@@ -66179,7 +66932,8 @@ const revues = [
         "post": "—復讐のカリブ海—",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -66187,7 +66941,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/greatpirate/index.html",
@@ -66409,7 +67164,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/aida/index.html",
@@ -66736,7 +67492,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/alcapone/index.html",
@@ -66907,7 +67664,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ファンタスティック・ショー",
@@ -66915,7 +67673,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/hoshikage/index.html",
@@ -67207,7 +67966,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/1789/index.html",
@@ -67492,7 +68252,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/newwave_cosmos/index.html",
@@ -67544,7 +68305,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/tophat/index.html",
@@ -67757,7 +68519,8 @@ const revues = [
         "directors": [
           "大石 静",
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "レヴューロマン",
@@ -67765,7 +68528,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/calista/index.html",
@@ -68033,7 +68797,8 @@ const revues = [
         "directors": [
           "柴田 侑宏",
           "謝 珠栄"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ダイナミック・ドリーム",
@@ -68041,7 +68806,8 @@ const revues = [
         "post": "-101カラットの永遠の輝き-",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/blackleopard/index.html",
@@ -68401,7 +69167,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/gonewiththewind/index.html",
@@ -68604,7 +69371,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/bandito/index.html",
@@ -68758,7 +69526,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/ernestinlove/index.html",
@@ -68928,7 +69697,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/jirokichi/index.html",
@@ -69115,7 +69885,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "NTT東日本・NTT西日本フレッツシアター ファンタスティック・ショー",
@@ -69123,7 +69894,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2015/lupin/index.html",
@@ -69475,7 +70247,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/alcazar/index.html",
@@ -69627,7 +70400,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/reoninbudokan/index.html",
@@ -69672,7 +70446,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gone_with_the_wind/index.html",
@@ -69918,7 +70693,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランド・ショー",
@@ -69926,7 +70702,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gustav/index.html",
@@ -70281,7 +71058,8 @@ const revues = [
         "post": "",
         "directors": [
           "野口 幸作"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/parme/index.html",
@@ -70451,7 +71229,8 @@ const revues = [
         "post": "-ジュ・テーム、きみを愛さずにはいられない-",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/hakushakureijo/index.html",
@@ -70673,7 +71452,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ショー・ファンタジー",
@@ -70681,7 +71461,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 暁"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/puck/index.html",
@@ -71036,7 +71817,8 @@ const revues = [
         "post": "",
         "directors": [
           "田渕 大輔"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/sanctuary/index.html",
@@ -71182,7 +71964,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_fersen_antoinette_cosmo/index.html",
@@ -71448,7 +72231,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/elisabeth/index.html",
@@ -71757,7 +72541,8 @@ const revues = [
         "post": "",
         "directors": [
           "正塚 晴彦"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/kingdom/index.html",
@@ -71944,7 +72729,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 景子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ラテン・グルーヴ",
@@ -71952,7 +72738,8 @@ const revues = [
         "post": "",
         "directors": [
           "稲葉 太地"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/lostglory/index.html",
@@ -72283,7 +73070,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 紳爾"
-        ]
+        ],
+        "work_type": "show"
       },
       {
         "pre": "プチ・ミュージカル・プレイ",
@@ -72291,7 +73079,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランド・レビュー",
@@ -72299,7 +73088,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/takarazukawodori_hakata/index.html",
@@ -72547,7 +73337,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/nocturne/index.html",
@@ -72713,7 +73504,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_fersen_antoinette_flower/index.html",
@@ -72997,7 +73789,8 @@ const revues = [
         "post": "",
         "directors": [
           "大野 拓史"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランド・レビュー",
@@ -73005,7 +73798,8 @@ const revues = [
         "post": "",
         "directors": [
           "中村 一徳"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/maedakeiji/index.html",
@@ -73402,7 +74196,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/seagull/index.html",
@@ -73531,7 +74326,8 @@ const revues = [
         "post": "",
         "directors": [
           "木村 信司"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/roisoleil/index.html",
@@ -73679,7 +74475,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_oscar/index.html",
@@ -74024,7 +74821,8 @@ const revues = [
         "post": "",
         "directors": [
           "植田 紳爾"
-        ]
+        ],
+        "work_type": "show"
       },
       {
         "pre": "プチ・ミュージカル・プレイ",
@@ -74032,7 +74830,8 @@ const revues = [
         "post": "",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "グランド・レビュー",
@@ -74040,7 +74839,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/takarazukawodori/index.html",
@@ -74371,7 +75171,8 @@ const revues = [
         "directors": [
           "菅沼 潤",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/koinoyamatoji/index.html",
@@ -74534,7 +75335,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/versailles_oscar_andre/index.html",
@@ -74790,7 +75592,8 @@ const revues = [
         "post": "",
         "directors": [
           "上田 久美子"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/tsubasa/index.html",
@@ -74941,7 +75744,8 @@ const revues = [
         "post": "",
         "directors": [
           "生田 大和"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "メガステージ",
@@ -74949,7 +75753,8 @@ const revues = [
         "post": "",
         "directors": [
           "齋藤 吉正"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/lasttycoon/index.html",
@@ -75298,7 +76103,8 @@ const revues = [
         "post": "",
         "directors": [
           "原田 諒"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "ロマンチック・レビュー",
@@ -75306,7 +76112,8 @@ const revues = [
         "post": "",
         "directors": [
           "岡田 敬二"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/robertcapa/index.html",
@@ -75535,7 +76342,8 @@ const revues = [
         "post": "",
         "directors": [
           "三木 章雄"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/newwave_moon/index.html",
@@ -75588,7 +76396,8 @@ const revues = [
         "directors": [
           "植田 紳爾",
           "谷 正純"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/gone_with_the_wind_umegei/index.html",
@@ -75793,7 +76602,8 @@ const revues = [
         "post": "",
         "directors": [
           "小池 修一郎"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/napoleon/index.html",
@@ -76218,7 +77028,8 @@ const revues = [
         "post": "",
         "directors": [
           "小柳 奈穂子"
-        ]
+        ],
+        "work_type": "play"
       },
       {
         "pre": "NTT東日本・NTT西日本フレッツシアター ショー・ビッグモニュメント",
@@ -76226,7 +77037,8 @@ const revues = [
         "post": "",
         "directors": [
           "藤井 大介"
-        ]
+        ],
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/shall_we_dance/index.html",
@@ -76642,7 +77454,8 @@ const revues = [
         "post": "—CHAPTER TWO by Neil Simon—",
         "directors": [
           "石田 昌也"
-        ]
+        ],
+        "work_type": "play"
       }
     ],
     "schedule": [
