@@ -35,8 +35,74 @@
 
     <section class="directorSection">
 
-        <h2>担当作品</h2>
+        <div class="workHeading">
 
+            <h2>担当作品</h2>
+
+            <div class="workFilters">
+
+                <div class="filterGroup">
+
+                    <span class="filterLabel">
+                        会場
+                    </span>
+
+                    <button
+                        class="venueFilterBtn active"
+                        data-filter="all"
+                    >
+                        すべて
+                    </button>
+
+                    <button
+                        class="venueFilterBtn"
+                        data-filter="main"
+                    >
+                        大劇場
+                    </button>
+
+                    <button
+                        class="venueFilterBtn"
+                        data-filter="other"
+                    >
+                        別箱
+                    </button>
+
+                </div>
+
+
+                <div class="filterGroup">
+
+                    <span class="filterLabel">
+                        作品
+                    </span>
+
+                    <button
+                        class="typeFilterBtn active"
+                        data-filter="all"
+                    >
+                        すべて
+                    </button>
+
+                    <button
+                        class="typeFilterBtn"
+                        data-filter="play"
+                    >
+                        芝居
+                    </button>
+
+                    <button
+                        class="typeFilterBtn"
+                        data-filter="show"
+                    >
+                        ショー
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
         <div id="workList"></div>
 
     </section>

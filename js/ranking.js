@@ -153,6 +153,86 @@ function getKen(
 
 
 // =========================================
+// タイトルのかっこ内を削除
+// =========================================
+
+function removeTitleParentheses(title){
+
+    if(!title){
+        return "";
+    }
+
+    return title
+        .replace(/（[^）]*）/g, "")
+        .trim();
+
+}
+
+
+// =========================================
+// 公演タイトル取得
+// =========================================
+
+function getRevueTitle(revue){
+
+    if(
+        !revue.title_parts ||
+        !revue.title_parts.length
+    ){
+        return "";
+    }
+
+
+    return revue.title_parts
+        .map(
+            part =>
+                removeTitleParentheses(
+                    part.main
+                )
+        )
+        .filter(
+            title => title
+        )
+        .join("　");
+
+}
+
+
+// =========================================
+// 芝居作品のタイトル取得
+// =========================================
+
+function getPlayTitle(revue){
+
+    if(
+        !revue.title_parts ||
+        !revue.title_parts.length
+    ){
+        return "";
+    }
+
+
+    const play =
+        revue.title_parts.find(
+            part =>
+                part.work_type === "play"
+        );
+
+
+    if(!play){
+        return "";
+    }
+
+
+    return removeTitleParentheses(
+        play.main
+    );
+
+}
+
+
+
+// =========================================
 // 公演種別判定
 // =========================================
 function getRevueType(theater){
@@ -355,24 +435,20 @@ function renderAllRankings(){
 
                         let revueName = "";
 
-                        if(item.revue){
+                        if(
+                            ranking.type === "newHero" ||
+                            ranking.type === "newHeroine"
+                        ){
 
-                            if(
-                                ranking.type === "newHero" ||
-                                ranking.type === "newHeroine"
-                            ){
+                            revueName =
+                                item.playTitle
+                                ||
+                                item.revueTitle;
 
-                                revueName =
-                                    item.revue
-                                    .split(",")[0]
-                                    .trim();
+                        }else{
 
-                            }else{
-
-                                revueName =
-                                    item.revue;
-
-                            }
+                            revueName =
+                                item.revueTitle;
 
                         }
 
@@ -879,7 +955,15 @@ function createFirstRevueRanking(
 
             date: revue.date,
 
-            revue: revue.name,
+            revueTitle:
+                getRevueTitle(
+                    revue
+                ),
+
+            playTitle:
+                getPlayTitle(
+                    revue
+                ),
 
             days: days,
 
@@ -930,7 +1014,6 @@ function renderRanking(ranking){
             const member =
                 item.member;
 
-
             const div =
                 document.createElement(
                     "div"
@@ -964,17 +1047,30 @@ function renderRanking(ranking){
 
                     </div>
 
-                    ${ 
-                        item.revue 
+                    ${
+                        (
+                            rankingType === "newHero" ||
+                            rankingType === "newHeroine"
+                                ? (
+                                    item.playTitle
+                                    ||
+                                    item.revueTitle
+                                )
+                                : item.revueTitle
+                        )
                         ? `<div class="rankRevue">
                             ${
                                 rankingType === "newHero" ||
                                 rankingType === "newHeroine"
-                                    ? item.revue.split(",")[0].trim()
-                                    : item.revue
+                                    ? (
+                                        item.playTitle
+                                        ||
+                                        item.revueTitle
+                                    )
+                                    : item.revueTitle
                             }
-                        </div>` 
-                        : "" 
+                        </div>`
+                        : ""
                     }
 
                 </div>

@@ -24358,7 +24358,7 @@ const revues = [
         "directors": [
           "野口 幸作"
         ],
-        "work_type": "play"
+        "work_type": "show"
       }
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2022/odyssey_umegei/index.html",
@@ -76920,14 +76920,46 @@ const revues = [
     "date": "2013-12-17",
     "theater": "天王洲銀河劇場",
     "hero": "珠城 りょう",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ロマン",
+        "main": "『月雲（つきぐも）の皇子（みこ）』",
+        "post": "−衣通姫（そとおりひめ）伝説より−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_toutoku_tsukigumo/index.html",
+    "schedule": [
+      {
+        "theater": "天王洲 銀河劇場",
+        "from": "2013-12-17",
+        "to": "2013-12-24"
+      }
+    ]
   },
   {
     "id": "flower_20131212_01",
     "name": "New Wave! −花−",
     "trp": "flower",
     "date": "2013-12-12",
-    "theater": "宝塚バウホール"
+    "theater": "宝塚バウホール",
+    "title_parts": [
+      {
+        "pre": "バウ・ショーケース",
+        "main": "『New Wave! −花−』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/flower_bow_newwave/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2013-12-12",
+        "to": "2013-12-22"
+      }
+    ]
   },
   {
     "id": "moon_20131123_01",
@@ -76936,7 +76968,28 @@ const revues = [
     "date": "2013-11-23",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "北翔 海莉",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "title_parts": [
+      {
+        "pre": "MUSICAL",
+        "main": "『THE MERRY WIDOW』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_dc_merrywidow/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2013-11-23",
+        "to": "2013-12-01"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2013-12-06",
+        "to": "2013-12-11"
+      }
+    ]
   },
   {
     "id": "moon_20131115_01",
@@ -77009,14 +77062,36 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "グランステージ",
+        "main": "『JIN−仁−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Fantastic Energy!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_tour_jin/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2013-11-15",
+        "to": "2013-12-08"
+      }
     ]
   },
   {
     "id": "snow_20131108_01",
     "name": "Shall we ダンス?, CONGRATULATIONS 宝塚!!",
     "trp": "snow",
-    "date": "2014-01-02",
-    "theater": "東京宝塚劇場",
+    "date": "2013-11-08",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "壮 一帆",
     "heroine": "愛加 あゆ",
     "new_hero": "月城 かなと",
@@ -77043,6 +77118,11 @@ const revues = [
     ],
     "official_url": "https://kageki.hankyu.co.jp/revue/2014/shall_we_dance/index.html",
     "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-11-08",
+        "to": "2013-12-12"
+      },
       {
         "theater": "東京宝塚劇場",
         "from": "2014-01-02",
@@ -77436,7 +77516,28 @@ const revues = [
     "date": "2013-10-07",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "真風 涼帆",
-    "heroine": "妃海 風"
+    "heroine": "妃海 風",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『日のあたる方（ほう）へ ―私という名の他者―』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/star_dc_jekyllhyde/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2013-10-07",
+        "to": "2013-10-15"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2013-10-25",
+        "to": "2013-10-30"
+      }
+    ]
   },
   {
     "id": "special_20131003_01",
@@ -77567,6 +77668,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "宝塚グランドロマン",
+        "main": "『風と共に去りぬ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/cosmos_takarazuka_kazetomo/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-09-27",
+        "to": "2013-11-04"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-11-22",
+        "to": "2013-12-23"
+      }
     ]
   },
   {
@@ -77575,7 +77697,28 @@ const revues = [
     "trp": "star",
     "date": "2013-09-27",
     "theater": "東京国際フォーラムホールC, 博多座",
-    "hero": "柚希 礼音"
+    "hero": "柚希 礼音",
+    "title_parts": [
+      {
+        "pre": "柚希礼音スペシャル・ライブ",
+        "main": "『REON!!II』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/star_forum_reon2/index.html",
+    "schedule": [
+      {
+        "theater": "東京国際フォーラムホールC",
+        "from": "2013-09-27",
+        "to": "2013-10-09"
+      },
+      {
+        "theater": "博多座",
+        "from": "2013-10-16",
+        "to": "2013-10-28"
+      }
+    ]
   },
   {
     "id": "snow_20130829_01",
@@ -77584,7 +77727,23 @@ const revues = [
     "date": "2013-08-29",
     "theater": "宝塚バウホール",
     "hero": "彩凪 翔",
-    "heroine": "大湖 せしる"
+    "heroine": "大湖 せしる",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『春雷』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/snow_bow_syunrai/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2013-08-29",
+        "to": "2013-09-08"
+      }
+    ]
   },
   {
     "id": "snow_20130823_01",
@@ -77653,6 +77812,28 @@ const revues = [
             "wing": "top"
           }
         ]
+      }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマンス",
+        "main": "『若き日の唄は忘れじ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『ナルシス・ノアールII』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/snow_tour_narcissus/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2013-08-23",
+        "to": "2013-09-16"
       }
     ]
   },
@@ -77735,6 +77916,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "Musical",
+        "main": "『愛と革命の詩（うた）−アンドレア・シェニエ−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・オルケスタ",
+        "main": "『Mr. Swing!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/flower_takarazuka_andreachenier/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-08-16",
+        "to": "2013-09-23"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-10-11",
+        "to": "2013-11-17"
+      }
     ]
   },
   {
@@ -77744,7 +77952,23 @@ const revues = [
     "date": "2013-07-25",
     "theater": "宝塚バウホール",
     "hero": "蓮水 ゆうや, 七海 ひろき",
-    "heroine": "花乃 まりあ"
+    "heroine": "花乃 まりあ",
+    "title_parts": [
+      {
+        "pre": "バウ・ウェスタン・ピカレスク",
+        "main": "『the WILD Meets the WILD』",
+        "post": "-W.M.W.-",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/cosmos_bow_wmw/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2013-07-25",
+        "to": "2013-08-05"
+      }
+    ]
   },
   {
     "id": "cosmos_20130719_01",
@@ -77844,6 +78068,28 @@ const revues = [
             "wing": "top"
           }
         ]
+      }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『うたかたの恋』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・ルネッサンス",
+        "main": "『Amour de 99!!−99年の愛−』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/cosmos_tour_utakata/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2013-07-19",
+        "to": "2013-08-11"
       }
     ]
   },
@@ -77946,6 +78192,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ルパン −ARSÈNE LUPIN−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Fantastic Energy!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_takarazuka_lupin/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-07-12",
+        "to": "2013-08-12"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-08-30",
+        "to": "2013-10-06"
+      }
     ]
   },
   {
@@ -77955,7 +78228,23 @@ const revues = [
     "date": "2013-06-15",
     "theater": "東急シアターオーブ",
     "hero": "蘭寿 とむ",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『戦国BASARA』",
+        "post": "−真田幸村編−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/flower_basara/index.html",
+    "schedule": [
+      {
+        "theater": "東急シアターオーブ",
+        "from": "2013-06-15",
+        "to": "2013-07-01"
+      }
+    ]
   },
   {
     "id": "flower_20130607_01",
@@ -77964,7 +78253,23 @@ const revues = [
     "date": "2013-06-07",
     "theater": "宝塚バウホール",
     "hero": "芹香 斗亜",
-    "heroine": "仙名 彩世"
+    "heroine": "仙名 彩世",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル・ロマンス",
+        "main": "『フォーエバー・ガーシュイン』",
+        "post": "−五線譜に描く夢−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/flower_bow_gershwin/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2013-06-07",
+        "to": "2013-06-17"
+      }
+    ]
   },
   {
     "id": "star_20130531_01",
@@ -78059,6 +78364,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ロミオとジュリエット』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/star_takarazuka_rj/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-05-31",
+        "to": "2013-07-08"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-07-26",
+        "to": "2013-08-25"
+      }
     ]
   },
   {
@@ -78137,6 +78463,22 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ME AND MY GIRL』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_umegei_memy/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2013-05-04",
+        "to": "2013-05-20"
+      }
     ]
   },
   {
@@ -78146,7 +78488,23 @@ const revues = [
     "date": "2013-05-02",
     "theater": "宝塚バウホール",
     "hero": "珠城 りょう",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ロマン",
+        "main": "『月雲（つきぐも）の皇子（みこ）』",
+        "post": "−衣通姫（そとおりひめ）伝説より−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_bow_tsukigumo/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2013-05-02",
+        "to": "2013-05-12"
+      }
+    ]
   },
   {
     "id": "snow_20130419_01",
@@ -78221,6 +78579,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "三井住友VISAカード シアター 宝塚グランドロマン",
+        "main": "『ベルサイユのばら』",
+        "post": "−フェルゼン編−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/snow_takarazuka_versailles/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-04-19",
+        "to": "2013-05-27"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-06-14",
+        "to": "2013-07-21"
+      }
     ]
   },
   {
@@ -78230,7 +78609,28 @@ const revues = [
     "date": "2013-03-19",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "轟 悠",
-    "heroine": "妃海 風"
+    "heroine": "妃海 風",
+    "title_parts": [
+      {
+        "pre": "ブロードウェイ・ミュージカル",
+        "main": "『南太平洋』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/star_dc_southpacific/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2013-03-19",
+        "to": "2013-03-30"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2013-04-05",
+        "to": "2013-04-10"
+      }
+    ]
   },
   {
     "id": "cosmos_20130315_01",
@@ -78339,6 +78739,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・プレイ",
+        "main": "『モンテ・クリスト伯』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・ルネッサンス",
+        "main": "『Amour de 99!!−99年の愛−』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/cosmos_takarazuka_monte/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-03-15",
+        "to": "2013-04-15"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-05-10",
+        "to": "2013-06-09"
+      }
     ]
   },
   {
@@ -78428,6 +78855,39 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "舞踊ファンタジー",
+        "main": "『宝塚ジャポニズム〜序破急〜』",
+        "post": "",
+        "work_type": "show"
+      },
+      {
+        "pre": "ミュージカル",
+        "main": "『怪盗楚留香（そりゅうこう）外伝−花盗人（はなぬすびと）−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Étoile de TAKARAZUKA（エトワール ド タカラヅカ）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/star_chunichi_japonism/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2013-03-08",
+        "to": "2013-03-14"
+      },
+      {
+        "theater": "国立中正文化中心 台北国家戯劇院",
+        "from": "2013-04-06",
+        "to": "2013-04-14"
+      }
     ]
   },
   {
@@ -78436,7 +78896,28 @@ const revues = [
     "trp": "snow",
     "date": "2013-02-09",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
-    "hero": "未涼 亜希"
+    "hero": "未涼 亜希",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『ブラック・ジャック 許されざる者への挽歌』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/snow_dc_bj/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2013-02-09",
+        "to": "2013-02-17"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2013-02-22",
+        "to": "2013-02-27"
+      }
+    ]
   },
   {
     "id": "flower_20130208_01",
@@ -78529,6 +79010,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『オーシャンズ11』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/flower_takarazuka_oceans11/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-02-08",
+        "to": "2013-03-11"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-03-29",
+        "to": "2013-05-05"
+      }
     ]
   },
   {
@@ -78618,6 +79120,28 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマンス",
+        "main": "『若き日の唄は忘れじ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Shining Rhythm!』",
+        "post": "−新たなる誕生−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/snow_wakakihi_cyunichi/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2013-02-05",
+        "to": "2013-02-28"
+      }
     ]
   },
   {
@@ -78627,7 +79151,28 @@ const revues = [
     "date": "2013-01-09",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "悠未 ひろ",
-    "heroine": "すみれ乃 麗"
+    "heroine": "すみれ乃 麗",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『逆転裁判3 検事マイルズ･エッジワース』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/cosmos_dc_gyakuten3/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2013-01-09",
+        "to": "2013-01-17"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2013-01-23",
+        "to": "2013-01-28"
+      }
+    ]
   },
   {
     "id": "cosmos_20130105_01",
@@ -78637,6 +79182,22 @@ const revues = [
     "theater": "博多座",
     "hero": "凰稀 かなめ",
     "heroine": "実咲 凛音",
+    "title_parts": [
+      {
+        "pre": "スペース・ファンタジー",
+        "main": "『銀河英雄伝説＠TAKARAZUKA』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/cosmos_hakata_ginga/index.html",
+    "schedule": [
+      {
+        "theater": "博多座",
+        "from": "2013-01-05",
+        "to": "2013-01-28"
+      }
+    ],
     "kaidan": [
       {
         "order": 1,
@@ -78778,6 +79339,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "三井住友VISAカード シアター 宝塚グランドロマン",
+        "main": "『ベルサイユのばら』",
+        "post": "−オスカルとアンドレ編−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/13/moon_takarazuka_versailles/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2013-01-01",
+        "to": "2013-02-04"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-02-15",
+        "to": "2013-03-24"
+      }
     ]
   },
   {
@@ -78786,7 +79368,23 @@ const revues = [
     "trp": "special",
     "date": "2012-12-07",
     "theater": "日本青年館大ホール",
-    "hero": "轟 悠, 華形 ひかる"
+    "hero": "轟 悠, 華形 ひかる",
+    "title_parts": [
+      {
+        "pre": "バウ・コメディ",
+        "main": "『おかしな二人』",
+        "post": "−THE ODD COUPLE（Original Version） by Neil Simon−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/senka_toutoku_oddcouple/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-12-07",
+        "to": "2012-12-10"
+      }
+    ]
   },
   {
     "id": "flower_20121122_01",
@@ -78795,7 +79393,28 @@ const revues = [
     "date": "2012-11-22",
     "theater": "日本青年館大ホール, 梅田芸術劇場シアター・ドラマシティ",
     "hero": "蘭寿 とむ",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "title_parts": [
+      {
+        "pre": "蘭寿とむコンサート Song & Dance",
+        "main": "『Streak of Light −一筋の光…−』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/flower_toutoku_streakoflight/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-11-22",
+        "to": "2012-11-29"
+      },
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2012-12-05",
+        "to": "2012-12-17"
+      }
+    ]
   },
   {
     "id": "star_20121116_01",
@@ -78892,6 +79511,39 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "舞踊ファンタジー",
+        "main": "『宝塚ジャポニズム〜序破急〜』",
+        "post": "",
+        "work_type": "show"
+      },
+      {
+        "pre": "ロマンティック・ミュージカル",
+        "main": "『めぐり会いは再び 2nd 〜Star Bride〜』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Étoile de TAKARAZUKA（エトワール ド タカラヅカ）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/star_takarazuka_meguriai2nd/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-11-16",
+        "to": "2012-12-15"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2013-01-02",
+        "to": "2013-02-10"
+      }
     ]
   },
   {
@@ -78901,7 +79553,23 @@ const revues = [
     "date": "2012-11-15",
     "theater": "宝塚バウホール",
     "hero": "望海 風斗",
-    "heroine": "桜咲 彩花"
+    "heroine": "桜咲 彩花",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『Victorian Jazz（ヴィクトリアン ジャズ）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/flower_bow_jazz/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-11-15",
+        "to": "2012-11-26"
+      }
+    ]
   },
   {
     "id": "moon_20121020_01",
@@ -78969,6 +79637,28 @@ const revues = [
             "wing": "top"
           }
         ]
+      }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『愛するには短すぎる』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ファンタスティック・ショー",
+        "main": "『Heat on Beat!（ヒート オン ビート） 』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/moon_tour_aitan/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2012-10-20",
+        "to": "2012-11-14"
       }
     ]
   },
@@ -79081,6 +79771,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "グランステージ",
+        "main": "『JIN−仁−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・ファンタジー",
+        "main": "『GOLD SPARK！−この一瞬を永遠に−』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/snow_jin/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-10-12",
+        "to": "2012-11-12"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-11-23",
+        "to": "2012-12-24"
+      }
     ]
   },
   {
@@ -79090,7 +79807,28 @@ const revues = [
     "date": "2012-10-11",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "明日海 りお",
-    "heroine": "咲妃 みゆ"
+    "heroine": "咲妃 みゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『春の雪』",
+        "post": "〜三島由紀夫 著 『春の雪』（豊饒の海 第一巻）より〜",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/moon_bow_harunoyuki/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-10-11",
+        "to": "2012-10-22"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-10-31",
+        "to": "2012-11-05"
+      }
+    ]
   },
   {
     "id": "star_20120908_01",
@@ -79158,6 +79896,28 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『琥珀色の雨にぬれて』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・グルーヴ",
+        "main": "『Celebrity』",
+        "post": "−セレブリティ−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/star_tour_kohaku/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2012-09-08",
+        "to": "2012-09-30"
+      }
     ]
   },
   {
@@ -79167,7 +79927,28 @@ const revues = [
     "date": "2012-09-06",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "紅 ゆずる",
-    "heroine": "早乙女 わかば"
+    "heroine": "早乙女 わかば",
+    "title_parts": [
+      {
+        "pre": "Musical",
+        "main": "『ジャン・ルイ・ファージョン −王妃の調香師−』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/star_bow_farjeon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-09-06",
+        "to": "2012-09-17"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-09-25",
+        "to": "2012-09-30"
+      }
+    ]
   },
   {
     "id": "cosmos_20120831_01",
@@ -79244,6 +80025,32 @@ const revues = [
             "wing": "top"
           }
         ]
+      }
+    ],
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター スペース・ファンタジー",
+        "main": "『銀河英雄伝説＠TAKARAZUKA』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/cosmos_takarazuka_ginei/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-08-31",
+        "to": "2012-10-08"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-10-19",
+        "to": "2012-11-18"
+      },
+      {
+        "theater": "博多座",
+        "from": "2013-01-05",
+        "to": "2013-01-28"
       }
     ]
   },
@@ -79334,6 +80141,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ファンタジー",
+        "main": "『サン＝テグジュペリ』",
+        "post": "−『星の王子さま』になった操縦士（パイロット）−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ラテン･パッショネイト",
+        "main": "『CONGA（コンガ）!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/flower_takarazuka_saintexupery/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-07-27",
+        "to": "2012-08-27"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-09-14",
+        "to": "2012-10-14"
+      }
     ]
   },
   {
@@ -79343,7 +80177,28 @@ const revues = [
     "date": "2012-07-19",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "早霧 せいな",
-    "heroine": "星乃 あんり"
+    "heroine": "星乃 あんり",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル・プレイ",
+        "main": "『双曲線上のカルテ』",
+        "post": "〜渡辺淳一作『無影燈』より〜",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/snow_bow_karte/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-07-19",
+        "to": "2012-07-30"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-08-08",
+        "to": "2012-08-13"
+      }
+    ]
   },
   {
     "id": "snow_20120707_01",
@@ -79352,7 +80207,28 @@ const revues = [
     "date": "2012-07-07",
     "theater": "梅田芸術劇場メインホール, 博多座",
     "hero": "音月 桂",
-    "heroine": "舞羽 美海"
+    "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『フットルース』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/snow_umegei_footloose/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2012-07-07",
+        "to": "2012-07-23"
+      },
+      {
+        "theater": "博多座",
+        "from": "2012-08-01",
+        "to": "2012-08-25"
+      }
+    ]
   },
   {
     "id": "moon_20120622_01",
@@ -79442,6 +80318,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "三井住友VISAカード ミュージカル",
+        "main": "『ロミオとジュリエット』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/moon_takarazuka_rj/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-06-22",
+        "to": "2012-07-23"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-08-10",
+        "to": "2012-09-09"
+      }
     ]
   },
   {
@@ -79506,6 +80403,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・プレイ",
+        "main": "『ダンサ セレナータ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・グルーヴ",
+        "main": "『Celebrity』",
+        "post": "−セレブリティ−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/star_takarazuka_danceserenade/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-05-18",
+        "to": "2012-06-18"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-07-06",
+        "to": "2012-08-05"
+      }
     ]
   },
   {
@@ -79515,7 +80439,28 @@ const revues = [
     "date": "2012-05-03",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "愛音 羽麗",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "title_parts": [
+      {
+        "pre": "上方絵草紙",
+        "main": "『近松・恋の道行』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/flower_bow_chikamatsu/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-05-03",
+        "to": "2012-05-14"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-05-23",
+        "to": "2012-05-28"
+      }
+    ]
   },
   {
     "id": "flower_20120428_01",
@@ -79609,6 +80554,28 @@ const revues = [
             "name": "朝夏まなと、 宙組 へ"
           }
         ]
+      }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『長い春の果てに』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・ファンタシーク",
+        "main": "『カノン』",
+        "post": "−Our Melody−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/flower_tour_longspring/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2012-04-28",
+        "to": "2012-05-27"
       }
     ]
   },
@@ -79712,6 +80679,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『華やかなりし日々』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・ショー",
+        "main": "『クライマックス』",
+        "post": "−Cry‐Max−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/cosmos_takarazuka_hanayakanarishi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-04-13",
+        "to": "2012-05-14"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-06-01",
+        "to": "2012-07-01"
+      }
     ]
   },
   {
@@ -79809,6 +80803,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "グランド・ロマンス",
+        "main": "『ドン・カルロス』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Shining Rhythm!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/snow_takarazuka_doncarlos/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-03-09",
+        "to": "2012-04-09"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-04-27",
+        "to": "2012-05-27"
+      }
     ]
   },
   {
@@ -79817,7 +80838,28 @@ const revues = [
     "trp": "star",
     "date": "2012-03-08",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
-    "hero": "柚希 礼音"
+    "hero": "柚希 礼音",
+    "title_parts": [
+      {
+        "pre": "柚希礼音スペシャル・ライブ",
+        "main": "『REON!!』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/star_dc_reon/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2012-03-08",
+        "to": "2012-03-20"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-03-25",
+        "to": "2012-04-01"
+      }
+    ]
   },
   {
     "id": "star_20120307_01",
@@ -79826,7 +80868,28 @@ const revues = [
     "date": "2012-03-07",
     "theater": "日本青年館大ホール, 宝塚バウホール",
     "hero": "涼 紫央",
-    "heroine": "音波 みのり"
+    "heroine": "音波 みのり",
+    "title_parts": [
+      {
+        "pre": "バウ・ロマン",
+        "main": "『天使のはしご』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/star_toutoku_angelsladde/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-03-07",
+        "to": "2012-03-12"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-03-19",
+        "to": "2012-03-31"
+      }
+    ]
   },
   {
     "id": "moon_20120203_01",
@@ -79928,6 +80991,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『エドワード8世』",
+        "post": "−王冠を賭けた恋−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ブリリアントステージ",
+        "main": "『Misty Station』",
+        "post": "−霧の終着駅−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/moon_takarazuka_edward8/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-02-03",
+        "to": "2012-03-05"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-03-23",
+        "to": "2012-04-22"
+      }
     ]
   },
   {
@@ -79997,6 +81087,28 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『仮面のロマネスク』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ファナティック・ショー",
+        "main": "『Apasionado!!II』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/cosmos_chunichi_romanesque/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2012-02-01",
+        "to": "2012-02-24"
+      }
     ]
   },
   {
@@ -80006,7 +81118,28 @@ const revues = [
     "date": "2012-01-27",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "凰稀 かなめ",
-    "heroine": "伶美 うらら"
+    "heroine": "伶美 うらら",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『ロバート・キャパ 魂の記録』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/cosmos_bow_robertcapa/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-01-27",
+        "to": "2012-02-07"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2012-02-15",
+        "to": "2012-02-20"
+      }
+    ]
   },
   {
     "id": "snow_20120105_01",
@@ -80014,7 +81147,23 @@ const revues = [
     "trp": "snow",
     "date": "2012-01-05",
     "theater": "宝塚バウホール",
-    "hero": "未涼 亜希"
+    "hero": "未涼 亜希",
+    "title_parts": [
+      {
+        "pre": "バウ・エンターテイメント",
+        "main": "『インフィニティ』",
+        "post": "−限りなき世界−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/snow_bow_infinity/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2012-01-05",
+        "to": "2012-01-16"
+      }
+    ]
   },
   {
     "id": "flower_20120101_01",
@@ -80087,6 +81236,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル･プレイ",
+        "main": "『復活 −恋が終わり、愛が残った−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・ファンタシーク",
+        "main": "『カノン』",
+        "post": "−Our Melody−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/12/flower_takarazuka_canon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2012-01-01",
+        "to": "2012-01-30"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-02-10",
+        "to": "2012-03-18"
+      }
     ]
   },
   {
@@ -80096,7 +81272,23 @@ const revues = [
     "date": "2011-12-23",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "音月 桂",
-    "heroine": "舞羽 美海"
+    "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『Samourai（サムライ）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_dc_samourai/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2011-12-23",
+        "to": "2012-01-06"
+      }
+    ]
   },
   {
     "id": "moon_20111119_01",
@@ -80170,6 +81362,28 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "宝塚グランド・ロマン",
+        "main": "『我が愛は山の彼方に』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・スペクタクル",
+        "main": "『Dance Romanesque（ダンス ロマネスク）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/moon_tour_wagaai/",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2011-11-19",
+        "to": "2011-12-11"
+      }
     ]
   },
   {
@@ -80179,7 +81393,28 @@ const revues = [
     "date": "2011-11-17",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "明日海 りお",
-    "heroine": "愛希 れいか"
+    "heroine": "愛希 れいか",
+    "title_parts": [
+      {
+        "pre": "バウ・ラブ・アドベンチャー",
+        "main": "『アリスの恋人』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/moon_bow_alice/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-11-17",
+        "to": "2011-11-27"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-12-02",
+        "to": "2011-12-08"
+      }
+    ]
   },
   {
     "id": "star_20111111_01",
@@ -80268,6 +81503,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター ミュージカル",
+        "main": "『オーシャンズ11』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/star_takarazuka_oceans/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-11-11",
+        "to": "2011-12-13"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2012-01-02",
+        "to": "2012-02-05"
+      }
     ]
   },
   {
@@ -80277,7 +81533,28 @@ const revues = [
     "date": "2011-10-18",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "壮 一帆",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『カナリア』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/flower_dc_canaria/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2011-10-18",
+        "to": "2011-10-30"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-11-04",
+        "to": "2011-11-10"
+      }
+    ]
   },
   {
     "id": "flower_20111015_01",
@@ -80330,6 +81607,28 @@ const revues = [
             "wing": "top"
           }
         ]
+      }
+    ],
+    "title_parts": [
+      {
+        "pre": "江戸風土記",
+        "main": "『小さな花がひらいた』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『ル・ポァゾン 愛の媚薬Ⅱ』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/flower_tour_littleflower/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2011-10-15",
+        "to": "2011-11-13"
       }
     ]
   },
@@ -80428,6 +81727,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "Musical",
+        "main": "『クラシコ・イタリアーノ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・アトラクト",
+        "main": "『NICE GUY!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/cosmos_takarazuka_classico/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-10-07",
+        "to": "2011-11-07"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-11-25",
+        "to": "2011-12-25"
+      }
     ]
   },
   {
@@ -80436,7 +81762,23 @@ const revues = [
     "trp": "special",
     "date": "2011-09-15",
     "theater": "宝塚バウホール",
-    "hero": "轟 悠, 未沙 のえる"
+    "hero": "轟 悠, 未沙 のえる",
+    "title_parts": [
+      {
+        "pre": "バウ・コメディ",
+        "main": "『おかしな二人』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/superior_bow_oddcouple/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-09-15",
+        "to": "2011-09-26"
+      }
+    ]
   },
   {
     "id": "snow_20110902_01",
@@ -80535,6 +81877,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『仮面の男』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ドリームステージ",
+        "main": "『ROYAL STRAIGHT FLUSH!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_takarazuka_mask/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-09-02",
+        "to": "2011-10-03"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-10-21",
+        "to": "2011-11-20"
+      }
     ]
   },
   {
@@ -80544,7 +81913,23 @@ const revues = [
     "date": "2011-08-26",
     "theater": "宝塚バウホール",
     "hero": "真風 涼帆",
-    "heroine": "早乙女 わかば"
+    "heroine": "早乙女 わかば",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『ランスロット』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/star_bow_lancelot/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-08-26",
+        "to": "2011-09-05"
+      }
+    ]
   },
   {
     "id": "cosmos_20110813_01",
@@ -80553,7 +81938,23 @@ const revues = [
     "date": "2011-08-13",
     "theater": "日本青年館大ホール",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ヴァレンチノ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/cosmos_seinenkan2_valentino/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-08-13",
+        "to": "2011-08-19"
+      }
+    ]
   },
   {
     "id": "star_20110801_01",
@@ -80563,6 +81964,33 @@ const revues = [
     "theater": "博多座, 中日劇場",
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ショー",
+        "main": "『ノバ･ボサ･ノバ』",
+        "post": "－盗まれたカルナバル－",
+        "work_type": "show"
+      },
+      {
+        "pre": "ロマンティック・ミュージカル",
+        "main": "『めぐり会いは再び』",
+        "post": "－My only shinin’ star－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/star_hakata_nova/index.html",
+    "schedule": [
+      {
+        "theater": "博多座",
+        "from": "2011-08-01",
+        "to": "2011-08-23"
+      },
+      {
+        "theater": "中日劇場",
+        "from": "2011-09-17",
+        "to": "2011-09-25"
+      }
+    ],
     "kaidan": [
       {
         "order": 1,
@@ -80718,6 +82146,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『アルジェの男』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・スペクタクル",
+        "main": "『Dance Romanesque（ダンス ロマネスク）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/moon_takarazuka_alger/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-07-29",
+        "to": "2011-08-29"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-09-16",
+        "to": "2011-10-16"
+      }
     ]
   },
   {
@@ -80727,7 +82182,23 @@ const revues = [
     "date": "2011-07-07",
     "theater": "宝塚バウホール",
     "hero": "彩凪 翔, 彩風 咲奈",
-    "heroine": "星乃 あんり, 夢華 あみ"
+    "heroine": "星乃 あんり, 夢華 あみ",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『灼熱の彼方』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_bow_burning/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-07-07",
+        "to": "2011-07-19"
+      }
+    ]
   },
   {
     "id": "snow_20110701_01",
@@ -80736,7 +82207,23 @@ const revues = [
     "date": "2011-07-01",
     "theater": "梅田芸術劇場メインホール",
     "hero": "音月 桂",
-    "heroine": "舞羽 美海"
+    "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ハウ・トゥー・サクシード』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_dc_howto/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2011-07-01",
+        "to": "2011-07-17"
+      }
+    ]
   },
   {
     "id": "flower_20110624_01",
@@ -80822,6 +82309,27 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "三井住友VISAカード ミュージカル",
+        "main": "『ファントム』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/flower_takarazuka_phantom/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-06-24",
+        "to": "2011-07-25"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-08-12",
+        "to": "2011-09-11"
+      }
     ]
   },
   {
@@ -80880,6 +82388,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "宝塚グランドロマン",
+        "main": "『美しき生涯』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レヴュー・ロマン",
+        "main": "『ルナロッサ』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/cosmos_takarazuka_utsukushiki/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-05-20",
+        "to": "2011-06-20"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-07-08",
+        "to": "2011-08-07"
+      }
     ]
   },
   {
@@ -80889,7 +82424,28 @@ const revues = [
     "date": "2011-04-28",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "早霧 せいな",
-    "heroine": "愛加 あゆ"
+    "heroine": "愛加 あゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『ニジンスキー』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_bow_nijinsky/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-04-28",
+        "to": "2011-05-08"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-05-13",
+        "to": "2011-05-19"
+      }
+    ]
   },
   {
     "id": "snow_20110423_01",
@@ -80899,6 +82455,28 @@ const revues = [
     "theater": "全国ツアー",
     "hero": "音月 桂",
     "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・プレイ",
+        "main": "『黒い瞳』",
+        "post": "－プーシキン作『大尉の娘』より－",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー",
+        "main": "『ロック・オン！』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_tour_kuroihitomi/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2011-04-23",
+        "to": "2011-05-22"
+      }
+    ],
     "kaidan": [
       {
         "order": 1,
@@ -81044,6 +82622,43 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ショー",
+        "main": "『ノバ･ボサ･ノバ』",
+        "post": "",
+        "work_type": "show"
+      },
+      {
+        "pre": "ロマンティック・ミュージカル",
+        "main": "『めぐり会いは再び』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/star_takarazuka_nova/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-04-15",
+        "to": "2011-05-16"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-06-03",
+        "to": "2011-07-03"
+      },
+      {
+        "theater": "博多座",
+        "from": "2011-08-01",
+        "to": "2011-08-23"
+      },
+      {
+        "theater": "中日劇場",
+        "from": "2011-09-17",
+        "to": "2011-09-25"
+      }
     ]
   },
   {
@@ -81121,6 +82736,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『バラの国の王子』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グラン･ファンタジー",
+        "main": "『ONE』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/moon_takarazuka_bara/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-03-11",
+        "to": "2011-04-11"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-04-29",
+        "to": "2011-05-29"
+      }
     ]
   },
   {
@@ -81130,7 +82772,28 @@ const revues = [
     "date": "2011-03-08",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ヴァレンチノ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/cosmos_dc_valentino/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2011-03-08",
+        "to": "2011-03-20"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-03-26",
+        "to": "2011-04-02"
+      }
+    ]
   },
   {
     "id": "cosmos_20110304_01",
@@ -81139,7 +82802,28 @@ const revues = [
     "date": "2011-03-04",
     "theater": "日本青年館大ホール, 宝塚バウホール",
     "hero": "北翔 海莉",
-    "heroine": "すみれ乃 麗"
+    "heroine": "すみれ乃 麗",
+    "title_parts": [
+      {
+        "pre": "バウ・ポピュリスト・コメディ",
+        "main": "『記者と皇帝』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/cosmos_toutoku_emperor/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-03-04",
+        "to": "2011-03-10"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-03-17",
+        "to": "2011-03-27"
+      }
+    ]
   },
   {
     "id": "flower_20110204_01",
@@ -81249,6 +82933,33 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『愛のプレリュード』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー",
+        "main": "『Le Paradis!!（ル パラディ）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/flower_takarazuka_prelude/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-02-04",
+        "to": "2011-03-07"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-03-25",
+        "to": "2011-04-24"
+      }
     ]
   },
   {
@@ -81304,6 +83015,28 @@ const revues = [
           }
         ]
       }
+    ],
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『愛するには短すぎる』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『ル・ポァゾン 愛の媚薬II』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/star_chyunichi_aisuruniha/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2011-02-01",
+        "to": "2011-02-24"
+      }
     ]
   },
   {
@@ -81313,7 +83046,28 @@ const revues = [
     "date": "2011-01-29",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "紅 ゆずる",
-    "heroine": "音波 みのり"
+    "heroine": "音波 みのり",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『メイちゃんの執事−私（わたくし）の命に代えてお守りします−』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/star_bow_meichan/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-01-29",
+        "to": "2011-02-08"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-02-15",
+        "to": "2011-02-21"
+      }
+    ]
   },
   {
     "id": "moon_20110108_01",
@@ -81321,7 +83075,23 @@ const revues = [
     "trp": "moon",
     "date": "2011-01-08",
     "theater": "宝塚バウホール",
-    "hero": "桐生 園加"
+    "hero": "桐生 園加",
+    "title_parts": [
+      {
+        "pre": "バウ・ダンシング・スペクタクル",
+        "main": "『Dancing Heroes！（ダンシング ヒーローズ）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/moon_bow_dancing heroes/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2011-01-08",
+        "to": "2011-01-18"
+      }
+    ]
   },
   {
     "id": "snow_20110101_01",
@@ -81332,7 +83102,28 @@ const revues = [
     "hero": "音月 桂",
     "heroine": "舞羽 美海, 夢華 あみ",
     "new_hero": "彩風 咲奈",
-    "new_heroine": "愛加 あゆ"
+    "new_heroine": "愛加 あゆ",
+    "title_parts": [
+      {
+        "pre": "三井住友VISAカード ミュージカル",
+        "main": "『ロミオとジュリエット』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/11/snow_takarazuka_rj/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2011-01-01",
+        "to": "2011-01-31"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2011-02-17",
+        "to": "2011-03-20"
+      }
+    ]
   },
   {
     "id": "moon_20101223_01",
@@ -81341,7 +83132,28 @@ const revues = [
     "date": "2010-12-23",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "霧矢 大夢",
-    "heroine": "蒼乃 夕妃"
+    "heroine": "蒼乃 夕妃",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『STUDIO 54（スタジオ フィフティフォー）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/moon_dc_studio54/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2010-12-23",
+        "to": "2011-01-06"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2011-01-14",
+        "to": "2011-01-21"
+      }
+    ]
   },
   {
     "id": "flower_20101118_01",
@@ -81350,7 +83162,28 @@ const revues = [
     "date": "2010-11-18",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "朝夏 まなと",
-    "heroine": "実咲 凛音"
+    "heroine": "実咲 凛音",
+    "title_parts": [
+      {
+        "pre": "BOW MUSICAL",
+        "main": "『CODE HERO／コード・ヒーロー』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/flower_bow_codehero/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2010-11-18",
+        "to": "2010-11-28"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2010-12-03",
+        "to": "2010-12-09"
+      }
+    ]
   },
   {
     "id": "flower_20101113_01",
@@ -81359,7 +83192,29 @@ const revues = [
     "date": "2010-11-13",
     "theater": "全国ツアー",
     "hero": "真飛 聖",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "title_parts": [
+      {
+        "pre": "サスペンス・コメディ",
+        "main": "『メランコリック・ジゴロ』",
+        "post": "−あぶない相続人−",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『ラブ・シンフォニー』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/flower_tour_jigoro/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2010-11-13",
+        "to": "2010-12-12"
+      }
+    ]
   },
   {
     "id": "cosmos_20101112_01",
@@ -81370,7 +83225,23 @@ const revues = [
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "愛月 ひかる",
-    "new_heroine": "すみれ乃 麗"
+    "new_heroine": "すみれ乃 麗",
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター ミュージカル",
+        "main": "『誰がために鐘は鳴る』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/cosmos_takarazuka_tagatameni/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-11-12",
+        "to": "2010-12-13"
+      }
+    ]
   },
   {
     "id": "snow_20101015_01",
@@ -81379,7 +83250,28 @@ const revues = [
     "date": "2010-10-15",
     "theater": "日本青年館大ホール, 宝塚バウホール",
     "hero": "轟 悠",
-    "heroine": "舞羽 美海"
+    "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『オネーギンEvgeny Onegin −あるダンディの肖像−』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/snow_seinenkan_onegin/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2010-10-15",
+        "to": "2010-10-21"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2010-10-28",
+        "to": "2010-11-07"
+      }
+    ]
   },
   {
     "id": "snow_20101013_01",
@@ -81388,7 +83280,28 @@ const revues = [
     "date": "2010-10-13",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "音月 桂",
-    "heroine": "愛加 あゆ"
+    "heroine": "愛加 あゆ",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『はじめて愛した』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/snow_dc_hajimete/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2010-10-13",
+        "to": "2010-10-25"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2010-10-31",
+        "to": "2010-11-07"
+      }
+    ]
   },
   {
     "id": "star_20101008_01",
@@ -81399,7 +83312,34 @@ const revues = [
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "芹香 斗亜",
-    "new_heroine": "音波 みのり"
+    "new_heroine": "音波 みのり",
+    "title_parts": [
+      {
+        "pre": "レビュー",
+        "main": "『宝塚花の踊り絵巻』",
+        "post": "−秋の踊り−",
+        "work_type": "show"
+      },
+      {
+        "pre": "ミュージカル",
+        "main": "『愛と青春の旅だち』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/star_takarazuka_tabidachi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-10-08",
+        "to": "2010-11-08"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-11-26",
+        "to": "2010-12-26"
+      }
+    ]
   },
   {
     "id": "cosmos_20100904_01",
@@ -81408,7 +83348,23 @@ const revues = [
     "date": "2010-09-04",
     "theater": "全国ツアー",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『銀ちゃんの恋』",
+        "post": "−つかこうへい作『蒲田行進曲』より−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/cosmos_tour_ginchan/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2010-09-04",
+        "to": "2010-09-26"
+      }
+    ]
   },
   {
     "id": "moon_20100903_01",
@@ -81419,7 +83375,34 @@ const revues = [
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "宇月 颯",
-    "new_heroine": "花陽 みら"
+    "new_heroine": "花陽 みら",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ジプシー男爵 −Der Zigeuner Baron−』",
+        "post": "−ヨハン・シュトラウスII世 喜歌劇『ジプシー男爵』より−",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Rhapsodic Moon（ラプソディック・ムーン）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/moon_takarazuka_gypsy/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-09-03",
+        "to": "2010-10-04"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-10-22",
+        "to": "2010-11-21"
+      }
+    ]
   },
   {
     "id": "cosmos_20100902_01",
@@ -81427,7 +83410,28 @@ const revues = [
     "trp": "cosmos",
     "date": "2010-09-02",
     "theater": "宝塚バウホール, 昭和女子大学人見記念講堂",
-    "hero": "蘭寿 とむ"
+    "hero": "蘭寿 とむ",
+    "title_parts": [
+      {
+        "pre": "蘭寿とむコンサート",
+        "main": "『“R”ising!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/cosmos_bow_rising/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2010-09-02",
+        "to": "2010-09-10"
+      },
+      {
+        "theater": "昭和女子大学人見記念講堂",
+        "from": "2010-09-15",
+        "to": "2010-09-17"
+      }
+    ]
   },
   {
     "id": "star_20100812_01",
@@ -81436,7 +83440,23 @@ const revues = [
     "date": "2010-08-12",
     "theater": "宝塚バウホール",
     "hero": "夢乃 聖夏",
-    "heroine": "華雅 りりか"
+    "heroine": "華雅 りりか",
+    "title_parts": [
+      {
+        "pre": "バウ・ライブパフォーマンス",
+        "main": "『摩天楼狂詩曲（ニューヨークラプソディー）』",
+        "post": "−君に歌う愛−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/star_bow_ny/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2010-08-12",
+        "to": "2010-08-23"
+      }
+    ]
   },
   {
     "id": "flower_20100730_01",
@@ -81447,7 +83467,34 @@ const revues = [
     "hero": "真飛 聖",
     "heroine": "蘭乃 はな",
     "new_hero": "瀬戸 かずや",
-    "new_heroine": "実咲 凛音"
+    "new_heroine": "実咲 凛音",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『麗しのサブリナ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "スパークリング・ショー",
+        "main": "『EXCITER!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/flower_takarazuka_sabrina/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-07-30",
+        "to": "2010-08-30"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-09-17",
+        "to": "2010-10-17"
+      }
+    ]
   },
   {
     "id": "star_20100710_01",
@@ -81456,7 +83503,28 @@ const revues = [
     "date": "2010-07-10",
     "theater": "梅田芸術劇場メインホール, 博多座",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ロミオとジュリエット』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/star_umegei_rj/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2010-07-10",
+        "to": "2010-07-26"
+      },
+      {
+        "theater": "博多座",
+        "from": "2010-08-02",
+        "to": "2010-08-24"
+      }
+    ]
   },
   {
     "id": "snow_20100625_01",
@@ -81467,7 +83535,34 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "愛原 実花",
     "new_hero": "彩風 咲奈",
-    "new_heroine": "夢華 あみ"
+    "new_heroine": "夢華 あみ",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ロジェ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー",
+        "main": "『ロック・オン！』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/snow_takaraduka_roget/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-06-25",
+        "to": "2010-07-26"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-08-13",
+        "to": "2010-09-12"
+      }
+    ]
   },
   {
     "id": "cosmos_20100521_01",
@@ -81478,7 +83573,34 @@ const revues = [
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "蒼羽 りく",
-    "new_heroine": "すみれ乃 麗"
+    "new_heroine": "すみれ乃 麗",
+    "title_parts": [
+      {
+        "pre": "グラン・ステージ",
+        "main": "『TRAFALGAR（トラファルガー）』",
+        "post": "−ネルソン、その愛と奇跡−",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・ショー",
+        "main": "『ファンキー・サンシャイン』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/cosmos_takarazuka_trafalgar/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-05-21",
+        "to": "2010-06-21"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-07-09",
+        "to": "2010-08-08"
+      }
+    ]
   },
   {
     "id": "star_20100507_01",
@@ -81487,7 +83609,28 @@ const revues = [
     "date": "2010-05-07",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "凰稀 かなめ",
-    "heroine": "白華 れみ"
+    "heroine": "白華 れみ",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『リラの壁の囚人たち』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/star_bow_rira/index.html",
+    "schedule": [
+      {
+        "theater": "（火） 宝塚バウホール",
+        "from": "2010-05-07",
+        "to": "2010-05-18"
+      },
+      {
+        "theater": "（月） 日本青年館大ホール",
+        "from": "2010-05-24",
+        "to": "2010-05-31"
+      }
+    ]
   },
   {
     "id": "star_20100424_01",
@@ -81496,7 +83639,29 @@ const revues = [
     "date": "2010-04-24",
     "theater": "全国ツアー",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『激情』",
+        "post": "−ホセとカルメン−",
+        "work_type": "play"
+      },
+      {
+        "pre": "グラン・ファンタジー",
+        "main": "『BOLERO』",
+        "post": "−ある愛−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/star_tour_gekijyo/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2010-04-24",
+        "to": "2010-05-23"
+      }
+    ]
   },
   {
     "id": "moon_20100416_01",
@@ -81507,7 +83672,28 @@ const revues = [
     "hero": "霧矢 大夢",
     "heroine": "蒼乃 夕妃",
     "new_hero": "珠城 りょう",
-    "new_heroine": "彩星 りおん"
+    "new_heroine": "彩星 りおん",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『THE SCARLET PIMPERNEL（スカーレット ピンパーネル）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/moon_takarazuka_scapim/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-04-16",
+        "to": "2010-05-17"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-06-04",
+        "to": "2010-07-04"
+      }
+    ]
   },
   {
     "id": "cosmos_20100318_01",
@@ -81516,7 +83702,23 @@ const revues = [
     "date": "2010-03-18",
     "theater": "宝塚バウホール",
     "hero": "凪七 瑠海",
-    "heroine": "花影 アリス"
+    "heroine": "花影 アリス",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『Je Chante（ジュ シャント）』",
+        "post": "−終わりなき喝采−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/cosmos_bow_jechante/index.html",
+    "schedule": [
+      {
+        "theater": "（月） 宝塚バウホール",
+        "from": "2010-03-18",
+        "to": "2010-03-29"
+      }
+    ]
   },
   {
     "id": "flower_20100312_01",
@@ -81527,7 +83729,28 @@ const revues = [
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "鳳 真由",
-    "new_heroine": "天咲 千華"
+    "new_heroine": "天咲 千華",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『虞美人』",
+        "post": "−新たなる伝説−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/flower_takarazuka_gubijin/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-03-12",
+        "to": "2010-04-12"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-04-30",
+        "to": "2010-05-30"
+      }
+    ]
   },
   {
     "id": "cosmos_20100309_01",
@@ -81536,7 +83759,28 @@ const revues = [
     "date": "2010-03-09",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『シャングリラ −水之城−』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/cosmos_dc_shangrila/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場 シアター・ドラマシティ",
+        "from": "2010-03-09",
+        "to": "2010-03-21"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2010-03-26",
+        "to": "2010-04-02"
+      }
+    ]
   },
   {
     "id": "snow_20100205_01",
@@ -81547,7 +83791,34 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "愛原 実花",
     "new_hero": "彩風 咲奈",
-    "new_heroine": "愛加 あゆ"
+    "new_heroine": "愛加 あゆ",
+    "title_parts": [
+      {
+        "pre": "赤十字思想誕生150周年 宝塚ミュージカル・ロマン",
+        "main": "『ソルフェリーノの夜明け』",
+        "post": "−アンリー・デュナンの生涯−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・グランデ",
+        "main": "『Carnevale（カルネヴァーレ） 睡夢（すいむ）』",
+        "post": "−水面に浮かぶ風景−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/snow_takaraduka_solferino/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-02-05",
+        "to": "2010-03-08"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-03-26",
+        "to": "2010-04-25"
+      }
+    ]
   },
   {
     "id": "moon_20100204_01",
@@ -81556,7 +83827,28 @@ const revues = [
     "date": "2010-02-04",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "龍 真咲",
-    "heroine": "蘭乃 はな"
+    "heroine": "蘭乃 はな",
+    "title_parts": [
+      {
+        "pre": "ロック・オペラ",
+        "main": "『HAMLET!!』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/moon_bow_hamlet/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2010-02-04",
+        "to": "2010-02-14"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2010-02-19",
+        "to": "2010-02-25"
+      }
+    ]
   },
   {
     "id": "moon_20100201_01",
@@ -81565,7 +83857,29 @@ const revues = [
     "date": "2010-02-01",
     "theater": "中日劇場",
     "hero": "霧矢 大夢",
-    "heroine": "蒼乃 夕妃"
+    "heroine": "蒼乃 夕妃",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『紫子（ゆかりこ）』",
+        "post": "−とりかえばや異聞−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ファンタスティック・ショー",
+        "main": "『Heat on Beat!（ヒート オン ビート）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/moon_cyunichi_yukariko/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2010-02-01",
+        "to": "2010-02-24"
+      }
+    ]
   },
   {
     "id": "flower_20100107_01",
@@ -81574,7 +83888,23 @@ const revues = [
     "date": "2010-01-07",
     "theater": "宝塚バウホール",
     "hero": "朝夏 まなと",
-    "heroine": "白華 れみ"
+    "heroine": "白華 れみ",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『BUND／NEON 上海』",
+        "post": "−深緋（こきあけ）の嘆きの河（コキュートス）−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/flower_bow_bundneon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2010-01-07",
+        "to": "2010-01-18"
+      }
+    ]
   },
   {
     "id": "star_20100101_01",
@@ -81585,7 +83915,34 @@ const revues = [
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "美弥 るりか",
-    "new_heroine": "早乙女 わかば"
+    "new_heroine": "早乙女 わかば",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ハプスブルクの宝剣 −魂に宿る光−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グラン・ファンタジー",
+        "main": "『BOLERO』",
+        "post": "−ある愛−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/10/star_takarazuka_habsburg/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2010-01-01",
+        "to": "2010-02-01"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-02-12",
+        "to": "2010-03-21"
+      }
+    ]
   },
   {
     "id": "flower_20091223_01",
@@ -81594,7 +83951,28 @@ const revues = [
     "date": "2009-12-23",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "真飛 聖",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『相棒』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_dc_aibou/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2009-12-23",
+        "to": "2010-01-06"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2010-01-15",
+        "to": "2010-01-22"
+      }
+    ]
   },
   {
     "id": "snow_20091119_01",
@@ -81602,8 +83980,29 @@ const revues = [
     "trp": "snow",
     "date": "2009-11-19",
     "theater": "宝塚バウホール, 日本青年館大ホール",
-    "hero": "早霧 せいな, 沙央 くらま？",
-    "heroine": "舞羽 美海"
+    "hero": "早霧 せいな, 沙央 くらま",
+    "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "バウ人情噺",
+        "main": "『雪景色』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/snow_seinenkan_yukiigesiki/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-11-19",
+        "to": "2009-11-29"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2009-12-04",
+        "to": "2009-12-10"
+      }
+    ]
   },
   {
     "id": "snow_20091114_01",
@@ -81612,7 +84011,29 @@ const revues = [
     "date": "2009-11-14",
     "theater": "全国ツアー",
     "hero": "水 夏希",
-    "heroine": "愛原 実花"
+    "heroine": "愛原 実花",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『情熱のバルセロナ』",
+        "post": "－スタンダール作『パルムの僧院』より－",
+        "work_type": "play"
+      },
+      {
+        "pre": "ラテン・ロマンチカ",
+        "main": "『RIO DE BRAVO!!（リオ デ ブラボー）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/snow_tour_barcelona/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2009-11-14",
+        "to": "2009-12-13"
+      }
+    ]
   },
   {
     "id": "cosmos_20091113_01",
@@ -81623,7 +84044,28 @@ const revues = [
     "hero": "大空 祐飛",
     "heroine": "野々 すみ花",
     "new_hero": "凪七 瑠海",
-    "new_heroine": "藤咲 えり"
+    "new_heroine": "藤咲 えり",
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター ミュージカル",
+        "main": "『カサブランカ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/cosmos_takarazuka_casablanca/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-11-13",
+        "to": "2009-12-11"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2010-01-03",
+        "to": "2010-02-07"
+      }
+    ]
   },
   {
     "id": "star_20091013_01",
@@ -81632,7 +84074,28 @@ const revues = [
     "date": "2009-10-13",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "轟 悠",
-    "heroine": "蒼乃 夕妃"
+    "heroine": "蒼乃 夕妃",
+    "title_parts": [
+      {
+        "pre": "宝塚ミュージカル・プレイ",
+        "main": "『コインブラ物語』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/star_dc_koinbura/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2009-10-13",
+        "to": "2009-10-25"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2009-10-30",
+        "to": "2009-11-05"
+      }
+    ]
   },
   {
     "id": "moon_20091009_01",
@@ -81641,7 +84104,34 @@ const revues = [
     "date": "2009-10-09",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "瀬奈 じゅん",
-    "new_hero": "明日海 りお"
+    "new_hero": "明日海 りお",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『ラスト プレイ』",
+        "post": "−祈りのように−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ファンタスティック・ショー",
+        "main": "『Heat on Beat!（ヒート オン ビート）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/moon_takarazuka_lastplay/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-10-09",
+        "to": "2009-11-09"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-11-27",
+        "to": "2009-12-27"
+      }
+    ]
   },
   {
     "id": "star_20091007_01",
@@ -81650,7 +84140,29 @@ const revues = [
     "date": "2009-10-07",
     "theater": "全国ツアー",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・プレイ",
+        "main": "『再会』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー",
+        "main": "『ソウル・オブ・シバ!!』",
+        "post": "−夢のシューズを履いた舞神−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/star_tour_saikai/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2009-10-07",
+        "to": "2009-11-05"
+      }
+    ]
   },
   {
     "id": "flower_20090904_01",
@@ -81661,7 +84173,34 @@ const revues = [
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "望海 風斗",
-    "new_heroine": "天咲 千華"
+    "new_heroine": "天咲 千華",
+    "title_parts": [
+      {
+        "pre": "宝塚ロマン",
+        "main": "『外伝ベルサイユのばら −アンドレ編−』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "スパークリング・ショー",
+        "main": "『EXCITER!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_takarazuka_gaidenverbara/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-09-04",
+        "to": "2009-10-05"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-10-23",
+        "to": "2009-11-22"
+      }
+    ]
   },
   {
     "id": "cosmos_20090820_01",
@@ -81670,7 +84209,28 @@ const revues = [
     "date": "2009-08-20",
     "theater": "宝塚バウホール, 赤坂ACTシアター",
     "hero": "蘭寿 とむ",
-    "heroine": "純矢 ちとせ"
+    "heroine": "純矢 ちとせ",
+    "title_parts": [
+      {
+        "pre": "バウ・ロマン",
+        "main": "『逆転裁判2』",
+        "post": "－蘇る真実、再び・・・－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/cosmos_bow_gyakuten2/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-08-20",
+        "to": "2009-08-31"
+      },
+      {
+        "theater": "赤坂ACTシアター",
+        "from": "2009-09-05",
+        "to": "2009-09-15"
+      }
+    ]
   },
   {
     "id": "cosmos_20090803_01",
@@ -81679,7 +84239,29 @@ const revues = [
     "date": "2009-08-03",
     "theater": "博多座",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "王朝千一夜",
+        "main": "『大江山花伝』",
+        "post": "－燃えつきてこそ－",
+        "work_type": "play"
+      },
+      {
+        "pre": "ファナティック・ショー",
+        "main": "『Apasionado（アパショナード）!! II』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/cosmos_hakataza_ooeyama/index.html",
+    "schedule": [
+      {
+        "theater": "博多座",
+        "from": "2009-08-03",
+        "to": "2009-08-25"
+      }
+    ]
   },
   {
     "id": "snow_20090731_01",
@@ -81690,7 +84272,34 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "愛原 実花",
     "new_hero": "蓮城 まこと",
-    "new_heroine": "愛加 あゆ"
+    "new_heroine": "愛加 あゆ",
+    "title_parts": [
+      {
+        "pre": "スクリューボール・コメディ",
+        "main": "『ロシアン・ブルー』",
+        "post": "−魔女への鉄槌−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ラテン・ロマンチカ",
+        "main": "『RIO DE BRAVO!!（リオ デ ブラボー）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/snow_takarazuka_russian/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-07-31",
+        "to": "2009-08-31"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-09-18",
+        "to": "2009-10-18"
+      }
+    ]
   },
   {
     "id": "flower_20090709_01",
@@ -81699,7 +84308,28 @@ const revues = [
     "date": "2009-07-09",
     "theater": "宝塚バウホール",
     "hero": "華形 ひかる, 真野 すがた",
-    "heroine": "華耀 きらり, 白華 れみ"
+    "heroine": "華耀 きらり, 白華 れみ",
+    "title_parts": [
+      {
+        "pre": "バウ・プレイ",
+        "main": "『フィフティ・フィフティ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_bow_fifty/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-07-09",
+        "to": "2009-07-20"
+      },
+      {
+        "theater": "",
+        "from": "2013-01-23",
+        "to": "2013-01-28"
+      }
+    ]
   },
   {
     "id": "flower_20090704_01",
@@ -81708,7 +84338,23 @@ const revues = [
     "date": "2009-07-04",
     "theater": "梅田芸術劇場メインホール",
     "hero": "真飛 聖",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ME AND MY GIRL』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_umegei_memy/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2009-07-04",
+        "to": "2009-07-20"
+      }
+    ]
   },
   {
     "id": "star_20090626_01",
@@ -81719,7 +84365,28 @@ const revues = [
     "hero": "柚希 礼音",
     "heroine": "夢咲 ねね",
     "new_hero": "真風 涼帆",
-    "new_heroine": "蒼乃 夕妃"
+    "new_heroine": "蒼乃 夕妃",
+    "title_parts": [
+      {
+        "pre": "幻想歌舞劇",
+        "main": "『太王四神記 Ver.II』",
+        "post": "−新たなる王の旅立ち− 〜韓国ドラマ『太王四神記』より〜",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/star_takarazuka_taiou/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-06-26",
+        "to": "2009-07-27"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-08-14",
+        "to": "2009-09-13"
+      }
+    ]
   },
   {
     "id": "moon_20090522_01",
@@ -81730,7 +84397,28 @@ const revues = [
     "hero": "瀬奈 じゅん",
     "heroine": "凪七 瑠海",
     "new_hero": "明日海 りお",
-    "new_heroine": "羽桜 しずく"
+    "new_heroine": "羽桜 しずく",
+    "title_parts": [
+      {
+        "pre": "三井住友VISAミュージカル",
+        "main": "『エリザベート』",
+        "post": "−愛と死の輪舞（ロンド）−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/moon_takarazuka_erisabeth/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-05-22",
+        "to": "2009-06-22"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-07-10",
+        "to": "2009-08-09"
+      }
+    ]
   },
   {
     "id": "flower_20090508_01",
@@ -81739,7 +84427,28 @@ const revues = [
     "date": "2009-05-08",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "壮 一帆",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『オグリ！ 〜小栗判官物語より〜』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_bow_oguri/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-05-08",
+        "to": "2009-05-19"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2009-05-26",
+        "to": "2009-06-01"
+      }
+    ]
   },
   {
     "id": "flower_20090502_01",
@@ -81748,7 +84457,29 @@ const revues = [
     "date": "2009-05-02",
     "theater": "全国ツアー",
     "hero": "真飛 聖",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『哀しみのコルドバ』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グラン･ファンタジー",
+        "main": "『Red Hot Sea II』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_tour_cordova/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2009-05-02",
+        "to": "2009-05-31"
+      }
+    ]
   },
   {
     "id": "cosmos_20090417_01",
@@ -81759,7 +84490,34 @@ const revues = [
     "hero": "大和 悠河",
     "heroine": "陽月 華",
     "new_hero": "七海 ひろき",
-    "new_heroine": "愛花 ちさき"
+    "new_heroine": "愛花 ちさき",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『薔薇に降る雨』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『Amour それは･･･』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/cosmos_takarazuka_baranifuru/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-04-17",
+        "to": "2009-05-18"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-06-05",
+        "to": "2009-07-05"
+      }
+    ]
   },
   {
     "id": "snow_20090313_01",
@@ -81770,7 +84528,34 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "香綾 しずる",
-    "new_heroine": "愛原 実花"
+    "new_heroine": "愛原 実花",
+    "title_parts": [
+      {
+        "pre": "舞踊パフォーマンス",
+        "main": "『風の錦絵』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "宝塚アドベンチャー･ロマン",
+        "main": "『ZORRO 仮面のメサイア』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/snow_takarazuka_zorro/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-03-13",
+        "to": "2009-04-13"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-05-01",
+        "to": "2009-05-31"
+      }
+    ]
   },
   {
     "id": "moon_20090312_01",
@@ -81779,7 +84564,23 @@ const revues = [
     "date": "2009-03-12",
     "theater": "宝塚バウホール",
     "hero": "龍 真咲, 明日海 りお",
-    "heroine": "羽桜 しずく"
+    "heroine": "羽桜 しずく",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『二人の貴公子』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/moon_bow_kikoushi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-03-12",
+        "to": "2009-03-29"
+      }
+    ]
   },
   {
     "id": "moon_20090306_01",
@@ -81787,7 +84588,28 @@ const revues = [
     "trp": "moon",
     "date": "2009-03-06",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 昭和女子大学人見記念講堂",
-    "hero": "瀬奈 じゅん"
+    "hero": "瀬奈 じゅん",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『SAUDADE（サウダージ）』",
+        "post": "−Jにまつわる幾つかの所以−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/moon_dc_saudade/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2009-03-06",
+        "to": "2009-03-21"
+      },
+      {
+        "theater": "昭和女子大学人見記念講堂公演",
+        "from": "2009-03-25",
+        "to": "2009-03-27"
+      }
+    ]
   },
   {
     "id": "star_20090206_01",
@@ -81798,7 +84620,34 @@ const revues = [
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "真風 涼帆",
-    "new_heroine": "蒼乃 夕妃"
+    "new_heroine": "蒼乃 夕妃",
+    "title_parts": [
+      {
+        "pre": "Musical",
+        "main": "『My dear New Orleans（マイ ディア ニューオリンズ）』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・ファンタスティーク",
+        "main": "『ア ビヤント』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/star_takarazuka_orleans/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-02-06",
+        "to": "2009-03-09"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-03-27",
+        "to": "2009-04-26"
+      }
+    ]
   },
   {
     "id": "cosmos_20090205_01",
@@ -81807,7 +84656,28 @@ const revues = [
     "date": "2009-02-05",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "蘭寿 とむ",
-    "heroine": "美羽 あさひ"
+    "heroine": "美羽 あさひ",
+    "title_parts": [
+      {
+        "pre": "バウ・ロマン",
+        "main": "『逆転裁判』",
+        "post": "－蘇る真実－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/cosmos_bow_gyakuten/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-02-05",
+        "to": "2009-02-15"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2009-02-24",
+        "to": "2009-03-02"
+      }
+    ]
   },
   {
     "id": "cosmos_20090201_01",
@@ -81816,7 +84686,29 @@ const revues = [
     "date": "2009-02-01",
     "theater": "中日劇場",
     "hero": "大和 悠河",
-    "heroine": "陽月 華"
+    "heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "宝塚ロマン",
+        "main": "『外伝 ベルサイユのばら -アンドレ編-』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『ダンシング・フォー・ユー』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/cosmos_cyunichi_gaidenverbara/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2009-02-01",
+        "to": "2009-02-23"
+      }
+    ]
   },
   {
     "id": "snow_20090108_01",
@@ -81825,7 +84717,28 @@ const revues = [
     "date": "2009-01-08",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "音月 桂",
-    "heroine": "舞羽 美海"
+    "heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "バウ・ピュア・ストーリー",
+        "main": "『忘れ雪』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/snow_bow_wasureyuki/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2009-01-08",
+        "to": "2009-01-18"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2009-01-23",
+        "to": "2009-01-29"
+      }
+    ]
   },
   {
     "id": "flower_20090101_01",
@@ -81836,7 +84749,28 @@ const revues = [
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "望海 風斗",
-    "new_heroine": "野々 すみ花"
+    "new_heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター 幻想歌舞劇",
+        "main": "『太王四神記』",
+        "post": "−チュシンの星のもとに− 〜韓国ドラマ『太王四神記』より〜",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/09/flower_takarazuka_taiou/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2009-01-01",
+        "to": "2009-02-02"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-02-13",
+        "to": "2009-03-22"
+      }
+    ]
   },
   {
     "id": "snow_20081213_01",
@@ -81845,7 +84779,23 @@ const revues = [
     "date": "2008-12-13",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 赤坂ACTシアター",
     "hero": "水 夏希",
-    "heroine": "白羽 ゆり"
+    "heroine": "白羽 ゆり",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『カラマーゾフの兄弟』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/snow_dc_karamazofu/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場 シアター・ドラマシティ",
+        "from": "2008-12-13",
+        "to": "2008-12-25"
+      }
+    ]
   },
   {
     "id": "star_20081108_01",
@@ -81854,7 +84804,29 @@ const revues = [
     "date": "2008-11-08",
     "theater": "全国ツアー",
     "hero": "安蘭 けい",
-    "heroine": "遠野 あすか"
+    "heroine": "遠野 あすか",
+    "title_parts": [
+      {
+        "pre": "宝塚ロマン",
+        "main": "『外伝 ベルサイユのばら -ベルナール編-』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『ネオ・ダンディズム！III』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/star_tour_gaidenverbara/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2008-11-08",
+        "to": "2008-12-07"
+      }
+    ]
   },
   {
     "id": "moon_20081107_01",
@@ -81865,7 +84837,34 @@ const revues = [
     "hero": "瀬奈 じゅん",
     "heroine": "羽桜 しずく",
     "new_hero": "明日海 りお",
-    "new_heroine": "蘭乃 はな"
+    "new_heroine": "蘭乃 はな",
+    "title_parts": [
+      {
+        "pre": "源氏物語千年紀頌",
+        "main": "『夢の浮橋』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ファナティック・ショー",
+        "main": "『Apasionado!!（アパショナード）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/moon_takarazuka_ukihashi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-11-07",
+        "to": "2008-12-11"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2009-01-03",
+        "to": "2009-02-08"
+      }
+    ]
   },
   {
     "id": "star_20081101_01",
@@ -81874,7 +84873,28 @@ const revues = [
     "date": "2008-11-01",
     "theater": "日本青年館大ホール, 宝塚バウホール",
     "hero": "柚希 礼音",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『ブエノスアイレスの風』",
+        "post": "－光と影の狭間を吹き抜けてゆく…－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/star_seinenkan_buenos/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2008-11-01",
+        "to": "2008-11-06"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-11-14",
+        "to": "2008-11-25"
+      }
+    ]
   },
   {
     "id": "flower_20081003_01",
@@ -81883,7 +84903,28 @@ const revues = [
     "date": "2008-10-03",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "大空 祐飛",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『銀ちゃんの恋』",
+        "post": "－つかこうへい作『蒲田行進曲』より－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/flower_dc_gin/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場 シアター・ドラマシティ",
+        "from": "2008-10-03",
+        "to": "2008-10-15"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2008-10-20",
+        "to": "2008-10-27"
+      }
+    ]
   },
   {
     "id": "cosmos_20080926_01",
@@ -81894,7 +84935,34 @@ const revues = [
     "hero": "大和 悠河",
     "heroine": "陽月 華",
     "new_hero": "鳳翔 大",
-    "new_heroine": "愛花 ちさき"
+    "new_heroine": "愛花 ちさき",
+    "title_parts": [
+      {
+        "pre": "Musical entertainment",
+        "main": "『Paradise Prince（パラダイス プリンス）』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『ダンシング・フォー・ユー』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/cosmos_takarazuka_paradise/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-09-26",
+        "to": "2008-11-03"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-11-21",
+        "to": "2008-12-27"
+      }
+    ]
   },
   {
     "id": "flower_20080920_01",
@@ -81903,7 +84971,29 @@ const revues = [
     "date": "2008-09-20",
     "theater": "全国ツアー",
     "hero": "真飛 聖",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "宝塚ロマン",
+        "main": "『外伝 ベルサイユのばら -アラン編-』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『エンター・ザ・レビュー』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/flower_tour_gaidenverbara/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2008-09-20",
+        "to": "2008-10-17"
+      }
+    ]
   },
   {
     "id": "moon_20080901_01",
@@ -81912,7 +85002,23 @@ const revues = [
     "date": "2008-09-01",
     "theater": "日生劇場",
     "hero": "瀬奈 じゅん",
-    "heroine": "城咲 あい"
+    "heroine": "城咲 あい",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『グレート・ギャツビー』",
+        "post": "－Ｆ･スコット・フィッツジェラルド作“The Great Gatsby”より－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/moon_nissei_gatsby/index.html",
+    "schedule": [
+      {
+        "theater": "日生劇場",
+        "from": "2008-09-01",
+        "to": "2008-09-23"
+      }
+    ]
   },
   {
     "id": "snow_20080808_01",
@@ -81923,7 +85029,34 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "大湖 せしる",
-    "new_heroine": "舞羽 美海"
+    "new_heroine": "舞羽 美海",
+    "title_parts": [
+      {
+        "pre": "ショー",
+        "main": "『ソロモンの指輪』",
+        "post": "",
+        "work_type": "show"
+      },
+      {
+        "pre": "ミュージカル",
+        "main": "『マリポーサの花』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/snow_takarazuka_solomon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-08-08",
+        "to": "2008-09-22"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-10-10",
+        "to": "2008-11-16"
+      }
+    ]
   },
   {
     "id": "moon_20080801_01",
@@ -81932,7 +85065,23 @@ const revues = [
     "date": "2008-08-01",
     "theater": "博多座",
     "hero": "霧矢 大夢",
-    "heroine": "羽桜 しずく"
+    "heroine": "羽桜 しずく",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『ME AND MY GIRL』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/moon_hakataza_memy/index.html",
+    "schedule": [
+      {
+        "theater": "博多座",
+        "from": "2008-08-01",
+        "to": "2008-08-24"
+      }
+    ]
   },
   {
     "id": "cosmos_20080705_01",
@@ -81941,7 +85090,23 @@ const revues = [
     "date": "2008-07-05",
     "theater": "梅田芸術劇場メインホール",
     "hero": "大和 悠河",
-    "heroine": "花影 アリス"
+    "heroine": "花影 アリス",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『雨に唄えば』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/cosmos_umegei_ame/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2008-07-05",
+        "to": "2008-07-21"
+      }
+    ]
   },
   {
     "id": "cosmos_20080628_01",
@@ -81950,7 +85115,28 @@ const revues = [
     "date": "2008-06-28",
     "theater": "宝塚バウホール",
     "hero": "早霧 せいな, 蓮水 ゆうや",
-    "heroine": "和音 美桜, すみれ乃 麗"
+    "heroine": "和音 美桜, すみれ乃 麗",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『殉情（じゅんじょう）』",
+        "post": "－谷崎潤一郎作『春琴抄』（中公文庫版）より－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/cosmos_bow_jyunjyou/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-06-28",
+        "to": "2008-07-08"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-07-17",
+        "to": "2008-07-27"
+      }
+    ]
   },
   {
     "id": "star_20080620_01",
@@ -81961,7 +85147,28 @@ const revues = [
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "紅 ゆずる",
-    "new_heroine": "蒼乃 夕妃"
+    "new_heroine": "蒼乃 夕妃",
+    "title_parts": [
+      {
+        "pre": "三井住友VISAミュージカル",
+        "main": "『THE SCARLET PIMPERNEL（スカーレット ピンパーネル）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/star_takarazuka_sp/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-06-20",
+        "to": "2008-08-04"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-08-22",
+        "to": "2008-10-05"
+      }
+    ]
   },
   {
     "id": "snow_20080524_01",
@@ -81970,7 +85177,28 @@ const revues = [
     "date": "2008-05-24",
     "theater": "宝塚バウホール",
     "hero": "凰稀 かなめ",
-    "heroine": "愛原 実花, 大月 さゆ"
+    "heroine": "愛原 実花, 大月 さゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『凍てついた明日－ボニー&クライドとの邂逅（かいこう）－』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/snow_bow_itetsuita/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-05-24",
+        "to": "2008-06-03"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-06-12",
+        "to": "2008-06-22"
+      }
+    ]
   },
   {
     "id": "snow_20080517_01",
@@ -81979,7 +85207,29 @@ const revues = [
     "date": "2008-05-17",
     "theater": "全国ツアー",
     "hero": "水 夏希",
-    "heroine": "白羽 ゆり"
+    "heroine": "白羽 ゆり",
+    "title_parts": [
+      {
+        "pre": "宝塚ロマン",
+        "main": "『外伝 ベルサイユのばら -ジェローデル編-』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・ファンタジー",
+        "main": "『ミロワール』",
+        "post": "－鏡のエンドレス・ドリームズ－",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/snow_tour_gaidenbelbara/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2008-05-17",
+        "to": "2008-06-15"
+      }
+    ]
   },
   {
     "id": "flower_20080509_01",
@@ -81990,7 +85240,34 @@ const revues = [
     "hero": "真飛 聖",
     "heroine": "桜乃 彩音",
     "new_hero": "朝夏 まなと",
-    "new_heroine": "白華 れみ"
+    "new_heroine": "白華 れみ",
+    "title_parts": [
+      {
+        "pre": "宝塚ミュージカル・ロマン",
+        "main": "『愛と死のアラビア』",
+        "post": "－高潔なアラブの戦士となったイギリス人－",
+        "work_type": "play"
+      },
+      {
+        "pre": "グラン・ファンタジー",
+        "main": "『Red Hot Sea』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/flower_takarazuka_arabia/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-05-09",
+        "to": "2008-06-16"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-07-11",
+        "to": "2008-08-17"
+      }
+    ]
   },
   {
     "id": "star_20080405_01",
@@ -81999,7 +85276,28 @@ const revues = [
     "date": "2008-04-05",
     "theater": "宝塚バウホール",
     "hero": "夢乃 聖夏, 麻尋 しゅん",
-    "heroine": "蒼乃 夕妃, 妃咲, せあら"
+    "heroine": "蒼乃 夕妃, 妃咲, せあら",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『ANNA KARENINA（アンナ・カレーニナ）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/star_bow_anna/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-04-05",
+        "to": "2008-04-15"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-04-24",
+        "to": "2008-05-04"
+      }
+    ]
   },
   {
     "id": "moon_20080321_01",
@@ -82010,7 +85308,33 @@ const revues = [
     "hero": "瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "明日海 りお",
-    "new_heroine": "羽桜 しずく"
+    "new_heroine": "羽桜 しずく",
+    "title_parts": [
+      {
+        "pre": "UCC&シャディミュージカル",
+        "main": "『ME AND MY GIRL』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/moon_takarazuka_memy/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-03-21",
+        "to": "2008-05-05"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-05-23",
+        "to": "2008-07-06"
+      },
+      {
+        "theater": "博多座",
+        "from": "2008-08-01",
+        "to": "2008-08-24"
+      }
+    ]
   },
   {
     "id": "flower_20080314_01",
@@ -82019,7 +85343,23 @@ const revues = [
     "date": "2008-03-14",
     "theater": "日本青年館大ホール",
     "hero": "愛音 羽麗",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "Musicaｌ",
+        "main": "『舞姫』",
+        "post": "－MAIHIME－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/flower_seinenkan_maihime/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2008-03-14",
+        "to": "2008-03-20"
+      }
+    ]
   },
   {
     "id": "star_20080313_01",
@@ -82028,7 +85368,33 @@ const revues = [
     "date": "2008-03-13",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール, 愛知厚生年金会館",
     "hero": "安蘭 けい",
-    "heroine": "遠野 あすか"
+    "heroine": "遠野 あすか",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『赤と黒』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/star_dc_akatokuro/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場 シアター・ドラマシティ",
+        "from": "2008-03-13",
+        "to": "2008-03-25"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2008-03-31",
+        "to": "2008-04-07"
+      },
+      {
+        "theater": "愛知厚生年金会館",
+        "from": "2008-04-12",
+        "to": "2008-04-14"
+      }
+    ]
   },
   {
     "id": "cosmos_20080208_01",
@@ -82039,7 +85405,34 @@ const revues = [
     "hero": "轟 悠, 大和 悠河",
     "heroine": "和音 美桜",
     "new_hero": "鳳翔 大, 蓮水 ゆうや",
-    "new_heroine": "花影 アリス"
+    "new_heroine": "花影 アリス",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・プレイ",
+        "main": "『黎明（れいめい）の風』",
+        "post": "－侍ジェントルマン 白洲次郎の挑戦－",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『Passion 愛の旅』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/cosmos_takarazuka_reimei/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-02-08",
+        "to": "2008-03-17"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-04-04",
+        "to": "2008-05-18"
+      }
+    ]
   },
   {
     "id": "flower_20080207_01",
@@ -82048,7 +85441,28 @@ const revues = [
     "date": "2008-02-07",
     "theater": "宝塚バウホール",
     "hero": "真野 すがた, 朝夏 まなと",
-    "heroine": "華耀きらり, 月野姫花"
+    "heroine": "華耀きらり, 月野姫花",
+    "title_parts": [
+      {
+        "pre": "宝塚バウホール開場30周年 バウ・ワークショップ",
+        "main": "『蒼いくちづけ』",
+        "post": "－ドラキュラ伯爵の恋－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/flower_bow_aoi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-02-07",
+        "to": "2008-02-17"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-03-01",
+        "to": "2008-03-11"
+      }
+    ]
   },
   {
     "id": "flower_20080202_01",
@@ -82057,7 +85471,29 @@ const revues = [
     "date": "2008-02-02",
     "theater": "中日劇場",
     "hero": "真飛 聖",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『メラ ン コリック・ジゴロ』",
+        "post": "－あぶない相続人－",
+        "work_type": "play"
+      },
+      {
+        "pre": "",
+        "main": "『ラブ・シンフォニーⅡ』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/flower_cyunichi_gigolo/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2008-02-02",
+        "to": "2008-02-25"
+      }
+    ]
   },
   {
     "id": "moon_20080102_01",
@@ -82065,7 +85501,28 @@ const revues = [
     "trp": "moon",
     "date": "2008-01-02",
     "theater": "宝塚バウホール",
-    "hero": "明日海 りお, 青樹 泉"
+    "hero": "明日海 りお, 青樹 泉",
+    "title_parts": [
+      {
+        "pre": "宝塚バウホール開場30周年 バウ・ワークショップ",
+        "main": "『ホフマン物語』",
+        "post": "－オッフェンバックによる－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/moon_bow_hofman/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-01-02",
+        "to": "2008-01-13"
+      },
+      {
+        "theater": "宝塚バウホール",
+        "from": "2008-01-19",
+        "to": "2008-01-29"
+      }
+    ]
   },
   {
     "id": "snow_20080101_01",
@@ -82076,7 +85533,34 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "蓮城 まこと",
-    "new_heroine": "愛原 実花"
+    "new_heroine": "愛原 実花",
+    "title_parts": [
+      {
+        "pre": "ラブ・ロマンス",
+        "main": "『君を愛してる－Je t'aime－』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー・ファンタジー",
+        "main": "『ミロワール』",
+        "post": "－鏡のエンドレス・ドリームズ－",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/08/snow_takarazuka_jetaime/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2008-01-01",
+        "to": "2008-02-04"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2008-02-16",
+        "to": "2008-03-30"
+      }
+    ]
   },
   {
     "id": "moon_20071215_01",
@@ -82085,7 +85569,28 @@ const revues = [
     "date": "2007-12-15",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "大空 祐飛",
-    "heroine": "城咲 あい"
+    "heroine": "城咲 あい",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『HOLLYWOOD LOVER 』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/moon_bow_hollywood/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-12-15",
+        "to": "2007-12-25"
+      },
+      {
+        "theater": "東京特別公演（日本青年館大ホール）",
+        "from": "2008-01-19",
+        "to": "2008-01-25"
+      }
+    ]
   },
   {
     "id": "moon_20071214_01",
@@ -82094,7 +85599,28 @@ const revues = [
     "date": "2007-12-14",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "瀬奈 じゅん",
-    "heroine": "彩乃 かなみ"
+    "heroine": "彩乃 かなみ",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『A-“R”ex 』",
+        "post": "−如何にして大王アレクサンダーは世界の覇者たる道を邁進するに至ったか−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/moon_dc_arex/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場 シアター・ドラマシティ",
+        "from": "2007-12-14",
+        "to": "2007-12-26"
+      },
+      {
+        "theater": "東京特別公演（日本青年館大ホール）",
+        "from": "2008-01-07",
+        "to": "2008-01-14"
+      }
+    ]
   },
   {
     "id": "cosmos_20071110_01",
@@ -82103,7 +85629,23 @@ const revues = [
     "date": "2007-11-10",
     "theater": "宝塚バウホール",
     "hero": "北翔 海莉",
-    "heroine": "和音 美桜"
+    "heroine": "和音 美桜",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『THE SECOND LIFE 』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/cosmos_bow_secondlife/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-11-10",
+        "to": "2007-11-19"
+      }
+    ]
   },
   {
     "id": "star_20071102_01",
@@ -82114,7 +85656,29 @@ const revues = [
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "夢乃 聖夏",
-    "new_heroine": "稀鳥 まりや"
+    "new_heroine": "稀鳥 まりや",
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター グラン・ステージ",
+        "main": "『エル・アルコン―鷹―』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター グラン・ファンタジー",
+        "main": "『レビュー・オルキス―蘭の星―』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/star_takarazuka_elhalcon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-11-02",
+        "to": "2007-12-15"
+      }
+    ]
   },
   {
     "id": "cosmos_20071030_01",
@@ -82123,7 +85687,29 @@ const revues = [
     "date": "2007-10-30",
     "theater": "全国ツアー",
     "hero": "大和 悠河",
-    "heroine": "陽月 華"
+    "heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『バレンシアの熱い花』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "コズミック・フェスティバル",
+        "main": "『宙 FANTASISTA!!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/cosmos_tour_valencia/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2007-10-30",
+        "to": "2007-11-25"
+      }
+    ]
   },
   {
     "id": "snow_20071005_01",
@@ -82132,7 +85718,28 @@ const revues = [
     "date": "2007-10-05",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "彩吹 真央",
-    "heroine": "大月 さゆ"
+    "heroine": "大月 さゆ",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『シルバー・ローズ・クロニクル』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/snow_dc_silver-rose/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2007-10-05",
+        "to": "2007-10-17"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2007-10-23",
+        "to": "2007-10-29"
+      }
+    ]
   },
   {
     "id": "flower_20070921_01",
@@ -82143,7 +85750,34 @@ const revues = [
     "hero": "春野 寿美礼",
     "heroine": "桜乃 彩音",
     "new_hero": "朝夏 まなと",
-    "new_heroine": "野々 すみ花"
+    "new_heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ピカレスク",
+        "main": "『アデュー・マルセイユ』",
+        "post": "−マルセイユへ愛を込めて−",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『ラブ・シンフォニー』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/flower_takarazuka_adieu/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-09-21",
+        "to": "2007-10-29"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-11-16",
+        "to": "2007-12-24"
+      }
+    ]
   },
   {
     "id": "snow_20070915_01",
@@ -82152,7 +85786,29 @@ const revues = [
     "date": "2007-09-15",
     "theater": "全国ツアー",
     "hero": "水 夏希",
-    "heroine": "白羽 ゆり"
+    "heroine": "白羽 ゆり",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『星影の人』",
+        "post": "－沖田総司・まぼろしの青春－",
+        "work_type": "play"
+      },
+      {
+        "pre": "ダンシング・レビュー",
+        "main": "『Joyful!!II』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/snow_tour_hoshikage/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2007-09-15",
+        "to": "2007-10-13"
+      }
+    ]
   },
   {
     "id": "star_20070901_01",
@@ -82161,7 +85817,23 @@ const revues = [
     "date": "2007-09-01",
     "theater": "日生劇場",
     "hero": "轟 悠",
-    "heroine": "蒼乃夕妃, 南海まり"
+    "heroine": "蒼乃夕妃, 南海まり",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『Kean（キーン） 』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/star_nissei_kean/index.html",
+    "schedule": [
+      {
+        "theater": "日生劇場",
+        "from": "2007-09-01",
+        "to": "2007-09-23"
+      }
+    ]
   },
   {
     "id": "moon_20070803_01",
@@ -82172,7 +85844,34 @@ const revues = [
     "hero": "瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "龍 真咲",
-    "new_heroine": "夢咲 ねね"
+    "new_heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "スピリチュアル・シンフォニー",
+        "main": "『MAHOROBA』",
+        "post": "−遥か彼方YAMATO−",
+        "work_type": "show"
+      },
+      {
+        "pre": "ミュージカル",
+        "main": "『マジシャンの憂鬱』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/moon_takarazuka_mahoroba/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-08-03",
+        "to": "2007-09-17"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-10-05",
+        "to": "2007-11-11"
+      }
+    ]
   },
   {
     "id": "star_20070801_01",
@@ -82181,14 +85880,52 @@ const revues = [
     "date": "2007-08-01",
     "theater": "博多座",
     "hero": "安蘭 けい",
-    "heroine": "遠野 あすか"
+    "heroine": "遠野 あすか",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『シークレット・ハンター』",
+        "post": "−この世で、俺に盗めぬものはない−",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『ネオ・ダンディズム！II』",
+        "post": "−男の美学−",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/star_hakataza_secrethunter/index.html",
+    "schedule": [
+      {
+        "theater": "博多座",
+        "from": "2007-08-01",
+        "to": "2007-08-23"
+      }
+    ]
   },
   {
     "id": "flower_20070728_01",
     "name": "ハロー！ダンシング",
     "trp": "flower",
     "date": "2007-07-28",
-    "theater": "宝塚バウホール"
+    "theater": "宝塚バウホール",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『ハロー！ダンシング 』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/flower_bow_hello/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-07-28",
+        "to": "2007-08-03"
+      }
+    ]
   },
   {
     "id": "flower_20070707_01",
@@ -82197,7 +85934,23 @@ const revues = [
     "date": "2007-07-07",
     "theater": "梅田芸術劇場メインホール",
     "hero": "春野 寿美礼",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『源氏物語 あさきゆめみしII』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/flower_umeda_asaki/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2007-07-07",
+        "to": "2007-07-23"
+      }
+    ]
   },
   {
     "id": "cosmos_20070622_01",
@@ -82208,7 +85961,29 @@ const revues = [
     "hero": "大和 悠河",
     "heroine": "陽月 華",
     "new_hero": "春風 弥里",
-    "new_heroine": "花影 アリス"
+    "new_heroine": "花影 アリス",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『バレンシアの熱い花』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "コズミック・フェスティバル",
+        "main": "『宙 FANTASISTA!』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/cosmos_takarazuka_valencia/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-06-22",
+        "to": "2007-07-30"
+      }
+    ]
   },
   {
     "id": "flower_20070616_01",
@@ -82217,7 +85992,23 @@ const revues = [
     "date": "2007-06-16",
     "theater": "宝塚バウホール",
     "hero": "愛音 羽麗",
-    "heroine": "野々 すみ花"
+    "heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『舞姫』",
+        "post": "より〜",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/flower_bow_maihime/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール公演ー",
+        "from": "2007-06-16",
+        "to": "2007-06-25"
+      }
+    ]
   },
   {
     "id": "moon_20070522_01",
@@ -82226,7 +86017,23 @@ const revues = [
     "date": "2007-05-22",
     "theater": "全国ツアー",
     "hero": "瀬奈 じゅん",
-    "heroine": "彩乃 かなみ"
+    "heroine": "彩乃 かなみ",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『ダル・レークの恋 』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/moon_tour_dallake/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2007-05-22",
+        "to": "2007-06-18"
+      }
+    ]
   },
   {
     "id": "moon_20070519_01",
@@ -82235,14 +86042,51 @@ const revues = [
     "date": "2007-05-19",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "霧矢 大夢",
-    "heroine": "夢咲 ねね"
+    "heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『大坂侍』",
+        "post": "より〜",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/moon_bow_osaka/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-05-19",
+        "to": "2007-06-04"
+      },
+      {
+        "theater": "東京特別公演（日本青年館大ホール）",
+        "from": "2007-06-09",
+        "to": "2007-06-15"
+      }
+    ]
   },
   {
     "id": "moon_20070506_01",
     "name": "ハロー！ダンシング",
     "trp": "moon",
     "date": "2007-05-06",
-    "theater": "宝塚バウホール"
+    "theater": "宝塚バウホール",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『ハロー！ダンシング 』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/moon_bow_hello/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-05-06",
+        "to": "2007-05-12"
+      }
+    ]
   },
   {
     "id": "snow_20070504_01",
@@ -82253,7 +86097,28 @@ const revues = [
     "hero": "水 夏希",
     "heroine": "白羽 ゆり",
     "new_hero": "沙央 くらま",
-    "new_heroine": "大月 さゆ"
+    "new_heroine": "大月 さゆ",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『エリザベート』",
+        "post": "−愛と死の輪舞（ロンド）−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/snow_takarazuka_elisabeth/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-05-04",
+        "to": "2007-06-18"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-07-06",
+        "to": "2007-08-12"
+      }
+    ]
   },
   {
     "id": "cosmos_20070407_01",
@@ -82262,7 +86127,28 @@ const revues = [
     "date": "2007-04-07",
     "theater": "宝塚バウホール, 日本青年館大ホール",
     "hero": "蘭寿 とむ",
-    "heroine": "美羽 あさひ"
+    "heroine": "美羽 あさひ",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『NEVER SLEEP』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/cosmos_bow_neversleep/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-04-07",
+        "to": "2007-04-16"
+      },
+      {
+        "theater": "東京特別公演（日本青年館大ホール）",
+        "from": "2007-04-21",
+        "to": "2007-04-27"
+      }
+    ]
   },
   {
     "id": "star_20070323_01",
@@ -82273,14 +86159,57 @@ const revues = [
     "hero": "安蘭 けい",
     "heroine": "遠野 あすか",
     "new_hero": "麻尋 しゅん",
-    "new_heroine": "羽桜 しずく"
+    "new_heroine": "羽桜 しずく",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『さくら』",
+        "post": "−妖しいまでに美しいおまえ−",
+        "work_type": "show"
+      },
+      {
+        "pre": "ミュージカル",
+        "main": "『シークレット・ハンター』",
+        "post": "−この世で、俺に盗めぬものはない−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/star_takarazuka_sakura/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-03-23",
+        "to": "2007-04-30"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-05-18",
+        "to": "2007-07-01"
+      }
+    ]
   },
   {
     "id": "cosmos_20070317_01",
     "name": "ハロー！ダンシング",
     "trp": "cosmos",
     "date": "2007-03-17",
-    "theater": "宝塚バウホール"
+    "theater": "宝塚バウホール",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『ハロー！ダンシング』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/cosmos_bow_hello/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-03-17",
+        "to": "2007-03-23"
+      }
+    ]
   },
   {
     "id": "cosmos_20070315_01",
@@ -82289,7 +86218,33 @@ const revues = [
     "date": "2007-03-15",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール, 中日劇場",
     "hero": "大和 悠河",
-    "heroine": "陽月 華"
+    "heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『Ａ／Ｌ（アール）』",
+        "post": "−怪盗ルパンの青春−",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/backnumber/07/cosmos_dc_al/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場 シアター・ドラマシティ",
+        "from": "2007-03-15",
+        "to": "2007-03-27"
+      },
+      {
+        "theater": "東京特別公演（日本青年館大ホール）",
+        "from": "2007-04-01",
+        "to": "2007-04-08"
+      },
+      {
+        "theater": "中日劇場",
+        "from": "2007-04-13",
+        "to": "2007-04-15"
+      }
+    ]
   },
   {
     "id": "snow_20070224_01",
@@ -82298,7 +86253,23 @@ const revues = [
     "date": "2007-02-24",
     "theater": "宝塚バウホール",
     "hero": "音月 桂",
-    "heroine": "大月 さゆ"
+    "heroine": "大月 さゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ライブ・パフォーマンス",
+        "main": "『ノン ノン シュガー!!』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/snow_bow_sugar/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-02-24",
+        "to": "2006-03-06"
+      }
+    ]
   },
   {
     "id": "flower_20070209_01",
@@ -82309,14 +86280,57 @@ const revues = [
     "hero": "春野 寿美礼",
     "heroine": "桜乃 彩音",
     "new_hero": "朝夏 まなと",
-    "new_heroine": "野々 すみ花"
+    "new_heroine": "野々 すみ花",
+    "title_parts": [
+      {
+        "pre": "グランド・ロマンス",
+        "main": "『明智小五郎の事件簿―黒蜥蜴（トカゲ）』",
+        "post": "～江戸川乱歩作『黒蜥蜴』より～",
+        "work_type": "play"
+      },
+      {
+        "pre": "ショー",
+        "main": "『TUXEDO JAZZ（タキシード ジャズ）』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/flower_takarazuka_akechi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-02-09",
+        "to": "2007-03-19"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-04-06",
+        "to": "2007-05-13"
+      }
+    ]
   },
   {
     "id": "snow_20070203_01",
     "name": "ハロー！ダンシング",
     "trp": "snow",
     "date": "2007-02-03",
-    "theater": "宝塚バウホール"
+    "theater": "宝塚バウホール",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『ハロー！ダンシング』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/snow_bow_hello/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-02-03",
+        "to": "2007-02-09"
+      }
+    ]
   },
   {
     "id": "snow_20070202_01",
@@ -82325,14 +86339,52 @@ const revues = [
     "date": "2007-02-02",
     "theater": "中日劇場",
     "hero": "水 夏希",
-    "heroine": "白羽 ゆり"
+    "heroine": "白羽 ゆり",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『星影の人』",
+        "post": "－沖田総司・まぼろしの青春－",
+        "work_type": "play"
+      },
+      {
+        "pre": "ダンシング・レビュー",
+        "main": "『Joyful!!II』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/snow_cyunichi_hosikage/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2007-02-02",
+        "to": "2007-02-25"
+      }
+    ]
   },
   {
     "id": "star_20070120_01",
     "name": "ハロー！ダンシング",
     "trp": "star",
     "date": "2007-01-20",
-    "theater": "宝塚バウホール"
+    "theater": "宝塚バウホール",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『ハロー！ダンシング』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/star_bow_hello/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-01-20",
+        "to": "2007-01-26"
+      }
+    ]
   },
   {
     "id": "star_20070102_01",
@@ -82341,7 +86393,23 @@ const revues = [
     "date": "2007-01-02",
     "theater": "宝塚バウホール",
     "hero": "柚希 礼音",
-    "heroine": "陽月 華"
+    "heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『Hallelujah（ハレルヤ） GO! GO!』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/star_bow_hallelujah/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2007-01-02",
+        "to": "2007-01-15"
+      }
+    ]
   },
   {
     "id": "moon_20070101_01",
@@ -82352,7 +86420,34 @@ const revues = [
     "hero": "瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "龍 真咲",
-    "new_heroine": "夢咲 ねね"
+    "new_heroine": "夢咲 ねね",
+    "title_parts": [
+      {
+        "pre": "宝塚ロマンチック・コメディ",
+        "main": "『パリの空よりも高く』",
+        "post": "～菊田一夫作『花咲く港』より～",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・ロマネスク",
+        "main": "『ファンシー・ダンス』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/moon_takarazuka_pari/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2007-01-01",
+        "to": "2007-02-05"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-02-17",
+        "to": "2007-04-01"
+      }
+    ]
   },
   {
     "id": "star_20061215_01",
@@ -82361,7 +86456,28 @@ const revues = [
     "date": "2006-12-15",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "安蘭 けい",
-    "heroine": "遠野 あすか"
+    "heroine": "遠野 あすか",
+    "title_parts": [
+      {
+        "pre": "",
+        "main": "『ヘイズ・コード』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/star_seinenkan_hazecode/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2006-12-15",
+        "to": "2006-12-27"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2007-01-04",
+        "to": "2007-01-11"
+      }
+    ]
   },
   {
     "id": "flower_20061110_01",
@@ -82370,7 +86486,28 @@ const revues = [
     "date": "2006-11-10",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール",
     "hero": "真飛 聖",
-    "heroine": "華城 季帆"
+    "heroine": "華城 季帆",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・サスペンス",
+        "main": "『MIND TRAVELLER』",
+        "post": "－記憶の旅人－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/flower_umeda_mindtraveller/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2006-11-10",
+        "to": "2006-11-22"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2006-11-30",
+        "to": "2006-12-06"
+      }
+    ]
   },
   {
     "id": "flower_20061104_01",
@@ -82379,7 +86516,23 @@ const revues = [
     "date": "2006-11-04",
     "theater": "全国ツアー",
     "hero": "春野 寿美礼",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『うたかたの恋』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/flower_tour_utakata/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2006-11-04",
+        "to": "2006-12-01"
+      }
+    ]
   },
   {
     "id": "cosmos_20061103_01",
@@ -82390,7 +86543,34 @@ const revues = [
     "hero": "貴城 けい",
     "heroine": "紫城 るい",
     "new_hero": "早霧 せいな",
-    "new_heroine": "和音 美桜"
+    "new_heroine": "和音 美桜",
+    "title_parts": [
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター 幕末青春グラフィティー",
+        "main": "『維新回天・竜馬伝！』",
+        "post": "－硬派・坂本竜馬III－",
+        "work_type": "play"
+      },
+      {
+        "pre": "NTT東日本・NTT西日本フレッツシアター グランド・レヴュー",
+        "main": "『ザ・クラシック』",
+        "post": "－I LOVE CHOPIN－",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/cosmos_tokyo_ryoma/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-11-03",
+        "to": "2006-12-12"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2007-01-02",
+        "to": "2007-02-12"
+      }
+    ]
   },
   {
     "id": "moon_20061005_01",
@@ -82399,7 +86579,23 @@ const revues = [
     "date": "2006-10-05",
     "theater": "日生劇場",
     "hero": "轟 悠",
-    "heroine": "城咲 あい"
+    "heroine": "城咲 あい",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『オクラホマ！』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/moon_nissei_oklahoma/index.html",
+    "schedule": [
+      {
+        "theater": "日生劇場",
+        "from": "2006-10-05",
+        "to": "2006-10-27"
+      }
+    ]
   },
   {
     "id": "moon_20061001_01",
@@ -82408,7 +86604,29 @@ const revues = [
     "date": "2006-10-01",
     "theater": "全国ツアー",
     "hero": "瀬奈 じゅん",
-    "heroine": "彩乃 かなみ"
+    "heroine": "彩乃 かなみ",
+    "title_parts": [
+      {
+        "pre": "万葉ロマン",
+        "main": "『あかねさす紫の花』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー",
+        "main": "『レ・ビジュー・ブリアン』",
+        "post": "－きらめく宝石の詩－",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/moon_tour_akanesasu/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2006-10-01",
+        "to": "2006-10-29"
+      }
+    ]
   },
   {
     "id": "snow_20060922_01",
@@ -82419,7 +86637,34 @@ const revues = [
     "hero": "朝海 ひかる",
     "heroine": "舞風 りら",
     "new_hero": "凰稀 かなめ",
-    "new_heroine": "大月 さゆ"
+    "new_heroine": "大月 さゆ",
+    "title_parts": [
+      {
+        "pre": "Musical Fantastique",
+        "main": "『堕天使の涙』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー・アラベスク",
+        "main": "『タランテラ！』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/snow_takarazuka_datenshi/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-09-22",
+        "to": "2006-10-30"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-11-17",
+        "to": "2006-12-24"
+      }
+    ]
   },
   {
     "id": "cosmos_20060831_01",
@@ -82427,7 +86672,23 @@ const revues = [
     "trp": "cosmos",
     "date": "2006-08-31",
     "theater": "宝塚バウホール",
-    "hero": "十輝 いりす"
+    "hero": "十輝 いりす",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『Young Bloods!!』",
+        "post": "-Cosmo∞（コスモ無限大）-",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/cosmos_bow_youngbloods/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-08-31",
+        "to": "2006-09-05"
+      }
+    ]
   },
   {
     "id": "cosmos_20060817_01",
@@ -82436,7 +86697,23 @@ const revues = [
     "date": "2006-08-17",
     "theater": "宝塚バウホール",
     "hero": "七帆 ひかる",
-    "heroine": "花影 アリス"
+    "heroine": "花影 アリス",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『UNDERSTUDY』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/cosmos_bow_understudy/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-08-17",
+        "to": "2006-08-26"
+      }
+    ]
   },
   {
     "id": "star_20060811_01",
@@ -82447,7 +86724,34 @@ const revues = [
     "hero": "湖月 わたる",
     "heroine": "白羽 ゆり",
     "new_hero": "和 涼華",
-    "new_heroine": "陽月 華"
+    "new_heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『愛するには短すぎる』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "ロマンチック・レビュー",
+        "main": "『ネオ・ダンディズム！』",
+        "post": "－男の美学－",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/star_takarazuka_aisuru/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-08-11",
+        "to": "2006-09-18"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-10-06",
+        "to": "2006-11-12"
+      }
+    ]
   },
   {
     "id": "cosmos_20060801_01",
@@ -82456,7 +86760,23 @@ const revues = [
     "date": "2006-08-01",
     "theater": "博多座",
     "hero": "貴城 けい",
-    "heroine": "紫城 るい"
+    "heroine": "紫城 るい",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『コパカバーナ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/cosmos_hakata_copacabana/index.html",
+    "schedule": [
+      {
+        "theater": "博多座",
+        "from": "2006-08-01",
+        "to": "2006-08-23"
+      }
+    ]
   },
   {
     "id": "snow_20060706_01",
@@ -82465,7 +86785,23 @@ const revues = [
     "date": "2006-07-06",
     "theater": "宝塚バウホール",
     "hero": "凰稀 かなめ",
-    "heroine": "大月 さゆ"
+    "heroine": "大月 さゆ",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『Young Bloods!!』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/snow_bow_youngbloods/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-07-06",
+        "to": "2006-07-11"
+      }
+    ]
   },
   {
     "id": "snow_20060701_01",
@@ -82474,7 +86810,23 @@ const revues = [
     "date": "2006-07-01",
     "theater": "全国ツアー",
     "hero": "水 夏希",
-    "heroine": "舞風 りら"
+    "heroine": "舞風 りら",
+    "title_parts": [
+      {
+        "pre": "マリー・アントワネット生誕250周年記念　宝塚グランドロマン",
+        "main": "『ベルサイユのばら』",
+        "post": "-オスカル編-",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/04snow/index.html",
+    "schedule": [
+      {
+        "theater": "全国ツアー",
+        "from": "2006-07-01",
+        "to": "2006-07-28"
+      }
+    ]
   },
   {
     "id": "flower_20060623_01",
@@ -82485,7 +86837,28 @@ const revues = [
     "hero": "春野 寿美礼",
     "heroine": "桜乃 彩音",
     "new_hero": "望月 理世",
-    "new_heroine": "華城 季帆"
+    "new_heroine": "華城 季帆",
+    "title_parts": [
+      {
+        "pre": "三井住友VISAミュージカル",
+        "main": "『ファントム』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/03flower/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-06-23",
+        "to": "2006-08-07"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-08-25",
+        "to": "2006-10-01"
+      }
+    ]
   },
   {
     "id": "snow_20060616_01",
@@ -82494,7 +86867,23 @@ const revues = [
     "date": "2006-06-16",
     "theater": "宝塚バウホール",
     "hero": "音月 桂",
-    "heroine": "純矢 ちとせ"
+    "heroine": "純矢 ちとせ",
+    "title_parts": [
+      {
+        "pre": "バウ人情噺",
+        "main": "『やらずの雨』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/snow_bow_yarazu/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-06-16",
+        "to": "2006-06-25"
+      }
+    ]
   },
   {
     "id": "star_20060603_01",
@@ -82503,7 +86892,23 @@ const revues = [
     "date": "2006-06-03",
     "theater": "梅田芸術劇場メインホール",
     "hero": "湖月 わたる",
-    "heroine": "白羽 ゆり"
+    "heroine": "白羽 ゆり",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『コパカバーナ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/01star/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2006-06-03",
+        "to": "2006-06-19"
+      }
+    ]
   },
   {
     "id": "star_20060602_01",
@@ -82512,7 +86917,23 @@ const revues = [
     "date": "2006-06-02",
     "theater": "宝塚バウホール",
     "hero": "立樹 遥",
-    "heroine": "陽月 華"
+    "heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『フェット・アンぺリアル』",
+        "post": "－帝国の祝祭－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/03star/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-06-02",
+        "to": "2006-06-11"
+      }
+    ]
   },
   {
     "id": "star_20060518_01",
@@ -82520,7 +86941,23 @@ const revues = [
     "trp": "star",
     "date": "2006-05-18",
     "theater": "宝塚バウホール",
-    "hero": "柚希 礼音"
+    "hero": "柚希 礼音",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『Young Bloods!!』",
+        "post": "-Twinkle Twinkle STAR-",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/02star/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-05-18",
+        "to": "2006-05-23"
+      }
+    ]
   },
   {
     "id": "moon_20060512_01",
@@ -82531,7 +86968,34 @@ const revues = [
     "hero": "轟 悠, 瀬奈 じゅん",
     "heroine": "彩乃 かなみ",
     "new_hero": "星条 海斗, 龍 真咲",
-    "new_heroine": "白華 れみ"
+    "new_heroine": "白華 れみ",
+    "title_parts": [
+      {
+        "pre": "ロック・オペラ",
+        "main": "『暁（あかつき）のローマ』",
+        "post": "－『ジュリアス・シーザー』より－",
+        "work_type": "play"
+      },
+      {
+        "pre": "レビュー",
+        "main": "『レ・ビジュー・ブリアン』",
+        "post": "－きらめく宝石の詩－",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/02moon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-05-12",
+        "to": "2006-06-19"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-07-07",
+        "to": "2006-08-20"
+      }
+    ]
   },
   {
     "id": "flower_20060408_01",
@@ -82540,7 +87004,23 @@ const revues = [
     "date": "2006-04-08",
     "theater": "宝塚バウホール",
     "hero": "桐生 園加",
-    "heroine": "澪乃 せいら"
+    "heroine": "澪乃 せいら",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『Young Bloods!!』",
+        "post": "－青春花模様－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/02flower/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-04-08",
+        "to": "2006-04-14"
+      }
+    ]
   },
   {
     "id": "cosmos_20060324_01",
@@ -82551,7 +87031,28 @@ const revues = [
     "hero": "和央 ようか",
     "heroine": "花總 まり",
     "new_hero": "早霧 せいな",
-    "new_heroine": "花影 アリス"
+    "new_heroine": "花影 アリス",
+    "title_parts": [
+      {
+        "pre": "ミュージカル",
+        "main": "『NEVER SAY GOODBYE』",
+        "post": "－ある愛の軌跡－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/01cosmos/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-03-24",
+        "to": "2006-05-08"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-05-26",
+        "to": "2006-07-02"
+      }
+    ]
   },
   {
     "id": "flower_20060324_01",
@@ -82560,7 +87061,23 @@ const revues = [
     "date": "2006-03-24",
     "theater": "宝塚バウホール",
     "hero": "蘭寿 とむ",
-    "heroine": "華城 季帆"
+    "heroine": "華城 季帆",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『スカウト』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/01flower/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-03-24",
+        "to": "2006-04-02"
+      }
+    ]
   },
   {
     "id": "moon_20060319_01",
@@ -82569,7 +87086,23 @@ const revues = [
     "date": "2006-03-19",
     "theater": "東京芸術劇場中ホール",
     "hero": "大空 祐飛",
-    "heroine": "彩乃 かなみ"
+    "heroine": "彩乃 かなみ",
+    "title_parts": [
+      {
+        "pre": "Musical",
+        "main": "『THE LAST PARTY～S.Fitzgerald's last day～』",
+        "post": "フィッツジェラルド最後の一日",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/07moon/index.html",
+    "schedule": [
+      {
+        "theater": "東京芸術劇場中ホール",
+        "from": "2006-03-19",
+        "to": "2006-03-26"
+      }
+    ]
   },
   {
     "id": "flower_20060317_01",
@@ -82578,7 +87111,33 @@ const revues = [
     "date": "2006-03-17",
     "theater": "梅田芸術劇場シアター・ドラマシティ, 日本青年館大ホール, 愛知厚生年金会館",
     "hero": "春野 寿美礼",
-    "heroine": "桜乃 彩音"
+    "heroine": "桜乃 彩音",
+    "title_parts": [
+      {
+        "pre": "ミュージカルドラマ",
+        "main": "『Appartement Cine´ma（アパルトマン　シネマ）』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/07flower_3/index.html",
+    "schedule": [
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2006-03-17",
+        "to": "2006-03-29"
+      },
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2006-04-03",
+        "to": "2006-04-10"
+      },
+      {
+        "theater": "愛知厚生年金会館",
+        "from": "2006-04-15",
+        "to": "2006-04-17"
+      }
+    ]
   },
   {
     "id": "moon_20060225_01",
@@ -82587,7 +87146,23 @@ const revues = [
     "date": "2006-02-25",
     "theater": "宝塚バウホール",
     "hero": "龍 真咲",
-    "heroine": "白華 れみ"
+    "heroine": "白華 れみ",
+    "title_parts": [
+      {
+        "pre": "バウ・ワークショップ",
+        "main": "『Young Bloods!!』",
+        "post": "-Sparkling MOON-",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/06/01moon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-02-25",
+        "to": "2006-03-03"
+      }
+    ]
   },
   {
     "id": "snow_20060210_01",
@@ -82598,7 +87173,28 @@ const revues = [
     "hero": "朝海 ひかる",
     "heroine": "舞風 りら",
     "new_hero": "沙央 くらま",
-    "new_heroine": "晴華 みどり"
+    "new_heroine": "晴華 みどり",
+    "title_parts": [
+      {
+        "pre": "マリー・アントワネット生誕250周年記念 三井住友ＶＩＳＡシアター 宝塚グランドロマン",
+        "main": "『ベルサイユのばら』",
+        "post": "－オスカル編－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/05snow/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-02-10",
+        "to": "2006-03-20"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-04-07",
+        "to": "2006-05-21"
+      }
+    ]
   },
   {
     "id": "moon_20060203_01",
@@ -82607,7 +87203,23 @@ const revues = [
     "date": "2006-02-03",
     "theater": "宝塚バウホール",
     "hero": "北翔 海莉",
-    "heroine": "城咲 あい"
+    "heroine": "城咲 あい",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『想夫恋（そうふれん）』",
+        "post": "－言（こと）の葉（は）もなき、君の心－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/06moon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-02-03",
+        "to": "2006-02-12"
+      }
+    ]
   },
   {
     "id": "cosmos_20060202_01",
@@ -82616,7 +87228,23 @@ const revues = [
     "date": "2006-02-02",
     "theater": "日本青年館大ホール",
     "hero": "大和 悠河",
-    "heroine": "紫城 るい"
+    "heroine": "紫城 るい",
+    "title_parts": [
+      {
+        "pre": "Musical",
+        "main": "『THE LAST PARTY～S.Fitzgerald’s last day～』",
+        "post": "フィッツジェラルド最後の一日",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/06cosmos/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館大ホール",
+        "from": "2006-02-02",
+        "to": "2006-02-05"
+      }
+    ]
   },
   {
     "id": "moon_20060131_01",
@@ -82625,7 +87253,29 @@ const revues = [
     "date": "2006-01-31",
     "theater": "中日劇場",
     "hero": "瀬奈 じゅん",
-    "heroine": "彩乃 かなみ"
+    "heroine": "彩乃 かなみ",
+    "title_parts": [
+      {
+        "pre": "万葉ロマン",
+        "main": "『あかねさす紫の花』",
+        "post": "",
+        "work_type": "play"
+      },
+      {
+        "pre": "グランド・レビュー",
+        "main": "『REVUE OF DREAMS』",
+        "post": "",
+        "work_type": "show"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/05moon/index.html",
+    "schedule": [
+      {
+        "theater": "中日劇場",
+        "from": "2006-01-31",
+        "to": "2006-02-20"
+      }
+    ]
   },
   {
     "id": "cosmos_20060102_01",
@@ -82634,7 +87284,23 @@ const revues = [
     "date": "2006-01-02",
     "theater": "宝塚バウホール",
     "hero": "大和 悠河",
-    "heroine": "紫城 るい"
+    "heroine": "紫城 るい",
+    "title_parts": [
+      {
+        "pre": "バウ・ミュージカル",
+        "main": "『不滅の恋人たちへ』",
+        "post": "",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/04cosmos/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚バウホール",
+        "from": "2006-01-02",
+        "to": "2006-01-10"
+      }
+    ]
   },
   {
     "id": "star_20060101_01",
@@ -82645,6 +87311,27 @@ const revues = [
     "hero": "湖月 わたる",
     "heroine": "白羽 ゆり",
     "new_hero": "柚希 礼音",
-    "new_heroine": "陽月 華"
+    "new_heroine": "陽月 華",
+    "title_parts": [
+      {
+        "pre": "マリー・アントワネット生誕250周年記念 三井住友ＶＩＳＡシアター 宝塚グランドロマン",
+        "main": "『ベルサイユのばら』",
+        "post": "－フェルゼンとマリー・アントワネット編－",
+        "work_type": "play"
+      }
+    ],
+    "official_url": "https://archive.kageki.hankyu.co.jp/revue/05/06star/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2006-01-01",
+        "to": "2006-02-06"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2006-02-17",
+        "to": "2006-04-02"
+      }
+    ]
   }
 ];

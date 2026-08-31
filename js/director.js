@@ -13,6 +13,14 @@ const director =
     );
 
 
+// =========================================
+// フィルター
+// =========================================
+
+let venueFilter = "all";
+let typeFilter = "all";
+
+
 if(!director){
 
     document.body.innerHTML =
@@ -78,6 +86,66 @@ if(!director){
 
 
     // ---------------------------------
+    // 芝居・ショー表示
+    // ---------------------------------
+
+    function getWorkTypeLabel(
+        workType
+    ){
+
+        if(workType === "play"){
+            return "芝居";
+        }
+
+        if(workType === "show"){
+            return "ショー";
+        }
+
+        return "";
+
+    }
+
+
+    // ---------------------------------
+    // 大劇場・別箱判定
+    // ---------------------------------
+
+    function getVenueType(revue){
+
+        if(
+            revue.schedule &&
+            revue.schedule.some(
+                schedule =>
+                    schedule.theater ===
+                    "宝塚大劇場"
+            )
+        ){
+            return "main";
+        }
+
+        return "other";
+
+    }
+
+
+    // ---------------------------------
+    // 大劇場・別箱表示
+    // ---------------------------------
+
+    function getVenueTypeLabel(
+        venueType
+    ){
+
+        if(venueType === "main"){
+            return "大劇場";
+        }
+
+        return "別箱";
+
+    }
+
+
+    // ---------------------------------
     // 担当作品取得
     // ---------------------------------
 
@@ -94,6 +162,12 @@ if(!director){
             ){
                 return;
             }
+
+
+            const venueType =
+                getVenueType(
+                    revue
+                );
 
 
             revue.title_parts.forEach(part=>{
@@ -124,6 +198,13 @@ if(!director){
                             part.main
                         ),
 
+                    workType:
+                        part.work_type
+                        || "",
+
+                    venueType:
+                        venueType
+
                 });
 
             });
@@ -145,6 +226,53 @@ if(!director){
 
 
     // ---------------------------------
+    // フィルター
+    // ---------------------------------
+
+    function filterWorks(
+        works
+    ){
+
+        return works.filter(work=>{
+
+            // -------------------------
+            // 会場
+            // -------------------------
+
+            const venueMatch =
+
+                venueFilter === "all"
+
+                ||
+
+                work.venueType ===
+                venueFilter;
+
+
+            // -------------------------
+            // 作品種別
+            // -------------------------
+
+            const typeMatch =
+
+                typeFilter === "all"
+
+                ||
+
+                work.workType ===
+                typeFilter;
+
+
+            return (
+                venueMatch &&
+                typeMatch
+            );
+
+        });
+
+    }
+
+    // ---------------------------------
     // 担当作品表示
     // ---------------------------------
 
@@ -155,14 +283,21 @@ if(!director){
                 "workList"
             );
 
-        const works =
+
+        let works =
             getWorks();
+
+
+        works =
+            filterWorks(
+                works
+            );
 
 
         if(works.length === 0){
 
             area.innerHTML =
-                '<div class="workEmpty">担当作品はありません</div>';
+                '<div class="workEmpty">該当する担当作品はありません</div>';
 
             return;
 
@@ -184,6 +319,26 @@ if(!director){
                             ${formatDate(work.date)}
                         </span>
 
+
+                        ${
+                            work.workType
+                            ? `
+                                <span class="workType">
+                                    ${getWorkTypeLabel(
+                                        work.workType
+                                    )}
+                                </span>
+                            `
+                            : ""
+                        }
+
+
+                        <span class="venueType">
+                            ${getVenueTypeLabel(
+                                work.venueType
+                            )}
+                        </span>
+
                     </div>
 
 
@@ -202,6 +357,91 @@ if(!director){
 
     }
 
+
+    // ---------------------------------
+    // 会場フィルター
+    // ---------------------------------
+
+    document
+        .querySelectorAll(
+            ".venueFilterBtn"
+        )
+        .forEach(btn=>{
+
+            btn.addEventListener(
+                "click",
+                ()=>{
+
+                    venueFilter =
+                        btn.dataset.filter;
+
+
+                    document
+                        .querySelectorAll(
+                            ".venueFilterBtn"
+                        )
+                        .forEach(
+                            b =>
+                                b.classList.remove(
+                                    "active"
+                                )
+                        );
+
+
+                    btn.classList.add(
+                        "active"
+                    );
+
+
+                    renderWorks();
+
+                }
+            );
+
+        });
+
+
+    // ---------------------------------
+    // 作品フィルター
+    // ---------------------------------
+
+    document
+        .querySelectorAll(
+            ".typeFilterBtn"
+        )
+        .forEach(btn=>{
+
+            btn.addEventListener(
+                "click",
+                ()=>{
+
+                    typeFilter =
+                        btn.dataset.filter;
+
+
+                    document
+                        .querySelectorAll(
+                            ".typeFilterBtn"
+                        )
+                        .forEach(
+                            b =>
+                                b.classList.remove(
+                                    "active"
+                                )
+                        );
+
+
+                    btn.classList.add(
+                        "active"
+                    );
+
+
+                    renderWorks();
+
+                }
+            );
+
+        });
 
     renderWorks();
 
