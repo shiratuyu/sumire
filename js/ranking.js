@@ -563,8 +563,14 @@ function getFirstNewHeroRevue(member){
 
         const heroes =
             splitNames(
-                revue.new_hero
+                revue.hero
             );
+
+
+        // 主演が複数人の場合は除外
+        if(heroes.length !== 1){
+            return;
+        }
 
 
         const matched =
@@ -638,6 +644,11 @@ function getFirstBowHeroRevue(member){
                 revue.hero
             );
 
+        // 主演が複数人の場合は除外
+        if(heroes.length !== 1){
+            return;
+        }
+
 
         const matched =
             heroes.some(
@@ -710,6 +721,11 @@ function getFirstToujouHeroRevue(member){
                 revue.hero
             );
 
+        // 主演が複数人の場合は除外
+        if(heroes.length !== 1){
+            return;
+        }
+
 
         const matched =
             heroes.some(
@@ -769,6 +785,10 @@ function getFirstNewHeroineRevue(member){
         const heroines =
             splitNames(revue.new_heroine);
 
+        if(heroines.length !== 1){
+            return;
+        }
+
         const matched =
             heroines.some(
                 name =>
@@ -826,6 +846,10 @@ function getFirstBowHeroineRevue(member){
         const heroines =
             splitNames(revue.heroine);
 
+        if(heroines.length !== 1){
+            return;
+        }
+
         const matched =
             heroines.some(
                 name =>
@@ -882,6 +906,10 @@ function getFirstToujouHeroineRevue(member){
 
         const heroines =
             splitNames(revue.heroine);
+
+        if(heroines.length !== 1){
+            return;
+        }
 
         const matched =
             heroines.some(

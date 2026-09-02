@@ -65474,7 +65474,7 @@ const revues = [
     "name": "A－EN",
     "trp": "moon",
     "date": "2015-08-29",
-    "theater": "宝塚バウホール, 宝塚バウホール",
+    "theater": "宝塚バウホール",
     "hero": "朝美 絢, 暁 千星",
     "heroine": "紫乃 小雪, 美園 さくら",
     "title_parts": [

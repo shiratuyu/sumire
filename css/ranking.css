@@ -321,17 +321,20 @@ main {
 
   .rankingItem {
     grid-template-columns:
-      45px 1fr;
+      45px minmax(0, 1fr) 100px;
+
+    gap: 8px;
   }
 
 
   .rankInfo {
-    grid-column: 2;
+    grid-column: auto;
 
-    text-align: left;
+    text-align: right;
 
-    margin-top: 3px;
+    margin-top: 0;
   }
+
 
   .rankingOverview {
     grid-template-columns: 1fr;
