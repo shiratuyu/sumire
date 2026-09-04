@@ -585,6 +585,525 @@ if(!revue){
 
 
     // =========================================
+    // 配役比較
+    // =========================================
+
+    function getCurrentWorkId(){
+
+        if(
+            !revue.title_parts ||
+            !revue.title_parts.length
+        ){
+            return null;
+        }
+
+
+        // まず芝居作品を優先
+        const play =
+            revue.title_parts.find(
+                part =>
+                    part.work_type === "play"
+                    &&
+                    part.work_id
+            );
+
+
+        if(play){
+            return play.work_id;
+        }
+
+
+        // 芝居指定がない場合は
+        // 最初の work_id を使用
+        const part =
+            revue.title_parts.find(
+                part =>
+                    part.work_id
+            );
+
+
+        return part
+            ? part.work_id
+            : null;
+
+    }
+
+
+    // =========================================
+    // 同じ作品の公演取得
+    // =========================================
+
+    function getSameWorkRevues(workId){
+
+        if(!workId){
+            return [];
+        }
+
+
+        const matches =
+            revues.filter(r=>{
+
+                if(
+                    !r.title_parts ||
+                    !r.title_parts.length
+                ){
+                    return false;
+                }
+
+
+                // main_cast がない公演は除外
+                if(
+                    !r.main_cast ||
+                    !r.main_cast.length
+                ){
+                    return false;
+                }
+
+
+                return r.title_parts.some(
+                    part =>
+                        part.work_id === workId
+                );
+
+            });
+
+
+        // 古い公演から順番に並べる
+        matches.sort(
+            (a,b) =>
+                new Date(a.date)
+                -
+                new Date(b.date)
+        );
+
+
+        return matches;
+
+    }
+
+
+    // =========================================
+    // 公演ごとの配役取得
+    // =========================================
+
+    function getCastByRole(revueData){
+
+        const castMap = {};
+
+
+        if(
+            !revueData.main_cast ||
+            !revueData.main_cast.length
+        ){
+            return castMap;
+        }
+
+
+        revueData.main_cast.forEach(item=>{
+
+            if(
+                !item.role ||
+                item.role.includes("新人公演")
+            ){
+                return;
+            }
+
+
+            // "/" または "／" で役名を分割
+            const roles =
+                item.role
+                    .split(/[\/／]/)
+                    .map(
+                        role =>
+                            role.trim()
+                    )
+                    .filter(
+                        role =>
+                            role !== ""
+                    );
+
+
+            roles.forEach(role=>{
+
+                if(!castMap[role]){
+                    castMap[role] = [];
+                }
+
+
+                const members =
+                    item.members || [];
+
+
+                members.forEach(name=>{
+
+                    if(
+                        !castMap[role].includes(
+                            name
+                        )
+                    ){
+                        castMap[role].push(
+                            name
+                        );
+                    }
+
+                });
+
+            });
+
+        });
+
+
+        return castMap;
+
+    }
+
+
+    // =========================================
+    // 比較表表示
+    // =========================================
+
+    function renderCastComparison(){
+
+        const area =
+            document.getElementById(
+                "castComparisonArea"
+            );
+
+        const button =
+            document.getElementById(
+                "castComparisonBtn"
+            );
+
+        const table =
+            document.getElementById(
+                "castComparisonTable"
+            );
+
+
+        if(
+            !area ||
+            !button ||
+            !table
+        ){
+            return;
+        }
+
+
+        const workId =
+            getCurrentWorkId();
+
+
+        const sameRevues =
+            getSameWorkRevues(
+                workId
+            );
+
+
+        // 同一作品が1公演しかない場合は
+        // 比較ボタンを表示しない
+        if(sameRevues.length < 2){
+
+            area.style.display =
+                "none";
+
+            return;
+        }
+
+
+        area.style.display =
+            "block";
+
+
+        // =====================================
+        // 全公演の役名を集める
+        // =====================================
+
+        const roles = [];
+
+
+        sameRevues.forEach(r=>{
+
+            if(
+                !r.main_cast ||
+                !r.main_cast.length
+            ){
+                return;
+            }
+
+
+            r.main_cast.forEach(item=>{
+
+                if(
+                    !item.role ||
+                    item.role.includes("新人公演")
+                ){
+                    return;
+                }
+
+
+                const splitRoles =
+                    item.role
+                        .split(/[\/／]/)
+                        .map(
+                            role =>
+                                role.trim()
+                        )
+                        .filter(
+                            role =>
+                                role !== ""
+                        );
+
+
+                splitRoles.forEach(role=>{
+
+                    if(
+                        !roles.includes(
+                            role
+                        )
+                    ){
+                        roles.push(
+                            role
+                        );
+                    }
+
+                });
+
+            });
+
+        });
+
+
+        // =====================================
+        // 表のヘッダー
+        // =====================================
+
+        table.innerHTML = "";
+
+
+        const comparison =
+            document.createElement(
+                "div"
+            );
+
+        comparison.className =
+            "comparisonGrid";
+
+
+        comparison.style
+            .gridTemplateColumns =
+                `180px repeat(${sameRevues.length}, minmax(150px, 1fr))`;
+
+
+        const roleHeader =
+            document.createElement(
+                "div"
+            );
+
+        roleHeader.className =
+            "comparisonHeader";
+
+        roleHeader.textContent =
+            "役名";
+
+        comparison.appendChild(
+            roleHeader
+        );
+
+
+        sameRevues.forEach(r=>{
+
+            const header =
+                document.createElement(
+                    "div"
+                );
+
+            header.className =
+                "comparisonHeader";
+
+
+            const year =
+                document.createElement(
+                    "div"
+                );
+
+            year.className =
+                "comparisonYear";
+
+            year.textContent =
+                `${new Date(r.date).getFullYear()}年`;
+
+
+            const trp =
+                document.createElement(
+                    "div"
+                );
+
+            trp.className =
+                "comparisonTrp";
+
+            trp.textContent =
+                getTrpName(
+                    r.trp
+                );
+
+
+            header.appendChild(
+                year
+            );
+
+            header.appendChild(
+                trp
+            );
+
+
+            comparison.appendChild(
+                header
+            );
+
+        });
+
+
+        // =====================================
+        // 配役
+        // =====================================
+
+        const castMaps =
+            sameRevues.map(
+                r =>
+                    getCastByRole(r)
+            );
+
+
+        roles.forEach(roleName=>{
+
+            // 役名
+
+            const role =
+                document.createElement(
+                    "div"
+                );
+
+            role.className =
+                "comparisonRole";
+
+            role.textContent =
+                roleName;
+
+            comparison.appendChild(
+                role
+            );
+
+
+            // 各公演の出演者
+
+            castMaps.forEach(castMap=>{
+
+                const memberArea =
+                    document.createElement(
+                        "div"
+                    );
+
+                memberArea.className =
+                    "comparisonMembers";
+
+
+                const names =
+                    castMap[roleName]
+                    || [];
+
+
+                if(names.length){
+
+                    names.forEach(
+                        (name, index)=>{
+
+                            memberArea
+                                .appendChild(
+                                    createMemberLink(
+                                        name
+                                    )
+                                );
+
+
+                            if(
+                                index
+                                <
+                                names.length - 1
+                            ){
+
+                                memberArea
+                                    .appendChild(
+                                        document
+                                            .createElement(
+                                                "br"
+                                            )
+                                    );
+
+                            }
+
+                        }
+                    );
+
+                }else{
+
+                    memberArea.textContent =
+                        "－";
+
+                }
+
+
+                comparison.appendChild(
+                    memberArea
+                );
+
+            });
+
+        });
+
+
+        table.appendChild(
+            comparison
+        );
+
+
+        // =====================================
+        // ボタン
+        // =====================================
+
+        button.addEventListener(
+            "click",
+            ()=>{
+
+                const isOpen =
+                    table.style.display
+                    !== "none";
+
+
+                if(isOpen){
+
+                    table.style.display =
+                        "none";
+
+                    button.textContent =
+                        "配役比較";
+
+                }else{
+
+                    table.style.display =
+                        "block";
+
+                    button.textContent =
+                        "配役比較を閉じる";
+
+                }
+
+            }
+        );
+
+    }
+
+
+    // =========================================
     // 出演者
     // =========================================
 
@@ -769,6 +1288,7 @@ if(!revue){
     renderDirectors();
     //renderOfficial();
     renderMainCast();
+    renderCastComparison();
     renderCast();
     renderKaidan();
 
