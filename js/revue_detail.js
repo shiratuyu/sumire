@@ -682,6 +682,20 @@ if(!revue){
     }
 
 
+    function normalizeRoleName(role){
+
+        if(!role){
+            return "";
+        }
+
+
+        return role
+            .replace(/\[[^\]]*\]/g, "")
+            .replace(/【[^】]*】/g, "")
+            .trim();
+
+    }
+
     // =========================================
     // 公演ごとの配役取得
     // =========================================
@@ -709,13 +723,14 @@ if(!revue){
             }
 
 
-            // "/" または "／" で役名を分割
             const roles =
                 item.role
                     .split(/[\/／]/)
                     .map(
                         role =>
-                            role.trim()
+                            normalizeRoleName(
+                                role
+                            )
                     )
                     .filter(
                         role =>
@@ -833,38 +848,44 @@ if(!revue){
 
             r.main_cast.forEach(item=>{
 
-                if(
-                    !item.role ||
-                    item.role.includes("新人公演")
-                ){
-                    return;
-                }
-
-
-                const splitRoles =
-                    item.role
-                        .split(/[\/／]/)
-                        .map(
-                            role =>
-                                role.trim()
-                        )
-                        .filter(
-                            role =>
-                                role !== ""
-                        );
-
-
-                splitRoles.forEach(role=>{
+                r.main_cast.forEach(item=>{
 
                     if(
-                        !roles.includes(
-                            role
-                        )
+                        !item.role ||
+                        item.role.includes("新人公演")
                     ){
-                        roles.push(
-                            role
-                        );
+                        return;
                     }
+
+
+                    const splitRoles =
+                        item.role
+                            .split(/[\/／]/)
+                            .map(
+                                role =>
+                                    normalizeRoleName(
+                                        role
+                                    )
+                            )
+                            .filter(
+                                role =>
+                                    role !== ""
+                            );
+
+
+                    splitRoles.forEach(role=>{
+
+                        if(
+                            !roles.includes(
+                                role
+                            )
+                        ){
+                            roles.push(
+                                role
+                            );
+                        }
+
+                    });
 
                 });
 
