@@ -779,11 +779,6 @@ if(!revue){
 
     function renderCastComparison(){
 
-        const area =
-            document.getElementById(
-                "castComparisonArea"
-            );
-
         const button =
             document.getElementById(
                 "castComparisonBtn"
@@ -796,7 +791,6 @@ if(!revue){
 
 
         if(
-            !area ||
             !button ||
             !table
         ){
@@ -818,14 +812,17 @@ if(!revue){
         // 比較ボタンを表示しない
         if(sameRevues.length < 2){
 
-            area.style.display =
+            button.style.display =
+                "none";
+
+            table.style.display =
                 "none";
 
             return;
         }
 
 
-        area.style.display =
+        button.style.display =
             "block";
 
 
@@ -848,44 +845,40 @@ if(!revue){
 
             r.main_cast.forEach(item=>{
 
-                r.main_cast.forEach(item=>{
+                if(
+                    !item.role ||
+                    item.role.includes("新人公演")
+                ){
+                    return;
+                }
+
+
+                const splitRoles =
+                    item.role
+                        .split(/[\/／]/)
+                        .map(
+                            role =>
+                                normalizeRoleName(
+                                    role
+                                )
+                        )
+                        .filter(
+                            role =>
+                                role !== ""
+                        );
+
+
+                splitRoles.forEach(role=>{
 
                     if(
-                        !item.role ||
-                        item.role.includes("新人公演")
+                        !roles.includes(
+                            role
+                        )
                     ){
-                        return;
+                        roles.push(
+                            role
+                        );
                     }
-
-
-                    const splitRoles =
-                        item.role
-                            .split(/[\/／]/)
-                            .map(
-                                role =>
-                                    normalizeRoleName(
-                                        role
-                                    )
-                            )
-                            .filter(
-                                role =>
-                                    role !== ""
-                            );
-
-
-                    splitRoles.forEach(role=>{
-
-                        if(
-                            !roles.includes(
-                                role
-                            )
-                        ){
-                            roles.push(
-                                role
-                            );
-                        }
-
-                    });
 
                 });
 
@@ -910,9 +903,17 @@ if(!revue){
             "comparisonGrid";
 
 
-        comparison.style
-            .gridTemplateColumns =
-                `180px repeat(${sameRevues.length}, minmax(150px, 1fr))`;
+        if(window.innerWidth <= 600){
+
+            comparison.style.gridTemplateColumns =
+                `100px repeat(${sameRevues.length}, minmax(100px, 1fr))`;
+
+        }else{
+
+            comparison.style.gridTemplateColumns =
+                `200px repeat(${sameRevues.length}, minmax(150px, 1fr))`;
+
+        }
 
 
         const roleHeader =

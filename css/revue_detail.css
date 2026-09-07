@@ -229,14 +229,23 @@ main {
    出演者
 ========================================= */
 
-.castComparisonArea {
-    margin: -15px 0 35px;
+.castTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
 
-    text-align: right;
+
+.castTitleRow h2 {
+    flex: 1;
+    margin-bottom: 0 !important;
 }
 
 
 .castComparisonBtn {
+    flex-shrink: 0;
+
     padding: 6px 14px;
 
     border: 1px solid var(--trp-border);
@@ -258,11 +267,9 @@ main {
 .castComparisonTable {
     width: 100%;
 
-    margin-top: 15px;
+    margin-bottom: 20px;
 
     overflow-x: auto;
-
-    text-align: left;
 }
 
 
@@ -426,6 +433,42 @@ main {
     #castTable.noNew .castHeader,
     #castTable.noNew .castRow {
         grid-template-columns: 1fr 130px;
+    }
+
+    .castComparisonTable {
+        margin-bottom: 15px;
+    }
+
+
+    .comparisonHeader,
+    .comparisonRole,
+    .comparisonMembers {
+        padding: 6px 8px;
+    }
+
+
+    .comparisonHeader {
+        font-size: 11px;
+    }
+
+
+    .comparisonRole {
+        font-size: 11px;
+    }
+
+
+    .comparisonMembers {
+        font-size: 12px;
+    }
+
+
+    .comparisonYear {
+        font-size: 11px;
+    }
+
+
+    .comparisonTrp {
+        font-size: 10px;
     }
 
 }
