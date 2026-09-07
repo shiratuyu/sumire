@@ -242,8 +242,18 @@ main {
     margin-bottom: 0 !important;
 }
 
+.castComparisonButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
 
 .castComparisonBtn {
+    appearance: none;
+    -webkit-appearance: none;
+    
     flex-shrink: 0;
 
     padding: 6px 14px;
@@ -252,10 +262,19 @@ main {
     border-radius: 6px;
 
     background-color: white;
+    color: #333;
+
+    font: inherit;
+    font-size: 13px;
+    white-space: nowrap;
 
     cursor: pointer;
 
     transition: .15s;
+
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
 }
 
 

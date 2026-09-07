@@ -633,7 +633,7 @@ if(!revue){
     // 同じ作品の公演取得
     // =========================================
 
-    function getSameWorkRevues(workId){
+    function getSameWorkRevues(workId, mode){
 
         if(!workId){
             return [];
@@ -651,7 +651,6 @@ if(!revue){
                 }
 
 
-                // main_cast がない公演は除外
                 if(
                     !r.main_cast ||
                     !r.main_cast.length
@@ -660,15 +659,40 @@ if(!revue){
                 }
 
 
-                return r.title_parts.some(
-                    part =>
-                        part.work_id === workId
-                );
+                const sameWork =
+                    r.title_parts.some(
+                        part =>
+                            part.work_id === workId
+                    );
+
+
+                if(!sameWork){
+                    return false;
+                }
+
+
+                // 新公比較の場合
+                if(mode === "new"){
+
+                    const hasNew =
+                        r.main_cast.some(
+                            item =>
+                                item.new_members &&
+                                item.new_members.length
+                        );
+
+                    if(!hasNew){
+                        return false;
+                    }
+
+                }
+
+
+                return true;
 
             });
 
 
-        // 古い公演から順番に並べる
         matches.sort(
             (a,b) =>
                 new Date(a.date)
@@ -690,6 +714,10 @@ if(!revue){
 
 
         return role
+            .replace(/（新人公演）/g, "")
+            .replace(/\(新人公演\)/g, "")
+            .replace(/（[^）]*）/g, "")
+            .replace(/\([^)]*\)/g, "")
             .replace(/\[[^\]]*\]/g, "")
             .replace(/【[^】]*】/g, "")
             .trim();
@@ -700,7 +728,7 @@ if(!revue){
     // 公演ごとの配役取得
     // =========================================
 
-    function getCastByRole(revueData){
+    function getCastByRole(revueData, mode){
 
         const castMap = {};
 
@@ -715,8 +743,15 @@ if(!revue){
 
         revueData.main_cast.forEach(item=>{
 
+            if(!item.role){
+                return;
+            }
+
+
+            // 本公演比較では
+            // 「新人公演」を含む役名を除外
             if(
-                !item.role ||
+                mode === "main" &&
                 item.role.includes("新人公演")
             ){
                 return;
@@ -738,6 +773,29 @@ if(!revue){
                     );
 
 
+            // 比較対象となる出演者
+            let targetMembers = [];
+
+
+            if(mode === "new"){
+
+                targetMembers =
+                    item.new_members || [];
+
+            }else{
+
+                targetMembers =
+                    item.members || [];
+
+            }
+
+
+            // その公演で配役がないものは除外
+            if(!targetMembers.length){
+                return;
+            }
+
+
             roles.forEach(role=>{
 
                 if(!castMap[role]){
@@ -745,11 +803,7 @@ if(!revue){
                 }
 
 
-                const members =
-                    item.members || [];
-
-
-                members.forEach(name=>{
+                targetMembers.forEach(name=>{
 
                     if(
                         !castMap[role].includes(
@@ -779,9 +833,14 @@ if(!revue){
 
     function renderCastComparison(){
 
-        const button =
+        const mainButton =
             document.getElementById(
                 "castComparisonBtn"
+            );
+
+        const newButton =
+            document.getElementById(
+                "newCastComparisonBtn"
             );
 
         const table =
@@ -791,7 +850,8 @@ if(!revue){
 
 
         if(
-            !button ||
+            !mainButton ||
+            !newButton ||
             !table
         ){
             return;
@@ -802,18 +862,55 @@ if(!revue){
             getCurrentWorkId();
 
 
-        const sameRevues =
+        const mainRevues =
             getSameWorkRevues(
-                workId
+                workId,
+                "main"
             );
 
 
-        // 同一作品が1公演しかない場合は
-        // 比較ボタンを表示しない
-        if(sameRevues.length < 2){
+        const newRevues =
+            getSameWorkRevues(
+                workId,
+                "new"
+            );
 
-            button.style.display =
+
+        // =====================================
+        // ボタン表示
+        // =====================================
+
+        if(mainRevues.length >= 2){
+
+            mainButton.style.display =
+                "block";
+
+        }else{
+
+            mainButton.style.display =
                 "none";
+
+        }
+
+
+        if(newRevues.length >= 2){
+
+            newButton.style.display =
+                "block";
+
+        }else{
+
+            newButton.style.display =
+                "none";
+
+        }
+
+
+        // どちらも比較できない場合
+        if(
+            mainRevues.length < 2 &&
+            newRevues.length < 2
+        ){
 
             table.style.display =
                 "none";
@@ -822,302 +919,384 @@ if(!revue){
         }
 
 
-        button.style.display =
-            "block";
-
-
         // =====================================
-        // 全公演の役名を集める
+        // 比較表を作る関数
         // =====================================
 
-        const roles = [];
+        function showComparison(mode){
+
+            const sameRevues =
+                mode === "new"
+                    ? newRevues
+                    : mainRevues;
 
 
-        sameRevues.forEach(r=>{
-
-            if(
-                !r.main_cast ||
-                !r.main_cast.length
-            ){
-                return;
-            }
+            const roles = [];
 
 
-            r.main_cast.forEach(item=>{
+            // ---------------------------------
+            // 全公演から役名を取得
+            // ---------------------------------
 
-                if(
-                    !item.role ||
-                    item.role.includes("新人公演")
-                ){
-                    return;
-                }
+            sameRevues.forEach(r=>{
 
+                r.main_cast.forEach(item=>{
 
-                const splitRoles =
-                    item.role
-                        .split(/[\/／]/)
-                        .map(
-                            role =>
-                                normalizeRoleName(
-                                    role
-                                )
-                        )
-                        .filter(
-                            role =>
-                                role !== ""
-                        );
+                    if(!item.role){
+                        return;
+                    }
 
 
-                splitRoles.forEach(role=>{
-
+                    // 本公演のみ除外
                     if(
-                        !roles.includes(
-                            role
+                        mode === "main" &&
+                        item.role.includes(
+                            "新人公演"
                         )
                     ){
-                        roles.push(
-                            role
-                        );
+                        return;
                     }
+
+
+                    const members =
+                        mode === "new"
+                            ? item.new_members || []
+                            : item.members || [];
+
+
+                    // 対象の出演者がいない行は不要
+                    if(!members.length){
+                        return;
+                    }
+
+
+                    const splitRoles =
+                        item.role
+                            .split(/[\/／]/)
+                            .map(
+                                role =>
+                                    normalizeRoleName(
+                                        role
+                                    )
+                            )
+                            .filter(
+                                role =>
+                                    role !== ""
+                            );
+
+
+                    splitRoles.forEach(role=>{
+
+                        if(
+                            !roles.includes(
+                                role
+                            )
+                        ){
+                            roles.push(
+                                role
+                            );
+                        }
+
+                    });
 
                 });
 
             });
 
-        });
+
+            // =================================
+            // 比較表
+            // =================================
+
+            table.innerHTML = "";
 
 
-        // =====================================
-        // 表のヘッダー
-        // =====================================
-
-        table.innerHTML = "";
-
-
-        const comparison =
-            document.createElement(
-                "div"
-            );
-
-        comparison.className =
-            "comparisonGrid";
-
-
-        if(window.innerWidth <= 600){
-
-            comparison.style.gridTemplateColumns =
-                `100px repeat(${sameRevues.length}, minmax(100px, 1fr))`;
-
-        }else{
-
-            comparison.style.gridTemplateColumns =
-                `200px repeat(${sameRevues.length}, minmax(150px, 1fr))`;
-
-        }
-
-
-        const roleHeader =
-            document.createElement(
-                "div"
-            );
-
-        roleHeader.className =
-            "comparisonHeader";
-
-        roleHeader.textContent =
-            "役名";
-
-        comparison.appendChild(
-            roleHeader
-        );
-
-
-        sameRevues.forEach(r=>{
-
-            const header =
+            const comparison =
                 document.createElement(
                     "div"
                 );
 
-            header.className =
+            comparison.className =
+                "comparisonGrid";
+
+
+            if(window.innerWidth <= 600){
+
+                comparison.style.gridTemplateColumns =
+                    `105px repeat(${sameRevues.length}, minmax(110px, 1fr))`;
+
+            }else{
+
+                comparison.style.gridTemplateColumns =
+                    `180px repeat(${sameRevues.length}, minmax(150px, 1fr))`;
+
+            }
+
+
+            // =================================
+            // 見出し
+            // =================================
+
+            const roleHeader =
+                document.createElement(
+                    "div"
+                );
+
+            roleHeader.className =
                 "comparisonHeader";
 
-
-            const year =
-                document.createElement(
-                    "div"
-                );
-
-            year.className =
-                "comparisonYear";
-
-            year.textContent =
-                `${new Date(r.date).getFullYear()}年`;
-
-
-            const trp =
-                document.createElement(
-                    "div"
-                );
-
-            trp.className =
-                "comparisonTrp";
-
-            trp.textContent =
-                getTrpName(
-                    r.trp
-                );
-
-
-            header.appendChild(
-                year
-            );
-
-            header.appendChild(
-                trp
-            );
-
+            roleHeader.textContent =
+                "役名";
 
             comparison.appendChild(
-                header
-            );
-
-        });
-
-
-        // =====================================
-        // 配役
-        // =====================================
-
-        const castMaps =
-            sameRevues.map(
-                r =>
-                    getCastByRole(r)
+                roleHeader
             );
 
 
-        roles.forEach(roleName=>{
+            sameRevues.forEach(r=>{
 
-            // 役名
-
-            const role =
-                document.createElement(
-                    "div"
-                );
-
-            role.className =
-                "comparisonRole";
-
-            role.textContent =
-                roleName;
-
-            comparison.appendChild(
-                role
-            );
-
-
-            // 各公演の出演者
-
-            castMaps.forEach(castMap=>{
-
-                const memberArea =
+                const header =
                     document.createElement(
                         "div"
                     );
 
-                memberArea.className =
-                    "comparisonMembers";
+                header.className =
+                    "comparisonHeader";
 
 
-                const names =
-                    castMap[roleName]
-                    || [];
+                const year =
+                    document.createElement(
+                        "div"
+                    );
+
+                year.className =
+                    "comparisonYear";
+
+                year.textContent =
+                    `${new Date(r.date).getFullYear()}年`;
 
 
-                if(names.length){
+                const trp =
+                    document.createElement(
+                        "div"
+                    );
 
-                    names.forEach(
-                        (name, index)=>{
+                trp.className =
+                    "comparisonTrp";
 
-                            memberArea
-                                .appendChild(
+                trp.textContent =
+                    getTrpName(
+                        r.trp
+                    );
+
+
+                header.appendChild(
+                    year
+                );
+
+                header.appendChild(
+                    trp
+                );
+
+
+                comparison.appendChild(
+                    header
+                );
+
+            });
+
+
+            // =================================
+            // 配役
+            // =================================
+
+            const castMaps =
+                sameRevues.map(
+                    r =>
+                        getCastByRole(
+                            r,
+                            mode
+                        )
+                );
+
+
+            roles.forEach(roleName=>{
+
+                const role =
+                    document.createElement(
+                        "div"
+                    );
+
+                role.className =
+                    "comparisonRole";
+
+                role.textContent =
+                    roleName;
+
+                comparison.appendChild(
+                    role
+                );
+
+
+                castMaps.forEach(castMap=>{
+
+                    const memberArea =
+                        document.createElement(
+                            "div"
+                        );
+
+                    memberArea.className =
+                        "comparisonMembers";
+
+
+                    const names =
+                        castMap[roleName]
+                        || [];
+
+
+                    if(names.length){
+
+                        names.forEach(
+                            (name, index)=>{
+
+                                memberArea.appendChild(
                                     createMemberLink(
                                         name
                                     )
                                 );
 
 
-                            if(
-                                index
-                                <
-                                names.length - 1
-                            ){
+                                if(
+                                    index <
+                                    names.length - 1
+                                ){
 
-                                memberArea
-                                    .appendChild(
-                                        document
-                                            .createElement(
-                                                "br"
-                                            )
+                                    memberArea.appendChild(
+                                        document.createElement(
+                                            "br"
+                                        )
                                     );
 
-                            }
+                                }
 
-                        }
+                            }
+                        );
+
+                    }else{
+
+                        memberArea.textContent =
+                            "－";
+
+                    }
+
+
+                    comparison.appendChild(
+                        memberArea
                     );
 
-                }else{
-
-                    memberArea.textContent =
-                        "－";
-
-                }
-
-
-                comparison.appendChild(
-                    memberArea
-                );
+                });
 
             });
 
-        });
 
+            table.appendChild(
+                comparison
+            );
 
-        table.appendChild(
-            comparison
-        );
+            table.style.display =
+                "block";
+
+        }
 
 
         // =====================================
-        // ボタン
+        // 現在開いている比較
         // =====================================
 
-        button.addEventListener(
+        let currentMode = null;
+
+
+        // =====================================
+        // 本公演比較ボタン
+        // =====================================
+
+        mainButton.addEventListener(
             "click",
             ()=>{
 
-                const isOpen =
-                    table.style.display
-                    !== "none";
-
-
-                if(isOpen){
+                if(currentMode === "main"){
 
                     table.style.display =
                         "none";
 
-                    button.textContent =
+                    currentMode = null;
+
+                    mainButton.textContent =
                         "配役比較";
 
-                }else{
+                    newButton.textContent =
+                        "新公比較";
 
-                    table.style.display =
-                        "block";
-
-                    button.textContent =
-                        "配役比較を閉じる";
+                    return;
 
                 }
+
+
+                showComparison(
+                    "main"
+                );
+
+                currentMode =
+                    "main";
+
+                mainButton.textContent =
+                    "配役比較を閉じる";
+
+                newButton.textContent =
+                    "新公比較";
+
+            }
+        );
+
+
+        // =====================================
+        // 新公比較ボタン
+        // =====================================
+
+        newButton.addEventListener(
+            "click",
+            ()=>{
+
+                if(currentMode === "new"){
+
+                    table.style.display =
+                        "none";
+
+                    currentMode = null;
+
+                    newButton.textContent =
+                        "新公比較";
+
+                    mainButton.textContent =
+                        "配役比較";
+
+                    return;
+
+                }
+
+
+                showComparison(
+                    "new"
+                );
+
+                currentMode =
+                    "new";
+
+                newButton.textContent =
+                    "新公比較を閉じる";
+
+                mainButton.textContent =
+                    "配役比較";
 
             }
         );
