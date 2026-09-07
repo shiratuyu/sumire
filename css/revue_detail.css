@@ -313,6 +313,11 @@ main {
 
 
 .comparisonHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     background-color: #f5f5f5;
 
     font-size: 13px;
