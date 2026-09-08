@@ -1,5 +1,435 @@
 const members = [
   {
+    "name": "英真 なおき",
+    "birthday": "9月27日",
+    "birthplace": "兵庫県宝塚市",
+    "height": "165cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/ema_naoki.html",
+    "gen": 68,
+    "join": "1982-04-01",
+    "leave": null,
+    "nickname": "じゅんこ",
+    "id": "ema_naoki",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "star",
+        "from": "1982-04-01",
+        "to": "2012-02-05"
+      },
+      {
+        "trp": "special",
+        "from": "2012-02-06",
+        "to": null
+      }
+    ],
+    "furigana": "えま なおき"
+  },
+  {
+    "name": "京 三紗",
+    "birthday": "3月11日",
+    "birthplace": "神奈川県横浜市",
+    "height": "155cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/kyo_misa.html",
+    "gen": 57,
+    "join": "1971-04-01",
+    "leave": null,
+    "nickname": "いっちゃん",
+    "id": "kyo_misa",
+    "type": "musume",
+    "history": [
+      {
+        "trp": "flower",
+        "from": "1971-04-01",
+        "to": "1976-03-31"
+      },
+      {
+        "trp": "moon",
+        "from": "1976-04-01",
+        "to": "1991-12-26"
+      },
+      {
+        "trp": "snow",
+        "from": "1991-12-27",
+        "to": "1996-12-26"
+      },
+      {
+        "trp": "special",
+        "from": "1996-12-27",
+        "to": null
+      }
+    ],
+    "furigana": "きょう みさ"
+  },
+  {
+    "name": "汝鳥 伶",
+    "birthday": "4月20日",
+    "birthplace": "大阪府",
+    "height": "164cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/natori_rei.html",
+    "gen": 57,
+    "join": "1971-04-01",
+    "leave": null,
+    "nickname": "ユー、ユーコ",
+    "id": "natori_rei",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "moon",
+        "from": "1971-04-01",
+        "to": "1993-07-31"
+      },
+      {
+        "trp": "special",
+        "from": "1993-08-01",
+        "to": "1996-11-07"
+      },
+      {
+        "trp": "moon",
+        "from": "1996-11-08",
+        "to": "1997-12-15"
+      },
+      {
+        "trp": "special",
+        "from": "1997-12-16",
+        "to": null
+      }
+    ],
+    "furigana": "なとり れい"
+  },
+  {
+    "name": "一樹 千尋",
+    "birthday": "5月11日",
+    "birthplace": "",
+    "height": "165cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/itsuki_chihiro.html",
+    "gen": 59,
+    "join": "1973-04-01",
+    "leave": null,
+    "nickname": "HIRO",
+    "id": "itsuki_chihiro",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "star",
+        "from": "1973-04-01",
+        "to": "1996-12-16"
+      },
+      {
+        "trp": "special",
+        "from": "1996-12-17",
+        "to": null
+      }
+    ],
+    "furigana": "いつき ちひろ"
+  },
+  {
+    "name": "夏美 よう",
+    "birthday": "2月18日",
+    "birthplace": "群馬県",
+    "height": "166cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/natsumi_yo.html",
+    "gen": 62,
+    "join": "1976-04-01",
+    "leave": null,
+    "nickname": "はっち",
+    "id": "natsumi_yo",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "star",
+        "from": "1976-04-01",
+        "to": "2000-09-30"
+      },
+      {
+        "trp": "flower",
+        "from": "2000-10-01",
+        "to": "2012-03-18"
+      },
+      {
+        "trp": "special",
+        "from": "2012-03-19",
+        "to": null
+      }
+    ],
+    "furigana": "なつみ よう"
+  },
+  {
+    "name": "万里 柚美",
+    "birthday": "1月29日",
+    "birthplace": "大阪府東大阪市",
+    "height": "160cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/mari_yuzumi.html",
+    "gen": 70,
+    "join": "1984-04-01",
+    "leave": null,
+    "nickname": "ユズミ",
+    "id": "mari_yuzumi",
+    "type": "musume",
+    "history": [
+      {
+        "trp": "star",
+        "from": "1984-04-01",
+        "to": "2020-09-20"
+      },
+      {
+        "trp": "special",
+        "from": "2020-09-21",
+        "to": null
+      }
+    ],
+    "furigana": "まり ゆずみ"
+  },
+  {
+    "name": "五峰 亜季",
+    "birthday": "11月9日",
+    "birthplace": "大阪府箕面市",
+    "height": "163cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/itsumine_aki.html",
+    "gen": 72,
+    "join": "1986-04-01",
+    "leave": null,
+    "nickname": "まゆみ",
+    "id": "itsumine_aki",
+    "type": "musume",
+    "history": [
+      {
+        "trp": "snow",
+        "from": "1986-04-01",
+        "to": "2002-11-17"
+      },
+      {
+        "trp": "special",
+        "from": "2002-11-18",
+        "to": null
+      }
+    ],
+    "furigana": "いつみね あき"
+  },
+  {
+    "name": "美穂 圭子",
+    "birthday": "9月22日",
+    "birthplace": "大阪府茨木市",
+    "height": "163cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/miho_keiko.html",
+    "gen": 75,
+    "join": "1989-04-01",
+    "leave": null,
+    "nickname": "けいこ",
+    "id": "miho_keiko",
+    "type": "musume",
+    "history": [
+      {
+        "trp": "snow",
+        "from": "1989-04-01",
+        "to": "2008-03-30"
+      },
+      {
+        "trp": "special",
+        "from": "2008-03-31",
+        "to": null
+      }
+    ],
+    "furigana": "みほ けいこ"
+  },
+  {
+    "name": "高翔 みず希",
+    "birthday": "7月16日",
+    "birthplace": "東京都",
+    "height": "166cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/takasho_mizuki.html",
+    "gen": 76,
+    "join": "1990-04-01",
+    "leave": null,
+    "nickname": "さおり、さおた",
+    "id": "takasho_mizuki",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "moon",
+        "from": "1990-04-01",
+        "to": "1997-12-31"
+      },
+      {
+        "trp": "cosmos",
+        "from": "1998-01-01",
+        "to": "2000-07-04"
+      },
+      {
+        "trp": "flower",
+        "from": "2000-07-05",
+        "to": "2022-02-06"
+      },
+      {
+        "trp": "special",
+        "from": "2022-02-07",
+        "to": null
+      }
+    ],
+    "furigana": "たかしょう みずき"
+  },
+  {
+    "name": "悠真 倫",
+    "birthday": "9月14日",
+    "birthplace": "大阪府豊中市",
+    "height": "168cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/yuma_rin.html",
+    "gen": 81,
+    "join": "1995-04-01",
+    "leave": null,
+    "nickname": "まりん、るいこ",
+    "id": "yuma_rin",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "flower",
+        "from": "1995-04-01",
+        "to": "2014-05-11"
+      },
+      {
+        "trp": "special",
+        "from": "2014-05-12",
+        "to": null
+      }
+    ],
+    "furigana": "ゆうま りん"
+  },
+  {
+    "name": "奏乃 はると",
+    "birthday": "4月3日",
+    "birthplace": "東京都清瀬市",
+    "height": "168cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/sono_haruto.html",
+    "gen": 85,
+    "join": "1999-04-01",
+    "leave": null,
+    "nickname": "にわ、はると",
+    "id": "sono_haruto",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "snow",
+        "from": "1999-04-01",
+        "to": "2026-02-22"
+      },
+      {
+        "trp": "special",
+        "from": "2026-02-23",
+        "to": null
+      }
+    ],
+    "furigana": "そうの はると"
+  },
+  {
+    "name": "凛城 きら",
+    "birthday": "1月8日",
+    "birthplace": "東京都八王子市",
+    "height": "170cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/rinjo_kira.html",
+    "gen": 92,
+    "join": "2006-04-01",
+    "leave": null,
+    "nickname": "れーか、りんきら",
+    "id": "rinjo_kira",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "snow",
+        "from": "2006-04-01",
+        "to": "2012-01-20"
+      },
+      {
+        "trp": "cosmos",
+        "from": "2012-01-21",
+        "to": "2021-09-26"
+      },
+      {
+        "trp": "special",
+        "from": "2021-09-27",
+        "to": null
+      }
+    ],
+    "furigana": "りんじょう きら"
+  },
+  {
+    "name": "ひろ香 祐",
+    "birthday": "9月24日",
+    "birthplace": "愛知県名古屋市",
+    "height": "173cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/hiroka_yu.html",
+    "gen": 95,
+    "join": "2009-04-01",
+    "leave": null,
+    "nickname": "ヒーロー、こりん",
+    "id": "hiroka_yu",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "star",
+        "from": "2009-04-01",
+        "to": "2026-04-12"
+      },
+      {
+        "trp": "special",
+        "from": "2026-04-13",
+        "to": null
+      }
+    ],
+    "furigana": "ひろか ゆう"
+  },
+  {
+    "name": "輝月 ゆうま",
+    "birthday": "9月6日",
+    "birthplace": "兵庫県神戸市",
+    "height": "177cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/kizuki_yuma.html",
+    "gen": 95,
+    "join": "2009-04-01",
+    "leave": null,
+    "nickname": "ゆうま、ぽん",
+    "id": "kizuki_yuma",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "moon",
+        "from": "2009-04-01",
+        "to": "2021-08-15"
+      },
+      {
+        "trp": "special",
+        "from": "2021-08-16",
+        "to": null
+      }
+    ],
+    "furigana": "きづき ゆうま"
+  },
+  {
+    "name": "小桜 ほのか",
+    "birthday": "5月6日",
+    "birthplace": "東京都豊島区",
+    "height": "162cm",
+    "official_url": "https://kageki.hankyu.co.jp/star/kozakura_honoka.html",
+    "gen": 99,
+    "join": "2013-04-01",
+    "leave": null,
+    "nickname": "ほのか、あいこ、のんちゃん",
+    "id": "kozakura_honoka",
+    "type": "musume",
+    "history": [
+      {
+        "trp": "star",
+        "from": "2013-04-01",
+        "to": "2025-08-10"
+      },
+      {
+        "trp": "special",
+        "from": "2025-08-11",
+        "to": null
+      }
+    ],
+    "furigana": "こざくら ほのか"
+  },
+  {
     "name": "梨花 ますみ",
     "birthday": "4月14日",
     "birthplace": "大阪府大阪市",
@@ -6348,7 +6778,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/hozuki_an.html",
     "gen": 92,
     "join": "2006-04-01",
-    "leave": null,
+    "leave": "2027-03-28",
     "nickname": "ちなつ",
     "id": "hozuki_an",
     "type": "otoko",
@@ -6366,7 +6796,7 @@ const members = [
       {
         "trp": "moon",
         "from": "2019-04-29",
-        "to": null
+        "to": "2027-03-28"
       }
     ],
     "position": [
@@ -6417,6 +6847,11 @@ const members = [
       {
         "trp": "star",
         "from": "2006-04-01",
+        "to": "2026-12-13"
+      },
+      {
+        "trp": "special",
+        "from": "2026-12-14",
         "to": null
       }
     ],
@@ -6431,7 +6866,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/matsukaze_akira.html",
     "gen": 92,
     "join": "2006-04-01",
-    "leave": null,
+    "leave": "2026-09-06",
     "nickname": "まっぷー、あかり",
     "id": "matsukaze_akira",
     "type": "otoko",
@@ -6439,7 +6874,7 @@ const members = [
       {
         "trp": "cosmos",
         "from": "2006-04-01",
-        "to": null
+        "to": "2026-09-06"
       }
     ],
     "furigana": "まつかぜ あきら",
@@ -11783,7 +12218,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/amaki_homare.html",
     "gen": 98,
     "join": "2012-04-01",
-    "leave": null,
+    "leave": "2026-12-13",
     "nickname": "りさこ、ほまれ、むらり",
     "id": "amaki_homare",
     "type": "otoko",
@@ -11791,7 +12226,7 @@ const members = [
       {
         "trp": "star",
         "from": "2013-02-12",
-        "to": null
+        "to": "2026-12-13"
       }
     ],
     "furigana": "あまき ほまれ",
@@ -13278,7 +13713,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/itotsuki_yukiha.html",
     "gen": 100,
     "join": "2014-04-01",
-    "leave": null,
+    "leave": "2027-02-07",
     "nickname": "いとちゃん、ふうか",
     "id": "itotsuki_yukiha",
     "type": "musume",
@@ -13286,7 +13721,7 @@ const members = [
       {
         "trp": "flower",
         "from": "2015-02-17",
-        "to": null
+        "to": "2027-02-07"
       }
     ],
     "furigana": "いとつき ゆきは",
@@ -13322,7 +13757,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/ichinose_koki.html",
     "gen": 100,
     "join": "2014-04-01",
-    "leave": null,
+    "leave": "2027-02-07",
     "nickname": "のせさん、はなこ",
     "id": "ichinose_koki",
     "type": "otoko",
@@ -13330,7 +13765,7 @@ const members = [
       {
         "trp": "flower",
         "from": "2015-02-17",
-        "to": null
+        "to": "2027-02-07"
       }
     ],
     "furigana": "いちのせ こうき",
@@ -13647,7 +14082,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/ryoka_kina.html",
     "gen": 101,
     "join": "2015-04-01",
-    "leave": null,
+    "leave": "2027-02-07",
     "nickname": "きな",
     "id": "ryoka_kina",
     "type": "otoko",
@@ -13655,7 +14090,7 @@ const members = [
       {
         "trp": "flower",
         "from": "2015-04-01",
-        "to": null
+        "to": "2027-02-07"
       }
     ],
     "furigana": "りょうか きな",
@@ -13669,7 +14104,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/amashi_juri.html",
     "gen": 101,
     "join": "2015-04-01",
-    "leave": null,
+    "leave": "2027-03-28",
     "nickname": "じゅり",
     "id": "amashi_juri",
     "type": "musume",
@@ -13677,7 +14112,7 @@ const members = [
       {
         "trp": "moon",
         "from": "2015-04-01",
-        "to": null
+        "to": "2027-03-28"
       }
     ],
     "position": [
@@ -15836,7 +16271,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/hayami_shiosa.html",
     "gen": 103,
     "join": "2017-04-01",
-    "leave": null,
+    "leave": "2027-02-07",
     "nickname": "やすは、しおさ、しおたん",
     "id": "hayami_shiosa",
     "type": "otoko",
@@ -15844,7 +16279,7 @@ const members = [
       {
         "trp": "flower",
         "from": "2017-04-01",
-        "to": null
+        "to": "2027-02-07"
       }
     ],
     "furigana": "はやみ しおさ",
@@ -17625,7 +18060,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/oka_rurina.html",
     "gen": 105,
     "join": "2019-04-01",
-    "leave": null,
+    "leave": "2026-12-13",
     "nickname": "かみやん、ハイツェー、るりな",
     "id": "oka_rurina",
     "type": "musume",
@@ -17633,7 +18068,7 @@ const members = [
       {
         "trp": "star",
         "from": "2019-04-01",
-        "to": null
+        "to": "2026-12-13"
       }
     ],
     "furigana": "おうか るりな",
@@ -19060,7 +19495,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/aihoshi_shun.html",
     "gen": 107,
     "join": "2021-04-01",
-    "leave": null,
+    "leave": "2026-10-10",
     "nickname": "たな、たなたーな、あいぽち",
     "id": "aihoshi_shun",
     "type": "otoko",
@@ -19068,7 +19503,7 @@ const members = [
       {
         "trp": "moon",
         "from": "2021-04-01",
-        "to": null
+        "to": "2026-10-10"
       }
     ],
     "furigana": "あいほし しゅん",

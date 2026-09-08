@@ -115,6 +115,11 @@ body {
   --cosmos-light: #F0E3F4;
   --cosmos-border: #9160A3;
 
+  --special-strong: #755AB0;
+  --special-normal: #9883C4;
+  --special-light: #E7E0F3;
+  --special-border: #604794;
+
   --all-strong: #755AB0;
   --all-normal: #9883C4;
   --all-light: #E7E0F3;
