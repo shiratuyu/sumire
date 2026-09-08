@@ -418,7 +418,7 @@ const members = [
     "history": [
       {
         "trp": "star",
-        "from": "2013-04-01",
+        "from": "2014-02-11",
         "to": "2025-08-10"
       },
       {

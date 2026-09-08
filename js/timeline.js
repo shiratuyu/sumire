@@ -723,6 +723,15 @@ function groupByGenNormal(memberList){
 
 function groupByGenMatrix(memberList,target){
 
+    const trps = [
+        "flower",
+        "moon",
+        "snow",
+        "star",
+        "cosmos"
+    ];
+
+
     return memberList.reduce(
         (groups,member)=>{
 
@@ -735,6 +744,12 @@ function groupByGenMatrix(memberList,target){
                     member,
                     target
                 );
+
+
+            // 5組以外は時系列表示の対象にしない
+            if(!trps.includes(trp)){
+                return groups;
+            }
 
 
             if(!groups[gen]){
@@ -761,7 +776,6 @@ function groupByGenMatrix(memberList,target){
     );
 
 }
-
 
 
 
