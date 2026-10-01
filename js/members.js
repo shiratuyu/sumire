@@ -214,7 +214,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/miho_keiko.html",
     "gen": 75,
     "join": "1989-04-01",
-    "leave": null,
+    "leave": "2026-10-25",
     "nickname": "けいこ",
     "id": "miho_keiko",
     "type": "musume",
@@ -227,7 +227,7 @@ const members = [
       {
         "trp": "special",
         "from": "2008-03-31",
-        "to": null
+        "to": "2026-10-25"
       }
     ],
     "furigana": "みほ けいこ"
@@ -18258,7 +18258,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/hijiri_toa.html",
     "gen": 105,
     "join": "2019-04-01",
-    "leave": null,
+    "leave": "2026-11-23",
     "nickname": "ひじり、かな",
     "id": "hijiri_toa",
     "type": "otoko",
@@ -18266,7 +18266,7 @@ const members = [
       {
         "trp": "cosmos",
         "from": "2019-04-01",
-        "to": null
+        "to": "2026-11-23"
       }
     ],
     "furigana": "ひじり とあ",
@@ -20726,7 +20726,7 @@ const members = [
     "official_url": "https://kageki.hankyu.co.jp/star/shinagi_sakuto.html",
     "gen": 108,
     "join": "2022-04-01",
-    "leave": null,
+    "leave": "2026-11-23",
     "nickname": "しぃ",
     "id": "shinagi_sakuto",
     "type": "otoko",
@@ -20734,7 +20734,7 @@ const members = [
       {
         "trp": "cosmos",
         "from": "2022-04-01",
-        "to": null
+        "to": "2026-11-23"
       }
     ],
     "furigana": "しなぎ さくと",

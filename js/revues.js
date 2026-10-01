@@ -1,4 +1,246 @@
 const revues = [
+      {
+    "id": "star_20270508_01",
+    "name": "あぶない刑事",
+    "trp": "star",
+    "date": "2027-05-08",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
+    "hero": "暁 千星",
+    "heroine": "詩 ちづる",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
+      {
+        "pre": "YOKOHAMA CITY MEMORY",
+        "main": "『あぶない刑事』",
+        "post": "",
+        "directors": [
+          "齋藤 吉正"
+        ],
+        "work_type": "play",
+        "work_id": "あぶない刑事"
+      },
+      {
+        "pre": "鴨川清作メモリーズ・オブ・ドリームス",
+        "main": "『PURE LOVE!!』 －清らかなる愛の軌跡－",
+        "post": "",
+        "directors": [
+          "藤井 大介"
+        ],
+        "work_type": "show",
+        "work_id": "PURELOVE"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/abunaideka/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2027-05-08",
+        "to": "2027-06-20"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2027-07-10",
+        "to": "2027-08-22"
+      }
+    ],
+    "main_cast": [],
+    "cast": [],
+    "kaidan": []
+  },
+  {
+    "id": "snow_20270320_01",
+    "name": "陽炎のごとく",
+    "trp": "snow",
+    "date": "2027-03-20",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
+    "hero": "朝美 絢",
+    "heroine": "音彩 唯",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
+      {
+        "pre": "ロマン・エレジー",
+        "main": "『陽炎（かげろう）のごとく』 －長州青春譜－",
+        "post": "",
+        "directors": [
+          "熊倉 飛鳥"
+        ],
+        "work_type": "play",
+        "work_id": "陽炎のごとく"
+      },
+      {
+        "pre": "フィエスタ・アルディエンテ",
+        "main": "『Buena Vista（ブエナ ビスタ）!!』",
+        "post": "",
+        "directors": [
+          "竹田 悠一郎"
+        ],
+        "work_type": "show",
+        "work_id": "BuenaVista"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/kageronogotoku/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2027-03-20",
+        "to": "2027-05-02"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2027-05-22",
+        "to": "2027-07-04"
+      }
+    ],
+    "main_cast": [],
+    "cast": [],
+    "kaidan": []
+  },
+  {
+    "id": "star_20270209_01",
+    "name": "IamHeathcliff",
+    "trp": "star",
+    "date": "2027-02-09",
+    "theater": "東京建物 Brillia HALL, 梅田芸術劇場シアター・ドラマシティ",
+    "hero": "瑠風 輝",
+    "heroine": "",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
+      {
+        "pre": "ミュージカル・ロマン",
+        "main": "『I am Heathcliff』",
+        "post": "",
+        "directors": [
+          "生田 大和"
+        ],
+        "work_type": "play",
+        "work_id": "IamHeathcliff"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/iamheathcliff/index.html",
+    "schedule": [
+      {
+        "theater": "東京建物 Brillia HALL（豊島区立芸術文化劇場）",
+        "from": "2027-02-09",
+        "to": "2027-02-18"
+      },
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2027-02-25",
+        "to": "2027-03-06"
+      }
+    ],
+    "main_cast": [],
+    "cast": [
+      "瑠風 輝",
+      "澪乃 桜季",
+      "夕渚 りょう",
+      "夕陽 真輝",
+      "天飛 華音",
+      "奏碧 タケル",
+      "鳳真 斗愛",
+      "瑠璃 花夏",
+      "羽玲 有華",
+      "星咲 希",
+      "綾音 美蘭",
+      "透綺 らいあ",
+      "大希 颯",
+      "彩紋 ねお",
+      "瞳 きらり",
+      "乙華 菜乃",
+      "凰陽 さや華",
+      "朝稀 さいら",
+      "詩花 すず",
+      "和波 煌",
+      "碧羽 陽",
+      "美玲 ひな",
+      "茉莉那 ふみ",
+      "馳 琉輝",
+      "絢咲 羽蘭",
+      "珀亜 れい",
+      "花綾 れい",
+      "桃羽 ひらり",
+      "青星 すみと",
+      "輝咲 玲央（※）"
+    ],
+    "kaidan": []
+  },
+  {
+    "id": "star_20270207_01",
+    "name": "大奥",
+    "trp": "star",
+    "date": "2027-02-07",
+    "theater": "東京国際フォーラム ホールC, 梅田芸術劇場メインホール",
+    "hero": "暁 千星",
+    "heroine": "詩 ちづる",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
+      {
+        "pre": "ステージプレイ",
+        "main": "『大奥』",
+        "post": "",
+        "directors": [
+          "栗田 優香"
+        ],
+        "work_type": "play",
+        "work_id": "大奥"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/ooku/index.html",
+    "schedule": [
+      {
+        "theater": "東京国際フォーラム ホールC",
+        "from": "2027-02-07",
+        "to": "2027-02-19"
+      },
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2027-02-27",
+        "to": "2027-03-07"
+      }
+    ],
+    "main_cast": [],
+    "cast": [
+      "美稀 千種",
+      "朝水 りょう",
+      "暁 千星",
+      "希沙 薫",
+      "碧海 さりお",
+      "颯香 凜",
+      "天愛 るりあ",
+      "紘希 柚葉",
+      "碧音 斗和",
+      "御剣 海",
+      "世晴 あさ",
+      "稀惺 かずと",
+      "詩 ちづる",
+      "青風 希央",
+      "彩夏 こいき",
+      "愛花 いと",
+      "飛翠 真凜",
+      "樹澄 せいや",
+      "世奈 未蘭",
+      "藍羽 ひより",
+      "桃李 拍",
+      "乙妃 優寿",
+      "瑠羽 らいと",
+      "風希 咲玖",
+      "美鈴 桜",
+      "早瀬 まほろ",
+      "湖ノ花 なり",
+      "逢莉 しゅん",
+      "彩香 涼",
+      "夏 音葉",
+      "朝路 みつき",
+      "新 琉",
+      "琴音 悠希",
+      "小桜 ほのか"
+    ],
+    "kaidan": []
+  },
   {
     "id": "cosmos_20270130_01",
     "name": "The London Way, Ivresse Vague",
@@ -174,12 +416,14 @@ const revues = [
   },
   {
     "id": "moon_20261212_01",
-    "name": "天穹のアルテミス, Belle Époque",
+    "name": "天穹のアルテミス",
     "trp": "moon",
     "date": "2026-12-12",
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "鳳月 杏",
     "heroine": "天紫 珠李",
+    "new_hero": "",
+    "new_heroine": "",
     "title_parts": [
       {
         "pre": "ルナティック・シアター",
@@ -215,17 +459,36 @@ const revues = [
         "to": "2027-03-28"
       }
     ],
-    "main_cast": [],
+    "main_cast": [
+      {
+        "role": "オスカー・ハーニッシュ",
+        "members": [
+          "鳳月 杏"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ミラーナ・クラヴィッツ",
+        "members": [
+          "天紫 珠李"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "クラーク・エヴァレット",
+        "members": [
+          "風間 柚乃"
+        ],
+        "new_members": []
+      }
+    ],
     "cast": [
       "梨花 ますみ",
-      "鳳月 杏",
       "夢奈 瑠音",
       "佳城 葵",
       "英 かおと",
-      "風間 柚乃",
       "桃歌 雪",
       "妃純 凛",
-      "天紫 珠李",
       "礼華 はる",
       "甲海 夏帆",
       "彩海 せら",
@@ -288,19 +551,23 @@ const revues = [
       "ひまり 愛莉",
       "橙咲 じゅん",
       "奏翔 耀"
-    ]
+    ],
+    "kaidan": []
   },
   {
     "id": "cosmos_20261106_01",
-    "name": "酔いどれ御免！",
+    "name": "酔いどれ御免",
     "trp": "cosmos",
     "date": "2026-11-06",
     "theater": "梅田芸術劇場シアター・ドラマシティ, KAAT神奈川芸術劇場",
     "hero": "鷹翔 千空",
+    "heroine": "風羽 咲季",
+    "new_hero": "",
+    "new_heroine": "",
     "title_parts": [
       {
         "pre": "寛政御伽草子",
-        "main": "『酔いどれ御免!』",
+        "main": "『酔いどれ御免！』",
         "post": "",
         "directors": [
           "菅谷 元"
@@ -324,59 +591,205 @@ const revues = [
     ],
     "main_cast": [
       {
-        "role": "清次郎/酒呑童子",
+        "role": "清次郎／酒呑童子",
         "members": [
           "鷹翔 千空"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "丹山坊【山伏】",
+        "members": [
+          "悠真 倫"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "おたか【彦兵衛の妻】",
+        "members": [
+          "愛 すみれ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "峰屋彦兵衛【峰屋の主人】",
+        "members": [
+          "叶 ゆうり"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "お鶴【煮売屋の女将】",
+        "members": [
+          "花菱 りず"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "およね【峰屋の女中】",
+        "members": [
+          "湖々 さくら"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "喜平【飾り職人】",
+        "members": [
+          "雪輝 れんや"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "池田屋【下り酒問屋】",
+        "members": [
+          "凰海 るの"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "松平定信",
+        "members": [
+          "真白 悠希"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "お咲【田辺の妻】",
+        "members": [
+          "楓姫 るる"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "久蔵【峰屋の蔵人】",
+        "members": [
+          "聖 叶亜"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "田辺東馬【定信の部下】",
+        "members": [
+          "鳳城 のあん"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "おみき【峰屋の娘】",
+        "members": [
+          "風羽 咲季"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "おゆみ【米屋の娘】",
+        "members": [
+          "華乃 みゆ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "村中【同心】",
+        "members": [
+          "朱 涼"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "白菊花魁 実は茨木童子",
+        "members": [
+          "花恋 こまち"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "佐吉【峰屋の小僧】",
+        "members": [
+          "志凪 咲杜"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "辰二【ごろつき】",
+        "members": [
+          "海玖里 粋"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "お珠【呉服屋の娘】",
+        "members": [
+          "輝珠 ななせ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "お久【喜平の娘】",
+        "members": [
+          "楓莉 かの"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "お若【両替屋の娘】",
+        "members": [
+          "宇河 キラ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "巴屋の男",
+        "members": [
+          "空輝 紫夕"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "八重【煮売屋の看板娘】",
+        "members": [
+          "祈宮 えれな"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "おりん【両替屋の娘】",
+        "members": [
+          "華愛 りりい"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "お花【お久の妹】",
+        "members": [
+          "絢花 澪"
         ],
         "new_members": []
       }
     ],
     "cast": [
-      "愛 すみれ",
-      "叶 ゆうり",
-      "花菱 りず",
-      "湖々 さくら",
-      "雪輝 れんや",
-      "凰海 るの",
-      "真白 悠希",
-      "楓姫 るる",
-      "聖 叶亜",
-      "鳳城 のあん",
-      "風羽 咲季",
-      "華乃 みゆ",
-      "朱 涼",
-      "花恋 こまち",
-      "志凪 咲杜",
-      "海玖里 粋",
-      "輝珠 ななせ",
-      "楓莉 かの",
-      "宇河 キラ",
-      "空輝 紫夕",
-      "祈宮 えれな",
-      "華愛 りりい",
       "柚月 翔",
       "志槻 りゅう",
-      "絢花 澪",
       "白蘭 薫",
-      "瑚都 雅",
-      "悠真 倫"
-    ]
+      "瑚都 雅"
+    ],
+    "kaidan": []
   },
   {
     "id": "cosmos_20261027_01",
-    "name": "再会, Diamond IMPULSE",
+    "name": "再会",
     "trp": "cosmos",
     "date": "2026-10-27",
     "theater": "全国ツアー",
     "hero": "桜木 みなと",
     "heroine": "春乃 さくら",
+    "new_hero": "",
+    "new_heroine": "",
     "title_parts": [
       {
         "pre": "ミュージカル・プレイ",
-        "main": "『再会-風が残した君の名前-』",
+        "main": "『再会－風が残した君の名前－』",
         "post": "",
         "directors": [
-          "石田 昌也",
           "中村 真央"
         ],
         "work_type": "play",
@@ -415,43 +828,188 @@ const revues = [
           "春乃 さくら"
         ],
         "new_members": []
+      },
+      {
+        "role": "クードレイ・クレマン",
+        "members": [
+          "秋奈 るい"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "エマニュエル・クレマン",
+        "members": [
+          "小春乃 さよ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "セバスチャン",
+        "members": [
+          "若翔 りつ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "フローレンス",
+        "members": [
+          "天彩 峰里"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ミッシェル・ルノー",
+        "members": [
+          "真名瀬 みら"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "マーク・ジェイキンス",
+        "members": [
+          "風色 日向"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "イザベル［ソフィーの母］",
+        "members": [
+          "夢風 咲也花"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "アンドレ",
+        "members": [
+          "輝 ゆう"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "モントロン",
+        "members": [
+          "嵐之 真"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ポーレット・ベネット",
+        "members": [
+          "きよら 羽龍"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "スティーブ・ハイマー",
+        "members": [
+          "大路 りせ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "クレール",
+        "members": [
+          "美星 帆那"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "エレーヌ・ルノー",
+        "members": [
+          "花咲 美玖"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ピエール・クレマン",
+        "members": [
+          "奈央 麗斗"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ジャン・タムジー",
+        "members": [
+          "風翔 夕"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "マリー",
+        "members": [
+          "結沙 かのん"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "支配人",
+        "members": [
+          "織史 青"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "クロエ・ベネット",
+        "members": [
+          "梨恋 あやめ"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "フィリップ",
+        "members": [
+          "朝比奈 天"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "リリー・タムジー",
+        "members": [
+          "朝絵 咲名"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ルイ［ウェイター］",
+        "members": [
+          "輝星 成"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ダニエル［シンガー］",
+        "members": [
+          "響 望歌"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "シルヴィ［シンガー］",
+        "members": [
+          "ゆり 遥"
+        ],
+        "new_members": []
+      },
+      {
+        "role": "ソフィー",
+        "members": [
+          "湖響 ゆう姫"
+        ],
+        "new_members": []
       }
     ],
     "cast": [
-      "秋奈 るい",
-      "小春乃 さよ",
-      "若翔 りつ",
-      "天彩 峰里",
-      "真名瀬 みら",
-      "風色 日向",
-      "夢風 咲也花",
-      "輝 ゆう",
-      "嵐之 真",
-      "きよら 羽龍",
-      "大路 りせ",
-      "美星 帆那",
-      "花咲 美玖",
-      "奈央 麗斗",
-      "風翔 夕",
-      "結沙 かのん",
-      "織史 青",
-      "梨恋 あやめ",
-      "朝比奈 天",
-      "朝絵 咲名",
-      "輝星 成",
-      "響 望歌",
-      "ゆり 遥",
       "飛月 夏純",
       "一斗 勇輝",
       "悠久 颯",
       "麗月 るな",
       "純 れい",
-      "湖響 ゆう姫",
       "綾城 潤",
       "実鞠 うい",
       "稀爽 礼",
       "一世 羅央"
-    ]
+    ],
+    "kaidan": []
   },
   {
     "id": "flower_20261017_01",
@@ -461,10 +1019,12 @@ const revues = [
     "theater": "宝塚大劇場, 東京宝塚劇場",
     "hero": "永久輝 せあ",
     "heroine": "星空 美咲",
+    "new_hero": "光稀 れん",
+    "new_heroine": "彩葉 ゆめ",
     "title_parts": [
       {
         "pre": "三井住友VISAカード ミュージカル",
-        "main": "『エリザベート-愛と死の輪舞（ロンド）-』",
+        "main": "『エリザベート－愛と死の輪舞（ロンド）－』",
         "post": "",
         "directors": [
           "小池 修一郎"
@@ -492,28 +1052,36 @@ const revues = [
         "members": [
           "永久輝 せあ"
         ],
-        "new_members": []
+        "new_members": [
+          "光稀 れん"
+        ]
       },
       {
         "role": "エリザベート",
         "members": [
           "星空 美咲"
         ],
-        "new_members": []
+        "new_members": [
+          "彩葉 ゆめ"
+        ]
       },
       {
         "role": "フランツ・ヨーゼフ",
         "members": [
           "聖乃 あすか"
         ],
-        "new_members": []
+        "new_members": [
+          "鏡 星珠"
+        ]
       },
       {
         "role": "ルイジ・ルキーニ",
         "members": [
           "極美 慎"
         ],
-        "new_members": []
+        "new_members": [
+          "希蘭 るね"
+        ]
       },
       {
         "role": "ルドルフ",
@@ -521,14 +1089,18 @@ const revues = [
           "侑輝 大弥",
           "希波 らいと"
         ],
-        "new_members": []
+        "new_members": [
+          "凛 航瑠"
+        ]
       },
       {
         "role": "ゾフィー",
         "members": [
           "美風 舞良"
         ],
-        "new_members": []
+        "new_members": [
+          "花海 凛"
+        ]
       },
       {
         "role": "ツェップス",
@@ -542,70 +1114,90 @@ const revues = [
         "members": [
           "紅羽 真希"
         ],
-        "new_members": []
+        "new_members": [
+          "滝 みらい"
+        ]
       },
       {
         "role": "ラウシャー",
         "members": [
           "峰果 とわ"
         ],
-        "new_members": []
+        "new_members": [
+          "風白 ルイ"
+        ]
       },
       {
         "role": "スターレイ",
         "members": [
           "凛乃 しづか"
         ],
-        "new_members": []
+        "new_members": [
+          "美遥 あゆ"
+        ]
       },
       {
-        "role": "ヒューブナー",
+        "role": "シュヴァルツェンベルク",
         "members": [
           "高峰 潤"
         ],
-        "new_members": []
+        "new_members": [
+          "瀬七波 いろ"
+        ]
       },
       {
         "role": "ルドヴィカ",
         "members": [
           "糸月 雪羽"
         ],
-        "new_members": []
+        "new_members": [
+          "真澄 ゆかり"
+        ]
       },
       {
         "role": "マックス",
         "members": [
           "一之瀬 航季"
         ],
-        "new_members": []
+        "new_members": [
+          "月翔 きら"
+        ]
       },
       {
         "role": "市長",
         "members": [
           "和 礼彩"
         ],
-        "new_members": []
+        "new_members": [
+          "優帆 なぎさ"
+        ]
       },
       {
         "role": "リヒテンシュタイン",
         "members": [
           "咲乃 深音"
         ],
-        "new_members": []
+        "new_members": [
+          "花綺 ちさと"
+        ]
       },
       {
-        "role": "シュヴァルツェンベルク",
+        "role": "ヒューブナー",
         "members": [
           "愛乃 一真"
         ],
-        "new_members": []
+        "new_members": [
+          "月世 麗"
+        ]
       },
       {
         "role": "ケンペン",
         "members": [
           "龍季 澪"
         ],
-        "new_members": []
+        "new_members": [
+          "宇咲 瞬"
+        ]
       },
       {
         "role": "神父",
@@ -620,7 +1212,9 @@ const revues = [
           "侑輝 大弥",
           "希波 らいと"
         ],
-        "new_members": []
+        "new_members": [
+          "纏 涼"
+        ]
       },
       {
         "role": "病院長",
@@ -648,7 +1242,9 @@ const revues = [
         "members": [
           "朝葉 ことの"
         ],
-        "new_members": []
+        "new_members": [
+          "陽咲 かりん"
+        ]
       },
       {
         "role": "黒天使（娼婦）",
@@ -662,7 +1258,9 @@ const revues = [
         "members": [
           "詩希 すみれ"
         ],
-        "new_members": []
+        "new_members": [
+          "遥花 なな"
+        ]
       },
       {
         "role": "親戚の男",
@@ -676,7 +1274,9 @@ const revues = [
         "members": [
           "琴美 くらら"
         ],
-        "new_members": []
+        "new_members": [
+          "常和 紅葉"
+        ]
       },
       {
         "role": "医者",
@@ -690,7 +1290,9 @@ const revues = [
         "members": [
           "天城 れいん"
         ],
-        "new_members": []
+        "new_members": [
+          "遼 美来"
+        ]
       },
       {
         "role": "ヴィンディッシュ嬢",
@@ -718,7 +1320,9 @@ const revues = [
         "members": [
           "美空 真瑠"
         ],
-        "new_members": []
+        "new_members": [
+          "風美 はる帆"
+        ]
       },
       {
         "role": "黒天使（娼婦）",
@@ -760,7 +1364,9 @@ const revues = [
         "members": [
           "鏡 星珠"
         ],
-        "new_members": []
+        "new_members": [
+          "美翠 せいら"
+        ]
       },
       {
         "role": "黒天使",
@@ -795,7 +1401,9 @@ const revues = [
         "members": [
           "七彩 はづき"
         ],
-        "new_members": []
+        "new_members": [
+          "翠笙 芹南"
+        ]
       },
       {
         "role": "美容師",
@@ -837,7 +1445,9 @@ const revues = [
         "members": [
           "彩葉 ゆめ"
         ],
-        "new_members": []
+        "new_members": [
+          "優花 りら"
+        ]
       },
       {
         "role": "侍女",
@@ -894,7 +1504,8 @@ const revues = [
       "栞世 光",
       "星純 せいあ",
       "城月 めあ理"
-    ]
+    ],
+    "kaidan": []
   },
   {
     "id": "moon_20260913_01",
