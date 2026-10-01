@@ -22,8 +22,8 @@ const revues = [
       },
       {
         "pre": "鴨川清作メモリーズ・オブ・ドリームス",
-        "main": "『PURE LOVE!!』 －清らかなる愛の軌跡－",
-        "post": "",
+        "main": "『PURE LOVE!!』",
+        "post": "－清らかなる愛の軌跡－",
         "directors": [
           "藤井 大介"
         ],
@@ -61,8 +61,8 @@ const revues = [
     "title_parts": [
       {
         "pre": "ロマン・エレジー",
-        "main": "『陽炎（かげろう）のごとく』 －長州青春譜－",
-        "post": "",
+        "main": "『陽炎（かげろう）のごとく』",
+        "post": "－長州青春譜－",
         "directors": [
           "熊倉 飛鳥"
         ],
