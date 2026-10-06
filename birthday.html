@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>誕生日カレンダー</title>
+
+  <link
+    rel="stylesheet"
+    href="./css/common.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./css/birthday.css"
+  >
+
+</head>
+
+
+<body>
+<header class="top-heading all">
+
+    <a href="index.html" class="home-icon">
+      <img class="home-img" alt="ホーム">
+    </a>
+
+    <div class="heading-title">
+      誕生日カレンダー
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- =====================================
+         フィルター
+    ====================================== -->
+
+    <div id="birthdayMenu">
+
+
+      <!-- 在籍 -->
+
+      <div class="filterRow">
+
+        <div class="filterLabel">
+          在籍
+        </div>
+
+        <div class="filterButtons">
+
+          <button
+            class="statusBtn active"
+            data-status="active"
+          >
+            現役
+          </button>
+
+          <button
+            class="statusBtn"
+            data-status="all"
+          >
+            全員
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- 組 -->
+
+      <div class="filterRow">
+
+        <div class="filterLabel">
+          組
+        </div>
+
+        <div class="filterButtons">
+
+          <button
+            class="trpBtn all active"
+            data-trp="all"
+          >
+            全組
+          </button>
+
+          <button
+            class="trpBtn flower"
+            data-trp="flower"
+          >
+            花
+          </button>
+
+          <button
+            class="trpBtn moon"
+            data-trp="moon"
+          >
+            月
+          </button>
+
+          <button
+            class="trpBtn snow"
+            data-trp="snow"
+          >
+            雪
+          </button>
+
+          <button
+            class="trpBtn star"
+            data-trp="star"
+          >
+            星
+          </button>
+
+          <button
+            class="trpBtn cosmos"
+            data-trp="cosmos"
+          >
+            宙
+          </button>
+
+          <button
+            class="trpBtn special"
+            data-trp="special"
+          >
+            専科
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =====================================
+         誕生日一覧
+    ====================================== -->
+
+    <div id="birthdayList">
+    </div>
+
+  </main>
+
+
+  <script src="./js/members.js"></script>
+  <script src="./js/birthday.js"></script>
+
+</body>
+
+</html>
