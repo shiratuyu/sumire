@@ -64,41 +64,71 @@ h1 {
 
 
 /* =========================================
-   共通ボタン
+   在籍ボタン
 ========================================= */
 
-.statusBtn,
-.trpBtn {
+.statusBtn {
     min-width: 58px;
-
     padding: 6px 12px;
+    cursor: pointer;
+
+    background-color: white;
+    color: #333;
 
     border: 1px solid var(--all-strong);
     border-radius: 6px;
 
-    background-color: white;
-
-    cursor: pointer;
-
     transition: .15s;
 }
 
+.statusBtn.active {
+    background-color: var(--all-strong);
+    color: white;
+    font-weight: 600;
+}
 
-.statusBtn:not(.active):hover,
-.trpBtn:not(.active):hover {
+.statusBtn:not(.active):hover {
     background-color: var(--all-light);
 }
 
 
-.statusBtn.active,
+/* =========================================
+   組ボタン
+========================================= */
+
+.trpBtn {
+    min-width: 58px;
+    padding: 6px 12px;
+    cursor: pointer;
+
+    background-color: white;
+    color: #333;
+
+    border: 1px solid var(--trp-strong);
+    border-radius: 6px;
+
+    transition: .15s;
+}
+
 .trpBtn.active {
-    background-color: var(--all-strong);
-
+    background-color: var(--trp-strong);
     color: white;
-
     font-weight: 600;
 }
 
+.trpBtn:not(.active):hover {
+    background-color: var(--trp-light);
+}
+
+
+/* =========================================
+   クリック時
+========================================= */
+
+.statusBtn:active,
+.trpBtn:active {
+    transform: scale(.98);
+}
 
 /* =========================================
    誕生日一覧
@@ -204,9 +234,10 @@ h1 {
 }
 
 
-.birthdayItem:hover
-.birthdayName {
-    text-decoration: underline;
+.birthdayItem,
+.birthdayItem:hover,
+.birthdayItem:hover .birthdayName {
+    text-decoration: none;
 }
 
 

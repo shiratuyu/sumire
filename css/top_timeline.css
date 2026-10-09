@@ -1,0 +1,168 @@
+/* =========================================
+   全体
+========================================= */
+
+.topTimelineMain {
+    padding: 90px 20px 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.timelineExplanation {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #777;
+}
+
+.timelineScroll {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#topTimeline {
+    position: relative;
+}
+
+
+/* =========================================
+   ヘッダー
+========================================= */
+
+.topTimelineHeader {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    height: 72px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.topYearHeader {
+    flex-shrink: 0;
+    border-right: 1px solid #ddd;
+}
+
+.topTrpHeader {
+    flex-shrink: 0;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.topTrpName {
+    padding: 8px 0;
+    font-weight: 600;
+    background: var(--trp-light);
+    border-bottom: 1px solid var(--trp-strong);
+}
+
+.topRoleNames {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 35px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.topRoleNames > div:first-child {
+    border-right: 1px solid #ddd;
+}
+
+
+/* =========================================
+   年表本体
+========================================= */
+
+.topTimelineBody {
+    position: relative;
+}
+
+.topTimelineColumn {
+    position: absolute;
+    top: 0;
+    background: var(--trp-light);
+    opacity: .25;
+    border-right: 1px solid #ddd;
+}
+
+.topYearLine {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #bbb;
+    z-index: 2;
+}
+
+.topYearLabel {
+    position: absolute;
+    left: 0;
+    padding: 5px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+
+/* =========================================
+   トップ在任期間
+========================================= */
+
+.topPositionBand {
+    position: absolute;
+    z-index: 4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4px;
+    padding: 5px 3px;
+
+    background: var(--trp-light);
+    color: #222;
+
+    border: 1px solid var(--trp-strong);
+    border-radius: 4px;
+
+    text-decoration: none;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    transition: filter .15s;
+}
+
+.topPositionBand:hover {
+    filter: brightness(.96);
+    text-decoration: none;
+}
+
+.topPositionName {
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.topPositionGen {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   スマホ
+========================================= */
+
+@media (max-width: 600px) {
+    .topTimelineMain {
+        padding: 80px 10px 30px;
+    }
+
+    .timelineExplanation {
+        font-size: 12px;
+    }
+}

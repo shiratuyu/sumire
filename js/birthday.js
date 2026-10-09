@@ -338,7 +338,7 @@ function renderBirthdays(){
 
 
                 item.className =
-                    `birthdayItem ${member.birthdayTrp}`;
+                    `birthdayItem ${member.birthdayTrp || "special"}`;
 
 
                 item.innerHTML = `

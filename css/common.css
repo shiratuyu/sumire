@@ -171,6 +171,13 @@ body {
   --trp-border: var(--cosmos-border);
 }
 
+.special {
+  --trp-strong: var(--all-strong);
+  --trp-color: var(--all-normal);
+  --trp-light: var(--all-light);
+  --trp-border: var(--all-border);
+}
+
 .all {
   --trp-strong: var(--all-strong);
   --trp-color: var(--all-normal);
