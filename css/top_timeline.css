@@ -153,16 +153,62 @@
 }
 
 
+
 /* =========================================
-   スマホ
+   スマホ表示
 ========================================= */
 
 @media (max-width: 600px) {
+
     .topTimelineMain {
-        padding: 80px 10px 30px;
+        padding: 80px 4px 30px;
     }
 
-    .timelineExplanation {
+    .timelineScroll {
+        overflow-x: hidden;
+    }
+
+    /* 組名 */
+    .topTrpName {
         font-size: 12px;
+    }
+
+    /* トップスター・トップ娘役の見出し */
+    .topRoleNames {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .topRoleNames > div {
+        padding: 0 2px;
+    }
+
+    /* 帯 */
+    .topPositionBand {
+        padding: 5px 2px;
+        gap: 5px;
+    }
+
+    /* 名前と期を縦書きに */
+    .topPositionName,
+    .topPositionGen {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        white-space: nowrap;
+    }
+
+    .topPositionName {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .topPositionGen {
+        font-size: 10px;
+    }
+
+    /* 年表示 */
+    .topYearLabel {
+        font-size: 11px;
+        padding: 5px 3px;
     }
 }

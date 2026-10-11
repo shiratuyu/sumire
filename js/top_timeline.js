@@ -3,8 +3,12 @@
 // =========================================
 
 const YEAR_HEIGHT = 120;
-const YEAR_WIDTH = 65;
-const COLUMN_WIDTH = 105;
+const YEAR_WIDTH = window.innerWidth <= 600
+    ? 42
+    : 65;
+const COLUMN_WIDTH = window.innerWidth <= 600
+    ? 28
+    : 105;
 
 const TROUPES = [
     {id: "flower", name: "花組"},
@@ -256,11 +260,13 @@ function renderTopTimeline() {
         band.href = `member.html?id=${encodeURIComponent(position.id)}`;
         
         const BAND_GAP = 4;
+        const SIDE_GAP = window.innerWidth <= 600 ? 2 : 6;
+
         band.style.left =
-            `${YEAR_WIDTH + (trpIndex * 2 + roleIndex) * COLUMN_WIDTH + 6}px`;
+            `${YEAR_WIDTH + (trpIndex * 2 + roleIndex) * COLUMN_WIDTH + SIDE_GAP}px`;
 
         band.style.top = `${top + BAND_GAP / 2}px`;
-        band.style.width = `${COLUMN_WIDTH - 12}px`;
+        band.style.width = `${COLUMN_WIDTH - SIDE_GAP * 2}px`;
         band.style.height = `${Math.max(height - BAND_GAP, 1)}px`;
 
         const name = document.createElement("span");
