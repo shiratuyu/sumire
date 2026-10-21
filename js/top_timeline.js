@@ -2,7 +2,10 @@
 // 設定
 // =========================================
 
-const YEAR_HEIGHT = 120;
+//const YEAR_HEIGHT = 120;
+const YEAR_HEIGHT = window.innerWidth <= 600
+    ? 180
+    : 120;
 const YEAR_WIDTH = window.innerWidth <= 600
     ? 42
     : 65;
@@ -172,10 +175,6 @@ function renderTopTimeline() {
 
         group.innerHTML = `
             <div class="topTrpName">${troupe.name}</div>
-            <div class="topRoleNames">
-                <div>トップスター</div>
-                <div>トップ娘役</div>
-            </div>
         `;
 
         header.appendChild(group);
