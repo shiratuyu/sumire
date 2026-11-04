@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>演出家</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/director_detail.css">
+
+</head>
+
+<body>
+
+<header class="top-heading all">
+
+    <a href="index.html" class="home-icon">
+        <img class="home-img">
+    </a>
+    <div class="heading-title">演出家</div>
+
+</header>
+
+
+<main>
+
+    <section id="directorProfile">
+
+        <h1 id="directorName"></h1>
+
+    </section>
+
+
+    <section class="directorSection">
+
+        <div class="workHeading">
+
+            <h2>担当作品</h2>
+
+            <div class="workFilters">
+
+                <div class="filterGroup">
+
+                    <span class="filterLabel">
+                        会場
+                    </span>
+
+                    <button
+                        class="venueFilterBtn active"
+                        data-filter="all"
+                    >
+                        すべて
+                    </button>
+
+                    <button
+                        class="venueFilterBtn"
+                        data-filter="main"
+                    >
+                        大劇場
+                    </button>
+
+                    <button
+                        class="venueFilterBtn"
+                        data-filter="other"
+                    >
+                        別箱
+                    </button>
+
+                </div>
+
+
+                <div class="filterGroup">
+
+                    <span class="filterLabel">
+                        作品
+                    </span>
+
+                    <button
+                        class="typeFilterBtn active"
+                        data-filter="all"
+                    >
+                        すべて
+                    </button>
+
+                    <button
+                        class="typeFilterBtn"
+                        data-filter="play"
+                    >
+                        芝居
+                    </button>
+
+                    <button
+                        class="typeFilterBtn"
+                        data-filter="show"
+                    >
+                        ショー
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="workList"></div>
+
+    </section>
+
+</main>
+
+
+<script src="./js/directors.js"></script>
+<script src="./js/revues.js"></script>
+<script src="./js/director_detail.js"></script>
+
+</body>
+
+</html>

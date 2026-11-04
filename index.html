@@ -22,6 +22,17 @@
 
 
   <main class="indexMain">
+
+    <form action="search.html" method="get" class="indexSearch">
+        <input
+            type="search"
+            name="q"
+            placeholder="生徒・公演・演出家を検索"
+            aria-label="サイト内検索"
+            required
+        >
+        <button type="submit">検索</button>
+    </form>
     
     <div class="indexMenu">
 
@@ -90,6 +101,21 @@
           歴代トップスター・トップ娘役の在任期間を見る
         </div>
 
+      </a>
+
+      <!-- 同期一覧 -->
+      <a href="generation.html" class="indexCard">
+        <div class="indexCardTitle">同期一覧</div>
+        <div class="indexCardText">
+        期ごとに生徒を一覧表示
+        </div>
+      </a>
+
+      <a href="director.html" class="indexCard">
+        <div class="indexCardTitle">演出家一覧</div>
+        <div class="indexCardText">
+            演出家ごとの担当作品を調べる
+        </div>
       </a>
 
     </div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>サイト内検索</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+
+<header class="top-heading all">
+    <a href="index.html" class="home-icon">
+      <img class="home-img" alt="ホーム">
+    </a>
+
+    <div class="heading-title">サイト内検索</div>
+</header>
+
+<main class="searchMain">
+
+    <div class="searchInputArea">
+        <input
+            type="search"
+            id="searchInput"
+            placeholder="生徒名・公演名・演出家名など"
+            autocomplete="off"
+        >
+        <button type="button" id="searchButton">検索</button>
+    </div>
+
+    <p id="searchMessage"></p>
+
+    <div id="searchResults"></div>
+
+</main>
+
+<script src="./js/members.js"></script>
+<script src="./js/revues.js"></script>
+<script src="./js/directors.js"></script>
+<script src="./js/search.js"></script>
+
+</body>
+</html>

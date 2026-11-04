@@ -339,7 +339,7 @@ if(!revue){
                         document.createElement("a");
 
                     a.href =
-                        `director.html?id=${director.id}`;
+                        `director_detail.html?id=${director.id}`;
 
                     a.textContent =
                         name;

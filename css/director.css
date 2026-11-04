@@ -1,168 +1,170 @@
-main {
-    width: 100%;
-    max-width: 900px;
-    padding: 90px 25px 60px;
+/* =========================================
+   全体
+========================================= */
+
+.directorsMain {
+    width: 95%;
+    max-width: none;
     margin: 0 auto;
+    padding: 100px 20px 60px;
+    box-sizing: border-box;
 }
 
+.directorsHeading {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
 
-/* ---------------------------------
-   演出家名
---------------------------------- */
-
-#directorProfile {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
 }
 
-#directorName {
+.directorsHeading h2 {
     margin: 0;
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 23px;
+}
+
+#directorCount,
+#directorWorkCount {
+    color: #777;
+    font-size: 13px;
 }
 
 
-/* ---------------------------------
-   セクション
---------------------------------- */
+/* =========================================
+   演出家一覧
+========================================= */
 
-.directorSection {
-    margin-bottom: 35px;
+#directorsList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
 }
 
-.directorSection h2 {
-    margin: 0 0 15px;
-    padding: 6px 10px;
-    font-size: 20px;
-    font-weight: 500;
-    border-left: 5px solid #777;
-    background-color: #f3f3f3;
+.directorItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    padding: 13px 15px;
+
+    background: white;
+    border: 1px solid #ddd;
+    border-left: 4px solid var(--all-strong);
+    border-radius: 5px;
+
+    color: #222;
+    text-decoration: none;
+
+    transition: background-color .15s;
 }
 
-
-/* ---------------------------------
-   担当作品
---------------------------------- */
-
-.workItem {
-    display: block;
-    padding: 10px 12px;
-    margin-bottom: 10px;
-
-    border-left: 5px solid var(--trp-border);
-
-    color: inherit;
+.directorItem:hover {
+    background: var(--all-light);
     text-decoration: none;
 }
 
-.workItem:hover .workMain {
-    text-decoration: underline;
+.directorName {
+    font-size: 16px;
+    font-weight: 400;
 }
 
-
-/* 日付・組 */
-
-.workInfo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 3px;
+.directorWorkCount {
+    flex-shrink: 0;
     font-size: 12px;
     color: #777;
 }
 
 
-/* 作品名 */
+/* =========================================
+   演出家別公演一覧
+========================================= */
 
-.workTitle {
+#directorWorks {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.workMain {
-    font-size: 16px;
-    font-weight: 500;
+.directorWorkItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 12px 15px;
+
+    background: white;
+    border: 1px solid #eee;
+    border-left: 4px solid var(--trp-strong);
+    border-radius: 5px;
+
+    color: #222;
+    text-decoration: none;
+
+    transition: background-color .15s;
 }
 
-
-/* 該当なし */
-
-.workEmpty {
-    padding: 15px 5px;
-    color: #999;
-    font-size: 14px;
+.directorWorkItem:hover {
+    background: var(--trp-light);
+    text-decoration: none;
 }
 
-.workHeading {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 20px;
-  margin-bottom: 15px;
+.directorWorkDate {
+    flex-shrink: 0;
+    width: 55px;
+    font-size: 13px;
+    color: #777;
 }
 
-.workHeading h2 {
-  margin: 0;
-  flex: 1;
+.directorWorkTitle {
+    flex: 1;
+    min-width: 0;
+    font-size: 15px;
 }
 
-.workFilters {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  gap: 7px;
-}
-
-.filterGroup {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.filterLabel {
-  width: 35px;
-  font-size: 12px;
-  color: #666;
-}
-
-.venueFilterBtn,
-.typeFilterBtn {
-  padding: 4px 10px;
-  border: 1px solid #bbb;
-  border-radius: 5px;
-  background: #fff;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-.venueFilterBtn.active,
-.typeFilterBtn.active {
-  background: #777;
-  color: #fff;
+.directorWorkType {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: #777;
 }
 
 
-/* ---------------------------------
-   スマートフォン
---------------------------------- */
+/* =========================================
+   スマホ
+========================================= */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
-    main {
-        padding: 80px 15px 40px;
+    .directorsMain {
+        width: 100%;
+        padding: 90px 12px 40px;
     }
 
-    #directorName {
-        font-size: 24px;
+    #directorsList {
+        gap: 7px;
     }
 
-    .workTitle {
-        flex-direction: column;
-        align-items: flex-start;
+    .directorItem {
+        padding: 10px;
     }
 
-    .workPost {
-        margin-left: 0;
-        margin-top: 2px;
+    .directorName {
+        font-size: 14px;
     }
 
+    .directorWorkItem {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .directorWorkDate {
+        width: 42px;
+        font-size: 12px;
+    }
+
+    .directorWorkTitle {
+        font-size: 13px;
+    }
 }

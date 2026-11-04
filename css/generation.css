@@ -1,0 +1,237 @@
+/* =========================================
+   全体
+========================================= */
+
+.generationMain {
+    width: 95%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 100px 20px 60px;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   選択部分
+========================================= */
+
+.generationControls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+}
+
+.generationSelectArea {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.generationSelectArea label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#generationSelect {
+    padding: 8px 14px;
+    font-size: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    background: white;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   現役・OGボタン
+========================================= */
+
+.generationStatusButtons {
+    display: flex;
+    gap: 8px;
+}
+
+.generationStatusBtn {
+    padding: 7px 18px;
+
+    border: 1px solid var(--all-strong);
+    border-radius: 6px;
+
+    background: white;
+    color: #333;
+
+    font-size: 13px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.generationStatusBtn.active {
+    background: var(--all-strong);
+    color: white;
+}
+
+.generationStatusBtn:not(.active):hover {
+    background: var(--all-light);
+}
+
+
+/* =========================================
+   見出し
+========================================= */
+
+.generationHeading {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.generationHeading h2 {
+    margin: 0;
+    font-size: 23px;
+}
+
+#generationCount {
+    color: #777;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   生徒一覧
+========================================= */
+
+#generationList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.generationItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+
+    min-width: 0;
+    padding: 13px 15px;
+
+    background: white;
+    border: 1px solid #eee;
+    border-left: 4px solid var(--trp-strong);
+    border-radius: 5px;
+
+    color: #222;
+    text-decoration: none;
+
+    transition: background-color .15s;
+}
+
+.generationItem:hover {
+    background: var(--trp-light);
+    text-decoration: none;
+}
+
+.generationName {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    min-width: 0;
+}
+
+.generationInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.generationStatus {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.generationDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+
+    font-size: 12px;
+    color: #777;
+}
+
+.generationEmpty {
+    grid-column: 1 / -1;
+    padding: 25px;
+    text-align: center;
+    color: #777;
+}
+
+
+/* =========================================
+   タブレット
+========================================= */
+
+@media (max-width: 800px) {
+
+    #generationList {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* =========================================
+   スマホ
+========================================= */
+
+@media (max-width: 500px) {
+
+    .generationMain {
+        width:100%;
+        padding: 90px 12px 40px;
+    }
+
+    .generationControls {
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .generationStatusBtn {
+        padding: 7px 14px;
+    }
+
+    .generationHeading h2 {
+        font-size: 20px;
+    }
+
+    #generationList {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 7px;
+    }
+
+    .generationItem {
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .generationName {
+        font-size: 14px;
+    }
+
+    .generationDetails {
+        font-size: 11px;
+    }
+}

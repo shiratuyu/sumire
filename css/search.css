@@ -1,0 +1,187 @@
+/* =========================================
+   全体
+========================================= */
+
+.searchMain {
+    width: 95%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 100px 20px 60px;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   検索欄
+========================================= */
+
+.searchInputArea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#searchInput {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#searchInput:focus {
+    outline: 2px solid var(--all-strong);
+    outline-offset: 1px;
+}
+
+#searchButton {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    background: var(--all-strong);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#searchMessage {
+    margin: 12px 0 25px;
+    font-size: 13px;
+    color: #777;
+}
+
+
+/* =========================================
+   検索結果
+========================================= */
+
+.searchSection {
+    margin-bottom: 35px;
+}
+
+.searchSectionHeading {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.searchSectionHeading h2 {
+    margin: 0;
+    font-size: 21px;
+}
+
+.searchSectionHeading span {
+    font-size: 13px;
+    color: #777;
+}
+
+.searchList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.searchItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+
+    min-width: 0;
+    padding: 13px 15px;
+
+    background: white;
+    border: 1px solid #eee;
+    border-left: 4px solid var(--trp-strong);
+    border-radius: 5px;
+
+    color: #222;
+    text-decoration: none;
+
+    transition: background-color .15s;
+}
+
+.searchItem:hover {
+    background: var(--trp-light);
+    text-decoration: none;
+}
+
+.searchItemName {
+    min-width: 0;
+    font-size: 15px;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+}
+
+.searchItemDetail {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: #777;
+}
+
+.searchEmpty {
+    padding: 25px;
+    text-align: center;
+    color: #777;
+}
+
+.searchItemNameArea {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.searchMatchedPeople {
+    font-size: 12px;
+    color: #888;
+    font-weight: 400;
+}
+
+
+/* =========================================
+   スマホ
+========================================= */
+
+@media (max-width: 500px) {
+
+    .searchMain {
+        width: 100%;
+        padding: 90px 12px 40px;
+    }
+
+    .searchInputArea {
+        gap: 7px;
+    }
+
+    #searchInput {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #searchButton {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .searchList {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .searchItem {
+        padding: 11px;
+    }
+
+    .searchItemName {
+        font-size: 14px;
+    }
+
+    .searchSectionHeading h2 {
+        font-size: 19px;
+    }
+}

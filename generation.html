@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>同期一覧</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/generation.css">
+</head>
+
+<body>
+
+<header class="top-heading all">
+    <a href="index.html" class="home-icon">
+      <img class="home-img" alt="ホーム">
+    </a>
+
+    <div class="heading-title">同期一覧</div>
+</header>
+
+<main class="generationMain">
+
+    <div class="generationControls">
+
+        <div class="generationSelectArea">
+            <label for="generationSelect">期を選択</label>
+            <select id="generationSelect"></select>
+        </div>
+
+        <div class="generationStatusButtons">
+            <button type="button" class="generationStatusBtn active" data-status="all">
+                全員
+            </button>
+            <button type="button" class="generationStatusBtn" data-status="active">
+                現役
+            </button>
+            <button type="button" class="generationStatusBtn" data-status="og">
+                OG
+            </button>
+        </div>
+
+    </div>
+
+    <div class="generationHeading">
+        <h2 id="generationTitle"></h2>
+        <span id="generationCount"></span>
+    </div>
+
+    <div id="generationList"></div>
+
+</main>
+
+<script src="./js/members.js"></script>
+<script src="./js/generation.js"></script>
+
+</body>
+</html>

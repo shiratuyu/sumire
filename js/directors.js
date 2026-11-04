@@ -146,9 +146,5 @@ const directors = [
   {
     "id": "director_037",
     "name": "町田 菜花"
-  },
-  {
-    "id": "director_038",
-    "name": "植田 紳爾, 谷 正純"
   }
 ];

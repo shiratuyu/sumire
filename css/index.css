@@ -8,7 +8,7 @@
 
     margin: 0 auto;
 
-    padding: 110px 30px 50px;
+    padding: 80px 30px 50px;
 }
 
 
@@ -172,6 +172,32 @@
     white-space: nowrap;
 }
 
+.indexSearch {
+    display: flex;
+    gap: 8px;
+    width: 90%;
+    max-width: 650px;
+    margin: 5px auto 25px;
+}
+
+.indexSearch input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.indexSearch button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: var(--all-strong);
+    color: white;
+    cursor: pointer;
+}
+
 /* =========================================
    スマホ
 ========================================= */
@@ -180,7 +206,7 @@
 
     .indexMain {
         padding:
-            90px 20px 40px;
+            75px 20px 40px;
     }
 
 
