@@ -28,7 +28,7 @@ function getDirectors() {
             count: works.size
         };
 
-    });
+    }).sort((a, b) => b.count - a.count);
 }
 
 

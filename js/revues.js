@@ -1,5 +1,54 @@
 const revues = [
+  {
+    "id": "flower_20270626_01",
+    "name": "わたしの幸せな結婚",
+    "trp": "flower",
+    "date": "2027-06-26",
+    "theater": "宝塚大劇場, 東京宝塚劇場",
+    "hero": "永久輝 せあ",
+    "heroine": "星空 美咲",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
       {
+        "pre": "ミュージカル奇譚",
+        "main": "『わたしの幸せな結婚』",
+        "post": "",
+        "directors": [
+          "田渕 大輔"
+        ],
+        "work_type": "play",
+        "work_id": "わたしの幸せな結婚"
+      },
+      {
+        "pre": "TAKARAZUKA SPECTACULAR",
+        "main": "『MANHATTAN FOLLIES』",
+        "post": "－Seize The Day－",
+        "directors": [
+          "野口 幸作"
+        ],
+        "work_type": "show",
+        "work_id": "MANHATTANFOLLIES"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/watashinoshiawasenakekkon/index.html",
+    "schedule": [
+      {
+        "theater": "宝塚大劇場",
+        "from": "2027-06-26",
+        "to": "2027-08-08"
+      },
+      {
+        "theater": "東京宝塚劇場",
+        "from": "2027-08-28",
+        "to": "2027-10-10"
+      }
+    ],
+    "main_cast": [],
+    "cast": [],
+    "kaidan": []
+  },
+  {
     "id": "star_20270508_01",
     "name": "あぶない刑事",
     "trp": "star",
@@ -42,6 +91,84 @@ const revues = [
         "theater": "東京宝塚劇場",
         "from": "2027-07-10",
         "to": "2027-08-22"
+      }
+    ],
+    "main_cast": [],
+    "cast": [],
+    "kaidan": []
+  },
+  {
+    "id": "flower_20270405_01",
+    "name": "にぎたつの海に月出づ",
+    "trp": "flower",
+    "date": "2027-04-05",
+    "theater": "日本青年館ホール, 梅田芸術劇場シアター・ドラマシティ",
+    "hero": "極美 慎",
+    "heroine": "",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
+      {
+        "pre": "幻想秘抄",
+        "main": "『にぎたつの海に月出づ』",
+        "post": "",
+        "directors": [
+          "平松 結有"
+        ],
+        "work_type": "play",
+        "work_id": "にぎたつの海に月出づ"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/nigitatsunoumi/index.html",
+    "schedule": [
+      {
+        "theater": "日本青年館ホール",
+        "from": "2027-04-05",
+        "to": "2027-04-14"
+      },
+      {
+        "theater": "梅田芸術劇場シアター・ドラマシティ",
+        "from": "2027-04-21",
+        "to": "2027-04-29"
+      }
+    ],
+    "main_cast": [],
+    "cast": [],
+    "kaidan": []
+  },
+  {
+    "id": "flower_20270411_01",
+    "name": "AveMare",
+    "trp": "flower",
+    "date": "2027-04-11",
+    "theater": "Kanadevia Hall, 梅田芸術劇場メインホール",
+    "hero": "永久輝 せあ",
+    "heroine": "",
+    "new_hero": "",
+    "new_heroine": "",
+    "title_parts": [
+      {
+        "pre": "ブリリアンス・コンサート",
+        "main": "『Ave Mare（アヴェ マーレ）!』",
+        "post": "－SEA（セア）からの輝き－",
+        "directors": [
+          "中村 一徳"
+        ],
+        "work_type": "show",
+        "work_id": "AveMare"
+      }
+    ],
+    "official_url": "https://kageki.hankyu.co.jp/revue/2027/avemare/index.html",
+    "schedule": [
+      {
+        "theater": "Kanadevia Hall",
+        "from": "2027-04-11",
+        "to": "2027-04-17"
+      },
+      {
+        "theater": "梅田芸術劇場メインホール",
+        "from": "2027-04-24",
+        "to": "2027-04-29"
       }
     ],
     "main_cast": [],
@@ -1088,7 +1215,7 @@ const revues = [
   },
   {
     "id": "flower_20261017_01",
-    "name": "エリザベート",
+    "name": "エリザベート－愛と死の輪舞－",
     "trp": "flower",
     "date": "2026-10-17",
     "theater": "宝塚大劇場, 東京宝塚劇場",

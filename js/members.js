@@ -476,6 +476,120 @@ const members = [
     "furigana": "りか ますみ"
   },
   {
+    "name": "安蘭 けい",
+    "birthday": "10月9日",
+    "birthplace": "滋賀県甲賀市",
+    "height": "167cm",
+    "official_url": "",
+    "gen": 77,
+    "join": "1991-04-01",
+    "leave": "2009-04-26",
+    "nickname": "",
+    "id": "kei_aran",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "snow",
+        "from": "1991-04-01",
+        "to": "2000-03-31"
+      },
+      {
+        "trp": "star",
+        "from": "2000-04-01",
+        "to": "2009-04-26"
+      }
+    ],
+    "furigana": "あらん けい",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2007-05-12",
+        "to": "2009-04-26"
+      }
+    ]
+  },
+  {
+    "name": "大空 祐飛",
+    "birthday": "6月22日",
+    "birthplace": "東京都世田谷区",
+    "height": "170cm",
+    "official_url": "",
+    "gen": 78,
+    "join": "1992-04-01",
+    "leave": "2012-07-01",
+    "nickname": "",
+    "id": "yuhi_ozora",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "moon",
+        "from": "1992-04-01",
+        "to": "2008-01-25"
+      },
+      {
+        "trp": "flower",
+        "from": "2008-01-26",
+        "to": "2009-06-15"
+      },
+      {
+        "trp": "cosmos",
+        "from": "2009-06-16",
+        "to": "2012-07-01"
+      }
+    ],
+    "furigana": "おおぞら ゆうひ",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2009-06-16",
+        "to": "2012-07-01"
+      }
+    ]
+  },
+  {
+    "name": "水 夏希",
+    "birthday": "8月16日",
+    "birthplace": "千葉県千葉市",
+    "height": "169cm",
+    "official_url": "",
+    "gen": 79,
+    "join": "1993-04-01",
+    "leave": "2010-09-12",
+    "nickname": "",
+    "id": "natsuki_mizu",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "moon",
+        "from": "1993-04-01",
+        "to": "1998-03-31"
+      },
+      {
+        "trp": "flower",
+        "from": "1998-04-01",
+        "to": "2000-03-31"
+      },
+      {
+        "trp": "cosmos",
+        "from": "2000-04-01",
+        "to": "2005-03-31"
+      },
+      {
+        "trp": "snow",
+        "from": "2005-04-01",
+        "to": "2010-09-12"
+      }
+    ],
+    "furigana": "みず なつき",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2008-11-08",
+        "to": "2010-09-12"
+      }
+    ]
+  },
+  {
     "name": "美稀 千種",
     "birthday": "8月16日",
     "birthplace": "千葉県市川市",
@@ -495,6 +609,143 @@ const members = [
       }
     ],
     "furigana": "みき ちぐさ"
+  },
+  {
+    "name": "霧矢 大夢",
+    "birthday": "10月2日",
+    "birthplace": "大阪府岸和田市",
+    "height": "167cm",
+    "official_url": "",
+    "gen": 80,
+    "join": "1994-04-01",
+    "leave": "2012-04-22",
+    "nickname": "",
+    "id": "kiriya_hiromu",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "flower",
+        "from": "1995-01-9",
+        "to": "1997-09-15"
+      },
+      {
+        "trp": "moon",
+        "from": "1997-09-16",
+        "to": "2012-04-22"
+      }
+    ],
+    "furigana": "きりや ひろむ",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2009-12-28",
+        "to": "2012-04-22"
+      }
+    ]
+  },
+  {
+    "name": "真飛 聖",
+    "birthday": "10月13日",
+    "birthplace": "神奈川県川崎市",
+    "height": "167cm",
+    "official_url": "",
+    "gen": 81,
+    "join": "1995-04-01",
+    "leave": "2011-04-24",
+    "nickname": "",
+    "id": "sei_matobu",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "star",
+        "from": "1995-04-01",
+        "to": "2005-08-14"
+      },
+      {
+        "trp": "flower",
+        "from": "2005-08-15",
+        "to": "2011-04-24"
+      }
+    ],
+    "furigana": "まとぶ せい",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2007-12-25",
+        "to": "2011-04-24"
+      }
+    ]
+  },
+  {
+    "name": "蘭寿 とむ",
+    "birthday": "8月12日",
+    "birthplace": "兵庫県西宮市",
+    "height": "169cm",
+    "official_url": "",
+    "gen": 82,
+    "join": "1996-04-01",
+    "leave": "2014-05-11",
+    "nickname": "",
+    "id": "tomu_ranju",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "flower",
+        "from": "1996-04-01",
+        "to": "2014-05-11"
+      }
+    ],
+    "furigana": "らんじゅ とむ",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2011-04-25",
+        "to": "2014-05-11"
+      }
+    ]
+  },
+  {
+    "name": "壮 一帆",
+    "birthday": "8月7日",
+    "birthplace": "兵庫県川西市",
+    "height": "170cm",
+    "official_url": "",
+    "gen": 82,
+    "join": "1996-04-01",
+    "leave": "2014-08-31",
+    "nickname": "",
+    "id": "kazuho_so",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "flower",
+        "from": "1996-04-01",
+        "to": "2001-08-13"
+      },
+      {
+        "trp": "snow",
+        "from": "2001-08-14",
+        "to": "2006-12-24"
+      },
+      {
+        "trp": "flower",
+        "from": "2006-12-25",
+        "to": "2012-12-24"
+      },
+      {
+        "trp": "snow",
+        "from": "2012-12-25",
+        "to": "2014-08-31"
+      }
+    ],
+    "furigana": "そう かずほ",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2012-12-25",
+        "to": "2014-08-31"
+      }
+    ]
   },
   {
     "name": "美風 舞良",
@@ -526,6 +777,120 @@ const members = [
       }
     ],
     "furigana": "みかぜ まいら"
+  },
+  {
+    "name": "音月 桂",
+    "birthday": "6月19日",
+    "birthplace": "埼玉県鴻巣市",
+    "height": "166cm",
+    "official_url": "",
+    "gen": 84,
+    "join": "1998-04-01",
+    "leave": "2012-12-24",
+    "nickname": "",
+    "id": "kei_otoduki",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "snow",
+        "from": "1998-04-01",
+        "to": "2012-12-24"
+      }
+    ],
+    "furigana": "おとづき けい",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2010-09-13",
+        "to": "2012-12-24"
+      }
+    ]
+  },
+  {
+    "name": "北翔 海莉",
+    "birthday": "3月19日",
+    "birthplace": "千葉県松戸市",
+    "height": "170cm",
+    "official_url": "",
+    "gen": 84,
+    "join": "1998-04-01",
+    "leave": "2016-11-20",
+    "nickname": "",
+    "id": "kairi_hokusyo",
+    "type": "otoko",
+    "history": [
+      {
+        "trp": "moon",
+        "from": "1998-04-01",
+        "to": "2006-08-20"
+      },
+      {
+        "trp": "cosmos",
+        "from": "2006-08-21",
+        "to": "2012-07-01"
+      },
+      {
+        "trp": "special",
+        "from": "2012-07-02",
+        "to": "2015-05-10"
+      },
+      {
+        "trp": "star",
+        "from": "2015-05-11",
+        "to": "2016-11-20"
+      }
+    ],
+    "furigana": "ほくしょう かいり",
+    "position": [
+      {
+        "role": "tophero",
+        "from": "2015-05-11",
+        "to": "2016-11-20"
+      }
+    ]
+  },
+  {
+    "name": "遠野 あすか",
+    "birthday": "11月28日",
+    "birthplace": "千葉県我孫子市",
+    "height": "162cm",
+    "official_url": "",
+    "gen": 84,
+    "join": "1998-04-01",
+    "leave": "2009-04-26",
+    "nickname": "",
+    "id": "asuka_tono",
+    "type": "musume",
+    "history": [
+      {
+        "trp": "cosmos",
+        "from": "1998-04-01",
+        "to": "2001-08-12"
+      },
+      {
+        "trp": "flower",
+        "from": "2001-08-13",
+        "to": "2006-02-12"
+      },
+      {
+        "trp": "special",
+        "from": "2006-02-13",
+        "to": "2006-11-12"
+      },
+      {
+        "trp": "star",
+        "from": "2006-11-13",
+        "to": "2009-04-26"
+      }
+    ],
+    "furigana": "とおの あすか",
+    "position": [
+      {
+        "role": "topheroine",
+        "from": "2006-11-13",
+        "to": "2009-04-26"
+      }
+    ]
   },
   {
     "name": "桜 一花",
